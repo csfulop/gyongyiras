@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Gyöngyírás</title>
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+    <style>
+        @font-face {font-family: Kati_egyedul_v;src: url(Kati_egyedul_v.otf);}
+        @font-face {font-family: Kati_elol_v;src: url(Kati_elol_v.otf);}
+        @font-face {font-family: Kati_fent_vege_v;src: url(Kati_fent_vege_v.otf);}
+        @font-face {font-family: Kati_fent_v;src: url(Kati_fent_v.otf);}
+        @font-face {font-family: Kati_kozel_vege_v;src: url(Kati_kozel_vege_v.otf);}
+        @font-face {font-family: Kati_kozel_v;src: url(Kati_kozel_v.otf);}
+        @font-face {font-family: Kati_lent_vege_v;src: url(Kati_lent_vege_v.otf);}
+        @font-face {font-family: Kati_lent_v;src: url(Kati_lent_v.otf);}
+        @font-face {font-family: Kati_tavol_vege_v;src: url(Kati_tavol_vege_v.otf);}
+        @font-face {font-family: Kati_tavol_v;src: url(Kati_tavol_v.otf);}
+
+        .egy {font-family: Kati_egyedul_v;}
+        .e {font-family: Kati_elol_v;}
+        .fv {font-family: Kati_fent_vege_v;}
+        .f {font-family: Kati_fent_v;}
+        .kv {font-family: Kati_kozel_vege_v;}
+        .k {font-family: Kati_kozel_v;}
+        .lv {font-family: Kati_lent_vege_v;}
+        .l {font-family: Kati_lent_v;}
+        .t {font-family: Kati_tavol_vege_v;}
+        .tv {font-family: Kati_tavol_v;}
+    </style>
+</head>
+<body>
+    <h1>Gyöngyírás</h1>
+    <p><textarea id="input" oninput="update()">Gyöngyírás
+a b c d e f g h i j k l m n o p q r s t u v w x y z
+aa ba da ea fa ga ha ia ja ka la ma na oa pa qa
+ra sa ta ua va wa xa ya za
+aa ab ac ad ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ay az
+ba bb bc bd be bf bg bh bi bj bk bl bm bn bo bp bq br bs bt bu bv bw bx by bz
+A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
+Aa Ba Ca Da Ea Fa Ga Ha Ia Ja Ka La Ma Na Oa Pa Qa Ra Sa Ta Ua Va Wa Xa Ya Za
+
+ÁáÚŰáűőú
+</textarea></p>
+    <p id="output"></p>
+    <script type="text/javascript">
+        function update() {
+            input = document.getElementById("input").value;
+            output = "";
+            for (var i=0; i<input.length; i++) {
+                var prev = i>0 ? input.charAt(i-1) : null;
+                var c = input.charAt(i);
+                var next = i<input.length-1 ? input.charAt(i+1) : null;
+                var wordStart = prev === null || prev === ' ' || prev === '\n';
+                var wordEnd = next === null || next === ' ' || next === '\n';
+                var fent = "boóöőrvwF".includes(prev);
+                var kotes = fent ? "f" : "l";
+                var szam = "0123456789".includes(c);
+                if ("P".includes(prev)) {
+                    kotes = "t"
+                }
+                if ("BDINOÓÖŐSTVW".includes(prev)) {
+                    kotes = "k"
+                }
+                console.log("pcn="+prev+c+next+", fent="+fent+", kotes="+kotes);
+                if (c === '\n') {
+                    output += "<br/>"
+                } else if (szam) {
+                    output += c;
+                } else if (wordStart && wordEnd) {
+                    output += "<span class=\"egy\">"+c+"</span>"
+                } else if (wordStart && !wordEnd) {
+                    output += "<span class=\"e\">"+c+"</span>"
+                } else if (!wordStart && !wordEnd) {
+                    output += "<span class=\""+kotes+"\">"+c+"</span>"
+                } else if (!wordStart && wordEnd) {
+                    output += "<span class=\""+kotes+"v\">"+c+"</span>"
+                } else {
+                    output += c;
+                }
+            }
+            document.getElementById("output").innerHTML = output;
+        }
+        update();
+    </script>
+</body>
+</html>
