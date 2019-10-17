@@ -1,0 +1,63 @@
+#!/usr/local/bin/fontforge.exe
+
+# FontForge script to generate final font versions of KatiFont set
+
+i=1
+while ( i < $argc )
+        
+        Open( $argv[i] )
+
+        # Copy lines to the clipboard
+        Select(32)
+        Copy()
+        Select(31)
+        Paste()
+
+        Select(30)
+        Copy()
+        Select(32)
+        Clear()
+        Paste()
+
+        Select(31)
+        Copy()
+        # Generate OTF font
+        Generate( $argv[i]:r + ".otf" )
+
+        #
+        # Generate font with lines
+        #
+        
+        if ( $argv[i]:r != "Kati_vonal" )
+
+                # Paste lines into used characters
+                Select(32,33, 58,59, 63,91, 97,124, 163,164, 213,214, 218,220, 245,246, 250,252)
+                SelectMoreSingletons(36,44,46,93,167,179,193,201,205,211,223,225,233,237,243)
+                UnlinkReference()
+                PasteInto()
+
+
+                # make necessary formatting to all characters
+                RemoveOverlap()
+                RoundToInt()
+                Simplify()
+                Simplify(-1,10)            # Cleanup
+                CanonicalStart()
+                CanonicalContours()
+                AddExtrema()
+                RoundToInt()
+                CorrectDirection()
+                
+                SetFontNames($argv[i]:r + "_v", $argv[i]:r + "_v", $argv[i]:r + "_v")
+                
+                # Save into xxx_v.sfd
+                Save( "v_" + $argv[i]:r + ".sfd")
+
+                # Generate OTF font
+                Generate( $argv[i]:r + "_v.otf" )
+
+        endif
+
+        i = i+1
+endloop
+
