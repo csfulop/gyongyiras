@@ -40,15 +40,15 @@
 <body>
     <h1>Gyöngyírás</h1>
     <p><textarea id="input" oninput="update()">Gyöngyírás
-a b c d e f g h i j k l m n o p q r s t u v w x y z
+a á b c cs d dz dzs e é f g gy h i í j k l ly m n ny o ó ö ő p q r s sz t ty u ú ü ű v w x y z zs
 aa ba da ea fa ga ha ia ja ka la ma na oa pa qa
 ra sa ta ua va wa xa ya za
 aa ab ac ad ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ay az
 ba bb bc bd be bf bg bh bi bj bk bl bm bn bo bp bq br bs bt bu bv bw bx by bz
-A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
+A Á B C Cs D Dz Dzs E É F G Gy H I Í J K L Ly M N Ny O Ó Ö Ő P Q R S Sz T Ty U Ú Ü Ű V W X Y Z Zs
 Aa Ba Ca Da Ea Fa Ga Ha Ia Ja Ka La Ma Na Oa Pa Qa Ra Sa Ta Ua Va Wa Xa Ya Za
-
-ÁáÚŰáűőú
+Ab Bb Cb Db Eb Fb Gb Hb Ib Jb Kb Lb Mb Nb Ob Pb Qb Rb Sb Tb Ub Vb Wb Xb Yb Zb
+Árvítűrő Tükörfúrógép
 </textarea></p>
     <p id="output"></p>
     <script type="text/javascript">
@@ -64,10 +64,10 @@ Aa Ba Ca Da Ea Fa Ga Ha Ia Ja Ka La Ma Na Oa Pa Qa Ra Sa Ta Ua Va Wa Xa Ya Za
                 var fent = "boóöőrvwF".includes(prev);
                 var kotes = fent ? "f" : "l";
                 var szam = "0123456789".includes(c);
-                if ("P".includes(prev)) {
+                if ("PNTVW".includes(prev)) {
                     kotes = "t"
                 }
-                if ("BDINOÓÖŐSTVW".includes(prev)) {
+                else if ("BDINOÓÖŐSTVW".includes(prev)) {
                     kotes = "k"
                 }
                 console.log("pcn="+prev+c+next+", fent="+fent+", kotes="+kotes);
