@@ -40,15 +40,35 @@
 <body>
     <h1>Gyöngyírás</h1>
     <p><textarea id="input" cols="80" rows="10" oninput="update()">Gyöngyírás
+
 a á b c cs d dz dzs e é f g gy h i í j k l ly m n ny o ó ö ő p q r s sz t ty u ú ü ű v w x y z zs
-aa ba da ea fa ga ha ia ja ka la ma na oa pa qa
-ra sa ta ua va wa xa ya za
+
+aa ba da ea fa ga ha ia ja ka la ma na oa pa qa ra sa ta ua va wa xa ya za
+
 aa ab ac ad ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ay az
+
 ba bb bc bd be bf bg bh bi bj bk bl bm bn bo bp bq br bs bt bu bv bw bx by bz
+
 A Á B C Cs D Dz Dzs E É F G Gy H I Í J K L Ly M N Ny O Ó Ö Ő P Q R S Sz T Ty U Ú Ü Ű V W X Y Z Zs
+
 Aa Ba Ca Da Ea Fa Ga Ha Ia Ja Ka La Ma Na Oa Pa Qa Ra Sa Ta Ua Va Wa Xa Ya Za
+
 Ab Bb Cb Db Eb Fb Gb Hb Ib Jb Kb Lb Mb Nb Ob Pb Qb Rb Sb Tb Ub Vb Wb Xb Yb Zb
+
+Ta Tá Tb Tc Td Te Té Tf Tg Th Ti Tí Tj Tk Tl Tm Tn To Tó Tö Tő Tp Tq Tr Ts Tt Tu Tú Tü Tű Tv Tw Tx Ty Tz
+
+Va Vá Vb Vc Vd Ve Vé Vf Vg Vh Vi Ví Vj Vk Vl Vm Vn Vo Vó Vö Vő Vp Vq Vr Vs Vt Vu Vú Vü Vű Vv Vw Vx Vy Vz
+
+Na Ná Nb Nc Nd Ne Né Nf Ng Nh Ni Ní Nj Nk Nl Nm Nn No Nó Nö Nő Np Nq Nr Ns Nt Nu Nú Nü Nű Nv Nw Nx Ny Nz
+
+Fa Fá Fb Fc Fd Fe Fé Ff Fg Fh Fi Fí Fj Fk Fl Fm Fn Fo Fó Fö Fő Fp Fq Fr Fs Ft Fu Fú Fü Fű Fv Fw Fx Fy Fz
+
+Pa Pá Pb Pc Pd Pe Pé Pf Pg Ph Pi Pí Pj Pk Pl Pm Pn Po Pó Pö Pő Pp Pq Pr Ps Pt Pu Pú Pü Pű Pv Pw Px Py Pz
+
+árvíztűrő tükörfúrógép
 Árvíztűrő Tükörfúrógép
+Á R V Í Z T Ű R Ő
+T Ü K Ö R F Ú R Ó G É P
 </textarea></p>
     <p id="output"></p>
     <script type="text/javascript">
@@ -64,10 +84,16 @@ Ab Bb Cb Db Eb Fb Gb Hb Ib Jb Kb Lb Mb Nb Ob Pb Qb Rb Sb Tb Ub Vb Wb Xb Yb Zb
                 var fent = "boóöőrvwF".includes(prev);
                 var kotes = fent ? "f" : "l";
                 var szam = "0123456789".includes(c);
-                if ("PNTVW".includes(prev)) {
+                if ("P".includes(prev)) {
                     kotes = "t"
+                } else if ("NTVW".includes(prev)) {
+                    if ("ábéfhiíjklóöőtúüű".includes(c)) {
+                        kotes = "t"
+                    } else {
+                        kotes = "k"
+                    }
                 }
-                else if ("BDINOÓÖŐSTVW".includes(prev)) {
+                else if ("BDINOÓÖŐS".includes(prev)) {
                     kotes = "k"
                 }
                 console.log("pcn="+prev+c+next+", fent="+fent+", kotes="+kotes);
