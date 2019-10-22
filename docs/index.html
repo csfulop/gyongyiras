@@ -65,6 +65,8 @@ Fa Fá Fb Fc Fd Fe Fé Ff Fg Fh Fi Fí Fj Fk Fl Fm Fn Fo Fó Fö Fő Fp Fq Fr Fs
 
 Pa Pá Pb Pc Pd Pe Pé Pf Pg Ph Pi Pí Pj Pk Pl Pm Pn Po Pó Pö Pő Pp Pq Pr Ps Pt Pu Pú Pü Pű Pv Pw Px Py Pz
 
+tt itt ott otthon pöttyös
+
 árvíztűrő tükörfúrógép
 Árvíztűrő Tükörfúrógép
 Á R V Í Z T Ű R Ő
@@ -85,30 +87,34 @@ T Ü K Ö R F Ú R Ó G É P
                 var kotes = fent ? "f" : "l";
                 var szam = "0123456789".includes(c);
                 if ("P".includes(prev)) {
-                    kotes = "t"
+                    kotes = "t";
                 } else if ("NTVW".includes(prev)) {
                     if ("ábéfhiíjklóöőtúüű".includes(c)) {
-                        kotes = "t"
+                        kotes = "t";
                     } else {
-                        kotes = "k"
+                        kotes = "k";
                     }
                 }
                 else if ("BDINOÓÖŐS".includes(prev)) {
-                    kotes = "k"
+                    kotes = "k";
                 }
                 console.log("pcn="+prev+c+next+", fent="+fent+", kotes="+kotes);
+                if (c === 't' && next === 't') {
+                    c = ']';
+                    i++;
+                }
                 if (c === '\n') {
-                    output += "<br/>"
+                    output += "<br/>";
                 } else if (szam) {
                     output += c;
                 } else if (wordStart && wordEnd) {
-                    output += "<span class=\"egy\">"+c+"</span>"
+                    output += "<span class=\"egy\">"+c+"</span>";
                 } else if (wordStart && !wordEnd) {
-                    output += "<span class=\"e\">"+c+"</span>"
+                    output += "<span class=\"e\">"+c+"</span>";
                 } else if (!wordStart && !wordEnd) {
-                    output += "<span class=\""+kotes+"\">"+c+"</span>"
+                    output += "<span class=\""+kotes+"\">"+c+"</span>";
                 } else if (!wordStart && wordEnd) {
-                    output += "<span class=\""+kotes+"v\">"+c+"</span>"
+                    output += "<span class=\""+kotes+"v\">"+c+"</span>";
                 } else {
                     output += c;
                 }
