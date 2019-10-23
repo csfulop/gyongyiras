@@ -4,38 +4,7 @@
     <meta charset="UTF-8">
     <title>Gyöngyírás</title>
     <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
-    <style>
-        body {
-            font-size: 100%;
-        }
-
-        #output {
-            font-size: 3em;
-            line-height: 0.85;
-        }
-
-        @font-face {font-family: Kati_egyedul_v;src: url(Kati_egyedul_v.otf);}
-        @font-face {font-family: Kati_elol_v;src: url(Kati_elol_v.otf);}
-        @font-face {font-family: Kati_fent_vege_v;src: url(Kati_fent_vege_v.otf);}
-        @font-face {font-family: Kati_fent_v;src: url(Kati_fent_v.otf);}
-        @font-face {font-family: Kati_kozel_vege_v;src: url(Kati_kozel_vege_v.otf);}
-        @font-face {font-family: Kati_kozel_v;src: url(Kati_kozel_v.otf);}
-        @font-face {font-family: Kati_lent_vege_v;src: url(Kati_lent_vege_v.otf);}
-        @font-face {font-family: Kati_lent_v;src: url(Kati_lent_v.otf);}
-        @font-face {font-family: Kati_tavol_vege_v;src: url(Kati_tavol_vege_v.otf);}
-        @font-face {font-family: Kati_tavol_v;src: url(Kati_tavol_v.otf);}
-
-        .egy {font-family: Kati_egyedul_v;}
-        .e {font-family: Kati_elol_v;}
-        .fv {font-family: Kati_fent_vege_v;}
-        .f {font-family: Kati_fent_v;}
-        .kv {font-family: Kati_kozel_vege_v;}
-        .k {font-family: Kati_kozel_v;}
-        .lv {font-family: Kati_lent_vege_v;}
-        .l {font-family: Kati_lent_v;}
-        .t {font-family: Kati_tavol_vege_v;}
-        .tv {font-family: Kati_tavol_v;}
-    </style>
+    <link rel="stylesheet" type="text/css" href="gyongyiras.css" />
 </head>
 <body>
     <h1>Gyöngyírás</h1>
@@ -48,6 +17,10 @@ aa ba da ea fa ga ha ia ja ka la ma na oa pa qa ra sa ta ua va wa xa ya za
 aa ab ac ad ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ay az
 
 ba bb bc bd be bf bg bh bi bj bk bl bm bn bo bp bq br bs bt bu bv bw bx by bz
+
+ea eá eb ec ed ee eé ef eg eh ei eí ej ek el em en eo eó eö eő ep eq er es et eu eú eü eű ev ew ex ey ez
+
+at át bt ct dt et ét ft gt ht it ít jt kt lt mt nt ot ót öt őt pt qt rt st tt ut út üt űt vt wt xt yt zt
 
 A Á B C Cs D Dz Dzs E É F G Gy H I Í J K L Ly M N Ny O Ó Ö Ő P Q R S Sz T Ty U Ú Ü Ű V W X Y Z Zs
 
@@ -65,7 +38,7 @@ Fa Fá Fb Fc Fd Fe Fé Ff Fg Fh Fi Fí Fj Fk Fl Fm Fn Fo Fó Fö Fő Fp Fq Fr Fs
 
 Pa Pá Pb Pc Pd Pe Pé Pf Pg Ph Pi Pí Pj Pk Pl Pm Pn Po Pó Pö Pő Pp Pq Pr Ps Pt Pu Pú Pü Pű Pv Pw Px Py Pz
 
-tt itt ott otthon pöttyös
+tt itt ott otthon pöttyös pettyes
 
 árvíztűrő tükörfúrógép
 Árvíztűrő Tükörfúrógép
@@ -73,55 +46,6 @@ tt itt ott otthon pöttyös
 T Ü K Ö R F Ú R Ó G É P
 </textarea></p>
     <p id="output"></p>
-    <script type="text/javascript">
-        function update() {
-            input = document.getElementById("input").value;
-            output = "";
-            for (var i=0; i<input.length; i++) {
-                var prev = i>0 ? input.charAt(i-1) : null;
-                var c = input.charAt(i);
-                var next = i<input.length-1 ? input.charAt(i+1) : null;
-                var wordStart = prev === null || prev === ' ' || prev === '\n';
-                var wordEnd = next === null || next === ' ' || next === '\n';
-                var fent = "boóöőrvwF".includes(prev);
-                var kotes = fent ? "f" : "l";
-                var szam = "0123456789".includes(c);
-                if ("P".includes(prev)) {
-                    kotes = "t";
-                } else if ("NTVW".includes(prev)) {
-                    if ("ábéfhiíjklóöőtúüű".includes(c)) {
-                        kotes = "t";
-                    } else {
-                        kotes = "k";
-                    }
-                }
-                else if ("BDINOÓÖŐS".includes(prev)) {
-                    kotes = "k";
-                }
-                console.log("pcn="+prev+c+next+", fent="+fent+", kotes="+kotes);
-                if (c === 't' && next === 't') {
-                    c = ']';
-                    i++;
-                }
-                if (c === '\n') {
-                    output += "<br/>";
-                } else if (szam) {
-                    output += c;
-                } else if (wordStart && wordEnd) {
-                    output += "<span class=\"egy\">"+c+"</span>";
-                } else if (wordStart && !wordEnd) {
-                    output += "<span class=\"e\">"+c+"</span>";
-                } else if (!wordStart && !wordEnd) {
-                    output += "<span class=\""+kotes+"\">"+c+"</span>";
-                } else if (!wordStart && wordEnd) {
-                    output += "<span class=\""+kotes+"v\">"+c+"</span>";
-                } else {
-                    output += c;
-                }
-            }
-            document.getElementById("output").innerHTML = output;
-        }
-        update();
-    </script>
+    <script type="text/javascript" src="gyongyiras.js"></script>
 </body>
 </html>
