@@ -27,9 +27,7 @@ function update() {
             c = ']';
             i++;
         }
-        if (c === '\n') {
-            output += "<br/>";
-        } else if (szam) {
+        if (szam) {
             output += c;
         } else if (wordStart && wordEnd) {
             output += "<span class=\"egy\">"+c+"</span>";
@@ -43,7 +41,7 @@ function update() {
             output += c;
         }
     }
-    document.getElementById("output").innerHTML = output;
+    document.getElementById("foreground").innerHTML = output;
 }
 update();
 

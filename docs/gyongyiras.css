@@ -1,10 +1,23 @@
 body {
-    font-size: 100%;
+  font-size: 100%;
 }
 
 #output {
-    font-size: 3em;
-    line-height: 0.85;
+  position: relative;
+}
+
+#foreground {
+  position: absolute;
+  font-size: 3em;
+  font-family: Kati_egyedul;
+  white-space: pre-wrap;
+}
+
+#background {
+  position: absolute;
+  font-size: 3em;
+  font-family: Kati_egyedul_v;
+  white-space: pre-wrap;
 }
 
 @font-face {font-family: Kati_egyedul_v;src: url(Kati_egyedul_v.otf);}
@@ -18,14 +31,25 @@ body {
 @font-face {font-family: Kati_tavol_vege_v;src: url(Kati_tavol_vege_v.otf);}
 @font-face {font-family: Kati_tavol_v;src: url(Kati_tavol_v.otf);}
 
-.egy {font-family: Kati_egyedul_v;}
-.e {font-family: Kati_elol_v;}
-.fv {font-family: Kati_fent_vege_v;}
-.f {font-family: Kati_fent_v;}
-.kv {font-family: Kati_kozel_vege_v;}
-.k {font-family: Kati_kozel_v;}
-.lv {font-family: Kati_lent_vege_v;}
-.l {font-family: Kati_lent_v;}
-.t {font-family: Kati_tavol_v;}
-.tv {font-family: Kati_tavol_vege_v;}
+@font-face {font-family: Kati_egyedul;src: url(Kati_egyedul.otf);}
+@font-face {font-family: Kati_elol;src: url(Kati_elol.otf);}
+@font-face {font-family: Kati_fent_vege;src: url(Kati_fent_vege.otf);}
+@font-face {font-family: Kati_fent;src: url(Kati_fent.otf);}
+@font-face {font-family: Kati_kozel_vege;src: url(Kati_kozel_vege.otf);}
+@font-face {font-family: Kati_kozel;src: url(Kati_kozel.otf);}
+@font-face {font-family: Kati_lent_vege;src: url(Kati_lent_vege.otf);}
+@font-face {font-family: Kati_lent;src: url(Kati_lent.otf);}
+@font-face {font-family: Kati_tavol_vege;src: url(Kati_tavol_vege.otf);}
+@font-face {font-family: Kati_tavol;src: url(Kati_tavol.otf);}
+
+.egy {font-family: Kati_egyedul;}
+.e {font-family: Kati_elol;}
+.fv {font-family: Kati_fent_vege;}
+.f {font-family: Kati_fent;}
+.kv {font-family: Kati_kozel_vege;}
+.k {font-family: Kati_kozel;}
+.lv {font-family: Kati_lent_vege;}
+.l {font-family: Kati_lent;}
+.t {font-family: Kati_tavol;}
+.tv {font-family: Kati_tavol_vege;}
 
