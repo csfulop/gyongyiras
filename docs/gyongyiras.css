@@ -8,14 +8,14 @@ body {
 
 #foreground {
   position: absolute;
-  font-size: 3em;
+  font-size: 12mm;
   font-family: Kati_egyedul;
   white-space: pre-wrap;
 }
 
 #background {
   position: absolute;
-  font-size: 3em;
+  font-size: 12mm;
   font-family: Kati_egyedul_v;
   white-space: pre-wrap;
 }
