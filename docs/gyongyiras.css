@@ -1,45 +1,61 @@
 body {
   font-size: 100%;
   --line-color: CornflowerBlue;
+  --text-color: Black;
 }
 
 #output {
   position: relative;
+  overflow: hidden;
+  border: 1px solid grey;
+  width: var(--page-width);
+  height: var(--page-height);
 }
 
 .pageA5 {
-  width: 148mm;
-  height: 210mm;
-  /* overflow: hidden; */
-  border: 1px solid grey;
+  --page-width: 148mm;
+  --page-height: 210mm;
+  --top-margin: 30mm;
+  --right-margin: 17mm;
+  --bottom-margin: 10mm;
+  --left-margin: 10mm;
+  --font-size: 12mm;
+  --side-extra-margin: 1mm;
+  --top-accent-extra: calc(var(--font-size) / 3);
 }
 
-.pageA5 .outer .inner {
-  height: 169mm; /* 210-top padding-bottom padding */
+.outer .inner {
+  height: calc(var(--page-height) - var(--top-margin) - var(--bottom-margin) - 1mm);
   overflow: hidden;
 }
 
-.pageA5 .outer #foreground {
-  width: 119mm; /* 148-left padding-right padding */
+.outer #foreground {
+  /* text is inside the margins */
+  width: calc(var(--page-width) - var(--left-margin) - var(--right-margin) - calc(var(--side-extra-margin) * 2));
+}
+
+.outer #background {
+  /* the background lines go from side to side */
+  width: var(--page-width);
 }
 
 #foreground {
-  padding-left: 11mm;
-  padding-right: 18mm;
+  /* extra 1mm inside the vertical margin line */
+  padding-left: calc(var(--left-margin) + var(--side-extra-margin));
+  padding-right: calc(var(--right-margin) + var(--side-extra-margin));
+  color: var(--text-color);
 }
 
 #background {
   color: var(--line-color);
 }
 
-.pageA5 .outer #background {
-  width: 148mm;
-}
-
 .outer {
   position: absolute;
 
-  padding: 26mm 0mm 10mm 0mm; /* top: 30-4 mm: because of accents on capital letters */
+  /* 4 mm extra space for accents on capital letters in the top row*/
+  padding-top: calc(var(--top-margin) - var(--top-accent-extra));
+  padding-bottom: var(--bottom-maring);
 }
 
 #backgroundOuter {
@@ -47,19 +63,19 @@ body {
 }
 
 .inner {
-  font-size: 12mm;
+  font-size: var(--font-size);
   font-family: Kati_egyedul_v;
   white-space: pre-wrap;
 
-  padding-top: 4mm; /* accents on capital letters are above the box of the font */
+  padding-top: var(--top-accent-extra); /* accents on capital letters are above the box of the font */
 }
 
 #sideMargins {
   position: absolute;
-  width: 121mm; /* 121mm - margins */
+  width: calc(var(--page-width) - var(--left-margin) - var(--right-margin));
   height: 100%;
-  margin-left: 10mm;
-  margin-right: 17mm;
+  margin-left: var(--left-margin);
+  margin-right: var(--right-margin);
   border-left: 1px solid var(--line-color);
   border-right: 1px solid var(--line-color);
 }
