@@ -1,29 +1,67 @@
 body {
   font-size: 100%;
+  --line-color: CornflowerBlue;
 }
 
 #output {
   position: relative;
 }
 
-#foreground {
-  position: absolute;
-  font-size: 12mm;
-  font-family: Kati_egyedul;
-  white-space: pre-wrap;
-}
-
-#background {
-  position: absolute;
-  font-size: 12mm;
-  font-family: Kati_egyedul_v;
-  white-space: pre-wrap;
-}
-
 .pageA5 {
   width: 148mm;
   height: 210mm;
+  /* overflow: hidden; */
+  border: 1px solid grey;
+}
+
+.pageA5 .outer .inner {
+  height: 169mm; /* 210-top padding-bottom padding */
   overflow: hidden;
+}
+
+.pageA5 .outer #foreground {
+  width: 119mm; /* 148-left padding-right padding */
+}
+
+#foreground {
+  padding-left: 11mm;
+  padding-right: 18mm;
+}
+
+#background {
+  color: var(--line-color);
+}
+
+.pageA5 .outer #background {
+  width: 148mm;
+}
+
+.outer {
+  position: absolute;
+
+  padding: 26mm 0mm 10mm 0mm; /* top: 30-4 mm: because of accents on capital letters */
+}
+
+#backgroundOuter {
+  z-index: -1;
+}
+
+.inner {
+  font-size: 12mm;
+  font-family: Kati_egyedul_v;
+  white-space: pre-wrap;
+
+  padding-top: 4mm; /* accents on capital letters are above the box of the font */
+}
+
+#sideMargins {
+  position: absolute;
+  width: 121mm; /* 121mm - margins */
+  height: 100%;
+  margin-left: 10mm;
+  margin-right: 17mm;
+  border-left: 1px solid var(--line-color);
+  border-right: 1px solid var(--line-color);
 }
 
 @font-face {font-family: Kati_egyedul_v;src: url(Kati_egyedul_v.otf);}
