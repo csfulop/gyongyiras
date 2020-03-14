@@ -41,8 +41,10 @@ body {
 
 #foreground {
   /* extra 1mm inside the vertical margin line */
-  padding-left: calc(var(--left-margin) + var(--side-extra-margin));
-  padding-right: calc(var(--right-margin) + var(--side-extra-margin));
+  margin-left: var(--left-margin);
+  padding-left: var(--side-extra-margin);
+  margin-right: var(--right-margin);
+  padding-right: var(--side-extra-margin);
   color: var(--text-color);
 }
 
@@ -65,7 +67,7 @@ body {
 .inner {
   font-size: var(--font-size);
   font-family: Kati_egyedul_v;
-  white-space: pre-wrap;
+  white-space: pre;
 
   padding-top: var(--top-accent-extra); /* accents on capital letters are above the box of the font */
 }
