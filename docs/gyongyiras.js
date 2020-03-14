@@ -53,5 +53,20 @@ function fillBackground() {
     document.getElementById("background1").innerHTML = background;
 }
 
+function getUrlParameter(name) {
+    name = name.replace(/[\[]/, '\\[').replace(/[\]]/, '\\]');
+    var regex = new RegExp('[\\?&]' + name + '=([^&#]*)');
+    var results = regex.exec(location.search);
+    return results === null ? '' : decodeURIComponent(results[1].replace(/\+/g, ' '));
+}
+
+function processParameter() {
+    var content = getUrlParameter("c");
+    if (content !== "") {
+        document.getElementById("input").innerHTML = content;
+    }
+}
+
+processParameter();
 update();
 fillBackground();
