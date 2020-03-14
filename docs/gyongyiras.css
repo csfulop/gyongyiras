@@ -113,3 +113,8 @@ body {
 .t {font-family: Kati_tavol;}
 .tv {font-family: Kati_tavol_vege;}
 
+@media print {
+  #screen {
+    display: none;
+  }
+}
