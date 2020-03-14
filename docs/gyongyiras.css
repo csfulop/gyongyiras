@@ -4,12 +4,18 @@ body {
   --text-color: Black;
 }
 
-#output {
+#print {
   position: relative;
   overflow: hidden;
   border: 1px solid grey;
   width: var(--page-width);
   height: var(--page-height);
+}
+
+@media print {
+  #screen {
+    display: none;
+  }
 }
 
 .pageA5 {
@@ -24,22 +30,10 @@ body {
   --top-accent-extra: calc(var(--font-size) / 3);
 }
 
-.outer .inner {
-  height: calc(var(--page-height) - var(--top-margin) - var(--bottom-margin) - 1mm);
-  overflow: hidden;
-}
-
-.outer #foreground {
+.foreground {
   /* text is inside the margins */
   width: calc(var(--page-width) - var(--left-margin) - var(--right-margin) - calc(var(--side-extra-margin) * 2));
-}
 
-.outer #background {
-  /* the background lines go from side to side */
-  width: var(--page-width);
-}
-
-#foreground {
   /* extra 1mm inside the vertical margin line */
   margin-left: var(--left-margin);
   padding-left: var(--side-extra-margin);
@@ -48,8 +42,15 @@ body {
   color: var(--text-color);
 }
 
-#background {
+.background {
+  /* the background lines go from side to side */
+  width: var(--page-width);
+
   color: var(--line-color);
+}
+
+.backgroundOuter {
+  z-index: -1;
 }
 
 .outer {
@@ -60,11 +61,10 @@ body {
   padding-bottom: var(--bottom-maring);
 }
 
-#backgroundOuter {
-  z-index: -1;
-}
-
 .inner {
+  height: calc(var(--page-height) - var(--top-margin) - var(--bottom-margin) - 1mm);
+  overflow: hidden;
+
   font-size: var(--font-size);
   font-family: Kati_egyedul_v;
   white-space: pre;
@@ -72,7 +72,7 @@ body {
   padding-top: var(--top-accent-extra); /* accents on capital letters are above the box of the font */
 }
 
-#sideMargins {
+.sideMargins {
   position: absolute;
   width: calc(var(--page-width) - var(--left-margin) - var(--right-margin));
   height: 100%;
@@ -114,9 +114,3 @@ body {
 .l {font-family: Kati_lent;}
 .t {font-family: Kati_tavol;}
 .tv {font-family: Kati_tavol_vege;}
-
-@media print {
-  #screen {
-    display: none;
-  }
-}

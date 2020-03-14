@@ -1,6 +1,9 @@
+var LINES = 14;
+var COLUMNS = 24;
+
 function update() {
     input = document.getElementById("input").value;
-    output = "";
+    var output = "";
     for (var i=0; i<input.length; i++) {
         var prev = i>0 ? input.charAt(i-1) : null;
         var c = input.charAt(i);
@@ -41,7 +44,14 @@ function update() {
             output += c;
         }
     }
-    document.getElementById("foreground").innerHTML = output;
+    document.getElementById("output1").innerHTML = output;
 }
-update();
 
+function fillBackground() {
+    var line = " ".repeat(COLUMNS).concat("\n");
+    var background = line.repeat(LINES);
+    document.getElementById("background1").innerHTML = background;
+}
+
+update();
+fillBackground();
