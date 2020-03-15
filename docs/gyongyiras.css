@@ -5,11 +5,8 @@ body {
 }
 
 #print {
-  position: relative;
-  overflow: hidden;
-  border: 1px solid grey;
-  width: var(--page-width);
-  height: var(--page-height);
+  display: flex;
+  flex-direction: row;
 }
 
 @media print {
@@ -28,6 +25,20 @@ body {
   --font-size: 12mm;
   --side-extra-margin: 1mm;
   --top-accent-extra: calc(var(--font-size) / 3);
+
+  position: relative;
+  overflow: hidden;
+  /* border: 1px solid grey; */
+  width: var(--page-width);
+  height: var(--page-height);
+}
+
+#page1 {
+  margin-right: 5mm;
+}
+
+#page2 {
+  margin-left: 5mm;
 }
 
 .foreground {

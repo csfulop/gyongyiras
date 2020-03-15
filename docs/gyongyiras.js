@@ -1,4 +1,4 @@
-var LINES = 14;
+var LINES = 13;
 var COLUMNS = 24;
 
 function update() {
@@ -44,13 +44,15 @@ function update() {
             output += c;
         }
     }
-    document.getElementById("output1").innerHTML = output;
+    var lines = output.split("\n");
+    document.getElementById("output1").innerHTML = lines.slice(0,LINES).join("\n");
+    document.getElementById("output2").innerHTML = lines.slice(LINES,2*LINES).join("\n");
 }
 
-function fillBackground() {
+function fillBackground(id) {
     var line = " ".repeat(COLUMNS).concat("\n");
-    var background = line.repeat(LINES);
-    document.getElementById("background1").innerHTML = background;
+    var background = line.repeat(LINES+1);
+    document.getElementById(id).innerHTML = background;
 }
 
 function getUrlParameter(name) {
@@ -69,4 +71,5 @@ function processParameter() {
 
 processParameter();
 update();
-fillBackground();
+fillBackground("background1");
+fillBackground("background2");
