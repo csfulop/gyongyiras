@@ -26,6 +26,8 @@ body {
   --side-extra-margin: 1mm;
   --top-accent-extra: calc(var(--font-size) / 3);
 
+  flex-shrink: 0;
+
   position: relative;
   overflow: hidden;
   /* border: 1px solid grey; */
