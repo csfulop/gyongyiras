@@ -25,6 +25,7 @@ body {
   --font-size: 12mm;
   --side-extra-margin: 1mm;
   --top-accent-extra: calc(var(--font-size) / 3);
+  --bottom-last-line-extra: 7mm;
 
   flex-shrink: 0;
 
@@ -69,13 +70,13 @@ body {
 .outer {
   position: absolute;
 
-  /* 4 mm extra space for accents on capital letters in the top row*/
+  /* 4 mm extra space for accents on capital letters in the top row */
   padding-top: calc(var(--top-margin) - var(--top-accent-extra));
   padding-bottom: var(--bottom-maring);
 }
 
 .inner {
-  height: calc(var(--page-height) - var(--top-margin) - var(--bottom-margin) - 1mm);
+  height: calc(var(--page-height) - var(--top-margin) - var(--bottom-margin) - var(--bottom-last-line-extra));
   overflow: hidden;
 
   font-size: var(--font-size);
