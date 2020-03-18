@@ -62,7 +62,7 @@ body {
   color: var(--line-color);
 }
 
-.backgroundOuter {
+.backgroundOuter, .sideMargins {
   z-index: -1;
 }
 
