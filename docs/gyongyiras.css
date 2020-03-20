@@ -16,8 +16,8 @@ body {
 }
 
 .pageA5 {
-  --page-width: 148mm;
-  --page-height: 204mm;
+  --page-width: 146mm;
+  --page-height: 209mm;
   --top-margin: 30mm;
   --right-margin: 17mm;
   --bottom-margin: 10mm;
@@ -25,7 +25,6 @@ body {
   --font-size: 12mm;
   --side-extra-margin: 1mm;
   --top-accent-extra: calc(var(--font-size) / 3);
-  --bottom-last-line-extra: 7mm;
 
   flex-shrink: 0;
 
@@ -37,11 +36,11 @@ body {
 }
 
 #page1 {
-  margin-right: 5mm;
+  margin-right: 4mm;
 }
 
 #page2 {
-  margin-left: 5mm;
+  margin-left: 4mm;
 }
 
 .foreground {
@@ -72,18 +71,17 @@ body {
 
   /* 4 mm extra space for accents on capital letters in the top row */
   padding-top: calc(var(--top-margin) - var(--top-accent-extra));
-  padding-bottom: var(--bottom-maring);
 }
 
 .inner {
-  height: calc(var(--page-height) - var(--top-margin) - var(--bottom-margin) - var(--bottom-last-line-extra));
+  height: calc(var(--page-height) - var(--top-margin));
+  padding-top: var(--top-accent-extra); /* accents on capital letters are above the box of the font */
+
   overflow: hidden;
 
   font-size: var(--font-size);
   font-family: Kati_egyedul_v;
   white-space: pre;
-
-  padding-top: var(--top-accent-extra); /* accents on capital letters are above the box of the font */
 }
 
 .sideMargins {

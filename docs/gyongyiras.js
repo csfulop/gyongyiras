@@ -1,4 +1,4 @@
-var LINES = 13;
+var LINES = 14;
 var COLUMNS = 24;
 
 function update() {
@@ -51,7 +51,7 @@ function update() {
 
 function fillBackground(id) {
     var line = " ".repeat(COLUMNS).concat("\n");
-    var background = line.repeat(LINES+1);
+    var background = line.repeat(LINES);
     document.getElementById(id).innerHTML = background;
 }
 
