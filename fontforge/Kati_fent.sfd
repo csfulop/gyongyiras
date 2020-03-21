@@ -23,7 +23,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1282334991
-ModificationTime: 1572070394
+ModificationTime: 1584785301
 PfmFamily: 17
 TTFWeight: 500
 TTFWidth: 5
@@ -54,7 +54,7 @@ NameList: Adobe Glyph List
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 18 18 14
+WinInfo: 0 18 14
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -8338,7 +8338,7 @@ StartChar: eacute
 Encoding: 233 233 16
 Width: 292
 VWidth: 0
-Flags: HWO
+Flags: HW
 HStem: -16 33<-1012 -889> 320 33<-1035 -942> 412 163
 VStem: -1125 33<109 254> -999 32<413 574> -928 33<226 306>
 LayerCount: 4
@@ -25924,18 +25924,55 @@ EndChar
 
 StartChar: uni001E
 Encoding: 30 30 72
-Width: 500
-VWidth: 0
-Flags: HW
+Width: 651
+Flags: HWO
+HStem: -10 20<0 1107 0 1107> 326 10 656 10
 LayerCount: 4
+Fore
+SplineSet
+0 337 m 1
+ 651 337 l 1
+ 651 326 l 1
+ 0 326 l 1
+ 0 337 l 1
+0 10 m 1
+ 651 10 l 1
+ 651 -10 l 1
+ 0 -10 l 1
+ 0 10 l 1
+0 667 m 1
+ 651 667 l 1
+ 651 656 l 1
+ 0 656 l 1
+ 0 667 l 1
+EndSplineSet
 EndChar
 
 StartChar: uni001F
 Encoding: 31 31 73
-Width: 500
+Width: 651
 VWidth: 0
-Flags: HW
+Flags: W
+HStem: -10 20<0 1107> 326 10<0 1107> 656 10<0 1107>
 LayerCount: 4
+Fore
+SplineSet
+0 10 m 1
+ 1107 10 l 1
+ 1107 -10 l 1
+ 0 -10 l 1
+ 0 10 l 1
+0 337 m 1
+ 1107 337 l 1
+ 1107 326 l 1
+ 0 326 l 1
+ 0 337 l 1
+0 667 m 1
+ 1107 667 l 1
+ 1107 656 l 1
+ 0 656 l 1
+ 0 667 l 1
+EndSplineSet
 EndChar
 
 StartChar: exclam
@@ -35520,10 +35557,33 @@ EndChar
 
 StartChar: underscore
 Encoding: 95 95 134
-Width: 500
-VWidth: 0
-Flags: HW
+Width: 651
+Flags: W
+HStem: -10 20<0 1107 0 1107> 326 10 656 10
 LayerCount: 4
+Fore
+SplineSet
+0 -322 m 1
+ 651 -322 l 5
+ 651 -333 l 5
+ 0 -333 l 1
+ 0 -322 l 1
+0 337 m 1
+ 651 337 l 1
+ 651 326 l 1
+ 0 326 l 1
+ 0 337 l 1
+0 10 m 1
+ 651 10 l 1
+ 651 -10 l 1
+ 0 -10 l 1
+ 0 10 l 1
+0 667 m 1
+ 651 667 l 1
+ 651 656 l 1
+ 0 656 l 1
+ 0 667 l 1
+EndSplineSet
 EndChar
 
 StartChar: grave

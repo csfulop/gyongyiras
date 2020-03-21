@@ -51,7 +51,8 @@ function update() {
 
 function fillBackground(id) {
     var line = " ".repeat(COLUMNS).concat("\n");
-    var background = line.repeat(LINES);
+    var background = line.repeat(LINES-1);
+    background += "_".repeat(COLUMNS);
     document.getElementById(id).innerHTML = background;
 }
 

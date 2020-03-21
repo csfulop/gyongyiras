@@ -4,15 +4,22 @@
 
 i=1
 while ( i < $argc )
-        
+
         Open( $argv[i] )
 
         # Copy lines to the clipboard
-        Select(32)
+        Select(29)
         Copy()
-        Select(31)
+        Select(32)
+        Clear()
         Paste()
 
+        # Generate OTF font
+        Generate( $argv[i]:r + ".otf" )
+
+        #
+        # Generate font with lines
+        #
         Select(30)
         Copy()
         Select(32)
@@ -21,18 +28,12 @@ while ( i < $argc )
 
         Select(31)
         Copy()
-        # Generate OTF font
-        Generate( $argv[i]:r + ".otf" )
 
-        #
-        # Generate font with lines
-        #
-        
         if ( $argv[i]:r != "Kati_vonal" )
 
                 # Paste lines into used characters
-                Select(32,33, 58,59, 63,91, 97,124, 163,164, 213,214, 218,220, 245,246, 250,252)
-                SelectMoreSingletons(36,44,46,93,167,179,193,201,205,211,223,225,233,237,243)
+                Select(58,59, 63,91, 97,124, 163,164, 213,214, 218,220, 245,246, 250,252)
+                SelectMoreSingletons(33,36,44,46,93,167,179,193,201,205,211,223,225,233,237,243)
                 UnlinkReference()
                 PasteInto()
 
@@ -47,9 +48,9 @@ while ( i < $argc )
                 AddExtrema()
                 RoundToInt()
                 CorrectDirection()
-                
+
                 SetFontNames($argv[i]:r + "_v", $argv[i]:r + "_v", $argv[i]:r + "_v")
-                
+
                 # Save into xxx_v.sfd
                 Save( "v_" + $argv[i]:r + ".sfd")
 
@@ -60,4 +61,3 @@ while ( i < $argc )
 
         i = i+1
 endloop
-
