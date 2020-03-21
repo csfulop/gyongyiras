@@ -22,7 +22,7 @@ function update() {
                 kotes = "k";
             }
         }
-        else if ("BDINOÓÖŐS".includes(prev)) {
+        else if ("BDINOÓÖŐSs".includes(prev)) {
             kotes = "k";
         }
         console.log("pcn="+prev+c+next+", fent="+fent+", kotes="+kotes);
