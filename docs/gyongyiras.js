@@ -1,8 +1,9 @@
-var LINES = 14;
 var COLUMNS = 24;
+var VALID_VONALAZAS = ["1", "2"];
 
 function update() {
-    input = document.getElementById("input").value;
+    var rows = getComputedStyle(document.getElementById("print")).getPropertyValue("--number-of-rows");
+    var input = document.getElementById("input").value;
     var output = "";
     for (var i=0; i<input.length; i++) {
         var prev = i>0 ? input.charAt(i-1) : null;
@@ -44,16 +45,31 @@ function update() {
             output += c;
         }
     }
-    var lines = output.split("\n");
-    document.getElementById("output1").innerHTML = lines.slice(0,LINES).join("\n");
-    document.getElementById("output2").innerHTML = lines.slice(LINES,2*LINES).join("\n");
+    var outputRows = output.split("\n");
+    document.getElementById("output1").innerHTML = outputRows.slice(0,rows).join("\n");
+    document.getElementById("output2").innerHTML = outputRows.slice(rows,2*rows).join("\n");
 }
 
-function fillBackground(id) {
-    var line = " ".repeat(COLUMNS).concat("\n");
-    var background = line.repeat(LINES-1);
+function fillBackgroundById(id) {
+    var rows = getComputedStyle(document.getElementById("print")).getPropertyValue("--number-of-rows");
+    var row = " ".repeat(COLUMNS).concat("\n");
+    var background = row.repeat(rows-1);
     background += "_".repeat(COLUMNS);
     document.getElementById(id).innerHTML = background;
+}
+
+function fillBackground() {
+    fillBackgroundById("background1");
+    fillBackgroundById("background2");
+}
+
+function changeVonalazas() {
+    var vonalazas = document.getElementById("settingVonalazas").value;
+    if (VALID_VONALAZAS.includes(vonalazas)) {
+        document.getElementById("print").className = "osztaly"+vonalazas;
+        fillBackground();
+        update();
+    }
 }
 
 function getUrlParameter(name) {
@@ -72,5 +88,4 @@ function processParameter() {
 
 processParameter();
 update();
-fillBackground("background1");
-fillBackground("background2");
+fillBackground();

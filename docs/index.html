@@ -19,8 +19,17 @@
 <body>
   <div id="screen">
     <h1>Gyöngyírás</h1>
-    <p><a href="https://www.youtube.com/embed/BRzI8FeZXQE" target="_blank">Bemutató videó</a> | 
-       <a href="https://www.facebook.com/gyongyiras/" target="_blank">Facebook oldal</a></p>
+    <nav>
+      <a href="https://www.youtube.com/embed/BRzI8FeZXQE" target="_blank">Bemutató videó</a> |
+      <a href="https://www.facebook.com/gyongyiras/" target="_blank">Facebook oldal</a>
+      <div id="options">
+        Beállítások:
+        <select id="settingVonalazas" onchange="changeVonalazas();">
+          <option value="1">Elsős vonalazás (14-32)</option>
+          <option value="2">Másodikos vonalazás (16-32)</option>
+        </select>
+      </div>
+    </nav>
     <p><textarea id="input" cols="80" rows="10" oninput="update()">Készíts írás
 gyakorlót
 gyermekednek,
@@ -48,7 +57,7 @@ az ismerőseidnek!
 </textarea>
     </p>
   </div>
-  <div id="print">
+  <div id="print" class="osztaly1">
     <div id="page1" class="pageA5">
       <div class="outer">
         <div id="output1" class="foreground inner"></div>

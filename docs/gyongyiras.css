@@ -15,6 +15,20 @@ body {
   }
 }
 
+#options {
+  float: right;
+}
+
+.osztaly1 {
+  --font-size: 12mm;
+  --number-of-rows: 14;
+}
+
+.osztaly2 {
+  --font-size: 10mm;
+  --number-of-rows: 16;
+}
+
 .pageA5 {
   --page-width: 146mm;
   --page-height: 209mm;
@@ -22,7 +36,6 @@ body {
   --right-margin: 17mm;
   --bottom-margin: 10mm;
   --left-margin: 10mm;
-  --font-size: 12mm;
   --side-extra-margin: 1mm;
   --top-accent-extra: calc(var(--font-size) / 3);
 
