@@ -23,7 +23,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1282334991
-ModificationTime: 1584805024
+ModificationTime: 1584944808
 PfmFamily: 17
 TTFWeight: 500
 TTFWidth: 5
@@ -6187,7 +6187,7 @@ StartChar: c
 Encoding: 99 99 12
 Width: 549
 VWidth: 0
-Flags: HWO
+Flags: HW
 HStem: -20 32<689 833> 322 32<679 819>
 VStem: 559 32<107 235>
 LayerCount: 4
@@ -35156,10 +35156,21 @@ EndChar
 
 StartChar: hyphen
 Encoding: 45 45 86
-Width: 500
-VWidth: 0
-Flags: HW
+Width: 450
+Flags: W
+HStem: -16 32<441 489> 320 32<204 274>
+VStem: 70 34<0 161> 370 34<132 162 107 195>
 LayerCount: 4
+Fore
+SplineSet
+108.5 165 m 0
+ 108.5 173.987322834 116.012677166 181.5 125 181.5 c 2
+ 325 181.5 l 2
+ 333.987322834 181.5 341.5 173.987322834 341.5 165 c 0
+ 341.5 156.012677166 333.987322834 148.5 325 148.5 c 2
+ 125 148.5 l 2
+ 116.012677166 148.5 108.5 156.012677166 108.5 165 c 0
+EndSplineSet
 EndChar
 
 StartChar: period

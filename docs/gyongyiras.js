@@ -1,5 +1,6 @@
 var COLUMNS = 24;
 var VALID_VONALAZAS = ["1", "2"];
+var WORD_BOUNDARY = [" ", "\n", ".", "!", "?", "-"];
 
 function update() {
     var rows = getComputedStyle(document.getElementById("print")).getPropertyValue("--number-of-rows");
@@ -9,8 +10,8 @@ function update() {
         var prev = i>0 ? input.charAt(i-1) : null;
         var c = input.charAt(i);
         var next = i<input.length-1 ? input.charAt(i+1) : null;
-        var wordStart = prev === null || prev === ' ' || prev === '\n';
-        var wordEnd = next === null || next === ' ' || next === '\n';
+        var wordStart = prev === null || WORD_BOUNDARY.includes(prev);
+        var wordEnd = next === null || WORD_BOUNDARY.includes(next);
         var fent = "boóöőrvwF".includes(prev);
         var kotes = fent ? "f" : "l";
         var szam = "0123456789".includes(c);
