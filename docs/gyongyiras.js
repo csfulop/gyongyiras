@@ -7,9 +7,20 @@ function update() {
     var input = document.getElementById("input").value;
     var output = "";
     for (var i=0; i<input.length; i++) {
+        if (input.charAt(i) === "%") {
+            continue;
+        }
         var prev = i>0 ? input.charAt(i-1) : null;
+        var color = false;
+        if (prev === "%") {
+            color = true;
+            prev = i>1 ? input.charAt(i-2) : null;
+        }
         var c = input.charAt(i);
         var next = i<input.length-1 ? input.charAt(i+1) : null;
+        if (next === "%") {
+            next = i<input.length-2 ? input.charAt(i+2) : null;
+        }
         var wordStart = prev === null || WORD_BOUNDARY.includes(prev);
         var wordEnd = next === null || WORD_BOUNDARY.includes(next);
         var fent = "boóöőrvwF".includes(prev);
@@ -32,16 +43,17 @@ function update() {
             c = ']';
             i++;
         }
+        var colorClass = color ? " red" : "";
         if (szam) {
             output += c;
         } else if (wordStart && wordEnd) {
-            output += "<span class=\"egy\">"+c+"</span>";
+            output += "<span class=\"egy"+colorClass+"\">"+c+"</span>";
         } else if (wordStart && !wordEnd) {
-            output += "<span class=\"e\">"+c+"</span>";
+            output += "<span class=\"e"+colorClass+"\">"+c+"</span>";
         } else if (!wordStart && !wordEnd) {
-            output += "<span class=\""+kotes+"\">"+c+"</span>";
+            output += "<span class=\""+kotes+colorClass+"\">"+c+"</span>";
         } else if (!wordStart && wordEnd) {
-            output += "<span class=\""+kotes+"v\">"+c+"</span>";
+            output += "<span class=\""+kotes+"v"+colorClass+"\">"+c+"</span>";
         } else {
             output += c;
         }

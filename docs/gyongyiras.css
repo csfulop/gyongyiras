@@ -107,6 +107,10 @@ body {
   border-right: 1px solid var(--line-color);
 }
 
+.red {
+  color: red;
+}
+
 @font-face {font-family: Kati_egyedul_v;src: url(Kati_egyedul_v.otf);}
 @font-face {font-family: Kati_elol_v;src: url(Kati_elol_v.otf);}
 @font-face {font-family: Kati_fent_vege_v;src: url(Kati_fent_vege_v.otf);}
