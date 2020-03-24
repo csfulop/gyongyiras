@@ -30,12 +30,12 @@ body {
 }
 
 .pageA5 {
-  --page-width: 146mm;
-  --page-height: 209mm;
+  --page-width: 143mm;
+  --page-height: 204mm;
   --top-margin: 30mm;
-  --right-margin: 17mm;
+  --right-margin: 13mm;
   --bottom-margin: 10mm;
-  --left-margin: 10mm;
+  --left-margin: 12mm;
   --side-extra-margin: 1mm;
   --top-accent-extra: calc(var(--font-size) / 3);
 
@@ -49,11 +49,11 @@ body {
 }
 
 #page1 {
-  margin-right: 4mm;
+  margin-right: 2mm;
 }
 
 #page2 {
-  margin-left: 4mm;
+  margin-left: 2mm;
 }
 
 .foreground {
