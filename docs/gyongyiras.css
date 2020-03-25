@@ -22,20 +22,48 @@ body {
 .osztaly1 {
   --font-size: 12mm;
   --number-of-rows: 14;
+  --background-line-char: ;
+  --background-bottom-line-char:_;
+  --top-margin: 30mm;
+  --right-margin: 13mm;
+  --left-margin: 12mm;
 }
 
 .osztaly2 {
   --font-size: 10mm;
   --number-of-rows: 16;
+  --background-line-char: ;
+  --background-bottom-line-char:_;
+  --top-margin: 30mm;
+  --right-margin: 13mm;
+  --left-margin: 12mm;
+}
+
+.osztaly3 {
+  --font-size: 10mm;
+  --number-of-rows: 17;
+  --background-line-char:~;
+  --background-bottom-line-char:~;
+  --top-margin: 23mm;
+  --right-margin: 13mm;
+  --left-margin: 12mm;
+  --top-border: 1mm double var(--line-color);
+}
+
+.osztaly4 {
+  --font-size: 7mm;
+  --number-of-rows: 24;
+  --background-line-char:~;
+  --background-bottom-line-char:~;
+  --top-margin: 23mm;
+  --right-margin: 13mm;
+  --left-margin: 12mm;
+  --top-border: 1mm double var(--line-color);
 }
 
 .pageA5 {
   --page-width: 143mm;
   --page-height: 204mm;
-  --top-margin: 30mm;
-  --right-margin: 13mm;
-  --bottom-margin: 10mm;
-  --left-margin: 12mm;
   --side-extra-margin: 1mm;
   --top-accent-extra: calc(var(--font-size) / 3);
 
@@ -89,6 +117,7 @@ body {
 .inner {
   height: calc(var(--page-height) - var(--top-margin));
   padding-top: var(--top-accent-extra); /* accents on capital letters are above the box of the font */
+  border-top: var(--top-border);
 
   overflow: hidden;
 

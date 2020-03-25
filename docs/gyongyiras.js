@@ -1,9 +1,21 @@
-var COLUMNS = 24;
-var VALID_VONALAZAS = ["1", "2"];
+var COLUMNS = 32;
+var VALID_VONALAZAS = ["1", "2", "3", "4"];
 var WORD_BOUNDARY = [" ", "\n", ".", "!", "?", "-"];
 
+var ROWS;
+var BACKGROUND_LINE_CHAR;
+var BACKGROUND_BOTTOM_LINE_CHAR;
+
+function getCssVariables() {
+    ROWS = getComputedStyle(document.getElementById("print")).getPropertyValue("--number-of-rows");
+    console.log('ROWS="'+ROWS+'"');
+    BACKGROUND_LINE_CHAR = getComputedStyle(document.getElementById("print")).getPropertyValue("--background-line-char");
+    console.log('BACKGROUND_LINE_CHAR="'+BACKGROUND_LINE_CHAR+'"');
+    BACKGROUND_BOTTOM_LINE_CHAR = getComputedStyle(document.getElementById("print")).getPropertyValue("--background-bottom-line-char");
+    console.log('BACKGROUND_BOTTOM_LINE_CHAR="'+BACKGROUND_BOTTOM_LINE_CHAR+'"');
+}
+
 function update() {
-    var rows = getComputedStyle(document.getElementById("print")).getPropertyValue("--number-of-rows");
     var input = document.getElementById("input").value;
     var output = "";
     for (var i=0; i<input.length; i++) {
@@ -38,7 +50,7 @@ function update() {
         else if ("BDINOÓÖŐSs".includes(prev)) {
             kotes = "k";
         }
-        console.log("pcn="+prev+c+next+", fent="+fent+", kotes="+kotes);
+        // console.log("pcn="+prev+c+next+", fent="+fent+", kotes="+kotes);
         if (c === 't' && next === 't') {
             c = ']';
             i++;
@@ -59,15 +71,14 @@ function update() {
         }
     }
     var outputRows = output.split("\n");
-    document.getElementById("output1").innerHTML = outputRows.slice(0,rows).join("\n");
-    document.getElementById("output2").innerHTML = outputRows.slice(rows,2*rows).join("\n");
+    document.getElementById("output1").innerHTML = outputRows.slice(0,ROWS).join("\n");
+    document.getElementById("output2").innerHTML = outputRows.slice(ROWS,2*ROWS).join("\n");
 }
 
 function fillBackgroundById(id) {
-    var rows = getComputedStyle(document.getElementById("print")).getPropertyValue("--number-of-rows");
-    var row = " ".repeat(COLUMNS).concat("\n");
-    var background = row.repeat(rows-1);
-    background += "_".repeat(COLUMNS);
+    var row = BACKGROUND_LINE_CHAR.repeat(COLUMNS).concat("\n");
+    var background = row.repeat(ROWS-1);
+    background += BACKGROUND_BOTTOM_LINE_CHAR.repeat(COLUMNS);
     document.getElementById(id).innerHTML = background;
 }
 
@@ -76,12 +87,17 @@ function fillBackground() {
     fillBackgroundById("background2");
 }
 
+function refreshOutput() {
+    getCssVariables();
+    fillBackground();
+    update();
+}
+
 function changeVonalazas() {
     var vonalazas = document.getElementById("settingVonalazas").value;
     if (VALID_VONALAZAS.includes(vonalazas)) {
         document.getElementById("print").className = "osztaly"+vonalazas;
-        fillBackground();
-        update();
+        refreshOutput();
     }
 }
 
@@ -100,5 +116,4 @@ function processParameter() {
 }
 
 processParameter();
-update();
-fillBackground();
+refreshOutput();
