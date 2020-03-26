@@ -8,7 +8,7 @@ while ( i < $argc )
         Open( $argv[i] )
 
         # Copy lines to the clipboard
-        Select(29)
+        Select(27)
         Copy()
         Select(32)
         Clear()
