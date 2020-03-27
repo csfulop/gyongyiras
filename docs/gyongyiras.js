@@ -1,6 +1,6 @@
 var COLUMNS = 32;
 var VALID_VONALAZAS = ["1", "2", "3", "4"];
-var WORD_BOUNDARY = [" ", "\n", ".", "!", "?", "-"];
+var WORD_BOUNDARY = " \n.!?-+,:;";
 
 var ROWS;
 var BACKGROUND_LINE_CHAR;
