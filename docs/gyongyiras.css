@@ -4,6 +4,10 @@ body {
   --text-color: Black;
 }
 
+@page {
+  margin: 0mm;
+}
+
 #print {
   display: flex;
   flex-direction: row;
