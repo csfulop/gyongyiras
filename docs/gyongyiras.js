@@ -32,6 +32,7 @@ function update() {
         var next = i<input.length-1 ? input.charAt(i+1) : null;
         if (next === "%") {
             next = i<input.length-2 ? input.charAt(i+2) : null;
+            i++;
         }
         var wordStart = prev === null || WORD_BOUNDARY.includes(prev);
         var wordEnd = next === null || WORD_BOUNDARY.includes(next);
