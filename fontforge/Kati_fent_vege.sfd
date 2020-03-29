@@ -23,7 +23,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1282334991
-ModificationTime: 1584944789
+ModificationTime: 1585481469
 PfmFamily: 17
 TTFWeight: 500
 TTFWidth: 5
@@ -26656,10 +26656,25 @@ EndChar
 
 StartChar: quotedbl
 Encoding: 34 34 75
-Width: 500
+Width: 397
 VWidth: 0
-Flags: HW
+Flags: W
+HStem: 456 161<156 182 221 246>
+VStem: 149 33<456 617> 214 32<456 617>
 LayerCount: 4
+Fore
+SplineSet
+152 504 m 1
+ 152 665 l 1
+ 185 665 l 1
+ 185 504 l 1
+ 152 504 l 1
+217 504 m 1
+ 217 665 l 1
+ 249 665 l 1
+ 249 504 l 1
+ 217 504 l 1
+EndSplineSet
 EndChar
 
 StartChar: lonelyX
@@ -34729,10 +34744,20 @@ EndChar
 
 StartChar: quotesingle
 Encoding: 39 39 80
-Width: 500
+Width: 332
 VWidth: 0
-Flags: HW
+Flags: W
+HStem: 500 163
+VStem: 538 32<501 661>
 LayerCount: 4
+Fore
+SplineSet
+150 502 m 1
+ 150 664 l 1
+ 182 664 l 1
+ 182 502 l 1
+ 150 502 l 1
+EndSplineSet
 EndChar
 
 StartChar: parenleft
