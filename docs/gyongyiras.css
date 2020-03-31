@@ -98,6 +98,7 @@ body {
   margin-right: var(--right-margin);
   padding-right: var(--side-extra-margin);
   color: var(--text-color);
+  font-family: Kati_egyedul;
 }
 
 .background {
@@ -105,6 +106,7 @@ body {
   width: var(--page-width);
 
   color: var(--line-color);
+  font-family: Kati_egyedul_v;
 }
 
 .backgroundOuter, .sideMargins {
@@ -126,7 +128,6 @@ body {
   overflow: hidden;
 
   font-size: var(--font-size);
-  font-family: Kati_egyedul_v;
   white-space: pre;
 }
 

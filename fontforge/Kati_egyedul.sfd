@@ -22,7 +22,7 @@ OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1282334991
-ModificationTime: 1585481159
+ModificationTime: 1585681962
 PfmFamily: 17
 TTFWeight: 500
 TTFWidth: 5
@@ -58,7 +58,7 @@ OS2Vendor: 'PfEd'
 MarkAttachClasses: 1
 DEI: 91125
 LangName: 1033 "" "" "" "FontForge 2.0 : kati_egyedul : 14-10-2019"
-Encoding: iso8859-2
+Encoding: UnicodeFull
 UnicodeInterp: none
 NameList: AGL For New Fonts
 DisplaySize: -48
@@ -79,202 +79,20 @@ Grid
  2000 1000 l 1024
   Named: "top"
 EndSplineSet
-BeginChars: 258 255
-
-StartChar: uni0001
-Encoding: 1 1 0
-Width: 500
-Flags: W
-LayerCount: 2
-EndChar
-
-StartChar: uni0002
-Encoding: 2 2 1
-Width: 500
-Flags: W
-LayerCount: 2
-EndChar
-
-StartChar: uni0003
-Encoding: 3 3 2
-Width: 500
-Flags: W
-LayerCount: 2
-EndChar
-
-StartChar: uni0004
-Encoding: 4 4 3
-Width: 500
-Flags: W
-LayerCount: 2
-EndChar
-
-StartChar: uni0005
-Encoding: 5 5 4
-Width: 500
-Flags: W
-LayerCount: 2
-EndChar
-
-StartChar: uni0006
-Encoding: 6 6 5
-Width: 500
-Flags: W
-LayerCount: 2
-EndChar
-
-StartChar: uni0007
-Encoding: 7 7 6
-Width: 500
-Flags: W
-LayerCount: 2
-EndChar
-
-StartChar: uni0008
-Encoding: 8 8 7
-Width: 500
-Flags: W
-LayerCount: 2
-EndChar
-
-StartChar: uni0009
-Encoding: 9 9 8
-Width: 500
-Flags: W
-LayerCount: 2
-EndChar
-
-StartChar: uni000A
-Encoding: 10 10 9
-Width: 500
-Flags: W
-LayerCount: 2
-EndChar
-
-StartChar: uni000B
-Encoding: 11 11 10
-Width: 500
-Flags: W
-LayerCount: 2
-EndChar
-
-StartChar: uni000C
-Encoding: 12 12 11
-Width: 500
-Flags: W
-LayerCount: 2
-EndChar
-
-StartChar: uni000D
-Encoding: 13 13 12
-Width: 500
-Flags: W
-LayerCount: 2
-EndChar
-
-StartChar: uni000E
-Encoding: 14 14 13
-Width: 500
-Flags: W
-LayerCount: 2
-EndChar
-
-StartChar: uni000F
-Encoding: 15 15 14
-Width: 500
-Flags: W
-LayerCount: 2
-EndChar
-
-StartChar: uni0010
-Encoding: 16 16 15
-Width: 500
-Flags: W
-LayerCount: 2
-EndChar
-
-StartChar: uni0011
-Encoding: 17 17 16
-Width: 500
-Flags: W
-LayerCount: 2
-EndChar
-
-StartChar: uni0012
-Encoding: 18 18 17
-Width: 500
-Flags: W
-LayerCount: 2
-EndChar
-
-StartChar: uni0013
-Encoding: 19 19 18
-Width: 500
-Flags: W
-LayerCount: 2
-EndChar
-
-StartChar: uni0014
-Encoding: 20 20 19
-Width: 500
-Flags: W
-LayerCount: 2
-EndChar
-
-StartChar: uni0015
-Encoding: 21 21 20
-Width: 500
-Flags: W
-LayerCount: 2
-EndChar
-
-StartChar: uni0016
-Encoding: 22 22 21
-Width: 500
-Flags: W
-LayerCount: 2
-EndChar
-
-StartChar: uni0017
-Encoding: 23 23 22
-Width: 500
-Flags: W
-LayerCount: 2
-EndChar
-
-StartChar: uni0018
-Encoding: 24 24 23
-Width: 500
-Flags: W
-LayerCount: 2
-EndChar
-
-StartChar: uni0019
-Encoding: 25 25 24
-Width: 500
-Flags: W
-LayerCount: 2
-EndChar
-
-StartChar: uni001A
-Encoding: 26 26 25
-Width: 500
-Flags: W
-LayerCount: 2
-EndChar
+BeginChars: 1114112 110
 
 StartChar: uni001B
-Encoding: 27 27 26
+Encoding: 27 27 0
 Width: 500
 Flags: W
 LayerCount: 2
 EndChar
 
 StartChar: uni001C
-Encoding: 28 28 27
+Encoding: 28 28 1
 Width: 651
-Flags: HW
-HStem: -10 20<0 1107 0 1107> 326 10 656 10
+Flags: W
+HStem: -10 20<0 651>
 LayerCount: 2
 Fore
 SplineSet
@@ -287,10 +105,10 @@ EndSplineSet
 EndChar
 
 StartChar: uni001D
-Encoding: 29 29 28
+Encoding: 29 29 2
 Width: 651
-Flags: HW
-HStem: -10 20<0 1107 0 1107> 326 10 656 10
+Flags: W
+HStem: -10 20<0 1107>
 LayerCount: 2
 Fore
 SplineSet
@@ -303,10 +121,10 @@ EndSplineSet
 EndChar
 
 StartChar: uni001E
-Encoding: 30 30 29
+Encoding: 30 30 3
 Width: 651
-Flags: HW
-HStem: -10 20<0 1107 0 1107> 326 10 656 10
+Flags: W
+HStem: -10 20<0 651> 326 11<0 651> 656 11<0 651>
 LayerCount: 2
 Fore
 SplineSet
@@ -329,7 +147,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni001F
-Encoding: 31 31 30
+Encoding: 31 31 4
 Width: 651
 Flags: MW
 HStem: -10 20<0 1107 0 1107> 326 10 656 10
@@ -355,7 +173,7 @@ EndSplineSet
 EndChar
 
 StartChar: space
-Encoding: 32 32 31
+Encoding: 32 32 5
 Width: 651
 Flags: W
 HStem: -10 20<0 1107 0 1107> 326 10 656 10
@@ -381,7 +199,7 @@ EndSplineSet
 EndChar
 
 StartChar: exclam
-Encoding: 33 33 32
+Encoding: 33 33 6
 Width: 172
 Flags: MW
 HStem: 1 65<87 94>
@@ -407,7 +225,7 @@ EndSplineSet
 EndChar
 
 StartChar: quotedbl
-Encoding: 34 34 33
+Encoding: 34 34 7
 Width: 397
 VWidth: 0
 Flags: W
@@ -429,95 +247,8 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: lonelyX
-Encoding: 35 35 34
-Width: 500
-Flags: W
-LayerCount: 2
-EndChar
-
-StartChar: dollar
-Encoding: 36 36 35
-Width: 485
-Flags: MW
-HStem: -16 33 184 33 320 33 434 64
-VStem: 125 33 209 59 300 59 430 33
-LayerCount: 2
-Fore
-SplineSet
--16 169 m 0
- -16 262 46 352 144 352 c 0
- 215 352 250 319 276 291 c 0
- 280 289 285 285 291 276 c 0
- 308 261 332 252 358 252 c 0
- 400 252 440 273 453 312 c 0
- 456 320 462 324 468 324 c 0
- 477 324 486 317 486 307 c 0
- 486 305 486 304 485 302 c 0
- 466 246 410 219 358 219 c 0
- 343 219 328 221 314 226 c 1
- 317 212 319 195 319 176 c 0
- 319 85 286 -16 154 -16 c 0
- 32 -16 -16 71 -16 169 c 0
-16 169 m 0
- 16 99 44 16 154 16 c 0
- 252 16 270 80 276 103 c 0
- 280 117 286 146 286 176 c 0
- 286 234 263 257 256 266 c 0
- 233 292 205 320 144 320 c 0
- 70 320 16 248 16 169 c 0
-66 505 m 0
- 66 516 71 528 83 534 c 0
- 87 536 91 537 95 537 c 0
- 112 537 125 521 125 504 c 0
- 125 497 123 490 118 484 c 0
- 112 476 104 473 96 473 c 0
- 81 473 66 485 66 505 c 0
-157 507 m 0
- 157 520 164 531 174 536 c 0
- 178 538 182 539 186 539 c 0
- 203 539 216 522 216 505 c 0
- 216 498 214 491 209 485 c 0
- 203 477 195 474 187 474 c 0
- 171 474 157 487 157 507 c 0
-EndSplineSet
-EndChar
-
-StartChar: percent
-Encoding: 37 37 36
-Width: 450
-Flags: MW
-HStem: 488 64
-VStem: 180 59 271 59
-LayerCount: 2
-Fore
-SplineSet
-150 495 m 0
- 150 506 155 518 167 524 c 0
- 171 526 175 527 179 527 c 0
- 196 527 209 511 209 494 c 0
- 209 487 207 480 202 474 c 0
- 196 466 188 463 180 463 c 0
- 165 463 150 475 150 495 c 0
-241 497 m 0
- 241 510 248 521 258 526 c 0
- 262 528 266 529 270 529 c 0
- 287 529 300 512 300 495 c 0
- 300 488 298 481 293 475 c 0
- 287 467 279 464 271 464 c 0
- 255 464 241 477 241 497 c 0
-EndSplineSet
-EndChar
-
-StartChar: ampersand
-Encoding: 38 38 37
-Width: 500
-Flags: W
-LayerCount: 2
-EndChar
-
 StartChar: quotesingle
-Encoding: 39 39 38
+Encoding: 39 39 8
 Width: 332
 VWidth: 0
 Flags: W
@@ -534,36 +265,95 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: parenleft
-Encoding: 40 40 39
-Width: 500
-Flags: W
-LayerCount: 2
-EndChar
-
-StartChar: parenright
-Encoding: 41 41 40
-Width: 500
-Flags: W
-LayerCount: 2
-EndChar
-
-StartChar: asterisk
-Encoding: 42 42 41
-Width: 500
-Flags: W
-LayerCount: 2
-EndChar
-
 StartChar: plus
-Encoding: 43 43 42
-Width: 500
+Encoding: 43 43 9
+Width: 666
 Flags: HMW
 LayerCount: 2
+Back
+Image: 28 27 3 112 0 ffffffff -70.3705 708 27.7777 27.7777 0
+s8W-!s8W-!s+6`\s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s+6`\s8W-!s+6`\s+6`\
+s,!Jns+6`\s+6`\s+6`\s+6`\s+6`\s+6`\s+6`\s+6`\s+6`\s+6`\s+6`\s+6`\s+6`\s+6`\
+s+6`\s+6`\s+6`\s+6`\s+6`\s+6`\s+6`\s+6`\s+6`\s,!Jns+6`\s8W-!s8W-!s+6`\s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s1#SKrr`H-s.#ULs8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s+6`\s8W-!s8W-!s8W-!s+6`\s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s0fAErr<$!s-fCFs8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s+6`\s8W-!s8W-!s8W-!s+6`\s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s0fAErr<$!s-fCFs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s+6`\s8W-!s8W-!s8W-!s+6`\s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s0fAErr<$!s-fCFs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s+6`\s8W-!s8W-!s8W-!s+6`\s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s0fAErr<$!s-fCFs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s+6`\
+s8W-!s8W-!s8W-!s+6`\s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s0fAE
+rr<$!s-fCFs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s+6`\s8W-!s8W-!
+s8W-!s+6`\s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s0fAErr<$!s-fCF
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s+6`\s8W-!s8W-!s8W-!s+6`\
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s0fAErr<$!s-fCFs8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s+6`\s8W-!s8W-!s8W-!s+6`\s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s0fAErr<$!s-fCFs8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s+6`\s8W-!s8W-!s8W-!s+6`\s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s0fAErr<$!s-fCFs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s+6`\s8W-!s8W-!s8W-!s+6`\s.lHds,`>(s,`>(s,`>(s,`>(s,`>(
+s,`>(s,`>(s,`>(s,`>(s(>tWrr<$!s&W9's,`>(s,`>(s,`>(s,`>(s,`>(s,`>(s,`>(s,`>(
+s,`>(s-T1@s+6`\s8W-!s8W-!s8W-!s+6`\s"#]Prr<$!rr<$!rr<$!rr<$!rr<$!rr<$!rr<$!
+rr<$!rr<$!rr<$!rr<$!rr<$!rr<$!rr<$!rr<$!rr<$!rr<$!rr<$!rr<$!rr<$!rr<$!rt,hT
+s+6`\s8W-!s8W-!s8W-!s+6`\s3/^2s1lFcs1lFcs1lFcs1lFcs1lFcs1lFcs1lFcs1lFcs1lFc
+s+uShrr<$!s)`@)s1lFcs1lFcs1lFcs1lFcs1lFcs1lFcs1lFcs1lFcs1lFcs2Dsrs+6`\s8W-!
+s8W-!s8W-!s+6`\s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s0fAErr<$!
+s-fCFs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s+6`\s8W-!s8W-!s8W-!
+s+6`\s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s0fAErr<$!s-fCFs8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s+6`\s8W-!s8W-!s8W-!s+6`\s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s0fAErr<$!s-fCFs8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s+6`\s8W-!s8W-!s8W-!s+6`\s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s0fAErr<$!s-fCFs8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s+6`\s8W-!s8W-!s8W-!s+6`\s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s0fAErr<$!s-fCFs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s+6`\s8W-!s8W-!s8W-!s+6`\s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s0fAErr<$!s-fCFs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s+6`\s8W-!s8W-!s8W-!s+6`\s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s0fAErr<$!s-fCFs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s+6`\
+s8W-!s8W-!s8W-!s+6`\s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s0fAE
+rr<$!s-fCFs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s+6`\s8W-!s8W-!
+s8W-!s+6`\s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s0fAErr<$!s-fCF
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s+6`\s8W-!s8W-!s8W-!s1ln>
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s2N'us"lPhs0&W0s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s1ln>s8W-!s+6`\s+6`\s,j8*s+6`\s+6`\
+s+6`\s+6`\s+6`\s+6`\s+6`\s+6`\s+6`\s+6`\s+6`\s+6`\s+6`\s+6`\s+6`\s+6`\s+6`\
+s+6`\s+6`\s+6`\s+6`\s+6`\s+6`\s,j8*s+6`\s8W-!s8W-!s+6`\s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s+6`\s8W-!
+EndImage
+SplineSet
+333 616 m 27
+ 333 382 333 284 333 50 c 1048
+50 333 m 31
+ 273 333 393 333 616 333 c 1048
+EndSplineSet
+Fore
+SplineSet
+33.5 333 m 0
+ 33.5 341.987322834 41.0126771663 349.5 50 349.5 c 2
+ 316.5 349.5 l 1
+ 316.5 616 l 2
+ 316.5 624.987322834 324.012677166 632.5 333 632.5 c 0
+ 341.987322834 632.5 349.5 624.987322834 349.5 616 c 2
+ 349.5 349.5 l 1
+ 616 349.5 l 2
+ 624.987322834 349.5 632.5 341.987322834 632.5 333 c 0
+ 632.5 324.012677166 624.987322834 316.5 616 316.5 c 2
+ 349.5 316.5 l 1
+ 349.5 50 l 2
+ 349.5 41.0126771663 341.987322834 33.5 333 33.5 c 0
+ 324.012677166 33.5 316.5 41.0126771663 316.5 50 c 2
+ 316.5 316.5 l 1
+ 50 316.5 l 2
+ 41.0126771663 316.5 33.5 324.012677166 33.5 333 c 0
+EndSplineSet
 EndChar
 
 StartChar: comma
-Encoding: 44 44 43
+Encoding: 44 44 10
 Width: 172
 Flags: MW
 HStem: -146 224<51.5 101>
@@ -583,16 +373,69 @@ EndSplineSet
 EndChar
 
 StartChar: hyphen
-Encoding: 45 45 44
+Encoding: 45 45 11
 Width: 450
-Flags: HW
-HStem: -16 32<441 489> 320 32<204 274>
-VStem: 70 34<0 161> 370 34<132 162 107 195>
+Flags: W
+HStem: 148.5 33<108.505 341.495>
+VStem: 108.5 233<148.5 181.5>
 LayerCount: 2
 Back
+Image: 29 26 3 116 0 ffffffff -94 944 38.4615 38.4615 0
+s8W-!s8W-!s1ln>s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s1ln>s8W-!s8W-!s+6`\
+s+6`\s,j8*s+6`\s+6`\s+6`\s+6`\s+6`\s+6`\s+6`\s+6`\s+6`\s+6`\s+6`\s+6`\s+6`\
+s+6`\s+6`\s+6`\s+6`\s+6`\s+6`\s+6`\s+6`\s+6`\s+6`\s,j8*s+6`\s+6`\s8W-!s8W-!
+s+6`\s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s+6`\s8W-!s8W-!s8W-!s8W-!s+6`\
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s+6`\s8W-!s8W-!s8W-!s8W-!s+6`\s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s+6`\s8W-!s8W-!s8W-!s8W-!s+6`\s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s+6`\s8W-!s8W-!s8W-!s8W-!s+6`\s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s+6`\s8W-!s8W-!s8W-!s8W-!s+6`\s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s+6`\s8W-!s8W-!s8W-!s8W-!s+6`\s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s+6`\s8W-!s8W-!s8W-!s8W-!s+6`\s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s+6`\s8W-!s8W-!s8W-!s8W-!s+6`\s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s+6`\s8W-!s1lFcs8W-!s8W-!s+6`\s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s+6`\s0&W0rs8u<s8W-!s8W-!s+6`\s7uKds7,XLs7,XLs7,XLs7,XLs7,XLs7,XLs7,XLs7,XL
+s7,XLs7,XLs7,XLs7,XLs7,XLs7,XLs7,XLs7,XLs7,XLs7,XLs7,XLs7,XLs7,XLs75aOs*0U6
+rs]DHrtcIfs8W-!s8W-!s+6`\s+H&Yrr<$!rr<$!rr<$!rr<$!rr<$!rr<$!rr<$!rr<$!rr<$!
+rr<$!rr<$!rr<$!rr<$!rr<$!rr<$!rr<$!rr<$!rr<$!rr<$!rr<$!rr<$!rt,hTs+6`\s1,\N
+s4lDbs8W-!s8W-!s+6`\s0K&<s'K,?s'K,?s'K,?s'K,?s'K,?s'K,?s'K,?s'K,?s'K,?s'K,?
+s'K,?s'K,?s'K,?s'K,?s'K,?s'K,?s'K,?s'K,?s'K,?s'K,?s'K,?s(cCcs+6`\s8W-!s8W-!
+s8W-!s8W-!s+6`\s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s+6`\s8W-!s8W-!s8W-!
+s8W-!s+6`\s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s+6`\s8W-!s8W-!s8W-!s8W-!
+s+6`\s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s+6`\s8W-!s8W-!s8W-!s8W-!s+6`\
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s+6`\s8W-!s8W-!s8W-!s8W-!s+6`\s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s+6`\s8W-!s8W-!s8W-!s8W-!s+6`\s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s+6`\s8W-!s8W-!s8W-!s8W-!s+6`\s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s+6`\s8W-!s8W-!s8W-!s8W-!s+6`\s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s+6`\s8W-!s8W-!s8W-!s8W-!s+6`\s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s+6`\s8W-!s8W-!s+6`\s+6`\s,j8*s+6`\s+6`\s+6`\s+6`\s+6`\s+6`\
+s+6`\s+6`\s+6`\s+6`\s+6`\s+6`\s+6`\s+6`\s+6`\s+6`\s+6`\s+6`\s+6`\s+6`\s+6`\
+s+6`\s+6`\s,j8*s+6`\s+6`\s8W-!s8W-!s1ln>s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s1ln>s8W-!s8W-!
+EndImage
 SplineSet
-125 165 m 29
- 325 165 l 1053
+125 165 m 25
+ 325 165 l 1049
 EndSplineSet
 Fore
 SplineSet
@@ -607,7 +450,7 @@ EndSplineSet
 EndChar
 
 StartChar: period
-Encoding: 46 46 45
+Encoding: 46 46 12
 Width: 172
 Flags: MW
 HStem: 1 65<87 94>
@@ -625,95 +468,1046 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: slash
-Encoding: 47 47 46
-Width: 332
-Flags: MW
-HStem: 500 163
-VStem: 538 32
+StartChar: zero
+Encoding: 48 48 13
+Width: 666
+Flags: HW
+VStem: 166 332<162.216 325.673 411.477 505.926>
 LayerCount: 2
+Back
+Image: 30 34 3 120 0 ffffffff -70.5294 818 27.6471 27.6471 0
+s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!
+s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!
+s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!
+s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!
+s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!
+s8W-!s8W-!s$(k4rr>lYrr>lYrr>lYrr>lYrr>lYrr>lYrr>lYrr>lYrr>lYrr>lYrr>lYrr>cP
+rr>lYrr>lYrr>lYrr>lYrr>lYrr>lYrr>lYrr>lYrr>lYrr>lYrr>lYruYgErr>lYrr>lYrr>lY
+s8W-!s8W-!s*prfs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s7GsUs+5iSruE+#rr<$!
+rt,hTs'8o9s5;hns8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s*prfs8W-!s8W-!s8W-!
+s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s6K":s"cGerr<$!s!&a5s'/f6
+s#N2%rr<$!rt,hTs2iC)s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!
+s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8;fms#`D+rr<$!s*]<Ds82]js8W-!
+s8W-!s0T/?rsK2Brt,hTs5W/"s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!
+s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s,W5%rr<$!s(uUis8W-!s8W-!s8W-!
+s8W-!s8W-!s0K&<rr<$!s%,dRs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!
+s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s8W-!s7Z0[rtcIfruE+#s7Z0[s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s&iK-rr<$!s2`:&s8W-!s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!
+s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s8W-!s.>pUrr<$!s,W5%s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s3oHGrrE-$s'&]3s8W-!s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!
+s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s8W-!s%cEdrrW?*s6K":s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s"cGersoVNs7uKds8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!
+s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s8Doprs]DHs#W;(s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s+#WMrr<$!s2;jos8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!
+s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s4lDbrr<$!s)2gos8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s0]8Brr<$!s-K(=s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!
+s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s0fAErr<$!s-]:Cs8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s52_krr<$!s);prs8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!
+s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s.lHdrr<$!s/iE*s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s7GsUrr<$!s'B#<s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!
+s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s-K(=rr<$!s15eQs8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!rrW?*s%cEds8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!
+s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s.,^Orr<$!s0K&<s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s7uKdrr<$!s&`B*s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!
+s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s/`<'rr<$!s.uQgs8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s6An7rr<$!s(>tWs8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!
+s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s2iC)rr<$!s+>rVs8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s2W1#rr<$!s+H&Ys8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!
+s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s7GsUrrN6's&E'!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s-oLIrr<$!s0/`3s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!
+s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s8W-!s"?#YrtH.]s8;fms8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s&N0$rrN6's6&S.s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!
+s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s8W-!s*]<Drr<$!s1Q+Zs8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s7GsUrs]DHs#;tts8W-!s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!
+s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s8W-!s4GuVrrN6's%H*[s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s,`>(rr<$!s-At:s8W-!s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!
+s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s&2iprrE-$s1,\Ns8W-!s8W-!s8W-!
+s8W-!s8W-!s68e4rtZ@crtcIfs7Z0[s8W-!s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!
+s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s52_krsfMKrtu[ls4GuVs8W-!s8W-!
+s8W-!s7Q'Xs$B%=rr<$!s/;lps8W-!s8W-!s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!
+s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s/iE*rriQ0rt?%Zs,E"ts2rL,
+s/2cms",fSrr<$!s(uUis8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!
+s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s0]8BruE+#rr<$!rr<$!
+rr<$!rsB)?s+H&Ys8N#ss8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!
+s8W-!s8W-!s$(k4rr>lYrr>lYrr>lYrr>lYrr>lYrr>lYrr>lYrr>lYrr>lYrr>cQrr=ugrr=NC
+rr=i[rr>TBrr>lYrr>lYrr>lYrr>lYrr>lYrr>lYrr>lYrr>lYrr>lYruYgErr>lYrr>lYrr>lY
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+
+EndImage
+SplineSet
+331 0 m 3
+ 455 0 508 180 508 328 c 3
+ 508 480 456.00390625 666 331 666 c 3
+ 204 666 154 480 154 332 c 3
+ 154 189 206 0 331 0 c 3
+EndSplineSet
 Fore
 SplineSet
-150 502 m 1
- 150 664 l 1
- 182 664 l 1
- 182 502 l 1
- 150 502 l 1
+331 -16.5 m 0
+ 187.083233743 -16.5 137.5 190.893082389 137.5 332 c 0
+ 137.5 477.969677181 185.180398267 682.5 331 682.5 c 0
+ 474.883142283 682.5 524.5 477.99401931 524.5 328 c 0
+ 524.5 181.580726101 473.541055541 -16.5 331 -16.5 c 0
+331 16.5 m 0
+ 436.458944459 16.5 491.5 178.419273899 491.5 328 c 0
+ 491.5 482.00598069 437.124670217 649.5 331 649.5 c 0
+ 222.819601733 649.5 170.5 482.030322819 170.5 332 c 0
+ 170.5 187.106917611 224.916766257 16.5 331 16.5 c 0
 EndSplineSet
 EndChar
 
-StartChar: zero
-Encoding: 48 48 47
-Width: 500
-Flags: W
-LayerCount: 2
-EndChar
-
 StartChar: one
-Encoding: 49 49 48
-Width: 500
-Flags: W
+Encoding: 49 49 14
+Width: 666
+Flags: HW
 LayerCount: 2
+Back
+Image: 35 34 3 140 0 ffffffff -177.118 787 27.6471 27.6471 0
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!rr>lY
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!rr>lY
+s8W-!s8W-!s8W-!s8W-!s8W-!rr>lYrr>lYrr>lYrr>lYrr>lYrr>lYruYgErr>lYrr>lYrr>lY
+rr>lYrr>lYrr>lYrr>lYrr>lYrr>lYrr>lYrr>lYrr>lYrr>fSrr>lYrr>lYrr>lYrr>lYrr>lY
+rr>lYrr>lYrr>lYrr>lYruYgErr>lYrr>lYrr>lYrr>lYrr>lYs8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s*prfs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s-&Y1s.Z6^
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s*prfs8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8N#ss*8m8rr<$!s.>pUs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!rr>lY
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s82]js'T5Brr<$!rr<$!s.>pUs8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s7Q'Xs%?!Xrr<$!ru2mrrr<$!s.>pU
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s6f=Cs#W;(
+rr<$!s'/f6s/`<'rr<$!s.>pUs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!rr>lY
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!
+s8W-!s8W-!s5;hns!T9Drr<$!s))^ls8Dops08i6rr<$!s.>pUs8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s4#QJruE+#rrE-$s+uShs8W-!s8W-!s08i6rr<$!s.>pU
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s2W1#rt?%ZrrrZ3s.uQgs8W-!
+s8W-!s8W-!s08i6rr<$!s.>pUs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!rr>lY
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s0/`3
+rs8u<rsK2Bs0oJHs8W-!s8W-!s8W-!s8W-!s08i6rr<$!s.>pUs8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!rr>lYs8W-!s.5gRrr`H-rt?%Zs2W1#s8W-!s8W-!s8W-!s8W-!s8W-!s08i6rr<$!s.>pU
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!rr>lYs+lJerr<$!ruiO/s4Q)Ys8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s08i6rr<$!s.>pUs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!rr>lY
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!rr>TBrt5qWs"Z>bs6/\1
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s08i6rr<$!s.>pUs8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!rr>lYs3Ap8s75aOs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s08i6rr<$!s.>pU
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s08i6rr<$!s.>pUs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!rr>lY
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s08i6rr<$!s.>pUs8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s08i6rr<$!s.>pU
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s08i6rr<$!s.>pUs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!rr>lY
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s08i6rr<$!s.>pUs8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s08i6rr<$!s.>pU
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s08i6rr<$!s.>pUs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!rr>lY
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s08i6rr<$!s.>pUs8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s08i6rr<$!s.>pU
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s08i6rr<$!s.>pUs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!rr>lY
+s8W-!s8W-!s8W-!s8W-!s8W-!rr>lYrr>lYrr>lYrr>lYrr>lYrr>lYruYgErr>lYrr>lYrr>lY
+rr>lYrr>lYrr>lYrr>lYrr>lYrr>lYrr>lYrr>K9rr=QErr>B1rr>lYrr>lYrr>lYrr>lYrr>lY
+rr>lYrr>lYrr>lYrr>lYruYgErr>lYrr>lYrr>lYrr>lYrr>lYs8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!
+EndImage
+SplineSet
+133 330 m 29
+ 442 656 l 29
+ 439 0 l 1053
+EndSplineSet
+Fore
+SplineSet
+121.649156971 318.024676934 m 0
+ 115.126363369 324.207324857 114.842029011 334.828049427 121.024676934 341.350843029 c 2
+ 430.024676934 667.350843029 l 2
+ 436.549324877 674.234452186 447.904917394 674.09245855 454.255402909 667.047854975 c 0
+ 457.101056963 663.891166455 458.513006845 658.806435041 458.499827463 655.924543472 c 2
+ 455.499827463 -0.0754565280325 l 2
+ 455.458727331 -9.06268538329 447.911772327 -16.5409275951 438.924543472 -16.4998274631 c 0
+ 429.937314617 -16.4587273311 422.459072405 -8.91177232723 422.500172537 0.0754565280325 c 2
+ 425.309612684 614.406368672 l 1
+ 144.975323066 318.649156971 l 2
+ 138.792675143 312.126363369 128.171950573 311.842029011 121.649156971 318.024676934 c 0
+EndSplineSet
 EndChar
 
 StartChar: two
-Encoding: 50 50 49
-Width: 500
-Flags: W
+Encoding: 50 50 15
+Width: 666
+Flags: HW
 LayerCount: 2
+Back
+Image: 29 30 3 116 0 ffffffff -69.8334 760 27.6666 27.6666 0
+s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!
+s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!
+rr>lYs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!rr>lYrr>lYruYgE
+rr>lYrr>lYrr>lYrr>lYrr>lYrr>lYrr>lYrr>lYrr>lYrr>`Nrr>fSrr>lYrr>lYrr>lYrr>lY
+rr>lYrr>lYrr>lYrr>lYrr>lYrr>lYrr>lYrr>lYruYgErr>lYrr>lYs8W-!s8W-!s*prfs8W-!
+s8W-!s8W-!s8W-!s8W-!s8Dops.Z6^s$/h7rs]DHrr<$!rrN6'ruE+#s(>tWs5)Vhs8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s*prfs8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!
+s8W-!s8W-!s7Z0[s%?!Xrr<$!rs8u<s$]@Fs'K,?s&W9's"5oVrr<$!rsB)?s1Q+Zs8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!
+s8W-!s)E$urr<$!s']>Es6oFFs8W-!s8W-!s8W-!s8W-!s1H"Wrt5qWrsT;Es5iA(s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s6oFF
+rs/l9s"uYks8Dops8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s0T/?rr<$!s))^ls8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s15eQrr<$!
+s,iG+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s!B'>ruN4&s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s38g5s)N.#s45cP
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s'K,?rr<$!s7#OIs8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s(uUirr<$!s5iA(s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s#`D+rs/l9s8)Tgs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+rr>lYs8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s.>pUrr<$!s'oPKs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!rr>lY
+s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s0/`3rrrZ3ru)dos6T+=s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!
+s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s0oJHrs&c6rtQ7`s3oHGs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!
+s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s1,\Nrs/l9
+rtH.]s3f?Ds8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!
+s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s15eQrs/l9rt#_Qs3/^2
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!
+rr>lYs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s1>nTrs8u<rt#_Qs3&U/s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!rr>lY
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s2)XirsT;ErsoVNs2rL,s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!rr>lYs8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s1lFcrsK2BrsoVNs2iC)s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!
+s8W-!s8W-!s8W-!s1c=`rsK2BrsfMKs2W1#s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!
+s8W-!s2)XirsT;ErsK2Bs1uOfs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s2)Xi
+rsT;ErsfMKs2W1#s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s1Q+ZrsB)?rr<$!
+rtcIfrtQ7`rr<$!rtH.]s#rV1s+lJes6/\1s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s7uKds*/d5s4,ZMrr>lYs8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s1H"WrsB)?rr<$!rr<$!rsB)?
+s#W;(s%lNgs#iM.rsK2Brr<$!rrrZ3s&`B*s2W1#s8W-!s8W-!s8W-!s8W-!s8W-!s2rL,s"lPh
+rr<$!s&iK-rr>lYs8W-!s8W-!s8W-!s8W-!rr>lYs1>nTrs8u<rr<$!s"#]Ps.5gRs7lBas8W-!
+s8W-!s8W-!s7uKds/N*!s$8q:rrE-$rr<$!s#E)"s-8k7s1c=`s.c?as%?!XrrE-$rrN6's*K*>
+s82]jrr>lYs8W-!s8W-!s8W-!s8W-!rr>lYs/rN-rs]DHs,`>(s8Dops8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s3f?Ds']>Ers&c6rr<$!rr<$!rr<$!rrE-$s&;rss4#QJs8W-!s8W-!
+rr>lYs8W-!s8W-!rr>lYrr>lYruYgErr>lYrr>]Krr>lYrr>lYrr>lYrr>lYrr>lYrr>lYrr>lY
+rr>lYrr>lYrr>lYrr>lYrr>lYrr>]Krr=uhrr=WLrr=l_rr>TBrr>lYrr>lYrr>lYrr>lYruYgE
+rr>lYrr>lYs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+
+EndImage
+SplineSet
+616 80 m 30
+ 616 80 530 0 462 0 c 7
+ 361 0 329 108 228 108 c 7
+ 171 108 129.732421875 90 33 0 c 5
+ 244.661943152 282 446 292.166737953 446 487 c 7
+ 446 586 375 662 276 662 c 23
+ 190.71425006 662 124.21875 588 117 522 c 1028
+EndSplineSet
+Fore
+SplineSet
+628.093368969 91.2249911793 m 0
+ 634.564869859 84.2528477902 632.847718931 74.0812695585 627.784073014 68.4255620214 c 0
+ 625.751671757 66.5390995939 540.037256174 -16.5 462 -16.5 c 0
+ 347.155361487 -16.5 315.12949342 91.5 228 91.5 c 0
+ 176.360922418 91.5 140.578502048 77.5540758104 44.2393097295 -12.0800627815 c 0
+ 37.295494492 -18.5405995824 25.9712012644 -17.6861837077 20.0753706256 -10.2568979489 c 0
+ 15.3352645941 -4.2839308825 15.6402123785 4.35786191372 19.8036384406 9.90484939784 c 0
+ 237.948628774 300.54229871 429.5 305.400117586 429.5 487 c 0
+ 429.5 577.697106212 365.591141136 645.5 276 645.5 c 0
+ 200.20094572 645.5 139.735529447 578.110893831 133.402182914 520.206011244 c 0
+ 132.425021937 511.27196803 124.140054457 504.62065611 115.206011244 505.597817086 c 0
+ 106.27196803 506.574978063 99.6206561096 514.859945543 100.597817086 523.793988756 c 0
+ 108.701970553 597.889106169 181.2275544 678.5 276 678.5 c 0
+ 384.408858864 678.5 462.5 594.302893788 462.5 487 c 0
+ 462.5 312.210666413 312.322975014 273.781577763 147.005941579 107.032164758 c 1
+ 174.109542633 119.862953091 200.749434215 124.5 228 124.5 c 0
+ 342.87050658 124.5 374.844638513 16.5 462 16.5 c 0
+ 519.784500185 16.5 604.699257805 92.023057339 604.775008821 92.0933689692 c 0
+ 611.362100401 98.2074671228 621.979270816 97.8120827595 628.093368969 91.2249911793 c 0
+EndSplineSet
 EndChar
 
 StartChar: three
-Encoding: 51 51 50
-Width: 500
-Flags: W
+Encoding: 51 51 16
+Width: 666
+Flags: HW
 LayerCount: 2
+Back
+Image: 29 30 3 116 0 ffffffff -95.8334 732 27.6666 27.6666 0
+s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!
+s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!rr>lYrr>lY
+rr>lYruYgErr>lYrr>lYrr>lYrr>lYrr>lYrr>lYrr>lYrr>lYrr>lYrr>lYrr>lYrr>lYrr>lY
+rr>lYrr>lYrr>lYrr>lYrr>lYrr>lYrr>lYrr>lYrr>lYrr>lYruYgErr>lYs8W-!s8W-!s8W-!
+s*prfs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s3oHGs*&[2s'B#<s(#YNs/Duss7lBa
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s*prfs8W-!s8W-!s8W-!s8W-!rr>lY
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s,)\krr`H-rr<$!rr<$!rr<$!rr<$!s"?#Ys4>lS
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!rr>lYs8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s.Z6^rr<$!s"5oVs2W1#s7uKds5iA(s+#WMrriQ0rurX2s7>jR
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!
+s8W-!s8W-!s8W-!s7Q'XrtQ7`rtu[ls6K":s8W-!s8W-!s8W-!s8W-!s-fCFrr<$!s*B!;s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!
+s8W-!s8W-!s.Z6^rr<$!s,iG+s8W-!s8W-!s8W-!s8W-!s8W-!s8N#srtu[ls"Z>bs8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!
+s8W-!s.>pUs"?#Ys6&S.s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s"#]Ps!B'>s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s82]jrs]DHs$8q:s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s.c?arr<$!s+cAbs8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s1Q+Zrt,hTrt,hTs7,XLs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s+uShs)E$us#E)"rr<$!rs]DHs1lFcs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+rr>lYs8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s7Q'X
+rr<$!rr<$!rr<$!rr<$!s"Z>bs2iC)s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!rr>lY
+s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s82]js2`:&
+s0fAEs,rP.s%H*[rrW?*rrN6's,W5%s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!
+s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s45cPs!oTMrr<$!s0/`3s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!
+s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s5rJ+rt,hTs!8s;s8N#ss8W-!s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!
+s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s)E$urr<$!s4#QJs8W-!s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!
+rr>lYs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s.H$Xrr<$!s08i6s8W-!s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!rr>lY
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s0fAErr<$!s-oLIs8W-!s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!rr>lYs8W-!
+s8W-!s8W-!s8W-!s8W-!s4lDbs7lBas8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s.c?a
+rr<$!s/W3$s8W-!s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!
+s8W-!s8W-!s.c?arr<$!s,;nqs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s(lLfrr<$!
+s4GuVs8W-!s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!
+s8W-!s7Q'Xs!8s;rs8u<s3T->s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s68e4rt,hTs!]BGs8N#s
+s8W-!s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!
+s8W-!s2Dsrrs&c6rt?%Zs/W3$s8N#ss8W-!s8W-!s8W-!s4lDbs#)bnrr<$!s/Duss8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s1#SKrt?%Zrr<$!rurX2s&;rss'8o9s#W;(rrW?*rrE-$s*fEGs8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s5rJ+s*&[2rurX2rrW?*rr<$!rsoVNs%lNgs1uOfs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!rr>lYs8W-!rr>lYrr>lYrr>lYruYgErr>lYrr>lYrr>lYrr>lYrr>lYrr>lYrr>lY
+rr>lYrr>lYrr>lYrr>fTrr>cPrr>lYrr>lYrr>lYrr>lYrr>lYrr>lYrr>lYrr>lYrr>lYrr>lY
+rr>lYruYgErr>lYs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+
+EndImage
+SplineSet
+170 544 m 4
+ 179 621 233 662 306 662 c 7
+ 424 662 447 577.0078125 447 512 c 7
+ 447 442.970703125 392.003816738 357 261 357 c 5
+ 413 356 492 324.391601562 492 180 c 7
+ 492 87.994140625 443.149906367 0 323 0 c 7
+ 235 0 164 63 141 148 c 1028
+EndSplineSet
+Fore
+SplineSet
+168.084468855 527.611566871 m 0
+ 159.15791496 528.654930313 152.568203428 536.98897725 153.611566871 545.915531145 c 0
+ 163.598780872 631.361695379 226.047487437 678.5 306 678.5 c 0
+ 436.332877458 678.5 463.5 580.214177253 463.5 512 c 0
+ 463.5 458.434919911 433.700147641 397.246206094 369.741554986 364.37518368 c 1
+ 459.597367563 345.981350949 508.5 292.043005763 508.5 180 c 0
+ 508.5 82.3462291462 454.154893079 -16.5 323 -16.5 c 0
+ 226.56329191 -16.5 149.718072218 52.6098549522 125.072780269 143.69028172 c 0
+ 122.725336057 152.365619027 128.014944413 161.579775518 136.69028172 163.927219731 c 0
+ 145.365619027 166.274663943 154.579775518 160.985055587 156.927219731 152.30971828 c 0
+ 178.281927782 73.3901450478 243.43670809 16.5 323 16.5 c 0
+ 432.144919655 16.5 475.5 93.6420521038 475.5 180 c 0
+ 475.5 312.735071272 410.903233789 339.513437437 260.891449718 340.500357069 c 0
+ 252.590380143 340.554969369 245.220603496 347.195358286 244.550861383 355.70545809 c 0
+ 243.80673778 365.160688699 251.515533446 373.5 261 373.5 c 0
+ 383.450190857 373.5 430.5 451.881886187 430.5 512 c 0
+ 430.5 573.801447747 411.667122542 645.5 306 645.5 c 0
+ 239.952512563 645.5 194.401219128 610.638304621 186.388433129 542.084468855 c 0
+ 185.345069687 533.15791496 177.01102275 526.568203428 168.084468855 527.611566871 c 0
+EndSplineSet
 EndChar
 
 StartChar: four
-Encoding: 52 52 51
-Width: 500
-Flags: W
+Encoding: 52 52 17
+Width: 666
+Flags: HW
 LayerCount: 2
+Back
+Image: 33 32 3 132 0 ffffffff -173.062 804 29.375 29.375 0
+s8W-!s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!rr>lY
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s*prf
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s*prfs8W-!s8W-!s8W-!rr>lYrr>lYrr>lY
+rr>lYrr>lYruYgErr>lYrr>lYrr>lYrr>lYrr>lYrr>lYrr>lYrr>lYrr>lYrr>lYrr>lYrr>lY
+rr=l_rr>iVrr>lYrr>lYrr>lYrr>lYrr>lYrr>lYrr>lYrr>lYrr>lYruYgErr>lYrr>lYrr>lY
+s8W-!s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s.,^Orr<$!s*B!;s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!rr>lY
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s4Z2\rs]DHru<!us6T+=s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s7lBas"H,\rrN6's1Q+Zs8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!rr>lY
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s(lLfrr<$!s+#WMs8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s0]8BrrE-$s#iM.s8;fm
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s5`8%rtH.]
+rt,hTs5;hns8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!rr>lY
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8Dops$B%=rr<$!s0&W0s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s+#WMrr<$!s(lLfs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!rr>lY
+s8W-!s8W-!s8W-!s8W-!s8W-!s2)XirrW?*s"#]Ps7Z0[s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s6f=CruW=)rsB)?s45cPs8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s5)Vhs68e4s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s%lNgrr<$!s.#ULs8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8;fmrr<$!s&;rss8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!rr>lY
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s-/b4rr<$!s&;rs
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8;fmrr<$!s&;rss8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s3oHG
+rs8u<ruN4&s6f=Cs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8;fmrr<$!s&;rss8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!rr>lY
+s8W-!s7Q'Xs!]BGrr<$!s(#YNs-]:Cs-]:Cs-]:Cs-]:Cs-]:Cs-]:Cs-]:Cs-]:Cs-K(=rr<$!
+s"Z>bs-]:Cs-]:Cs-]:Cs-]:Cs-]:Cs4GuVs8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!rr>lYs8W-!s(#YNrr<$!rr<$!rr<$!rr<$!rr<$!rr<$!rr<$!rr<$!rr<$!rr<$!
+rr<$!rr<$!rr<$!rr<$!rr<$!rr<$!rr<$!rr<$!rr<$!s.#ULs8W-!rr>lYs8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!rr>lYs8)Tgs1>nTs1>nTs1>nTs1>nTs1>nTs1>nTs1>nTs1>nT
+s1>nTs1>nTs1>nTs1>nTs1,\Nrr<$!s#rV1s1>nTs1>nTs1>nTs1>nTs1>nTs5iA(s8W-!rr>lY
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8;fmrr<$!s&;rss8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8;fmrr<$!s&;rss8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!rr>lY
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8;fmrr<$!
+s&;rss8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8;fmrr<$!s&;rss8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8;fmrr<$!s&;rss8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!rr>lY
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8;fmrr<$!s&;rss8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!rr>lYrr>lYrr>lYrr>lYrr>lYruYgErr>lYrr>lYrr>lY
+rr>lYrr>lYrr>lYrr>lYrr>lYrr>lYrr>lYrr>lYrr>lYrr>lYrr>lXrr=`Trr>,rrr>lYrr>lY
+rr>lYrr>lYrr>lYrr>lYrr>lYruYgErr>lYrr>lYrr>lYs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+EndImage
+SplineSet
+385 667 m 25
+ 63 233 l 1
+ 620 233 l 1029
+430 361 m 1033
+430 361 m 25
+ 430 0 l 1025
+EndSplineSet
+Fore
+SplineSet
+394.831474249 680.251117466 m 0
+ 402.049175496 674.896048799 403.606186133 664.386226998 398.251117466 657.168525751 c 2
+ 95.7873725537 249.5 l 1
+ 620 249.5 l 2
+ 628.987322834 249.5 636.5 241.987322834 636.5 233 c 0
+ 636.5 224.012677166 628.987322834 216.5 620 216.5 c 2
+ 63 216.5 l 2
+ 59.9843920168 216.5 56.8548051904 217.378868063 54.2384754049 219.018380395 c 0
+ 46.2016145863 224.054646273 44.0975923107 235.214517861 49.7488825341 242.831474249 c 2
+ 371.748882534 676.831474249 l 2
+ 377.103951201 684.049175496 387.613773002 685.606186133 394.831474249 680.251117466 c 0
+413.5 361 m 0
+ 413.5 370.108 420.892 377.5 430 377.5 c 0
+ 439.108 377.5 446.5 370.108 446.5 361 c 0
+ 446.5 351.892 439.108 344.5 430 344.5 c 0
+ 420.892 344.5 413.5 351.892 413.5 361 c 0
+430 377.5 m 0
+ 438.987322834 377.5 446.5 369.987322834 446.5 361 c 2
+ 446.5 0 l 2
+ 446.5 -8.98732283373 438.987322834 -16.5 430 -16.5 c 0
+ 421.012677166 -16.5 413.5 -8.98732283373 413.5 0 c 2
+ 413.5 361 l 2
+ 413.5 369.987322834 421.012677166 377.5 430 377.5 c 0
+EndSplineSet
 EndChar
 
 StartChar: five
-Encoding: 53 53 52
-Width: 500
-Flags: W
+Encoding: 53 53 18
+Width: 666
+Flags: HW
 LayerCount: 2
+Back
+Image: 32 30 3 128 0 ffffffff -96.3334 762 27.6666 27.6666 0
+s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!rr>lY
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s$(k4rr>lYrr>lYrr>lYrr>lYrr>lY
+rr>lYrr>lYrr>lYrr>lYrr>lYrr>lYrr>lYrr>lYrr>lYrr>lYrr>lYrr>lYrr>lYrr>lYrr>lY
+rr>lYrr>lYrr>lYruYgErr>lYrr>lYrr>lYrr>lYs8W-!s8W-!s8W-!s*prfs8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s(lLfrr<$!rr<$!rr<$!rr<$!rr<$!rr<$!rr<$!rr<$!rr<$!rr<$!rr<$!
+rr<$!rt,hTs8W-!s8W-!s8W-!s*prfs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s(lLfrr<$!s%H*[s&E'!s&E'!s&E'!s&E'!s&E'!s&E'!s&E'!
+s&E'!s&E'!s&E'!s'T5Bs8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+rr>lYs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s(lLfrr<$!s5iA(s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s(lLfrr<$!s5iA(s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s(lLfrr<$!s5iA(s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s(lLfrr<$!
+s5iA(s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+rr>lYs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s(lLfrr<$!s5iA(s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s(lLfrr<$!s5iA(s4Q)Ys*/d5s#E)"ruE+#ru<!us#N2%s*T3As4Z2\s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s(lLfrr<$!s'T5Brr`H-rr<$!rt?%Zs"uYks#)bnrtH.]rr<$!rriQ0
+s)rR/s82]js8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!rr>lY
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s(lLfrr<$!rr<$!s#)bns1lFcs8Dops8W-!s8W-!s8Dop
+s1Q+Zs"uYkrr<$!s%Q3^s7uKds8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s(lLfrr<$!s$]@Fs7uKds8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s82]js'8o9rr<$!s)`@)s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s5;hns.Z6^s6K":s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s82]js#;ttrrN6's4#QJs8W-!s8W-!rr>lYs8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s2iC)rr<$!s'oPKs8W-!s8W-!rr>lY
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s"#]PrtcIfs8W-!
+s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s'fGH
+rr<$!s6f=Cs8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s(cCcrr<$!s5rJ+s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s$K.@rs/l9s8;fms8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+rr>lYs8W-!s8W-!s8W-!s8W-!s82]js8;fms8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s6/\1rrrZ3s%5mUs8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s5)Vhs"?#Ys)N.#s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s(Z:`rr<$!s/rN-s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8)Tgs#`D+rr<$!s))^ls8;fms8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s0&W0rrE-$s#W;(s8N#ss8W-!s8W-!rr>lYs8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s6]4@s$&_4rr<$!s$B%=
+s4>lSs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8N#ss-T1@rriQ0rtH.]s5;hns8W-!s8W-!s8W-!
+rr>lYs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s8W-!s7uKd
+s(>tWrrE-$rrN6's%5mUs-At:s2N'us4c;_s2W1#s-At:s"uYkrr<$!ruN4&s45cPs8W-!s8W-!
+s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s2N'us%cEdrrW?*rr<$!rr<$!rr<$!rr<$!rr<$!rsB)?s(uUis7#OIs8W-!
+s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s$(k4rr>lYrr>lY
+rr>lYrr>lYrr>lYrr>lYrr>lYrr>lYrr>lYrr>ZIrr=ugrr=THrr=?5rr=QErr=rdrr>`Nrr>lY
+rr>lYrr>lYrr>lYrr>lYrr>lYrr>lYruYgErr>lYrr>lYrr>lYrr>lYs8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+
+EndImage
+SplineSet
+575 666 m 31
+ 444 666 351 666 220 666 c 5
+ 220 666 220 474 220 351 c 5
+ 260 403 311 430 380 430 c 31
+ 493 430 582 333 582 220 c 31
+ 582 97 481 0 358 0 c 31
+ 256 0 195 73 165 121 c 1028
+EndSplineSet
+Fore
+SplineSet
+591.5 666 m 0
+ 591.5 657.012677166 583.987322834 649.5 575 649.5 c 2
+ 236.5 649.5 l 1
+ 236.5 393.449404103 l 1
+ 275.602868627 428.890687016 322.4673891 446.5 380 446.5 c 0
+ 502.884650793 446.5 598.5 341.414058128 598.5 220 c 0
+ 598.5 87.570045112 489.747020904 -16.5 358 -16.5 c 0
+ 247.211232279 -16.5 181.963065801 62.7269569822 151.008027984 112.25501749 c 0
+ 146.244756409 119.87625201 148.633782969 130.228700441 156.25501749 134.991972016 c 0
+ 163.87625201 139.755243591 174.228700441 137.366217031 178.991972016 129.74498251 c 0
+ 208.036934199 83.2730430177 264.788767721 16.5 358 16.5 c 0
+ 472.252979096 16.5 565.5 106.429954888 565.5 220 c 0
+ 565.5 324.585941872 483.115349207 413.5 380 413.5 c 0
+ 315.800961423 413.5 270.382311165 389.434992394 233.07829582 340.939772446 c 0
+ 230.51480694 337.607236901 225.995831279 334.920851342 221.29454191 334.550861383 c 0
+ 211.839311301 333.80673778 203.5 341.515533446 203.5 351 c 2
+ 203.5 666 l 2
+ 203.5 673.08173686 210.012525015 682.5 220 682.5 c 2
+ 575 682.5 l 2
+ 583.987322834 682.5 591.5 674.987322834 591.5 666 c 0
+EndSplineSet
 EndChar
 
 StartChar: six
-Encoding: 54 54 53
-Width: 500
-Flags: W
+Encoding: 54 54 19
+Width: 666
+Flags: HW
 LayerCount: 2
+Back
+Image: 29 30 3 116 0 ffffffff -70.8333 759 27.6667 27.6667 0
+s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!
+s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!
+rr>lYs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!rr>lYrr>lYruYgE
+rr>lYrr>lYrr>lYrr>lYrr>lYrr>lYrr>lYrr>lYrr>lYrr>lYrr>lYrr>lYrr>lYrr>lYrr>lY
+rr>lYrr>lYrr>lYrr>lYrr>lYrr>lYrr>lYrr>lYruYgErr>lYrr>lYs8W-!s8W-!s*prfs8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s6&S.s+#WMs"Q5_rt,hTrsK2BrurX2s%,dRs-At:
+s7,XLs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s*prfs8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s0/`3rt5qWrr<$!rtcIfs$&_4s%#[Os"?#Yrs&c6rr<$!rtcIf
+s/iE*s8W-!s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s0]8BrriQ0rtcIfs/N*!s8;fms8W-!s8W-!s8W-!s75aOs-fCFrtcIfrrN6'
+s.uQgs8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!
+s8W-!s6K":rtZ@crt?%Zs4>lSs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s5;hnru<!ursK2B
+s5rJ+s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s8W-!
+s)rR/rr<$!s.lHds8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s/rN-rr<$!s,E"t
+s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s82]jrt,hT
+s!]BGs8Dops8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8;fms6An7s8W-!s8W-!
+s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s1lFcrr<$!s+,`P
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s)iI,rr<$!s3/^2s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+rr>lYs8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s$&_4rsoVNs8N#ss8W-!s4Q)Y
+s+>rVs%Z<as#N2%s%H*[s*K*>s3]6As8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!rr>lY
+s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!rtu[ls"uYks7>jRs'oPKrrW?*rr<$!
+rriQ0rtcIfrs&c6rr<$!rrE-$s&E'!s6T+=s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!
+s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s7GsUrrE-$s&;rss"?#Yrr<$!s$K.@s1>nTs8)Tg
+s8W-!s8;fms22als%cEdrr<$!s!&a5s5W/"s8W-!s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!
+s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s5N%trr<$!ruN4&rr<$!s+,`Ps8N#ss8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s-At:rrE-$s"cGes82]js8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!
+s8W-!rr>lYs8W-!s8W-!s8W-!s4,ZMrr<$!rr<$!s'K,?s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s*&[2rr<$!s-T1@s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!
+rr>lYs8W-!s8W-!s8W-!s3f?Drr<$!rrW?*s6&S.s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s7>jRrt5qWs"Z>bs8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!rr>lY
+s8W-!s8W-!s8W-!s4>lSrr<$!ru`F,s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s&rT0rrE-$s6]4@s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!rr>lYs8W-!
+s8W-!s8W-!s4uMerr<$!s&N0$s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s+#WMrr<$!s3]6As8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!
+s8W-!s6oFFrr<$!s'fGHs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s*8m8rr<$!s4GuVs8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!
+s8W-!rt5qWs"Z>bs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s%5mU
+rrrZ3s7Q'Xs8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!
+s'8o9rrE-$s3K$;s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s5Dqqrs&c6s$fII
+s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s3K$;
+rrN6's#E)"s7lBas8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8Dops%5mUrr<$!s15eQs8W-!
+s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s8W-!s)rR/
+rr<$!s%,dRs6oFFs8W-!s8W-!s8W-!s8W-!s8W-!s7Q'Xs&rT0rr<$!s'B#<s8W-!s8W-!s8W-!
+s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s8W-!s8;fms']>E
+rr<$!rtH.]s*]<Ds1uOfs4c;_s2;jos+Q/\ru2mrrr<$!s%cEds7c9^s8W-!s8W-!s8W-!s8W-!
+s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s.Q-[
+ruE+#rr<$!rr<$!rr<$!rr<$!rr<$!rtZ@cs-/b4s8Dops8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+rr>lYs8W-!s8W-!rr>lYrr>lYruYgErr>lYrr>lYrr>lYrr>lYrr>lYrr>lYrr>lYrr>lYrr>iV
+rr>3"rr=WJrr=?5rr=QFrr>)prr>fTrr>lYrr>lYrr>lYrr>lYrr>lYrr>lYrr>lYrr>lYruYgE
+rr>lYrr>lYs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+
+EndImage
+SplineSet
+522 586 m 4
+ 472 653 397.125 666 333 666 c 7
+ 187.968968838 666 141 488.010742188 141 302 c 7
+ 141 201 140 204 140 204 c 7
+ 140 83.9958334057 244.94921875 0 333 0 c 7
+ 451 0 525 105.980771008 525 210 c 7
+ 525 314.938476562 443.004882812 389 333 389 c 7
+ 184.916015625 389 140 265 141 210 c 1030
+EndSplineSet
+Fore
+SplineSet
+157.585063105 315.529875783 m 1
+ 188.62614159 363.169419196 244.911201526 405.5 333 405.5 c 0
+ 450.704882783 405.5 541.5 324.812170994 541.5 210 c 0
+ 541.5 99.2454962608 462.336880678 -16.5 333 -16.5 c 0
+ 235.846697281 -16.5 123.5 74.2290940629 123.5 204 c 0
+ 123.5 204.548602183 123.538038997 205.524816742 123.727281682 206.73587769 c 0
+ 123.852508721 209.018095117 124.128572413 217.125220647 124.302292345 238.536202195 c 0
+ 124.418395396 252.845903268 124.5 273.174360772 124.5 302 c 0
+ 124.5 485.875488906 169.99744767 682.5 333 682.5 c 0
+ 398.905795417 682.5 480.616875999 669.041465109 535.223646369 595.868392813 c 0
+ 540.59882407 588.665654694 539.071130931 578.151531331 531.868392813 572.776353631 c 0
+ 524.665654694 567.40117593 514.151531331 568.928869069 508.776353631 576.131607187 c 0
+ 463.383124001 636.958534891 395.344204583 649.5 333 649.5 c 0
+ 209.125473792 649.5 159.912288994 498.309291069 157.585063105 315.529875783 c 1
+156.664255934 204.696975957 m 0
+ 156.621126705 203.955153221 156.526050587 202.882317787 156.50379279 202.67875756 c 0
+ 157.599617543 92.4266970195 254.51342952 16.5 333 16.5 c 0
+ 439.663119322 16.5 508.5 112.716045755 508.5 210 c 0
+ 508.5 305.06478213 435.304882842 372.5 333 372.5 c 0
+ 196.730909754 372.5 156.611379885 259.024093944 157.497273403 210.299950426 c 0
+ 157.524691739 208.791941956 157.160651151 206.570363632 156.664255934 204.696975957 c 0
+EndSplineSet
 EndChar
 
 StartChar: seven
-Encoding: 55 55 54
-Width: 500
-Flags: W
+Encoding: 55 55 20
+Width: 666
+Flags: HW
 LayerCount: 2
+Back
+Image: 29 29 3 116 0 ffffffff -72 731 27.5862 27.5862 0
+s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!
+s8W-!s*prfs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s*prfs8W-!s8W-!s8W-!s8W-!
+s$(k4rr>lYrr>lYrr>lYrr>lYrr>lYrr>H8rr=fYrr=QErr=ZOrr>3#rr>iVrr>lYrr>lYrr>lY
+rr>lYrr>lYrr>lYrr>lYrr>lYrr>lYrr>lYrr>lYrr>lYruYgErr>lYrr>lYs8W-!s8W-!rr>lY
+s8W-!s8W-!s8W-!s3&U/s#iM.rr<$!rr<$!rr<$!rr<$!rr<$!ru<!us.Z6^s8N#ss8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s82]js(H(Zs1#SKs8W-!rr>lYs8W-!s8W-!s8W-!s8W-!rr>lYs8W-!
+s8W-!s/2cmrrrZ3rriQ0s'K,?s/iE*s2iC)s1H"Ws*]<DrtH.]rr<$!s#2kqs3Ap8s8W-!s8W-!
+s8W-!s8W-!s7GsUs&2iprr<$!s$]@Fs8W-!rr>lYs8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s15eQ
+rriQ0ru<!us3K$;s8W-!s8W-!s8W-!s8W-!s8W-!s6f=Cs)2gorr`H-rr`H-s(>tWs1Q+Zs2W1#
+s,`>(ruW=)rr<$!rriQ0s45cPs8W-!rr>lYs8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s3]6As%Z<a
+s4GuVs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s3K$;s#E)"rr<$!rr<$!rr<$!rr<$!
+rr<$!rr<$!s)N.#s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s2rL,s,rP.s+cAbs.>pUrsfMK
+rtcIfs7#OIs8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s)2gorr<$!s.5gR
+s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s4,ZMrriQ0s"cGes8Dops8W-!
+s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s$oRLrrE-$s2`:&s8W-!s8W-!s8W-!
+s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s/`<'rr<$!s']>Es8W-!s8W-!s8W-!s8W-!s8W-!
+rr>lYs8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s7Z0[ruiO/rs]DHs5rJ+s8W-!s8W-!s8W-!s8W-!s8W-!rr>lY
+s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s*oNJrr<$!s,E"ts8W-!s8W-!s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!
+s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s5N%trsK2Bs!]BGs8)Tgs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!
+s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s&;rsrr<$!s0oJHs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!
+s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s4#QJs#iM.s#iM.s#iM.s",fS
+rr<$!rt?%Zs#iM.s#iM.s#iM.s.uQgs8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!
+rr>lYs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s3&U/rt?%Zrt?%Zrt?%ZrrW?*rrE-$
+rt#_Qrt?%Zrt?%Zrt?%Zs,iG+s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!rr>lY
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s,`>(rr<$!s*]<Ds8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!rr>lYs8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s6T+=rt?%Zru<!us7GsUs8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s(#YNrr<$!s/Duss8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s38g5rrN6's#`D+s8N#ss8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8N#ss#iM.rrW?*s3T->s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s.Q-[rr<$!s(lLfs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s75aOru)dort5qWs6T+=s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s*prfs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s7uKds+lJes.>pUs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s*prfs8W-!s8W-!s8W-!s8W-!s*prfrr>lYrr>lYrr>lYrr>lYrr>lYrr>lYrr>lYrr>lY
+rr>lYrr>lYrr>lYrr>lYrr>lYrr>lYrr>lYrr>lYrr>lYrr>lYrr>lYrr>lYrr>lYrr>lYrr>lY
+s$(k4rr>lYrr>lYs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!
+EndImage
+SplineSet
+262 280 m 29
+ 508 280 l 1053
+77 580 m 4
+ 107 618 156 664 221 664 c 31
+ 318 664 352 565 449 565 c 31
+ 526 565 576 611 620 666 c 13
+ 219 0 l 1053
+EndSplineSet
+Fore
+SplineSet
+245.5 280 m 0
+ 245.5 288.987322834 253.012677166 296.5 262 296.5 c 2
+ 508 296.5 l 2
+ 516.987322834 296.5 524.5 288.987322834 524.5 280 c 0
+ 524.5 271.012677166 516.987322834 263.5 508 263.5 c 2
+ 262 263.5 l 2
+ 253.012677166 263.5 245.5 271.012677166 245.5 280 c 0
+66.7758692384 567.049434369 m 0
+ 59.721874438 572.618377632 58.4804911052 583.170135961 64.0494343687 590.224130762 c 0
+ 94.9980492345 629.425709592 147.787041155 680.5 221 680.5 c 0
+ 331.216960667 680.5 365.216493846 581.5 449 581.5 c 0
+ 518.425049462 581.5 563.819773733 622.187604645 607.115664644 676.307468285 c 0
+ 613.040563929 683.713592391 624.368118491 684.523624015 631.286562831 678.035925368 c 0
+ 637.311509624 672.386094678 637.439572388 662.976531147 634.135507164 657.488981422 c 2
+ 233.135507164 -8.51101857751 l 2
+ 228.499672521 -16.2104347168 218.188397562 -18.7713418061 210.488981422 -14.1355071636 c 0
+ 202.789565283 -9.49967252122 200.228658194 0.811602438226 204.864492836 8.51101857751 c 2
+ 545.791588772 574.739063199 l 1
+ 519.079871085 559.119724035 486.263405118 548.5 449 548.5 c 0
+ 338.783506154 548.5 304.783039333 647.5 221 647.5 c 0
+ 164.212958845 647.5 119.001950766 606.574290408 89.9505656313 569.775869238 c 0
+ 84.3816223678 562.721874438 73.8298640389 561.480491105 66.7758692384 567.049434369 c 0
+EndSplineSet
 EndChar
 
 StartChar: eight
-Encoding: 56 56 55
-Width: 500
-Flags: W
+Encoding: 56 56 21
+Width: 666
+Flags: HW
 LayerCount: 2
+Back
+Image: 31 29 3 124 0 ffffffff -101.103 733 27.5862 27.5862 0
+s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s*prfs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s*prfs8W-!
+s8W-!s8W-!rr>lYrr>lYrr>lYruYgErr>lYrr>lYrr>lYrr>lYrr>lYrr>lYrr>lYrr>lYrr>lY
+rr>lYrr>ZHrr=l`rr=THrr=`Trr>K9rr>lYrr>lYrr>lYrr>lYrr>lYrr>lYrr>lYrr>lYruYgE
+rr>lYrr>lYrr>lYs8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8;fms*fEGrs8u<rr<$!rr<$!rr<$!rrE-$s&2ips6T+=s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+rr>lYs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s'B#<rr<$!s",fSs.,^Os2W1#s/iE*s%lNgrr<$!s!T9Ds6oFFs8W-!s8W-!s8W-!s8W-!
+s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s/Dusrr<$!s%Q3^s7lBas8W-!s8W-!s8W-!s8W-!s,)\krr<$!s(,bQs8W-!s8W-!s8W-!
+s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s#`D+rsK2Bs6K":s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s#`D+rrrZ3s7#OIs8W-!
+s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8DoprriQ0s%5mUs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s,`>(rr<$!s1Q+Z
+s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s7lBarr<$!s&iK-s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s.>pUrr<$!
+s0Ar9s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!ru2mrs!]BGs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s(uUi
+rr<$!s4,ZMs8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s))^lrr<$!s/Duss8W-!s8W-!s8W-!s8W-!s8W-!s5;hn
+rs]DHs!fKJs8W-!s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!rr>lY
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s6&S.rtZ@crsB)?s.H$Xs8N#ss8W-!s8W-!s2iC)
+s!8s;rrN6's1#SKs8W-!s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+rr>lYs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s2rL,rtcIfrr<$!rsK2BrtZ@crt#_Q
+rr<$!rriQ0s-]:Cs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s0T/?ru<!urr<$!rr<$!rr<$!
+rr<$!rr<$!rs8u<s+Z8_s8N#ss8W-!s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s.Q-[rrW?*rt,hTs+lJes5)Vh
+s8Dops6K":s.uQgs!]BGrr<$!s'K,?s8N#ss8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s3oHGrrrZ3ruW=)s4uMes8W-!
+s8W-!s8W-!s8W-!s8W-!s7Q'Xs%?!Xrr<$!s-At:s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s&2iprrE-$s2iC)s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s7>jRru<!urtQ7`s7lBas8W-!s8W-!s8W-!rr>lYs8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s8W-!s7>jRrs/l9s$T7Cs8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s+uShrr<$!s0oJHs8W-!s8W-!s8W-!rr>lY
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s8W-!s3T->rr<$!s+#WM
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s2N'urr<$!s,2ens8W-!s8W-!s8W-!
+rr>lYs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s8W-!s2N'urr<$!
+s,2ens8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s3]6Arr<$!s+#WMs8W-!s8W-!
+s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s8W-!s5N%t
+rr<$!s(5kTs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s/N*!rr<$!s.,^Os8W-!
+s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s!T9DrtQ7`s7>jRs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s%Q3^rrE-$s5N%t
+s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s-]:Crr<$!s(5kTs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s/N*!rr<$!s&E'!
+s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s82]js$]@Frr<$!s']>Es6]4@s8W-!s8W-!s8W-!s82]js,iG+rrrZ3rtlRi
+s5`8%s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s7#OIs%#[Orr<$!rsT;Es%uWjs)E$us'8o9ru2mrrr<$!ruiO/
+s3oHGs8W-!s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s*prfs8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8Dops/)Zjs#W;(rrN6'rr<$!rr<$!s!B'>s+H&Y
+s7>jRs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s*prfs8W-!s8W-!s8W-!rr>lYrr>lYrr>lYs$(k4
+rr>lYrr>lYrr>lYrr>lYrr>lYrr>lYrr>lYrr>lYrr>lYrr>lYrr>lYrr>fSrr>Q?rr>`Nrr>lY
+rr>lYrr>lYrr>lYrr>lYrr>lYrr>lYrr>lYrr>lYs$(k4rr>lYrr>lYrr>lYs8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+EndImage
+SplineSet
+356 0 m 31
+ 259 0 177 85 177 182 c 31
+ 177 277 259 372 354 372 c 31
+ 449 372 531 278 531 183 c 31
+ 531 87 452 0 356 0 c 31
+354 665 m 31
+ 272 665 209 603 209 521 c 31
+ 209 448 281 374 354 374 c 31
+ 428 374 504 451 504 525 c 31
+ 504 609 438 665 354 665 c 31
+EndSplineSet
+Fore
+SplineSet
+354 648.5 m 4
+ 280.80042215 648.5 225.5 593.936726574 225.5 521 c 4
+ 225.5 457.465740666 290.981172172 390.5 354 390.5 c 4
+ 418.053606184 390.5 487.5 460.696652707 487.5 525 c 4
+ 487.5 598.911913563 430.532699605 648.5 354 648.5 c 4
+354 681.5 m 4
+ 445.467300395 681.5 520.5 619.088086437 520.5 525 c 4
+ 520.5 464.170652368 476.894006277 403.284947133 420.839448724 374.555733963 c 5
+ 494.294701868 343.16294565 547.5 263.383881776 547.5 183 c 4
+ 547.5 78.5534314956 462.136595751 -16.5 356 -16.5 c 4
+ 249.401566855 -16.5 160.5 76.0301239896 160.5 182 c 4
+ 160.5 262.439314914 213.796771545 342.982159478 287.446875443 374.563405261 c 5
+ 233.444492955 402.645736633 192.499999998 461.449637599 192.5 521 c 4
+ 192.5 612.063273426 263.19957785 681.5 354 681.5 c 4
+356 16.5 m 4
+ 441.863404249 16.5 514.5 95.4465685044 514.5 183 c 4
+ 514.5 269.751083695 438.278455668 355.5 354 355.5 c 4
+ 269.83470141 355.5 193.5 268.835145474 193.5 182 c 4
+ 193.5 93.9698760104 268.598433145 16.5 356 16.5 c 4
+EndSplineSet
 EndChar
 
 StartChar: nine
-Encoding: 57 57 56
-Width: 500
-Flags: W
+Encoding: 57 57 22
+Width: 666
+Flags: HW
 LayerCount: 2
+Back
+Image: 28 27 3 112 0 ffffffff -95.3704 711 27.7778 27.7778 0
+s8W-!s8W-!s8W-!s*prfs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s*prfs8W-!rr>lYrr>lY
+rr>lYruYgErr>lYrr>lYrr>lYrr>lYrr>lYrr>lYrr>lYrr>lYrr>iVrr>/urr=ZOrr=WJrr=ob
+rr>ZHrr>lYrr>lYrr>lYrr>lYrr>lYrr>lYrr>lYrr>lYruYgErr>lYs8W-!s8W-!s8W-!rr>lY
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8N#ss-&Y1rtZ@crr<$!rr<$!rr<$!rr<$!rr`H-s']>E
+s68e4s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!
+s8W-!s8W-!s8W-!s82]js&;rsrr<$!ru<!us+>rVs1>nTs2;jos.#ULs$&_4rr<$!ruN4&s4GuV
+s8W-!s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!
+s8W-!s)2gorr<$!s&E'!s7Q'Xs8W-!s8W-!s8W-!s8W-!s8W-!s.5gRrriQ0s!/j8s75aOs8W-!
+s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s4#QJrrW?*
+s#`D+s8)Tgs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s,W5%rr<$!s*fEGs8W-!s8W-!s8W-!
+s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s)W7&rr<$!s2N'us8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8;fms!&a5ru2mrs8N#ss8W-!s8W-!s8W-!rr>lY
+s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s#)bnrtZ@cs8N#ss8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s'fGHrr<$!s2`:&s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!
+s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!ru`F,s"Q5_s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s&)`mrr<$!s,E"ts8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!
+rr>lYs8W-!s8W-!s8W-!s8W-!s"Q5_ruN4&s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s&W9'rr<$!s*fEGs8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!rr>lYs8W-!
+s8W-!s8W-!s8W-!s'oPKrr<$!s4Q)Ys8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s!fKJrr<$!s*8m8s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!
+s8W-!s1Z4]rr<$!s&iK-s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s08i6rr<$!rr<$!
+s))^ls8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s8W-!
+s%Q3^rr<$!s+5iSs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s2iC)rt5qWrsoVNrr<$!s'T5Bs8W-!
+s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s8W-!s6f=Cs"5oV
+rr<$!s$K.@s0]8Bs6f=Cs7c9^s3Ap8s)N.#rs&c6rs8u<s0/`3rr<$!s']>Es8W-!s8W-!s8W-!
+rr>lYs8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s75aOs'fGHrrN6'
+rr<$!rr<$!rr<$!rr<$!rr<$!s"Z>bs3/^2s6/\1rr<$!s(Q1]s8W-!s8W-!s8W-!rr>lYs8W-!
+s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s4lDbs,E"ts'fGH
+s'&]3s*/d5s1Z4]s8Dops8W-!s52_krr<$!s)N.#s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!
+s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s1Q+Zrr<$!s,N,"s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!rr>lY
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s,W5%rr<$!s1H"Ws8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s']>E
+rr<$!s68e4s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!
+s8W-!s8Dops82]js8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8;fmrtcIfs!B'>s8W-!
+s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s1#SKrs8u<
+s-8k7s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s.uQgrr<$!s+,`Ps8W-!s8W-!s8W-!
+s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s7>jRrt,hTru<!us6T+=
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s6&S.ru<!urt#_Qs6]4@s8W-!s8W-!s8W-!s8W-!rr>lY
+s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s8W-!s.#ULrr<$!s"?#Ys3Ap8s8W-!
+s8W-!s8W-!s8W-!s38g5s!]BGrr<$!s.lHds8W-!s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!
+s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s+lJerr`H-rr<$!s"5oVs&;rss&iK-
+s"Q5_rr<$!rriQ0s,iG+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!
+s*prfs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s3Ap8s'fGHru2mrrrN6'rr<$!ru)dos']>E
+s3T->s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s*prfs8W-!rr>lYrr>lYrr>lYs$(k4rr>lY
+rr>lYrr>lYrr>lYrr>lYrr>lYrr>lYrr>lYrr>lYrr>lYrr>iVrr>cQrr>lYrr>lYrr>lYrr>lY
+rr>lYrr>lYrr>lYrr>lYrr>lYrr>lYs$(k4rr>lYs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+EndImage
+SplineSet
+515 450 m 7
+ 515 360.949452556 421 292 330 292 c 7
+ 236 292 165 382 165 476 c 31
+ 165 582 236.978515625 666 330 666 c 7
+ 428.004882812 666 515 594.038129433 515 476 c 7
+ 512 269 l 4
+ 510.901901548 125 475 4 330 4 c 7
+ 248 4 198.386363636 47 181 92 c 1028
+EndSplineSet
+Fore
+SplineSet
+497.964478477 439.16857383 m 2
+ 498.066949948 446.239105325 l 1
+ 498.5 476.11955894 l 2
+ 498.5 584.666561932 419.633372788 649.5 330 649.5 c 0
+ 248.001868412 649.5 181.5 575.022058049 181.5 476 c 0
+ 181.5 389.172678398 247.287121663 308.5 330 308.5 c 0
+ 397.096413654 308.5 465.994667436 350.212889256 489.608731526 406.531370391 c 0
+ 493.923411316 416.821687696 496.793863138 427.872614062 497.964478477 439.16857383 c 2
+530.941787366 437.363769333 m 2
+ 530.353339907 396.760894675 l 1
+ 528.49908832 268.817535125 l 2
+ 527.399206176 124.58362926 489.629876544 -12.5 330 -12.5 c 0
+ 241.87510905 -12.5 185.55821293 34.3812554717 165.6973528 86.0832053234 c 0
+ 162.4745562 94.4728151947 166.793595452 104.1798506 175.183205323 107.4026472 c 0
+ 183.572815195 110.6254438 193.2798506 106.306404548 196.5026472 97.9167946766 c 0
+ 211.214514342 59.6187445283 254.12489095 20.5 330 20.5 c 0
+ 460.370123456 20.5 494.40459692 125.41637074 495.50091168 269.182464875 c 2
+ 496.740385781 354.706177863 l 1
+ 458.021969098 306.345873648 393.593874111 275.5 330 275.5 c 0
+ 224.712878337 275.5 148.5 374.827321602 148.5 476 c 0
+ 148.5 588.977941951 225.955162838 682.5 330 682.5 c 0
+ 436.376392836 682.5 531.5 603.409696934 531.5 475.88044106 c 2
+ 531.172472822 453.281065808 l 2
+ 531.377032869 452.186766211 531.5 451.01052814 531.5 450 c 0
+ 531.5 446.039521438 531.287834189 441.537074648 530.941787366 437.363769333 c 2
+EndSplineSet
 EndChar
 
 StartChar: colon
-Encoding: 58 58 57
+Encoding: 58 58 23
 Width: 172
 Flags: MW
 HStem: 1 65<87 94> 241 65<87 94>
@@ -739,7 +1533,7 @@ EndSplineSet
 EndChar
 
 StartChar: semicolon
-Encoding: 59 59 58
+Encoding: 59 59 24
 Width: 172
 Flags: MW
 HStem: 241 65<100 107>
@@ -766,43 +1560,273 @@ EndSplineSet
 EndChar
 
 StartChar: less
-Encoding: 60 60 59
-Width: 500
-Flags: W
+Encoding: 60 60 25
+Width: 666
+Flags: HW
 LayerCount: 2
+Back
+Image: 30 28 3 120 0 ffffffff -100.143 709 27.8572 27.8572 0
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+rr>lYrr>lYrr>lYruYgErr>lYrr>lYrr>lYrr>lYrr>lYrr>lYrr>lYrr>lYrr>lYrr>lYrr>lY
+rr>lYrr>lYrr>lYrr>lYrr>lYrr>lYrr>lYrr>lYrr>lYrr>lYrr>TBru"^drr>lYrr>lYrr>lY
+s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s6An7s*&[2rs8u<rr<QLs8N#ss8W-!s8W-!
+s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s6K":s*&[2rsB)?rr<$!s"#]Prr=obs8N#ss8W-!s8W-!
+s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s6T+=s*oNJrsfMKrr<$!s!oTMs.Q-[s8Doprr>lYs8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s75aOs+lJersoVNrr<$!s!]BGs.Q-[s8;fms8W-!s8W-!rr>lYs8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s7>jRs+lJert#_Qrr<$!ruiO/s-]:Cs8;fms8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s7>jRs+lJe
+rt,hTrr<$!ru`F,s-]:Cs82]js8W-!s8W-!s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s7GsUs,`>(rtcIfrr<$!
+ruN4&s-]:Cs82]js8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s8W-!s7Q'Xs,`>(rtlRirr<$!ruE+#s,`>(
+s7lBas8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s7uKds-]:Crtu[lrr<$!rtZ@cs+lJes7c9^s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!rr>lYs8W-!s7uKds-]:Cru2mrrr<$!rtQ7`s+lJes7Z0[s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!rr>fTs-At:ru<!urr<$!rtZ@cs,N,"s7Z0[s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!rr>#jruN4&rr<$!rrE-$s+>rVs7Z0[s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!rr>lYs8)Tgs-]:Cru2mrrr<$!rtQ7`s+lJes7c9^s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s7uKds-]:Cru)dorr<$!ru<!us,`>(s7lBas8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s7Q'Xs,`>(rtlRirr<$!ruN4&s-]:Cs82]j
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s7GsUs,`>(rtZ@crr<$!ru`F,
+s-]:Cs82]js8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s7>jRs+lJert#_Q
+rr<$!s!T9Ds.Q-[s8;fms8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s75aO
+s+lJersoVNrr<$!s!fKJs.Q-[s8Dops8W-!s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s6T+=s*oNJrsfMKrr<$!s"#]Ps/N*!s8N#ss8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s6K":s*&[2rs8u<rr<$!s"5oVs/N*!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s68e4s*&[2rs/l9rr<$!s#;tts0Ar9rr>lYs8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s5Dqqs(,bQrriQ0rr<$!rr<f_s8Dops8W-!s8W-!
+s8W-!s8W-!s8W-!s*prfs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s5;hns(5kTs#3MNs8W-!s8W-!s8W-!
+rr>lYrr>lYrr>lYruYgErr>lYrr>lYrr>lYrr>lYrr>lYrr>lYrr>lYrr>lYrr>lYrr>lYrr>lY
+rr>lYrr>lYrr>lYrr>lYrr>lYrr>lYrr>lYrr>lYrr>lYrr>lYrr>lYruYgErr>lYrr>lYrr>lY
+s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!
+
+EndImage
+SplineSet
+616 606 m 29
+ 50 333 l 29
+ 598 60 l 1053
+EndSplineSet
+Fore
+SplineSet
+630.861582506 613.168219124 m 0
+ 634.766012774 605.073319742 631.263118506 595.042847761 623.168219124 591.138417494 c 2
+ 87.4838196286 332.76060643 l 1
+ 605.35745614 74.7688130581 l 2
+ 613.401825281 70.7613079934 616.776318123 60.6869130006 612.768813058 52.6425438598 c 0
+ 608.761307993 44.5981747189 598.686913001 41.2236818772 590.64254386 45.2311869419 c 2
+ 42.6425438598 318.231186942 l 2
+ 40.0784708076 319.508544503 37.3669307997 321.909430329 35.7466260218 324.687880521 c 0
+ 30.9686854648 332.880950143 34.289103166 343.741174353 42.831780876 347.861582506 c 2
+ 608.831780876 620.861582506 l 2
+ 616.926680258 624.766012774 626.957152239 621.263118506 630.861582506 613.168219124 c 0
+EndSplineSet
 EndChar
 
 StartChar: equal
-Encoding: 61 61 60
-Width: 397
-Flags: MW
+Encoding: 61 61 26
+Width: 666
+Flags: HMW
 HStem: 456 161
 VStem: 149 33 214 32
 LayerCount: 2
+Back
+Image: 28 30 3 112 0 ffffffff -66.6667 762 27.6666 27.6666 0
+s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!
+rr>lYs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!rr>lYs8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!rr>lYrr>lYruYgErr>lYrr>lYrr>lY
+rr>lYrr>lYrr>lYrr>lYrr>lYrr>lYrr>lYrr>lYrr>lYrr>lYrr>lYrr>lYrr>lYrr>lYrr>lY
+rr>lYrr>lYrr>lYrr>lYruYgErr>lYrr>lYs8W-!s8W-!s*prfs8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s*prfs8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+rr>lYs8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!
+s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!
+s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!rr>lY
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!rr>WFs.5gRs.5gRs.5gRs.5gR
+s.5gRs.5gRs.5gRs.5gRs.5gRs.5gRs.5gRs.5gRs.5gRs.5gRs.5gRs.5gRs.5gRs.5gRs.5gR
+s.5gRs.5gRs.5gRrr><,s8W-!s8W-!s8W-!s8W-!rr>6&rr<$!rr<$!rr<$!rr<$!rr<$!rr<$!
+rr<$!rr<$!rr<$!rr<$!rr<$!rr<$!rr<$!rr<$!rr<$!rr<$!rr<$!rr<$!rr<$!rr<$!rr<$!
+rr<$!rr=?5s8W-!s8W-!s8W-!s8W-!rr>]Js0Ar9s0Ar9s0Ar9s0Ar9s0Ar9s0Ar9s0Ar9s0Ar9
+s0Ar9s0Ar9s0Ar9s0Ar9s0Ar9s0Ar9s0Ar9s0Ar9s0Ar9s0Ar9s0Ar9s0Ar9s0Ar9s0Ar9rr>E5
+s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!
+s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!
+rr>lYs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!rr>lYs8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!rr>lYs8Dops8Dops8Dop
+s8Dops8Dops8Dops8Dops8Dops8Dops8Dops8Dops8Dops8Dops8Dops8Dops8Dops8Dops8Dop
+s8Dops8Dops8Dops8Doprr>lXs8W-!s8W-!s8W-!s8W-!rr>6&rr<$!rr<$!rr<$!rr<$!rr<$!
+rr<$!rr<$!rr<$!rr<$!rr<$!rr<$!rr<$!rr<$!rr<$!rr<$!rr<$!rr<$!rr<$!rr<$!rr<$!
+rr<$!rr<$!rr=?5s8W-!s8W-!s8W-!s8W-!rr>H7s&2ips&2ips&2ips&2ips&2ips&2ips&2ip
+s&2ips&2ips&2ips&2ips&2ips&2ips&2ips&2ips&2ips&2ips&2ips&2ips&2ips&2ips&2ip
+rr=i]s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!
+s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!
+s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!rr>lY
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!rr>lYrr>lYruYgErr>lYrr>lYrr>lYrr>lYrr>lYrr>lY
+rr>lYrr>lYrr>lYrr>lYrr>lYrr>lYrr>lYrr>lYrr>lYrr>lYrr>lYrr>lYrr>lYrr>lYrr>lY
+rr>lYruYgErr>lYrr>lYs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+
+EndImage
+SplineSet
+50 243 m 31
+ 270 243 396 243 616 243 c 1052
+50 423 m 31
+ 276 423 390 423 616 423 c 1052
+EndSplineSet
 Fore
 SplineSet
-152 504 m 1
- 152 665 l 1
- 185 665 l 1
- 185 504 l 1
- 152 504 l 1
-217 504 m 1
- 217 665 l 1
- 249 665 l 1
- 249 504 l 1
- 217 504 l 1
+33.5 243 m 0
+ 33.5 251.987322834 41.0126771663 259.5 50 259.5 c 2
+ 616 259.5 l 2
+ 624.987322834 259.5 632.5 251.987322834 632.5 243 c 0
+ 632.5 234.012677166 624.987322834 226.5 616 226.5 c 2
+ 50 226.5 l 2
+ 41.0126771663 226.5 33.5 234.012677166 33.5 243 c 0
+33.5 423 m 0
+ 33.5 431.987322834 41.0126771663 439.5 50 439.5 c 2
+ 616 439.5 l 2
+ 624.987322834 439.5 632.5 431.987322834 632.5 423 c 0
+ 632.5 414.012677166 624.987322834 406.5 616 406.5 c 2
+ 50 406.5 l 2
+ 41.0126771663 406.5 33.5 414.012677166 33.5 423 c 0
 EndSplineSet
 EndChar
 
 StartChar: greater
-Encoding: 62 62 61
-Width: 500
-Flags: W
+Encoding: 62 62 27
+Width: 666
+Flags: HW
 LayerCount: 2
+Back
+Image: 30 29 3 120 0 ffffffff -100.069 758 28.6207 28.6207 0
+s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s*prfs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s*prfs8W-!s8W-!s8W-!
+rr>lYrr>lYrr>lYru+jirr=H=rr>]Krr>lYrr>lYrr>lYrr>lYrr>lYrr>lYrr>lYrr>lYrr>lY
+rr>lYrr>lYrr>lYrr>lYrr>lYrr>lYrr>lYrr>lYrr>lYrr>lYrr>lYruYgErr>lYrr>lYrr>lY
+s8W-!s8W-!s8W-!rr=6+rr<$!rt,hTs+5iSs7,XLs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!rr>iWs/N*!s!8s;rr<$!rt5qWs*oNJs7#OIs8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!rr>lYs8W-!s8)Tgs.Q-[s!&a5rr<$!rt?%Zs*oNJs7,XLs8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8)Tgs.Q-[ruiO/rr<$!rtH.]s+lJes7Z0[s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s8W-!s7uKds-]:Cru2mrrr<$!rtQ7`s+lJe
+s7Z0[s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s7uKds-]:Crtu[lrr<$!
+ru<!us,`>(s7c9^s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s7Q'Xs,`>(
+rtlRirr<$!ruE+#s,`>(s7lBas8W-!s8W-!s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s7GsUs,`>(rtcIfrr<$!ruW=)s-]:Cs82]js8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s7>jRs+lJert,hTrr<$!ru`F,s-]:Cs82]js8W-!s8W-!rr>lYs8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s75aOs+lJert#_Qrr<$!ruiO/s-]:Cs8;fmrr>lYs8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s6]4@s*B!;rsT;Err<$!s!oTMrr=obs8N#ss8W-!s8W-!
+s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s5W/"s(H(ZrrrZ3rr<$!s#iM.rr>/us8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s6An7s*&[2rs8u<rr<$!s#;tts0Ar9s8W-!rr>lYs8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s6K":s*&[2rsB)?rr<$!s"5oVs/N*!s8N#ss8W-!s8W-!rr>lYs8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s6]4@s*oNJrsfMKrr<$!s!oTMs/N*!s8N#ss8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s75aOs+lJe
+rt#_Qrr<$!s!]BGs.Q-[s8;fms8W-!s8W-!s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s7>jRs+lJert,hTrr<$!
+ruiO/s-]:Cs8;fms8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s8W-!s7GsUs,`>(rtcIfrr<$!ruW=)s-]:C
+s82]js8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s7uKds-]:Crtu[lrr<$!ruE+#s,`>(s7lBas8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!rr>lYs8W-!s7uKds-]:Cru)dorr<$!rtZ@cs+lJes7c9^s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!rr>fTs.Q-[rurX2rr<$!rtQ7`s+lJes7Z0[s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!rr=3)rr<$!rtQ7`s,2ens7Q'Xs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!
+rr>lYrr>lYrr>lYru+jjrr=NBrr>`Nrr>lYrr>lYrr>lYrr>lYrr>lYrr>lYrr>lYrr>lYrr>lY
+rr>lYrr>lYrr>lYrr>lYrr>lYrr>lYrr>lYrr>lYrr>lYrr>lYrr>lYruYgErr>lYrr>lYrr>lY
+s8W-!s8W-!s8W-!s*prfs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s*prfs8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!rr>lYs8W-!s8W-!s8W-!
+
+EndImage
+SplineSet
+50 606 m 29
+ 616 333 l 29
+ 68 60 l 1053
+EndSplineSet
+Fore
+SplineSet
+35.1384174938 613.168219124 m 0
+ 39.0428477611 621.263118506 49.073319742 624.766012774 57.168219124 620.861582506 c 2
+ 623.168219124 347.861582506 l 2
+ 631.710896834 343.741174353 635.031314535 332.880950143 630.253373978 324.687880521 c 0
+ 628.601983311 321.856125175 625.091467291 319.095028264 623.35745614 318.231186942 c 2
+ 75.3574561402 45.2311869419 l 2
+ 67.3130869994 41.2236818772 57.2386920066 44.5981747189 53.2311869419 52.6425438598 c 0
+ 49.2236818772 60.6869130006 52.5981747189 70.7613079934 60.6425438598 74.7688130581 c 2
+ 578.516180371 332.76060643 l 1
+ 42.831780876 591.138417494 l 2
+ 34.7368814939 595.042847761 31.2339872264 605.073319742 35.1384174938 613.168219124 c 0
+EndSplineSet
 EndChar
 
 StartChar: question
-Encoding: 63 63 62
+Encoding: 63 63 28
 Width: 404
 Flags: MW
 HStem: 1 65<175 182> 620 32<161.5 227.5 151.5 235.5>
@@ -831,45 +1855,8 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: at
-Encoding: 64 64 63
-Width: 622
-Flags: MW
-HStem: -16 33 176 33
-VStem: -208 33 81 33
-LayerCount: 2
-Fore
-SplineSet
--14 186 m 2
- 75 344 l 2
- 78 350 83 352 89 352 c 0
- 97 352 106 346 106 336 c 2
- 106 177 l 2
- 106 94 162 16 227 16 c 0
- 316 16 372 95 372 183 c 2
- 372 336 l 2
- 372 346 379 352 389 352 c 0
- 399 352 406 346 406 336 c 0
- 406 278 449 253 495 253 c 0
- 537 253 577 275 590 313 c 0
- 593 321 599 325 605 325 c 0
- 614 325 623 318 623 308 c 0
- 623 306 623 305 622 303 c 0
- 604 247 547 220 495 220 c 0
- 461 220 429 231 406 253 c 1
- 406 183 l 2
- 406 80 338 -16 227 -16 c 0
- 140 -16 72 78 72 177 c 2
- 72 273 l 1
- 14 170 l 2
- 11 164 6 162 1 162 c 0
- -8 162 -16 169 -16 178 c 0
- -16 181 -16 183 -14 186 c 2
-EndSplineSet
-EndChar
-
 StartChar: A
-Encoding: 65 65 64
+Encoding: 65 65 29
 Width: 1013
 Flags: MW
 HStem: -16 32<123 184 123 194.5 812 873> 284 32<263.5 359 268 345 396 600 268 382 651 736 651 651> 644 20G<494.5 511>
@@ -912,7 +1899,7 @@ EndSplineSet
 EndChar
 
 StartChar: B
-Encoding: 66 66 65
+Encoding: 66 66 30
 Width: 600
 Flags: MW
 HStem: -16 32<115 174 405 475.5> 320 33<316 345 316 316> 630 34<385.5 441>
@@ -953,7 +1940,7 @@ EndSplineSet
 EndChar
 
 StartChar: C
-Encoding: 67 67 66
+Encoding: 67 67 31
 Width: 557
 Flags: MW
 HStem: -17 33<274.5 331.5> 632 34<229.5 353.5>
@@ -982,7 +1969,7 @@ EndSplineSet
 EndChar
 
 StartChar: D
-Encoding: 68 68 67
+Encoding: 68 68 32
 Width: 666
 Flags: MW
 HStem: -16 32<75 120.5 75 126 395 524> 124 34<74 119> 630 32<333.5 467.5>
@@ -1020,7 +2007,7 @@ EndSplineSet
 EndChar
 
 StartChar: E
-Encoding: 69 69 68
+Encoding: 69 69 33
 Width: 334
 Flags: MW
 HStem: -16 32<133 220> 334 32<157 215 157 215> 630 32<131 176 124 178>
@@ -1055,7 +2042,7 @@ EndSplineSet
 EndChar
 
 StartChar: F
-Encoding: 70 70 69
+Encoding: 70 70 34
 Width: 580
 Flags: MW
 HStem: -16 32<115 188 115 199> 247 33<284 284 284 316> 333 20G<126.5 133 467 473.5> 532 33<399.5 437 380 444> 630 34<132 193>
@@ -1101,7 +2088,7 @@ EndSplineSet
 EndChar
 
 StartChar: G
-Encoding: 71 71 70
+Encoding: 71 71 35
 Width: 775
 Flags: MW
 HStem: -324 32<542 562 542 583> -16 32<277 362> 332 20G<595 605> 632 34<229.5 353.5>
@@ -1145,7 +2132,7 @@ EndSplineSet
 EndChar
 
 StartChar: H
-Encoding: 72 72 71
+Encoding: 72 72 36
 Width: 680
 Flags: MW
 HStem: -16 32<69.5 105.5 69.5 111 544.5 598.5> 630 32<504.5 538.5>
@@ -1195,7 +2182,7 @@ EndSplineSet
 EndChar
 
 StartChar: I
-Encoding: 73 73 72
+Encoding: 73 73 37
 Width: 317
 Flags: MW
 HStem: -16 32<115 188 115 199> 642 20G<297.5 304>
@@ -1223,7 +2210,7 @@ EndSplineSet
 EndChar
 
 StartChar: J
-Encoding: 74 74 73
+Encoding: 74 74 38
 Width: 325
 Flags: MW
 HStem: -324 32<83.5 111 83.5 126> 642 20G<147.5 154>
@@ -1259,7 +2246,7 @@ EndSplineSet
 EndChar
 
 StartChar: K
-Encoding: 75 75 74
+Encoding: 75 75 39
 Width: 820
 Flags: MW
 HStem: -16 32<115 188 115 199 649.5 714.5> 319 34<316 371.5 316 372> 630 32<615 695>
@@ -1305,7 +2292,7 @@ EndSplineSet
 EndChar
 
 StartChar: L
-Encoding: 76 76 75
+Encoding: 76 76 40
 Width: 580
 Flags: MW
 HStem: -16 32<75 121 75 127 392.5 469> 124 34<74 117.5> 630 32<352.5 423>
@@ -1343,7 +2330,7 @@ EndSplineSet
 EndChar
 
 StartChar: M
-Encoding: 77 77 76
+Encoding: 77 77 41
 Width: 890
 Flags: MW
 HStem: -16 32<82 136 82 145 754 808> 642 20G<216 222.5 667.5 674>
@@ -1382,7 +2369,7 @@ EndSplineSet
 EndChar
 
 StartChar: N
-Encoding: 78 78 77
+Encoding: 78 78 42
 Width: 890
 Flags: MW
 HStem: -16 32<81.5 136 81.5 145> 630 32<754 808.5>
@@ -1417,7 +2404,7 @@ EndSplineSet
 EndChar
 
 StartChar: O
-Encoding: 79 79 78
+Encoding: 79 79 43
 Width: 650
 Flags: MW
 HStem: -17 33<274.5 360 274.5 364.5> 632 34<229.5 402>
@@ -1443,7 +2430,7 @@ EndSplineSet
 EndChar
 
 StartChar: P
-Encoding: 80 80 79
+Encoding: 80 80 44
 Width: 600
 Flags: MW
 HStem: -16 32<115 188 115 199> 320 33<316 316> 630 34<385.5 447.5>
@@ -1475,7 +2462,7 @@ EndSplineSet
 EndChar
 
 StartChar: Q
-Encoding: 81 81 80
+Encoding: 81 81 45
 Width: 848
 Flags: MW
 HStem: -16 32<270 320 317 320 670.5 730> 184 32<425.5 453> 632 34<229.5 401>
@@ -1516,7 +2503,7 @@ EndSplineSet
 EndChar
 
 StartChar: R
-Encoding: 82 82 81
+Encoding: 82 82 46
 Width: 903
 Flags: MW
 HStem: -16 32<115 188 115 199 702 775> 320 33<316 342 316 316> 630 34<385.5 443.5>
@@ -1557,7 +2544,7 @@ EndSplineSet
 EndChar
 
 StartChar: S
-Encoding: 83 83 82
+Encoding: 83 83 47
 Width: 366
 Flags: MW
 HStem: -16 32<137.5 217.5 137.5 225.5> 328 34<134.5 216> 630 32<115 211>
@@ -1588,7 +2575,7 @@ EndSplineSet
 EndChar
 
 StartChar: T
-Encoding: 84 84 83
+Encoding: 84 84 48
 Width: 580
 Flags: MW
 HStem: -16 32<115 188 115 199> 532 33<399.5 437 380 444> 630 34<132 193>
@@ -1622,7 +2609,7 @@ EndSplineSet
 EndChar
 
 StartChar: U
-Encoding: 85 85 84
+Encoding: 85 85 49
 Width: 904
 Flags: MW
 HStem: -16 32<318 423.5 698 773.5> 642 20G<147.5 154 595.5 604.5>
@@ -1659,7 +2646,7 @@ EndSplineSet
 EndChar
 
 StartChar: V
-Encoding: 86 86 85
+Encoding: 86 86 50
 Width: 800
 Flags: MW
 HStem: -16 32<318 433 318 442.5> 515 33<682.5 716 679.5 744> 642 20G<147.5 154 596 604 795.5 803>
@@ -1695,7 +2682,7 @@ EndSplineSet
 EndChar
 
 StartChar: W
-Encoding: 87 87 86
+Encoding: 87 87 51
 Width: 1182
 Flags: MW
 HStem: -16 32<303 406 724 828.5> 515 33<1064.5 1098 1061.5 1125.5> 642 20G<147.5 154 561.5 570.5 978 986 1177.5 1185>
@@ -1739,7 +2726,7 @@ EndSplineSet
 EndChar
 
 StartChar: X
-Encoding: 88 88 87
+Encoding: 88 88 52
 Width: 940
 Flags: MW
 HStem: -16 32<129 194 129 200 733 802> 642 20G<230.5 237.5>
@@ -1775,7 +2762,7 @@ EndSplineSet
 EndChar
 
 StartChar: Y
-Encoding: 89 89 88
+Encoding: 89 89 53
 Width: 775
 Flags: MW
 HStem: -324 32<533.5 561 533.5 576> -16 32<318 420> 642 20G<147.5 154 595.5 604.5>
@@ -1820,7 +2807,7 @@ EndSplineSet
 EndChar
 
 StartChar: Z
-Encoding: 90 90 89
+Encoding: 90 90 54
 Width: 585
 Flags: MW
 HStem: -16 32<363.5 453 363.5 459> 82 33<155.5 201.5> 532 33<383.5 429.5> 630 34<132 221.5>
@@ -1857,49 +2844,8 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: bracketleft
-Encoding: 91 91 90
-Width: 540
-Flags: MW
-HStem: 187 33 320 33
-VStem: -55 33
-LayerCount: 2
-Fore
-SplineSet
-15 239 m 0
- 79 319 104 352 181 352 c 0
- 223 352 263 333 290 302 c 1
- 290 336 l 2
- 290 346 297 352 307 352 c 0
- 317 352 324 346 324 336 c 0
- 324 280 369 252 415 252 c 0
- 456 252 495 273 508 313 c 0
- 511 321 517 324 523 324 c 0
- 532 324 541 318 541 308 c 0
- 541 306 541 305 540 303 c 0
- 521 246 466 219 415 219 c 0
- 381 219 348 231 324 254 c 1
- 324 0 l 2
- 324 -9 316 -16 307 -16 c 0
- 298 -16 290 -9 290 0 c 2
- 290 215 l 2
- 290 273 239 320 181 320 c 0
- 118 320 102 293 41 219 c 0
- 37 215 33 213 29 213 c 0
- 20 213 11 220 11 229 c 0
- 11 232 12 236 15 239 c 0
-EndSplineSet
-EndChar
-
-StartChar: backslash
-Encoding: 92 92 91
-Width: 500
-Flags: W
-LayerCount: 2
-EndChar
-
 StartChar: bracketright
-Encoding: 93 93 92
+Encoding: 93 93 55
 Width: 635
 Flags: MW
 HStem: -16 32<196.5 264.5 479.5 543.5> 356 34<-1.5 82 3 82 3 114 114 382 414 493> 646 20G<93.5 102.5 393.5 402.5>
@@ -1944,18 +2890,11 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: asciicircum
-Encoding: 94 94 93
-Width: 500
-Flags: W
-LayerCount: 2
-EndChar
-
 StartChar: underscore
-Encoding: 95 95 94
+Encoding: 95 95 56
 Width: 651
-Flags: HW
-HStem: -10 20<0 1107 0 1107> 326 10 656 10
+Flags: W
+HStem: -333 11<0 651> -10 20<0 651> 326 11<0 651> 656 11<0 651>
 LayerCount: 2
 Fore
 SplineSet
@@ -1982,15 +2921,8 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: grave
-Encoding: 96 96 95
-Width: 500
-Flags: W
-LayerCount: 2
-EndChar
-
 StartChar: a
-Encoding: 97 97 96
+Encoding: 97 97 57
 Width: 499
 Flags: MW
 HStem: -16 32<106 185 372 415> 320 32<107 157 150 157>
@@ -2027,7 +2959,7 @@ EndSplineSet
 EndChar
 
 StartChar: b
-Encoding: 98 98 97
+Encoding: 98 98 58
 Width: 642
 Flags: MW
 HStem: -16 32<210.5 292.5 210.5 303.5> 220 33<498 536.5> 332 20G<405 413> 632 32<162.5 198.5>
@@ -2072,7 +3004,7 @@ EndSplineSet
 EndChar
 
 StartChar: c
-Encoding: 99 99 98
+Encoding: 99 99 59
 Width: 303
 Flags: MW
 HStem: -16 32<121 186 121 191.5> 320 32<121 181>
@@ -2099,7 +3031,7 @@ EndSplineSet
 EndChar
 
 StartChar: d
-Encoding: 100 100 99
+Encoding: 100 100 60
 Width: 535
 Flags: MW
 HStem: -16 32<114 192.5 387 426> 320 32<113.5 178.5 103.5 186.5> 644 20G<305.5 314.5>
@@ -2136,7 +3068,7 @@ EndSplineSet
 EndChar
 
 StartChar: e
-Encoding: 101 101 100
+Encoding: 101 101 61
 Width: 267
 Flags: MW
 HStem: -16 32<120 156> 79 41 319 33<97 156.5>
@@ -2168,7 +3100,7 @@ EndSplineSet
 EndChar
 
 StartChar: f
-Encoding: 102 102 101
+Encoding: 102 102 62
 Width: 254
 Flags: MW
 HStem: -16 34<89 154.5> 634 32<158.5 199>
@@ -2211,7 +3143,7 @@ EndSplineSet
 EndChar
 
 StartChar: g
-Encoding: 103 103 102
+Encoding: 103 103 63
 Width: 484
 Flags: MW
 HStem: -324 32<251 271 251 292> -16 32<116 179.5> 320 32<118.5 182 109 188>
@@ -2257,7 +3189,7 @@ EndSplineSet
 EndChar
 
 StartChar: h
-Encoding: 104 104 103
+Encoding: 104 104 64
 Width: 554
 Flags: MW
 HStem: -16 32<435.5 472 435.5 477> 320 32<213 269.5> 634 32<141 178>
@@ -2302,7 +3234,7 @@ EndSplineSet
 EndChar
 
 StartChar: i
-Encoding: 105 105 104
+Encoding: 105 105 65
 Width: 294
 Flags: MW
 HStem: -16 32<171.5 219.5> 332 20G<120 127> 488 63<114 127 110.5 130.5>
@@ -2336,7 +3268,7 @@ EndSplineSet
 EndChar
 
 StartChar: j
-Encoding: 106 106 105
+Encoding: 106 106 66
 Width: 331
 Flags: MW
 HStem: -324 34<95.5 117.5 95.5 118> 333 20G<151.5 158> 498 64<142 155 138.5 158.5>
@@ -2376,7 +3308,7 @@ EndSplineSet
 EndChar
 
 StartChar: k
-Encoding: 107 107 106
+Encoding: 107 107 67
 Width: 468
 Flags: MW
 HStem: -16 32<349 386.5 349 390> 163 33<107 141 106 163> 320 32<196 231> 632 32<144 178>
@@ -2426,7 +3358,7 @@ EndSplineSet
 EndChar
 
 StartChar: l
-Encoding: 108 108 107
+Encoding: 108 108 68
 Width: 328
 Flags: MW
 HStem: -16 32<171 246 171 252.5> 634 32<139 183>
@@ -2464,7 +3396,7 @@ EndSplineSet
 EndChar
 
 StartChar: m
-Encoding: 109 109 108
+Encoding: 109 109 69
 Width: 863
 Flags: MW
 HStem: -16 32<742 790> 320 32<203 265 497.5 571>
@@ -2511,7 +3443,7 @@ EndSplineSet
 EndChar
 
 StartChar: n
-Encoding: 110 110 109
+Encoding: 110 110 70
 Width: 563
 Flags: MW
 HStem: -16 32<441 489> 320 32<204 274>
@@ -2549,7 +3481,7 @@ EndSplineSet
 EndChar
 
 StartChar: o
-Encoding: 111 111 110
+Encoding: 111 111 71
 Width: 485
 Flags: MW
 HStem: -16 32<99 203 99 220> 219 33<350.5 379 345 384> 320 32<107 174.5>
@@ -2582,7 +3514,7 @@ EndSplineSet
 EndChar
 
 StartChar: p
-Encoding: 112 112 111
+Encoding: 112 112 72
 Width: 563
 Flags: MW
 HStem: -328 21G<82.5 91.5> -16 32<441 489> 320 32<204 274>
@@ -2620,7 +3552,7 @@ EndSplineSet
 EndChar
 
 StartChar: q
-Encoding: 113 113 112
+Encoding: 113 113 73
 Width: 538
 Flags: MW
 HStem: -16 32<115 184> 320 32<119 188.5 108.5 197>
@@ -2655,7 +3587,7 @@ EndSplineSet
 EndChar
 
 StartChar: r
-Encoding: 114 114 113
+Encoding: 114 114 74
 Width: 540
 Flags: MW
 HStem: -16 21G<302.5 311.5> 219 33<398 435.5 392 440.5> 320 32<149.5 202 142.5 210>
@@ -2689,7 +3621,7 @@ EndSplineSet
 EndChar
 
 StartChar: s
-Encoding: 115 115 114
+Encoding: 115 115 75
 Width: 267
 Flags: MW
 HStem: -16 32<113.5 170.5 113.5 180.5> 332 20G<120.5 125.5>
@@ -2718,7 +3650,7 @@ EndSplineSet
 EndChar
 
 StartChar: t
-Encoding: 116 116 115
+Encoding: 116 116 76
 Width: 335
 Flags: MW
 HStem: -17 33<173.5 243.5> 356 34<-1.5 82 3 82 114 193 3 114> 646 20G<93.5 102.5>
@@ -2752,7 +3684,7 @@ EndSplineSet
 EndChar
 
 StartChar: u
-Encoding: 117 117 116
+Encoding: 117 117 77
 Width: 564
 Flags: MW
 HStem: -16 32<193.5 261 441.5 491> 332 20G<85 92 383.5 392.5>
@@ -2789,7 +3721,7 @@ EndSplineSet
 EndChar
 
 StartChar: v
-Encoding: 118 118 117
+Encoding: 118 118 78
 Width: 622
 Flags: MW
 HStem: -16 32<194.5 271.5 194.5 282.5> 220 33<478 516> 332 20G<86 93 384 394>
@@ -2826,7 +3758,7 @@ EndSplineSet
 EndChar
 
 StartChar: w
-Encoding: 119 119 118
+Encoding: 119 119 79
 Width: 925
 Flags: MW
 HStem: -16 32<194 269.5 497.5 574.5> 220 33<781 819.5> 332 20G<89.5 96 387.5 396.5 688 696>
@@ -2872,7 +3804,7 @@ EndSplineSet
 EndChar
 
 StartChar: x
-Encoding: 120 120 119
+Encoding: 120 120 80
 Width: 564
 Flags: MW
 HStem: -16 32<97 142.5 73.5 147.5 421.5 467> 333 20G<155.5 162.5 401.5 408.5>
@@ -2904,7 +3836,7 @@ EndSplineSet
 EndChar
 
 StartChar: y
-Encoding: 121 121 120
+Encoding: 121 121 81
 Width: 569
 Flags: MW
 HStem: -324 32<339.5 359 339.5 376.5> -16 32<198.5 264.5> 333 20G<91.5 98>
@@ -2949,7 +3881,7 @@ EndSplineSet
 EndChar
 
 StartChar: z
-Encoding: 122 122 121
+Encoding: 122 122 82
 Width: 357
 Flags: MW
 HStem: -17 33<222 267 263 267> 37 33<83 90 90 112.5> 270 33<195 213 213 214> 320 32<62 110>
@@ -2985,106 +3917,8 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: braceleft
-Encoding: 123 123 122
-Width: 642
-Flags: MW
-HStem: -16 33 162 33 624 33
-VStem: 154 33 286 33 441 33
-LayerCount: 2
-Fore
-SplineSet
-6 171 m 2
- 92 289 l 1
- 92 549 l 2
- 92 603 106 664 181 664 c 0
- 253 664 264 602 264 553 c 0
- 264 495 202 389 125 279 c 1
- 126 179 l 2
- 127 104 173 16 248 16 c 0
- 337 16 392 96 392 184 c 2
- 392 336 l 2
- 392 347 401 352 409 352 c 0
- 417 352 426 347 426 336 c 2
- 426 335 l 2
- 426 278 469 253 515 253 c 0
- 558 253 599 275 610 313 c 0
- 613 321 619 325 625 325 c 0
- 634 325 643 318 643 308 c 0
- 643 306 643 305 642 303 c 0
- 625 247 568 220 515 220 c 0
- 481 220 449 231 426 253 c 1
- 426 184 l 2
- 426 81 359 -16 248 -16 c 0
- 152 -16 92 87 92 179 c 2
- 92 232 l 1
- 32 151 l 2
- 29 146 24 145 20 145 c 0
- 11 145 2 152 2 161 c 0
- 2 164 4 168 6 171 c 2
-126 337 m 1
- 189 432 232 512 232 553 c 0
- 232 609 216 632 181 632 c 0
- 144 632 126 610 126 549 c 2
- 126 337 l 1
-EndSplineSet
-EndChar
-
-StartChar: bar
-Encoding: 124 124 123
-Width: 925
-Flags: MW
-HStem: -16 33 167 33 339 21G
-VStem: 20 33 315 33 627 33
-LayerCount: 2
-Fore
-SplineSet
--14 186 m 2
- 78 344 l 2
- 81 350 87 352 92 352 c 0
- 100 352 108 346 108 336 c 2
- 108 177 l 2
- 108 101 158 16 230 16 c 0
- 321 16 376 100 376 178 c 2
- 376 336 l 2
- 376 345 383 352 392 352 c 0
- 401 352 408 345 408 336 c 2
- 408 178 l 2
- 408 96 461 16 530 16 c 0
- 619 16 676 95 676 183 c 2
- 676 336 l 2
- 676 347 684 352 692 352 c 0
- 700 352 708 347 708 336 c 2
- 708 335 l 2
- 708 278 752 253 798 253 c 0
- 841 253 882 275 893 313 c 0
- 896 321 902 325 908 325 c 0
- 917 325 926 318 926 308 c 0
- 926 306 926 305 925 303 c 0
- 908 247 851 220 798 220 c 0
- 764 220 731 231 708 253 c 1
- 708 183 l 2
- 708 80 641 -16 530 -16 c 0
- 465 -16 415 33 391 95 c 1
- 365 34 309 -16 230 -16 c 0
- 143 -16 76 78 76 177 c 2
- 76 275 l 1
- 14 170 l 2
- 11 164 5 162 0 162 c 0
- -9 162 -17 169 -17 178 c 0
- -17 181 -16 183 -14 186 c 2
-EndSplineSet
-EndChar
-
-StartChar: braceright
-Encoding: 125 125 124
-Width: 500
-Flags: W
-LayerCount: 2
-EndChar
-
 StartChar: asciitilde
-Encoding: 126 126 125
+Encoding: 126 126 83
 Width: 651
 Flags: W
 HStem: -10 20<0 1107 0 1107> 326 10 656 10
@@ -3099,392 +3933,15 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni007F
-Encoding: 127 127 126
-Width: 500
-Flags: W
-LayerCount: 2
-EndChar
-
-StartChar: uni0080
-Encoding: 128 128 127
-Width: 500
-Flags: W
-LayerCount: 2
-EndChar
-
-StartChar: uni0081
-Encoding: 129 129 128
-Width: 500
-Flags: W
-LayerCount: 2
-EndChar
-
-StartChar: uni0082
-Encoding: 130 130 129
-Width: 500
-Flags: W
-LayerCount: 2
-EndChar
-
-StartChar: uni0083
-Encoding: 131 131 130
-Width: 500
-Flags: W
-LayerCount: 2
-EndChar
-
-StartChar: uni0084
-Encoding: 132 132 131
-Width: 500
-Flags: W
-LayerCount: 2
-EndChar
-
-StartChar: uni0085
-Encoding: 133 133 132
-Width: 500
-Flags: W
-LayerCount: 2
-EndChar
-
-StartChar: uni0086
-Encoding: 134 134 133
-Width: 500
-Flags: W
-LayerCount: 2
-EndChar
-
-StartChar: uni0087
-Encoding: 135 135 134
-Width: 500
-Flags: W
-LayerCount: 2
-EndChar
-
-StartChar: uni0088
-Encoding: 136 136 135
-Width: 500
-Flags: W
-LayerCount: 2
-EndChar
-
-StartChar: uni0089
-Encoding: 137 137 136
-Width: 500
-Flags: W
-LayerCount: 2
-EndChar
-
-StartChar: uni008A
-Encoding: 138 138 137
-Width: 500
-Flags: W
-LayerCount: 2
-EndChar
-
-StartChar: uni008B
-Encoding: 139 139 138
-Width: 500
-Flags: W
-LayerCount: 2
-EndChar
-
-StartChar: uni008C
-Encoding: 140 140 139
-Width: 500
-Flags: W
-LayerCount: 2
-EndChar
-
-StartChar: uni008D
-Encoding: 141 141 140
-Width: 500
-Flags: W
-LayerCount: 2
-EndChar
-
-StartChar: uni008E
-Encoding: 142 142 141
-Width: 500
-Flags: W
-LayerCount: 2
-EndChar
-
-StartChar: uni008F
-Encoding: 143 143 142
-Width: 500
-Flags: W
-LayerCount: 2
-EndChar
-
-StartChar: uni0090
-Encoding: 144 144 143
-Width: 500
-Flags: W
-LayerCount: 2
-EndChar
-
-StartChar: uni0091
-Encoding: 145 145 144
-Width: 500
-Flags: W
-LayerCount: 2
-EndChar
-
-StartChar: uni0092
-Encoding: 146 146 145
-Width: 500
-Flags: W
-LayerCount: 2
-EndChar
-
-StartChar: uni0093
-Encoding: 147 147 146
-Width: 500
-Flags: W
-LayerCount: 2
-EndChar
-
-StartChar: uni0094
-Encoding: 148 148 147
-Width: 500
-Flags: W
-LayerCount: 2
-EndChar
-
-StartChar: uni0095
-Encoding: 149 149 148
-Width: 500
-Flags: W
-LayerCount: 2
-EndChar
-
-StartChar: uni0096
-Encoding: 150 150 149
-Width: 500
-Flags: W
-LayerCount: 2
-EndChar
-
-StartChar: uni0097
-Encoding: 151 151 150
-Width: 500
-Flags: W
-LayerCount: 2
-EndChar
-
-StartChar: uni0098
-Encoding: 152 152 151
-Width: 500
-Flags: W
-LayerCount: 2
-EndChar
-
-StartChar: uni0099
-Encoding: 153 153 152
-Width: 500
-Flags: W
-LayerCount: 2
-EndChar
-
-StartChar: uni009A
-Encoding: 154 154 153
-Width: 500
-Flags: W
-LayerCount: 2
-EndChar
-
-StartChar: uni009B
-Encoding: 155 155 154
-Width: 500
-Flags: W
-LayerCount: 2
-EndChar
-
-StartChar: uni009C
-Encoding: 156 156 155
-Width: 500
-Flags: W
-LayerCount: 2
-EndChar
-
-StartChar: uni009D
-Encoding: 157 157 156
-Width: 500
-Flags: W
-LayerCount: 2
-EndChar
-
-StartChar: uni009E
-Encoding: 158 158 157
-Width: 500
-Flags: W
-LayerCount: 2
-EndChar
-
-StartChar: uni009F
-Encoding: 159 159 158
-Width: 500
-Flags: W
-LayerCount: 2
-EndChar
-
-StartChar: uni00A0
-Encoding: 160 160 159
-Width: 500
-Flags: W
-LayerCount: 2
-EndChar
-
-StartChar: Aogonek
-Encoding: 161 260 160
-Width: 500
-Flags: W
-LayerCount: 2
-EndChar
-
 StartChar: breve
-Encoding: 162 728 161
+Encoding: 728 728 84
 Width: 500
 Flags: W
 LayerCount: 2
-EndChar
-
-StartChar: Lslash
-Encoding: 163 321 162
-Width: 485
-Flags: MW
-HStem: -16 33 184 33 320 33 432 163
-VStem: 125 33 269 32 430 33
-LayerCount: 2
-Fore
-SplineSet
--16 169 m 0
- -16 262 46 352 144 352 c 0
- 215 352 250 319 276 291 c 0
- 280 289 285 285 291 276 c 0
- 308 261 332 252 358 252 c 0
- 400 252 440 273 453 312 c 0
- 456 320 462 324 468 324 c 0
- 477 324 486 317 486 307 c 0
- 486 305 486 304 485 302 c 0
- 466 246 410 219 358 219 c 0
- 343 219 328 221 314 226 c 1
- 317 212 319 195 319 176 c 0
- 319 85 286 -16 154 -16 c 0
- 32 -16 -16 71 -16 169 c 0
-16 169 m 0
- 16 99 44 16 154 16 c 0
- 252 16 270 80 276 103 c 0
- 280 117 286 146 286 176 c 0
- 286 234 263 257 256 266 c 0
- 233 292 205 320 144 320 c 0
- 70 320 16 248 16 169 c 0
-125 503 m 1
- 125 665 l 1
- 157 665 l 1
- 157 503 l 1
- 125 503 l 1
-EndSplineSet
-EndChar
-
-StartChar: currency
-Encoding: 164 164 163
-Width: 635
-Flags: MW
-HStem: -16 32<196.5 264.5 479.5 543.5> 356 34<-1.5 82 3 82 3 114 114 382 414 493> 646 20G<93.5 102.5 393.5 402.5>
-VStem: 82 32<180 356 390 650> 382 32<170 356 390 650>
-LayerCount: 2
-Fore
-SplineSet
--14 373 m 0
- -14 382 -6 390 3 390 c 2
- 82 390 l 1
- 82 650 l 2
- 82 659 89 666 98 666 c 0
- 107 666 114 659 114 650 c 2
- 114 390 l 1
- 382 390 l 1
- 382 650 l 2
- 382 659 389 666 398 666 c 0
- 407 666 414 659 414 650 c 2
- 414 390 l 1
- 493 390 l 2
- 502 390 510 382 510 373 c 0
- 510 364 502 356 493 356 c 2
- 414 356 l 1
- 414 132 l 2
- 414 83 434 16 513 16 c 0
- 608 16 616 70 635 70 c 0
- 641 70 651 67 651 53 c 0
- 651 49 651 45 648 42 c 0
- 612 -1 574 -16 513 -16 c 0
- 446 -16 406 23 390 73 c 1
- 356 13 292 -16 237 -16 c 0
- 131 -16 82 85 82 180 c 2
- 82 356 l 1
- 3 356 l 2
- -6 356 -14 364 -14 373 c 0
-114 180 m 2
- 114 96 156 16 237 16 c 0
- 299 16 382 62 382 170 c 2
- 382 356 l 1
- 114 356 l 1
- 114 180 l 2
-EndSplineSet
-EndChar
-
-StartChar: Lcaron
-Encoding: 165 317 164
-Width: 500
-Flags: W
-LayerCount: 2
-EndChar
-
-StartChar: Sacute
-Encoding: 166 346 165
-Width: 500
-Flags: W
-LayerCount: 2
-EndChar
-
-StartChar: section
-Encoding: 167 167 166
-Width: 540
-Flags: MW
-HStem: 187 33 320 33
-VStem: -55 33
-LayerCount: 2
-Fore
-SplineSet
-15 239 m 0
- 79 319 104 352 181 352 c 0
- 223 352 263 333 290 302 c 1
- 290 336 l 2
- 290 346 297 352 307 352 c 0
- 317 352 324 346 324 336 c 0
- 324 280 369 252 415 252 c 0
- 456 252 495 273 508 313 c 0
- 511 321 517 324 523 324 c 0
- 532 324 541 318 541 308 c 0
- 541 306 541 305 540 303 c 0
- 521 246 466 219 415 219 c 0
- 381 219 348 231 324 254 c 1
- 324 0 l 2
- 324 -9 316 -16 307 -16 c 0
- 298 -16 290 -9 290 0 c 2
- 290 215 l 2
- 290 273 239 320 181 320 c 0
- 118 320 102 293 41 219 c 0
- 37 215 33 213 29 213 c 0
- 20 213 11 220 11 229 c 0
- 11 232 12 236 15 239 c 0
-EndSplineSet
 EndChar
 
 StartChar: dieresis
-Encoding: 168 168 167
+Encoding: 168 168 85
 Width: 1333
 Flags: MW
 HStem: 487 64<207 214>
@@ -3509,111 +3966,15 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: Scaron
-Encoding: 169 352 168
-Width: 500
-Flags: W
-LayerCount: 2
-EndChar
-
-StartChar: Scedilla
-Encoding: 170 350 169
-Width: 500
-Flags: W
-LayerCount: 2
-EndChar
-
-StartChar: Tcaron
-Encoding: 171 356 170
-Width: 500
-Flags: W
-LayerCount: 2
-EndChar
-
-StartChar: Zacute
-Encoding: 172 377 171
-Width: 500
-Flags: W
-LayerCount: 2
-EndChar
-
-StartChar: uni00AD
-Encoding: 173 173 172
-Width: 500
-Flags: W
-LayerCount: 2
-EndChar
-
-StartChar: Zcaron
-Encoding: 174 381 173
-Width: 500
-Flags: W
-LayerCount: 2
-EndChar
-
-StartChar: Zdotaccent
-Encoding: 175 379 174
-Width: 500
-Flags: W
-LayerCount: 2
-EndChar
-
-StartChar: degree
-Encoding: 176 176 175
-Width: 500
-Flags: W
-LayerCount: 2
-EndChar
-
-StartChar: aogonek
-Encoding: 177 261 176
-Width: 500
-Flags: W
-LayerCount: 2
-EndChar
-
 StartChar: ogonek
-Encoding: 178 731 177
+Encoding: 731 731 86
 Width: 500
 Flags: W
 LayerCount: 2
-EndChar
-
-StartChar: lslash
-Encoding: 179 322 178
-Width: 485
-Flags: MW
-HStem: -16 33 184 33 320 33
-VStem: 125 33 430 33
-LayerCount: 2
-Fore
-SplineSet
--16 169 m 0
- -16 262 46 352 144 352 c 0
- 215 352 250 319 276 291 c 0
- 280 289 285 285 291 276 c 0
- 308 261 332 252 358 252 c 0
- 400 252 440 273 453 312 c 0
- 456 320 462 324 468 324 c 0
- 477 324 486 317 486 307 c 0
- 486 305 486 304 485 302 c 0
- 466 246 410 219 358 219 c 0
- 343 219 328 221 314 226 c 1
- 317 212 319 195 319 176 c 0
- 319 85 286 -16 154 -16 c 0
- 32 -16 -16 71 -16 169 c 0
-16 169 m 0
- 16 99 44 16 154 16 c 0
- 252 16 270 80 276 103 c 0
- 280 117 286 146 286 176 c 0
- 286 234 263 257 256 266 c 0
- 233 292 205 320 144 320 c 0
- 70 320 16 248 16 169 c 0
-EndSplineSet
 EndChar
 
 StartChar: acute
-Encoding: 180 180 179
+Encoding: 180 180 87
 Width: 1333
 Flags: MW
 HStem: 504 162<460 492 460 492>
@@ -3629,64 +3990,15 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: lcaron
-Encoding: 181 318 180
-Width: 500
-Flags: W
-LayerCount: 2
-EndChar
-
-StartChar: sacute
-Encoding: 182 347 181
-Width: 500
-Flags: W
-LayerCount: 2
-EndChar
-
 StartChar: caron
-Encoding: 183 711 182
-Width: 500
-Flags: W
-LayerCount: 2
-EndChar
-
-StartChar: cedilla
-Encoding: 184 184 183
-Width: 500
-Flags: W
-LayerCount: 2
-EndChar
-
-StartChar: scaron
-Encoding: 185 353 184
-Width: 500
-Flags: W
-LayerCount: 2
-EndChar
-
-StartChar: scedilla
-Encoding: 186 351 185
-Width: 500
-Flags: W
-LayerCount: 2
-EndChar
-
-StartChar: tcaron
-Encoding: 187 357 186
-Width: 500
-Flags: W
-LayerCount: 2
-EndChar
-
-StartChar: zacute
-Encoding: 188 378 187
+Encoding: 711 711 88
 Width: 500
 Flags: W
 LayerCount: 2
 EndChar
 
 StartChar: hungarumlaut
-Encoding: 189 733 188
+Encoding: 733 733 89
 Width: 1333
 Flags: MW
 HStem: 505 161<159 192 159 192 224 256 159 224>
@@ -3707,334 +4019,116 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: zcaron
-Encoding: 190 382 189
-Width: 500
-Flags: W
-LayerCount: 2
-EndChar
-
-StartChar: zdotaccent
-Encoding: 191 380 190
-Width: 500
-Flags: W
-LayerCount: 2
-EndChar
-
-StartChar: Racute
-Encoding: 192 340 191
-Width: 500
-Flags: W
-LayerCount: 2
-EndChar
-
 StartChar: Aacute
-Encoding: 193 193 192
+Encoding: 193 193 90
 Width: 1013
 Flags: HMW
 HStem: -16 32<123 184 123 194.5 812 873> 284 32<263.5 359 268 345 396 600 268 382 651 736 651 651> 644 20G<494.5 511>
 VStem: -17 32 477 32<838 1000 838 1000> 981 32
 LayerCount: 2
 Fore
-Refer: 179 180 N 1 0 0 1 21 331 2
-Refer: 64 65 N 1 0 0 1 0 0 3
-EndChar
-
-StartChar: Acircumflex
-Encoding: 194 194 193
-Width: 500
-Flags: W
-LayerCount: 2
-EndChar
-
-StartChar: Abreve
-Encoding: 195 258 194
-Width: 500
-Flags: W
-LayerCount: 2
-EndChar
-
-StartChar: Adieresis
-Encoding: 196 196 195
-Width: 500
-Flags: W
-LayerCount: 2
-EndChar
-
-StartChar: Lacute
-Encoding: 197 313 196
-Width: 500
-Flags: W
-LayerCount: 2
-EndChar
-
-StartChar: Cacute
-Encoding: 198 262 197
-Width: 500
-Flags: W
-LayerCount: 2
-EndChar
-
-StartChar: Ccedilla
-Encoding: 199 199 198
-Width: 500
-Flags: W
-LayerCount: 2
-EndChar
-
-StartChar: Ccaron
-Encoding: 200 268 199
-Width: 500
-Flags: W
-LayerCount: 2
+Refer: 87 180 N 1 0 0 1 21 331 2
+Refer: 29 65 N 1 0 0 1 0 0 3
 EndChar
 
 StartChar: Eacute
-Encoding: 201 201 200
+Encoding: 201 201 91
 Width: 334
 Flags: HMW
 HStem: -16 32<133 220> 334 32<157 215 157 215> 630 32<131 176 124 178>
 VStem: -16 32<126 221> 10 32<464 536.5 459 548>
 LayerCount: 2
 Fore
-Refer: 179 180 S 1 0 0 1 -299 333 2
-Refer: 68 69 N 1 0 0 1 0 0 3
-EndChar
-
-StartChar: Eogonek
-Encoding: 202 280 201
-Width: 500
-Flags: W
-LayerCount: 2
-EndChar
-
-StartChar: Edieresis
-Encoding: 203 203 202
-Width: 500
-Flags: W
-LayerCount: 2
-EndChar
-
-StartChar: Ecaron
-Encoding: 204 282 203
-Width: 500
-Flags: W
-LayerCount: 2
+Refer: 87 180 S 1 0 0 1 -299 333 2
+Refer: 33 69 N 1 0 0 1 0 0 3
 EndChar
 
 StartChar: Iacute
-Encoding: 205 205 204
+Encoding: 205 205 92
 Width: 317
 Flags: HMW
 HStem: -16 32<115 188 115 199> 642 20G<297.5 304>
 VStem: -17 33 284 32<166 599 599 599>
 LayerCount: 2
 Fore
-Refer: 179 180 N 1 0 0 1 -176 333 2
-Refer: 72 73 N 1 0 0 1 0 0 3
-EndChar
-
-StartChar: Icircumflex
-Encoding: 206 206 205
-Width: 500
-Flags: W
-LayerCount: 2
-EndChar
-
-StartChar: Dcaron
-Encoding: 207 270 206
-Width: 500
-Flags: W
-LayerCount: 2
-EndChar
-
-StartChar: Dcroat
-Encoding: 208 272 207
-Width: 500
-Flags: W
-LayerCount: 2
-EndChar
-
-StartChar: Nacute
-Encoding: 209 323 208
-Width: 500
-Flags: W
-LayerCount: 2
-EndChar
-
-StartChar: Ncaron
-Encoding: 210 327 209
-Width: 500
-Flags: W
-LayerCount: 2
+Refer: 87 180 N 1 0 0 1 -176 333 2
+Refer: 37 73 N 1 0 0 1 0 0 3
 EndChar
 
 StartChar: Oacute
-Encoding: 211 211 210
+Encoding: 211 211 93
 Width: 650
 Flags: HMW
 HStem: -17 33<274.5 360 274.5 364.5> 632 34<229.5 402>
 VStem: -16 32<298.5 412 298.5 422> 617 33<298 413.5>
 LayerCount: 2
 Fore
-Refer: 179 180 S 1 0 0 1 -158 332 2
-Refer: 78 79 N 1 0 0 1 0 0 3
-EndChar
-
-StartChar: Ocircumflex
-Encoding: 212 212 211
-Width: 500
-Flags: W
-LayerCount: 2
+Refer: 87 180 S 1 0 0 1 -158 332 2
+Refer: 43 79 N 1 0 0 1 0 0 3
 EndChar
 
 StartChar: Ohungarumlaut
-Encoding: 213 336 212
+Encoding: 336 336 94
 Width: 650
 Flags: HMW
 HStem: -17 33<274.5 360 274.5 364.5> 632 34<229.5 402>
 VStem: -16 32<298.5 412 298.5 422> 617 33<298 413.5>
 LayerCount: 2
 Fore
-Refer: 188 733 N 1 0 0 1 112.5 332 2
-Refer: 78 79 N 1 0 0 1 0 0 3
+Refer: 89 733 N 1 0 0 1 112.5 332 2
+Refer: 43 79 N 1 0 0 1 0 0 3
 EndChar
 
 StartChar: Odieresis
-Encoding: 214 214 213
+Encoding: 214 214 95
 Width: 650
 Flags: HMW
 HStem: -17 33<274.5 360 274.5 364.5> 632 34<229.5 402>
 VStem: -16 32<298.5 412 298.5 422> 617 33<298 413.5>
 LayerCount: 2
 Fore
-Refer: 167 168 S 1 0 0 1 61 320 2
-Refer: 78 79 N 1 0 0 1 0 0 3
-EndChar
-
-StartChar: multiply
-Encoding: 215 215 214
-Width: 500
-Flags: W
-LayerCount: 2
-EndChar
-
-StartChar: Rcaron
-Encoding: 216 344 215
-Width: 500
-Flags: W
-LayerCount: 2
-EndChar
-
-StartChar: Uring
-Encoding: 217 366 216
-Width: 500
-Flags: W
-LayerCount: 2
+Refer: 85 168 S 1 0 0 1 61 320 2
+Refer: 43 79 N 1 0 0 1 0 0 3
 EndChar
 
 StartChar: Uacute
-Encoding: 218 218 217
+Encoding: 218 218 96
 Width: 904
 Flags: HMW
 HStem: -16 32<256 361.5 636 711.5> 641 20G<85 92>
 VStem: 72 32<222 581 581 581> 522 32<230 646>
 LayerCount: 2
 Fore
-Refer: 179 180 S 1 0 0 1 -100 332 2
-Refer: 84 85 N 1 0 0 1 0 0 3
+Refer: 87 180 S 1 0 0 1 -100 332 2
+Refer: 49 85 N 1 0 0 1 0 0 3
 EndChar
 
 StartChar: Uhungarumlaut
-Encoding: 219 368 218
+Encoding: 368 368 97
 Width: 904
 Flags: HMW
 HStem: -16 32<256 361.5 636 711.5> 641 20G<85 92>
 VStem: 72 32<222 581 581 581> 522 32<230 646>
 LayerCount: 2
 Fore
-Refer: 188 733 S 1 0 0 1 167.5 329 2
-Refer: 84 85 N 1 0 0 1 0 0 3
+Refer: 89 733 S 1 0 0 1 167.5 329 2
+Refer: 49 85 N 1 0 0 1 0 0 3
 EndChar
 
 StartChar: Udieresis
-Encoding: 220 220 219
+Encoding: 220 220 98
 Width: 904
 Flags: HMW
 HStem: -16 32<256 361.5 636 711.5> 641 20G<85 92>
 VStem: 72 32<222 581 581 581> 522 32<230 646>
 LayerCount: 2
 Fore
-Refer: 167 168 S 1 0 0 1 124 317 2
-Refer: 84 85 N 1 0 0 1 0 0 3
-EndChar
-
-StartChar: Yacute
-Encoding: 221 221 220
-Width: 500
-Flags: W
-LayerCount: 2
-EndChar
-
-StartChar: Tcommaaccent
-Encoding: 222 354 221
-Width: 500
-Flags: W
-LayerCount: 2
-EndChar
-
-StartChar: germandbls
-Encoding: 223 223 222
-Width: 485
-Flags: MW
-HStem: -16 33 184 33 320 33 432 161
-VStem: 125 33 236 33 301 32 430 33
-LayerCount: 2
-Fore
-SplineSet
--16 169 m 0
- -16 262 46 352 144 352 c 0
- 215 352 250 319 276 291 c 0
- 280 289 285 285 291 276 c 0
- 308 261 332 252 358 252 c 0
- 400 252 440 273 453 312 c 0
- 456 320 462 324 468 324 c 0
- 477 324 486 317 486 307 c 0
- 486 305 486 304 485 302 c 0
- 466 246 410 219 358 219 c 0
- 343 219 328 221 314 226 c 1
- 317 212 319 195 319 176 c 0
- 319 85 286 -16 154 -16 c 0
- 32 -16 -16 71 -16 169 c 0
-16 169 m 0
- 16 99 44 16 154 16 c 0
- 252 16 270 80 276 103 c 0
- 280 117 286 146 286 176 c 0
- 286 234 263 257 256 266 c 0
- 233 292 205 320 144 320 c 0
- 70 320 16 248 16 169 c 0
-92 502 m 1
- 92 663 l 1
- 125 663 l 1
- 125 502 l 1
- 92 502 l 1
-157 502 m 1
- 157 663 l 1
- 189 663 l 1
- 189 502 l 1
- 157 502 l 1
-EndSplineSet
-EndChar
-
-StartChar: racute
-Encoding: 224 341 223
-Width: 500
-Flags: W
-LayerCount: 2
+Refer: 85 168 S 1 0 0 1 124 317 2
+Refer: 49 85 N 1 0 0 1 0 0 3
 EndChar
 
 StartChar: aacute
-Encoding: 225 225 224
+Encoding: 225 225 99
 Width: 499
 Flags: MW
 HStem: -16 32<106 185 372 415> 320 32<107 157 150 157> 504 162<132 164 132 164>
@@ -4075,57 +4169,8 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: acircumflex
-Encoding: 226 226 225
-Width: 500
-Flags: W
-LayerCount: 2
-EndChar
-
-StartChar: abreve
-Encoding: 227 259 226
-Width: 500
-Flags: W
-LayerCount: 2
-EndChar
-
-StartChar: adieresis
-Encoding: 228 228 227
-Width: 500
-Flags: W
-LayerCount: 2
-EndChar
-
-StartChar: lacute
-Encoding: 229 314 228
-Width: 500
-Flags: W
-LayerCount: 2
-EndChar
-
-StartChar: cacute
-Encoding: 230 263 229
-Width: 500
-Flags: W
-LayerCount: 2
-EndChar
-
-StartChar: ccedilla
-Encoding: 231 231 230
-Width: 500
-Flags: W
-LayerCount: 2
-EndChar
-
-StartChar: ccaron
-Encoding: 232 269 231
-Width: 500
-Flags: W
-LayerCount: 2
-EndChar
-
 StartChar: eacute
-Encoding: 233 233 232
+Encoding: 233 233 100
 Width: 267
 Flags: MW
 HStem: -16 32<120 156> 79 41 319 33<97 156.5> 503 162<106 138 106 138>
@@ -4161,29 +4206,8 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: eogonek
-Encoding: 234 281 233
-Width: 500
-Flags: W
-LayerCount: 2
-EndChar
-
-StartChar: edieresis
-Encoding: 235 235 234
-Width: 500
-Flags: W
-LayerCount: 2
-EndChar
-
-StartChar: ecaron
-Encoding: 236 283 235
-Width: 500
-Flags: W
-LayerCount: 2
-EndChar
-
 StartChar: iacute
-Encoding: 237 237 236
+Encoding: 237 237 101
 Width: 294
 Flags: MW
 HStem: -16 32<171.5 219.5> 332 20G<120 127> 646 20G<103 135 135 135>
@@ -4216,43 +4240,8 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: icircumflex
-Encoding: 238 238 237
-Width: 500
-Flags: W
-LayerCount: 2
-EndChar
-
-StartChar: dcaron
-Encoding: 239 271 238
-Width: 500
-Flags: W
-LayerCount: 2
-EndChar
-
-StartChar: lonelyS
-Encoding: 240 273 239
-Width: 500
-Flags: W
-LayerCount: 2
-EndChar
-
-StartChar: nacute
-Encoding: 241 324 240
-Width: 500
-Flags: W
-LayerCount: 2
-EndChar
-
-StartChar: ncaron
-Encoding: 242 328 241
-Width: 500
-Flags: W
-LayerCount: 2
-EndChar
-
 StartChar: oacute
-Encoding: 243 243 242
+Encoding: 243 243 102
 Width: 485
 Flags: MW
 HStem: -16 32<99 203 99 220> 219 33<350.5 379 345 384> 320 32<107 174.5> 645 20G<125 157 157 157>
@@ -4289,15 +4278,8 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: ocircumflex
-Encoding: 244 244 243
-Width: 500
-Flags: W
-LayerCount: 2
-EndChar
-
 StartChar: ohungarumlaut
-Encoding: 245 337 244
+Encoding: 337 337 103
 Width: 485
 Flags: MW
 HStem: -16 32<99 203 99 220> 219 33<350.5 379 345 384> 320 32<107 174.5> 643 20G<92 125 125 125 157 189 189 189>
@@ -4340,7 +4322,7 @@ EndSplineSet
 EndChar
 
 StartChar: odieresis
-Encoding: 246 246 245
+Encoding: 246 246 104
 Width: 485
 Flags: MW
 HStem: -16 32<99 203 99 220> 219 33<350.5 379 345 384> 320 32<107 174.5> 473 64<93 100>
@@ -4386,29 +4368,8 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: divide
-Encoding: 247 247 246
-Width: 500
-Flags: W
-LayerCount: 2
-EndChar
-
-StartChar: rcaron
-Encoding: 248 345 247
-Width: 500
-Flags: W
-LayerCount: 2
-EndChar
-
-StartChar: uring
-Encoding: 249 367 248
-Width: 500
-Flags: W
-LayerCount: 2
-EndChar
-
 StartChar: uacute
-Encoding: 250 250 249
+Encoding: 250 250 105
 Width: 564
 Flags: MW
 HStem: -16 32<193.5 261 441.5 491> 332 20G<85 92 383.5 392.5> 503 162<219 251 219 251>
@@ -4450,7 +4411,7 @@ EndSplineSet
 EndChar
 
 StartChar: uhungarumlaut
-Encoding: 251 369 250
+Encoding: 369 369 106
 Width: 564
 Flags: MW
 HStem: -16 32<193.5 261 441.5 491> 332 20G<85 92 383.5 392.5> 502 161<190 223 190 223 255 287 190 255>
@@ -4497,7 +4458,7 @@ EndSplineSet
 EndChar
 
 StartChar: udieresis
-Encoding: 252 252 251
+Encoding: 252 252 107
 Width: 564
 Flags: MW
 HStem: -16 32<193.5 261 441.5 491> 332 20G<85 92 383.5 392.5> 467 64<189 196>
@@ -4547,25 +4508,87 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: yacute
-Encoding: 253 253 252
-Width: 500
-Flags: W
-LayerCount: 2
-EndChar
-
-StartChar: tcommaaccent
-Encoding: 254 355 253
-Width: 500
-Flags: W
-LayerCount: 2
-EndChar
-
 StartChar: dotaccent
-Encoding: 255 729 254
+Encoding: 729 729 108
 Width: 500
 Flags: W
 LayerCount: 2
+EndChar
+
+StartChar: minus
+Encoding: 8722 8722 109
+Width: 666
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Back
+Image: 29 26 3 116 0 ffffffff -68.5771 701 28.8461 28.8461 0
+s8W-!s8W-!s1ln>s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s1ln>s8W-!s8W-!s+6`\
+s+6`\s,j8*s+6`\s+6`\s+6`\s+6`\s+6`\s+6`\s+6`\s+6`\s+6`\s+6`\s+6`\s+6`\s+6`\
+s+6`\s+6`\s+6`\s+6`\s+6`\s+6`\s+6`\s+6`\s+6`\s+6`\s,j8*s+6`\s+6`\s8W-!s8W-!
+s+6`\s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s+6`\s8W-!s8W-!s8W-!s8W-!s+6`\
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s+6`\s8W-!s8W-!s8W-!s8W-!s+6`\s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s+6`\s8W-!s8W-!s8W-!s8W-!s+6`\s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s+6`\s8W-!s8W-!s8W-!s8W-!s+6`\s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s+6`\s8W-!s8W-!s8W-!s8W-!s+6`\s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s+6`\s8W-!s8W-!s8W-!s8W-!s+6`\s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s+6`\s8W-!s8W-!s8W-!s8W-!s+6`\s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s+6`\s8W-!s8W-!s8W-!s8W-!s+6`\s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s+6`\s8W-!s1lFcs8W-!s8W-!s+6`\s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s+6`\s0&W0rs8u<s8W-!s8W-!s+6`\s7uKds7,XLs7,XLs7,XLs7,XLs7,XLs7,XLs7,XLs7,XL
+s7,XLs7,XLs7,XLs7,XLs7,XLs7,XLs7,XLs7,XLs7,XLs7,XLs7,XLs7,XLs7,XLs75aOs*0U6
+rs]DHrtcIfs8W-!s8W-!s+6`\s+H&Yrr<$!rr<$!rr<$!rr<$!rr<$!rr<$!rr<$!rr<$!rr<$!
+rr<$!rr<$!rr<$!rr<$!rr<$!rr<$!rr<$!rr<$!rr<$!rr<$!rr<$!rr<$!rt,hTs+6`\s1,\N
+s4lDbs8W-!s8W-!s+6`\s0K&<s'K,?s'K,?s'K,?s'K,?s'K,?s'K,?s'K,?s'K,?s'K,?s'K,?
+s'K,?s'K,?s'K,?s'K,?s'K,?s'K,?s'K,?s'K,?s'K,?s'K,?s'K,?s(cCcs+6`\s8W-!s8W-!
+s8W-!s8W-!s+6`\s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s+6`\s8W-!s8W-!s8W-!
+s8W-!s+6`\s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s+6`\s8W-!s8W-!s8W-!s8W-!
+s+6`\s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s+6`\s8W-!s8W-!s8W-!s8W-!s+6`\
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s+6`\s8W-!s8W-!s8W-!s8W-!s+6`\s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s+6`\s8W-!s8W-!s8W-!s8W-!s+6`\s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s+6`\s8W-!s8W-!s8W-!s8W-!s+6`\s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s+6`\s8W-!s8W-!s8W-!s8W-!s+6`\s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s+6`\s8W-!s8W-!s8W-!s8W-!s+6`\s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s+6`\s8W-!s8W-!s+6`\s+6`\s,j8*s+6`\s+6`\s+6`\s+6`\s+6`\s+6`\
+s+6`\s+6`\s+6`\s+6`\s+6`\s+6`\s+6`\s+6`\s+6`\s+6`\s+6`\s+6`\s+6`\s+6`\s+6`\
+s+6`\s+6`\s,j8*s+6`\s+6`\s8W-!s8W-!s1ln>s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!s8W-!
+s8W-!s1ln>s8W-!s8W-!
+EndImage
+SplineSet
+50 333 m 31
+ 275 333 391 333 616 333 c 1052
+EndSplineSet
+Fore
+SplineSet
+33.5 333 m 0
+ 33.5 341.987322834 41.0126771663 349.5 50 349.5 c 2
+ 616 349.5 l 2
+ 624.987322834 349.5 632.5 341.987322834 632.5 333 c 0
+ 632.5 324.012677166 624.987322834 316.5 616 316.5 c 2
+ 50 316.5 l 2
+ 41.0126771663 316.5 33.5 324.012677166 33.5 333 c 0
+EndSplineSet
 EndChar
 EndChars
 EndSplineFont

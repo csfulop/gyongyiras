@@ -1,6 +1,12 @@
 var COLUMNS = 32;
 var VALID_VONALAZAS = ["1", "2", "3", "4"];
-var WORD_BOUNDARY = " \n.!?-+,:;'\"";
+var WORD_CHARACTERS = "aábcdeéfghiíjklmnoóöőpqrstuúüűvwxyz" +
+                      "AÁBCDEÉFGHIÍJKLMNOÓÖŐPQRSTUÚÜŰVWXYZ";
+var NUMBERS = "0123456789";
+var WORD_BOUNDARY = NUMBERS + "!\"'+,-.:;<=>? \n−";
+var SUPPORTED_CHARACTERS = WORD_CHARACTERS + WORD_BOUNDARY;
+var SPEC_COLOR = "%";
+var SPECIAL_CHARACTERS = SPEC_COLOR;
 
 var ROWS;
 var BACKGROUND_LINE_CHAR;
@@ -19,18 +25,18 @@ function update() {
     var input = document.getElementById("input").value;
     var output = "";
     for (var i=0; i<input.length; i++) {
-        if (input.charAt(i) === "%") {
+        if (!SUPPORTED_CHARACTERS.includes(input.charAt(i))) {
             continue;
         }
         var prev = i>0 ? input.charAt(i-1) : null;
         var color = false;
-        if (prev === "%") {
+        if (prev === SPEC_COLOR) {
             color = true;
             prev = i>1 ? input.charAt(i-2) : null;
         }
         var c = input.charAt(i);
         var next = i<input.length-1 ? input.charAt(i+1) : null;
-        if (next === "%") {
+        if (next === SPEC_COLOR) {
             next = i<input.length-2 ? input.charAt(i+2) : null;
             i++;
         }
@@ -38,7 +44,10 @@ function update() {
         var wordEnd = next === null || WORD_BOUNDARY.includes(next);
         var fent = "boóöőrvwF".includes(prev);
         var kotes = fent ? "f" : "l";
-        var szam = "0123456789".includes(c);
+        if (WORD_BOUNDARY.includes(c)) {
+            output += c;
+            continue;
+        }
         if ("P".includes(prev)) {
             kotes = "t";
         } else if ("NTVW".includes(prev)) {
@@ -57,9 +66,7 @@ function update() {
             i++;
         }
         var colorClass = color ? " red" : "";
-        if (szam) {
-            output += c;
-        } else if (wordStart && wordEnd) {
+        if (wordStart && wordEnd) {
             output += "<span class=\"egy"+colorClass+"\">"+c+"</span>";
         } else if (wordStart && !wordEnd) {
             output += "<span class=\"e"+colorClass+"\">"+c+"</span>";

@@ -32,8 +32,8 @@ while ( i < $argc )
         if ( $argv[i]:r != "Kati_vonal" )
 
                 # Paste lines into used characters
-                Select(58,59, 63,91, 97,124, 163,164, 213,214, 218,220, 245,246, 250,252)
-                SelectMoreSingletons(33,36,44,46,93,167,179,193,201,205,211,223,225,233,237,243)
+                Select(33,34, 43,46, 48,63, 65,90, 97,122, 336,337, 368,369)
+                SelectMoreSingletons(39,93,193,201,205,211,214,218,220,225,233,237,243,246,250,252,8722)
                 UnlinkReference()
                 PasteInto()
 
