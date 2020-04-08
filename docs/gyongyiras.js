@@ -1,7 +1,7 @@
 var COLUMNS = 32;
 var VALID_VONALAZAS = ["1", "2", "3", "4"];
-var WORD_CHARACTERS = "aábcdeéfghiíjklmnoóöőpqrstuúüűvwxyz" +
-                      "AÁBCDEÉFGHIÍJKLMNOÓÖŐPQRSTUÚÜŰVWXYZ";
+var WORD_CHARACTERS = "aáäbcdeéfghiíjklmnoóöőpqrstuúüűvwxyzß" +
+                      "AÁÄBCDEÉFGHIÍJKLMNOÓÖŐPQRSTUÚÜŰVWXYZ";
 var NUMBERS = "0123456789";
 var WORD_BOUNDARY = NUMBERS + "!\"'+,-.:;<=>? \n−";
 var SUPPORTED_CHARACTERS = WORD_CHARACTERS + WORD_BOUNDARY;
@@ -42,23 +42,25 @@ function update() {
         }
         var wordStart = prev === null || WORD_BOUNDARY.includes(prev);
         var wordEnd = next === null || WORD_BOUNDARY.includes(next);
-        var fent = "boóöőrvwF".includes(prev);
-        var kotes = fent ? "f" : "l";
         if (WORD_BOUNDARY.includes(c)) {
             output += c;
             continue;
         }
+        var kotes;
         if ("P".includes(prev)) {
             kotes = "t";
         } else if ("NTVW".includes(prev)) {
-            if ("ábéfhiíjklóöőtúüű".includes(c)) {
+            if ("ábéfhiíjklóöőtúüűßä".includes(c)) {
                 kotes = "t";
             } else {
                 kotes = "k";
             }
         }
-        else if ("BDINOÓÖŐSs".includes(prev)) {
+        else if ("BDIOÓÖŐSs".includes(prev)) {
             kotes = "k";
+        } else {
+            var fent = "boóöőrvwF".includes(prev);
+            kotes = fent ? "f" : "l";
         }
         // console.log("pcn="+prev+c+next+", fent="+fent+", kotes="+kotes);
         if (c === 't' && next === 't') {
