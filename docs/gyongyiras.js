@@ -3,7 +3,7 @@ var VALID_VONALAZAS = ["1", "2", "3", "4"];
 var WORD_CHARACTERS = "aáäbcdeéfghiíjklmnoóöőpqrstuúüűvwxyzß" +
                       "AÁÄBCDEÉFGHIÍJKLMNOÓÖŐPQRSTUÚÜŰVWXYZ";
 var NUMBERS = "0123456789";
-var WORD_BOUNDARY = NUMBERS + "!\"'+,-.:;<=>? \n−";
+var WORD_BOUNDARY = NUMBERS + "!\"'+,-.:;<=>? \n−/";
 var SUPPORTED_CHARACTERS = WORD_CHARACTERS + WORD_BOUNDARY;
 var SPEC_COLOR = "%";
 var SPECIAL_CHARACTERS = SPEC_COLOR;
