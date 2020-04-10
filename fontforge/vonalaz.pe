@@ -1,6 +1,6 @@
 #!/usr/local/bin/fontforge.exe
 
-# FontForge script to generate final font versions of KatiFont set
+# FontForge script to generate final font versions of Gyöngyírás Font set
 
 i=1
 while ( i < $argc )
@@ -29,7 +29,7 @@ while ( i < $argc )
         Select(31)
         Copy()
 
-        if ( $argv[i]:r != "Kati_vonal" )
+        if ( $argv[i]:r != "Gyongyiras_vonal" )
 
                 # Paste lines into used characters
                 Select(33,34, 43,46, 48,63, 65,90, 97,122, 336,337, 368,369)

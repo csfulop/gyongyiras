@@ -98,7 +98,7 @@ body {
   margin-right: var(--right-margin);
   padding-right: var(--side-extra-margin);
   color: var(--text-color);
-  font-family: Kati_egyedul;
+  font-family: Gyongyiras_egyedul;
 }
 
 .background {
@@ -106,7 +106,7 @@ body {
   width: var(--page-width);
 
   color: var(--line-color);
-  font-family: Kati_egyedul_v;
+  font-family: Gyongyiras_egyedul_v;
 }
 
 .backgroundOuter, .sideMargins {
@@ -145,35 +145,35 @@ body {
   color: red;
 }
 
-@font-face {font-family: Kati_egyedul_v;src: url(Kati_egyedul_v.otf);}
-@font-face {font-family: Kati_elol_v;src: url(Kati_elol_v.otf);}
-@font-face {font-family: Kati_fent_vege_v;src: url(Kati_fent_vege_v.otf);}
-@font-face {font-family: Kati_fent_v;src: url(Kati_fent_v.otf);}
-@font-face {font-family: Kati_kozel_vege_v;src: url(Kati_kozel_vege_v.otf);}
-@font-face {font-family: Kati_kozel_v;src: url(Kati_kozel_v.otf);}
-@font-face {font-family: Kati_lent_vege_v;src: url(Kati_lent_vege_v.otf);}
-@font-face {font-family: Kati_lent_v;src: url(Kati_lent_v.otf);}
-@font-face {font-family: Kati_tavol_vege_v;src: url(Kati_tavol_vege_v.otf);}
-@font-face {font-family: Kati_tavol_v;src: url(Kati_tavol_v.otf);}
+@font-face {font-family: Gyongyiras_egyedul_v;src: url(Gyongyiras_egyedul_v.otf);}
+@font-face {font-family: Gyongyiras_elol_v;src: url(Gyongyiras_elol_v.otf);}
+@font-face {font-family: Gyongyiras_fent_vege_v;src: url(Gyongyiras_fent_vege_v.otf);}
+@font-face {font-family: Gyongyiras_fent_v;src: url(Gyongyiras_fent_v.otf);}
+@font-face {font-family: Gyongyiras_kozel_vege_v;src: url(Gyongyiras_kozel_vege_v.otf);}
+@font-face {font-family: Gyongyiras_kozel_v;src: url(Gyongyiras_kozel_v.otf);}
+@font-face {font-family: Gyongyiras_lent_vege_v;src: url(Gyongyiras_lent_vege_v.otf);}
+@font-face {font-family: Gyongyiras_lent_v;src: url(Gyongyiras_lent_v.otf);}
+@font-face {font-family: Gyongyiras_tavol_vege_v;src: url(Gyongyiras_tavol_vege_v.otf);}
+@font-face {font-family: Gyongyiras_tavol_v;src: url(Gyongyiras_tavol_v.otf);}
 
-@font-face {font-family: Kati_egyedul;src: url(Kati_egyedul.otf);}
-@font-face {font-family: Kati_elol;src: url(Kati_elol.otf);}
-@font-face {font-family: Kati_fent_vege;src: url(Kati_fent_vege.otf);}
-@font-face {font-family: Kati_fent;src: url(Kati_fent.otf);}
-@font-face {font-family: Kati_kozel_vege;src: url(Kati_kozel_vege.otf);}
-@font-face {font-family: Kati_kozel;src: url(Kati_kozel.otf);}
-@font-face {font-family: Kati_lent_vege;src: url(Kati_lent_vege.otf);}
-@font-face {font-family: Kati_lent;src: url(Kati_lent.otf);}
-@font-face {font-family: Kati_tavol_vege;src: url(Kati_tavol_vege.otf);}
-@font-face {font-family: Kati_tavol;src: url(Kati_tavol.otf);}
+@font-face {font-family: Gyongyiras_egyedul;src: url(Gyongyiras_egyedul.otf);}
+@font-face {font-family: Gyongyiras_elol;src: url(Gyongyiras_elol.otf);}
+@font-face {font-family: Gyongyiras_fent_vege;src: url(Gyongyiras_fent_vege.otf);}
+@font-face {font-family: Gyongyiras_fent;src: url(Gyongyiras_fent.otf);}
+@font-face {font-family: Gyongyiras_kozel_vege;src: url(Gyongyiras_kozel_vege.otf);}
+@font-face {font-family: Gyongyiras_kozel;src: url(Gyongyiras_kozel.otf);}
+@font-face {font-family: Gyongyiras_lent_vege;src: url(Gyongyiras_lent_vege.otf);}
+@font-face {font-family: Gyongyiras_lent;src: url(Gyongyiras_lent.otf);}
+@font-face {font-family: Gyongyiras_tavol_vege;src: url(Gyongyiras_tavol_vege.otf);}
+@font-face {font-family: Gyongyiras_tavol;src: url(Gyongyiras_tavol.otf);}
 
-.egy {font-family: Kati_egyedul;}
-.e {font-family: Kati_elol;}
-.fv {font-family: Kati_fent_vege;}
-.f {font-family: Kati_fent;}
-.kv {font-family: Kati_kozel_vege;}
-.k {font-family: Kati_kozel;}
-.lv {font-family: Kati_lent_vege;}
-.l {font-family: Kati_lent;}
-.t {font-family: Kati_tavol;}
-.tv {font-family: Kati_tavol_vege;}
+.egy {font-family: Gyongyiras_egyedul;}
+.e {font-family: Gyongyiras_elol;}
+.fv {font-family: Gyongyiras_fent_vege;}
+.f {font-family: Gyongyiras_fent;}
+.kv {font-family: Gyongyiras_kozel_vege;}
+.k {font-family: Gyongyiras_kozel;}
+.lv {font-family: Gyongyiras_lent_vege;}
+.l {font-family: Gyongyiras_lent;}
+.t {font-family: Gyongyiras_tavol;}
+.tv {font-family: Gyongyiras_tavol_vege;}

@@ -2,6 +2,6 @@
 
 ## How to generate fonts from the FontForge source
 
-`flatpak run io.github.Fontforge -script vonalaz.pe Kati*.sfd`
+`flatpak run org.fontforge.FontForge -script vonalaz.pe Gyongyiras_*.sfd`
 
 
