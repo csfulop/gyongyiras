@@ -13,16 +13,30 @@
 
   <meta charset="UTF-8">
   <title>Gyöngyírás</title>
-  <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
   <link rel="stylesheet" type="text/css" href="gyongyiras.css" />
 </head>
 <body>
   <div id="screen">
     <h1>Gyöngyírás</h1>
     <nav>
-      <a href="https://www.youtube.com/embed/BRzI8FeZXQE" target="_blank">Bemutató videó</a> |
-      <a href="https://www.facebook.com/gyongyiras/photos/a.109000420733147/115359766763879/?type=3&theater" target="_blank">Nyomtatási, megosztási súgó</a> |
-      <a href="https://www.facebook.com/pg/gyongyiras/posts/" target="_blank">Facebook oldal</a>
+      <a href="https://www.youtube.com/embed/BRzI8FeZXQE" target="_blank" class="tooltip">
+        Bemutató videó
+        <span class="tooltiptext">A video végén látható a nyomtatás / PDF fájlba mentés is!</span>
+      </a>&nbsp;|&nbsp;
+      <a href="https://www.facebook.com/gyongyiras/photos/a.109000420733147/115359766763879/?type=3&theater" target="_blank" class="tooltip">
+        Nyomtatási, megosztási súgó
+        <span class="tooltiptext">
+          Nyomtatáshoz / PDF fájlba mentéshez használd a böngésző Nyomtatás... paranccsát!
+          A beállítás részleteit megtalálod a következő képen vagy a bemutató videóban.
+        </span>
+      </a>&nbsp;|&nbsp;
+      <a href="https://www.facebook.com/pg/gyongyiras/posts/" target="_blank" class="tooltip">
+        Facebook oldal
+        <span class="tooltiptext">
+          Lájkold és kövesd a facebook oldalt, ha szeretnél értesülni az újdonságokról!
+          Oszd meg és ajánld az ismerőseidnek!
+        </span>
+      </a>
       <div id="options">
         Beállítások:
         <select id="settingVonalazas" onchange="changeVonalazas();">

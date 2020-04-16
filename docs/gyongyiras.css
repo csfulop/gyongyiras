@@ -177,3 +177,48 @@ body {
 .l {font-family: Gyongyiras_lent;}
 .t {font-family: Gyongyiras_tavol;}
 .tv {font-family: Gyongyiras_tavol_vege;}
+
+/* Tooltip container */
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+  visibility: hidden;
+  background-color: #444;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+
+  /* Position the tooltip text - see examples below! */
+  position: absolute;
+  z-index: 1;
+  width: 160px;
+  top: 150%;
+  left: 70%;
+  margin-left: -60px; /* Use half of the width (120/2 = 60), to center the tooltip */
+
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 0.95;
+}
+
+/* Top arrow for the tooltip */
+.tooltip .tooltiptext::after {
+  content: " ";
+  position: absolute;
+  bottom: 100%;  /* At the top of the tooltip */
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent transparent #444 transparent;
+}
