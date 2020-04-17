@@ -41,13 +41,13 @@ td {
   <table id="t1">
   </table>
   <script type="text/javascript">
-    var ROWS=40;
-    var COLUMNS=29*2;
+    var ROWS=58;
+    var COLUMNS=40;
     for (var y=0; y<ROWS; y++) {
       var tr = document.createElement("tr");
       for (var x=0; x<COLUMNS; x++) {
         var td = document.createElement("td")
-        if (x==3 || COLUMNS-x==5) {
+        if (x==2 || COLUMNS-x==4) {
           td.className = "margo";
         }
         tr.appendChild(td);
