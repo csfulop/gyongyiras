@@ -44,6 +44,10 @@ body {
   --number-of-rows: 21;
 }
 
+.osztaly1 .pageA4-landscape {
+  --number-of-rows: 14;
+}
+
 .osztaly2 {
   --font-size: 10mm;
   --background-line-char: ;
@@ -59,6 +63,10 @@ body {
 
 .osztaly2 .pageA4 {
   --number-of-rows: 25;
+}
+
+.osztaly2 .pageA4-landscape {
+  --number-of-rows: 16;
 }
 
 .osztaly3 {
@@ -79,6 +87,10 @@ body {
   --number-of-rows: 26;
 }
 
+.osztaly3 .pageA4-landscape {
+  --number-of-rows: 17;
+}
+
 .osztaly4 {
   --font-size: 7mm;
   --background-line-char:~;
@@ -95,6 +107,10 @@ body {
 
 .osztaly4 .pageA4 {
   --number-of-rows: 37;
+}
+
+.osztaly4 .pageA4-landscape {
+  --number-of-rows: 24;
 }
 
 .pageA5 {
@@ -128,6 +144,25 @@ body {
 }
 
 #page2.pageA4 {
+  display: none;
+}
+
+.pageA4-landscape {
+  --page-width: calc(var(--a4-height) - 5mm);
+  --page-height: calc(var(--a4-width) - 5mm);
+  --side-extra-margin: 1mm;
+  --top-accent-extra: calc(var(--font-size) / 3);
+
+  flex-shrink: 0;
+
+  position: relative;
+  overflow: hidden;
+  /* border: 1px solid grey; */
+  width: var(--page-width);
+  height: var(--page-height);
+}
+
+#page2.pageA4-landscape {
   display: none;
 }
 
