@@ -2,6 +2,10 @@ body {
   font-size: 100%;
   --line-color: CornflowerBlue;
   --text-color: Black;
+  --a5-width: 148mm;
+  --a5-height: 210mm;
+  --a4-width: 210mm;
+  --a4-height: 297mm;
 }
 
 @page {
@@ -25,17 +29,23 @@ body {
 
 .osztaly1 {
   --font-size: 12mm;
-  --number-of-rows: 14;
   --background-line-char: ;
   --background-bottom-line-char:_;
   --top-margin: 30mm;
   --right-margin: 13mm;
   --left-margin: 12mm;
+}
+
+.osztaly1 .pageA5 {
+  --number-of-rows: 14;
+}
+
+.osztaly1 .pageA4 {
+  --number-of-rows: 21;
 }
 
 .osztaly2 {
   --font-size: 10mm;
-  --number-of-rows: 16;
   --background-line-char: ;
   --background-bottom-line-char:_;
   --top-margin: 30mm;
@@ -43,20 +53,34 @@ body {
   --left-margin: 12mm;
 }
 
+.osztaly2 .pageA5 {
+  --number-of-rows: 16;
+}
+
+.osztaly2 .pageA4 {
+  --number-of-rows: 25;
+}
+
 .osztaly3 {
   --font-size: 10mm;
-  --number-of-rows: 17;
   --background-line-char:~;
   --background-bottom-line-char:~;
   --top-margin: 23mm;
   --right-margin: 13mm;
   --left-margin: 12mm;
   --top-border: 1mm double var(--line-color);
+}
+
+.osztaly3 .pageA5 {
+  --number-of-rows: 17;
+}
+
+.osztaly3 .pageA4 {
+  --number-of-rows: 26;
 }
 
 .osztaly4 {
   --font-size: 7mm;
-  --number-of-rows: 24;
   --background-line-char:~;
   --background-bottom-line-char:~;
   --top-margin: 23mm;
@@ -65,9 +89,17 @@ body {
   --top-border: 1mm double var(--line-color);
 }
 
+.osztaly4 .pageA5 {
+  --number-of-rows: 24;
+}
+
+.osztaly4 .pageA4 {
+  --number-of-rows: 37;
+}
+
 .pageA5 {
-  --page-width: 143mm;
-  --page-height: 204mm;
+  --page-width: calc(var(--a5-width) - 5mm);
+  --page-height: calc(var(--a5-height) - 5mm);
   --side-extra-margin: 1mm;
   --top-accent-extra: calc(var(--font-size) / 3);
 
@@ -78,6 +110,25 @@ body {
   /* border: 1px solid grey; */
   width: var(--page-width);
   height: var(--page-height);
+}
+
+.pageA4 {
+  --page-width: calc(var(--a4-width) - 5mm);
+  --page-height: calc(var(--a4-height) - 5mm);
+  --side-extra-margin: 1mm;
+  --top-accent-extra: calc(var(--font-size) / 3);
+
+  flex-shrink: 0;
+
+  position: relative;
+  overflow: hidden;
+  /* border: 1px solid grey; */
+  width: var(--page-width);
+  height: var(--page-height);
+}
+
+#page2.pageA4 {
+  display: none;
 }
 
 #page1 {

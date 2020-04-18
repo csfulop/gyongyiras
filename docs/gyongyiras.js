@@ -13,11 +13,11 @@ var BACKGROUND_LINE_CHAR;
 var BACKGROUND_BOTTOM_LINE_CHAR;
 
 function getCssVariables() {
-    ROWS = getComputedStyle(document.getElementById("print")).getPropertyValue("--number-of-rows");
+    ROWS = getComputedStyle(document.getElementById("page1")).getPropertyValue("--number-of-rows");
     console.log('ROWS="'+ROWS+'"');
-    BACKGROUND_LINE_CHAR = getComputedStyle(document.getElementById("print")).getPropertyValue("--background-line-char");
+    BACKGROUND_LINE_CHAR = getComputedStyle(document.getElementById("page1")).getPropertyValue("--background-line-char");
     console.log('BACKGROUND_LINE_CHAR="'+BACKGROUND_LINE_CHAR+'"');
-    BACKGROUND_BOTTOM_LINE_CHAR = getComputedStyle(document.getElementById("print")).getPropertyValue("--background-bottom-line-char");
+    BACKGROUND_BOTTOM_LINE_CHAR = getComputedStyle(document.getElementById("page1")).getPropertyValue("--background-bottom-line-char");
     console.log('BACKGROUND_BOTTOM_LINE_CHAR="'+BACKGROUND_BOTTOM_LINE_CHAR+'"');
 }
 
