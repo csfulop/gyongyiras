@@ -1,4 +1,3 @@
-var COLUMNS = 32;
 var VALID_VONALAZAS = ["1", "2", "3", "4"];
 var WORD_CHARACTERS = "aáäbcdeéfghiíjklmnoóöőpqrstuúüűvwxyzß" +
                       "AÁÄBCDEÉFGHIÍJKLMNOÓÖŐPQRSTUÚÜŰVWXYZ";
@@ -8,6 +7,7 @@ var SUPPORTED_CHARACTERS = WORD_CHARACTERS + WORD_BOUNDARY;
 var SPEC_COLOR = "%";
 var SPECIAL_CHARACTERS = SPEC_COLOR;
 
+var COLUMNS;
 var ROWS;
 var BACKGROUND_LINE_CHAR;
 var BACKGROUND_BOTTOM_LINE_CHAR;
@@ -15,6 +15,8 @@ var BACKGROUND_BOTTOM_LINE_CHAR;
 function getCssVariables() {
     ROWS = getComputedStyle(document.getElementById("page1")).getPropertyValue("--number-of-rows");
     console.log('ROWS="'+ROWS+'"');
+    COLUMNS = getComputedStyle(document.getElementById("page1")).getPropertyValue("--number-of-columns");
+    console.log('COLUMNS="'+COLUMNS+'"');
     BACKGROUND_LINE_CHAR = getComputedStyle(document.getElementById("page1")).getPropertyValue("--background-line-char");
     console.log('BACKGROUND_LINE_CHAR="'+BACKGROUND_LINE_CHAR+'"');
     BACKGROUND_BOTTOM_LINE_CHAR = getComputedStyle(document.getElementById("page1")).getPropertyValue("--background-bottom-line-char");
@@ -122,6 +124,12 @@ function processParameter() {
     var content = getUrlParameter("c");
     if (content !== "") {
         document.getElementById("input").innerHTML = content;
+    }
+    var vonalazas = getUrlParameter("v");
+    if (vonalazas !== "" ) {
+        var select = document.getElementById("settingVonalazas");
+        select.value = vonalazas;
+        select.dispatchEvent(new Event('change'));
     }
 }
 
