@@ -3,6 +3,7 @@ var VALID_VONALAZAS = ["1", "2", "3", "4"];
 var WORD_CHARACTERS = "aáäbcdeéfghiíjklmnoóöőpqrstuúüűvwxyzß" +
                       "AÁÄBCDEÉFGHIÍJKLMNOÓÖŐPQRSTUÚÜŰVWXYZ";
 var NUMBERS = "0123456789";
+var VALID_COLORS = ["red", "blue", "green"]
 var WORD_BOUNDARY = NUMBERS + "!\"'+,-.:;<=>? \n−/()";
 var SUPPORTED_CHARACTERS = WORD_CHARACTERS + WORD_BOUNDARY;
 var SPEC_COLOR = "%";
@@ -11,6 +12,7 @@ var SPECIAL_CHARACTERS = SPEC_COLOR;
 var ROWS;
 var BACKGROUND_LINE_CHAR;
 var BACKGROUND_BOTTOM_LINE_CHAR;
+var selectedColor = "red";
 
 function getCssVariables() {
     ROWS = getComputedStyle(document.getElementById("print")).getPropertyValue("--number-of-rows");
@@ -67,15 +69,16 @@ function update() {
             c = ']';
             i++;
         }
-        var colorClass = color ? " red" : "";
+		var colorCss = color ? "\" style=\"color: " + selectedColor + "\"": "";
+
         if (wordStart && wordEnd) {
-            output += "<span class=\"egy"+colorClass+"\">"+c+"</span>";
+            output += "<span class=\"egy"+colorCss+"\">"+c+"</span>";
         } else if (wordStart && !wordEnd) {
-            output += "<span class=\"e"+colorClass+"\">"+c+"</span>";
+            output += "<span class=\"e"+colorCss+"\">"+c+"</span>";
         } else if (!wordStart && !wordEnd) {
-            output += "<span class=\""+kotes+colorClass+"\">"+c+"</span>";
+            output += "<span class=\""+kotes+colorCss+"\">"+c+"</span>";
         } else if (!wordStart && wordEnd) {
-            output += "<span class=\""+kotes+"v"+colorClass+"\">"+c+"</span>";
+            output += "<span class=\""+kotes+"v"+colorCss+"\">"+c+"</span>";
         } else {
             output += c;
         }
@@ -109,6 +112,14 @@ function changeVonalazas() {
         document.getElementById("print").className = "osztaly"+vonalazas;
         refreshOutput();
     }
+}
+
+function changeColor() {
+	var color = document.getElementById("settingColor").value;
+	if (VALID_COLORS.includes(color)) {
+		selectedColor = color;
+		refreshOutput();
+	}
 }
 
 function getUrlParameter(name) {
