@@ -38,14 +38,21 @@
         </span>
       </a>
       <div id="options">
-        Beállítások:
+        Beállítások:<br/>
+        Vonalazás:
         <select id="settingVonalazas" onchange="changeVonalazas();">
-          <option value="1">Elsős vonalazás (14-32)</option>
-          <option value="2">Másodikos vonalazás (16-32)</option>
-          <option value="3">Harmadikos vonalazás (12-32)</option>
-          <option value="4">Negyedikes vonalazás (21-32)</option>
-          <option value="gyl1">GYL-1 vonalazás</option>
-          <option value="gyl2">GYL-2 vonalazás</option>
+          <option value="1">Elsős (14-32)</option>
+          <option value="2">Másodikos (16-32)</option>
+          <option value="3">Harmadikos (12-32)</option>
+          <option value="4">Negyedikes (21-32)</option>
+          <option value="gyl1">GYL-1</option>
+          <option value="gyl2">GYL-2</option>
+        </select><br/>
+        Színes betűk:
+        <select id="settingColor" onchange="changeColor();">
+          <option value="red">Piros</option>
+          <option value="blue">Kék</option>
+          <option value="green">Zöld</option>
         </select>
       </div>
     </nav>
@@ -64,7 +71,7 @@ nyomtatod.
 Lásd a bemutató
 videót!
 %S%zázalékjel %utáni
-%betű %piros %lesz!
+%betű %s%zínes %lesz!
 
 Lájkold és kövesd a
 facebook oldalt, ha

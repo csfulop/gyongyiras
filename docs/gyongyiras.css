@@ -307,10 +307,6 @@ body {
   border-right: 1px solid var(--line-color);
 }
 
-.red {
-  color: red;
-}
-
 @font-face {font-family: Gyongyiras_egyedul_v;src: url(Gyongyiras_egyedul_v.otf);}
 @font-face {font-family: Gyongyiras_elol_v;src: url(Gyongyiras_elol_v.otf);}
 @font-face {font-family: Gyongyiras_fent_vege_v;src: url(Gyongyiras_fent_vege_v.otf);}

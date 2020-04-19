@@ -27,6 +27,13 @@ var ROWS;
 var BACKGROUND_LINE_CHAR;
 var BACKGROUND_BOTTOM_LINE_CHAR;
 
+var selectedColor;
+var COLOR_TO_CSS = new Map();
+COLOR_TO_CSS.set("red","red")
+            .set("green","#00e600")
+            .set("blue","blue");
+setSelectedColor();
+
 function getCssVariables() {
     ROWS = getComputedStyle(document.getElementById("page1")).getPropertyValue("--number-of-rows");
     console.log('ROWS="'+ROWS+'"');
@@ -84,15 +91,15 @@ function update() {
             c = ']';
             i++;
         }
-        var colorClass = color ? " red" : "";
+        var colorCss = color ? " style=\"color: "+selectedColor+"\"" : "";
         if (wordStart && wordEnd) {
-            output += "<span class=\"egy"+colorClass+"\">"+c+"</span>";
+            output += "<span class=\"egy\""+colorCss+">"+c+"</span>";
         } else if (wordStart && !wordEnd) {
-            output += "<span class=\"e"+colorClass+"\">"+c+"</span>";
+            output += "<span class=\"e\""+colorCss+">"+c+"</span>";
         } else if (!wordStart && !wordEnd) {
-            output += "<span class=\""+kotes+colorClass+"\">"+c+"</span>";
+            output += "<span class=\""+kotes+"\""+colorCss+">"+c+"</span>";
         } else if (!wordStart && wordEnd) {
-            output += "<span class=\""+kotes+"v"+colorClass+"\">"+c+"</span>";
+            output += "<span class=\""+kotes+"v\""+colorCss+">"+c+"</span>";
         } else {
             output += c;
         }
@@ -130,6 +137,18 @@ function changeVonalazas() {
         document.getElementById("page2").className = VONALAZAS_DEFAULT_PAGE.get(vonalazas);
         refreshOutput();
     }
+}
+
+function setSelectedColor() {
+    var color = document.getElementById("settingColor").value;
+    if (COLOR_TO_CSS.has(color)) {
+        selectedColor = COLOR_TO_CSS.get(color);
+    }
+}
+
+function changeColor() {
+    setSelectedColor();
+    refreshOutput();
 }
 
 function getUrlParameter(name) {
