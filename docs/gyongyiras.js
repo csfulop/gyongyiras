@@ -1,4 +1,19 @@
-var VALID_VONALAZAS = ["1", "2", "3", "4"];
+var VONALAZAS_TO_CLASS = new Map();
+VONALAZAS_TO_CLASS.set("1","osztaly1")
+                  .set("2","osztaly2")
+                  .set("3","osztaly3")
+                  .set("4","osztaly4")
+                  .set("gyl1","gyl1")
+                  .set("gyl2","gyl2");
+
+var VONALAZAS_DEFAULT_PAGE = new Map();
+VONALAZAS_DEFAULT_PAGE.set("1","pageA5")
+                      .set("2","pageA5")
+                      .set("3","pageA5")
+                      .set("4","pageA5")
+                      .set("gyl1","pageA4-landscape")
+                      .set("gyl2","pageA4-landscape");
+
 var WORD_CHARACTERS = "aáäbcdeéfghiíjklmnoóöőpqrstuúüűvwxyzß" +
                       "AÁÄBCDEÉFGHIÍJKLMNOÓÖŐPQRSTUÚÜŰVWXYZ";
 var NUMBERS = "0123456789";
@@ -100,6 +115,7 @@ function fillBackground() {
 }
 
 function refreshOutput() {
+    console.log("refreshOutput()");
     getCssVariables();
     fillBackground();
     update();
@@ -107,8 +123,11 @@ function refreshOutput() {
 
 function changeVonalazas() {
     var vonalazas = document.getElementById("settingVonalazas").value;
-    if (VALID_VONALAZAS.includes(vonalazas)) {
-        document.getElementById("print").className = "osztaly"+vonalazas;
+    console.log("changeVonalazas("+vonalazas+")");
+    if (VONALAZAS_TO_CLASS.has(vonalazas)) {
+        document.getElementById("print").className = VONALAZAS_TO_CLASS.get(vonalazas);
+        document.getElementById("page1").className = VONALAZAS_DEFAULT_PAGE.get(vonalazas);
+        document.getElementById("page2").className = VONALAZAS_DEFAULT_PAGE.get(vonalazas);
         refreshOutput();
     }
 }
@@ -121,12 +140,15 @@ function getUrlParameter(name) {
 }
 
 function processParameter() {
+    console.log("processParameter()");
     var content = getUrlParameter("c");
     if (content !== "") {
+        console.log("c="+content);
         document.getElementById("input").innerHTML = content;
     }
     var vonalazas = getUrlParameter("v");
     if (vonalazas !== "" ) {
+        console.log("v="+vonalazas);
         var select = document.getElementById("settingVonalazas");
         select.value = vonalazas;
         select.dispatchEvent(new Event('change'));

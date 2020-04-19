@@ -27,6 +27,8 @@ body {
   float: right;
 }
 
+/* -------------------- osztaly1 -------------------- */
+
 .osztaly1 {
   --font-size: 12mm;
   --background-line-char: ;
@@ -51,6 +53,8 @@ body {
   --number-of-columns: 39;
 }
 
+/* -------------------- osztaly2 -------------------- */
+
 .osztaly2 {
   --font-size: 10mm;
   --background-line-char: ;
@@ -74,6 +78,8 @@ body {
   --number-of-rows: 16;
   --number-of-columns: 46;
 }
+
+/* -------------------- osztaly3 -------------------- */
 
 .osztaly3 {
   --font-size: 10mm;
@@ -100,6 +106,8 @@ body {
   --number-of-columns: 46;
 }
 
+/* -------------------- osztaly4 -------------------- */
+
 .osztaly4 {
   --font-size: 7mm;
   --background-line-char:~;
@@ -125,6 +133,60 @@ body {
   --number-of-columns: 66;
 }
 
+/* -------------------- GYL-1 -------------------- */
+
+.gyl1 {
+  --font-size: 23mm;
+  --background-line-char: ;
+  --background-bottom-line-char:_;
+  --top-margin: 14mm;
+  --right-margin: 13mm;
+  --left-margin: 12mm;
+}
+
+.gyl1 .pageA5 {
+  --number-of-rows: 8;
+  --number-of-columns: 11;
+}
+
+.gyl1 .pageA4 {
+  --number-of-rows: 11;
+  --number-of-columns: 15;
+}
+
+.gyl1 .pageA4-landscape {
+  --number-of-rows: 8;
+  --number-of-columns: 21;
+}
+
+/* -------------------- GYL-2 -------------------- */
+
+.gyl2 {
+  --font-size: 18mm;
+  --background-line-char: ;
+  --background-bottom-line-char:_;
+  --top-margin: 15mm;
+  --right-margin: 13mm;
+  --left-margin: 12mm;
+}
+
+.gyl2 .pageA5 {
+  --number-of-rows: 10;
+  --number-of-columns: 14;
+}
+
+.gyl2 .pageA4 {
+  --number-of-rows: 14;
+  --number-of-columns: 19;
+}
+
+.gyl2 .pageA4-landscape {
+  --number-of-rows: 10;
+  --number-of-columns: 26;
+}
+
+/* -------------------- A5 -------------------- */
+
 .pageA5 {
   --page-width: calc(var(--a5-width) - 5mm);
   --page-height: calc(var(--a5-height) - 5mm);
@@ -139,6 +201,8 @@ body {
   width: var(--page-width);
   height: var(--page-height);
 }
+
+/* -------------------- A4 portrait -------------------- */
 
 .pageA4 {
   --page-width: calc(var(--a4-width) - 5mm);
@@ -159,6 +223,8 @@ body {
   display: none;
 }
 
+/* -------------------- A4 landscape -------------------- */
+
 .pageA4-landscape {
   --page-width: calc(var(--a4-height) - 5mm);
   --page-height: calc(var(--a4-width) - 5mm);
@@ -177,6 +243,8 @@ body {
 #page2.pageA4-landscape {
   display: none;
 }
+
+/* -------------------------------------------------- */
 
 #page1 {
   margin-right: 2mm;
