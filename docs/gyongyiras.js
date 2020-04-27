@@ -67,8 +67,12 @@ function update() {
         var wordStart = prev === null || WORD_BOUNDARY.includes(prev);
         var wordEnd = next === null || WORD_BOUNDARY.includes(next);
         if (WORD_BOUNDARY.includes(c)) {
-            output += c;
-            continue;
+            if (color) {
+                wordStart = wordEnd = true;
+            } else {
+                output += c;
+                continue;
+            }
         }
         var kotes;
         if ("P".includes(prev)) {
