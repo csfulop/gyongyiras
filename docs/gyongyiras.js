@@ -135,7 +135,7 @@ function refreshOutput() {
 function changeVonalazas() {
     var vonalazas = document.getElementById("settingVonalazas").value;
     console.log("changeVonalazas("+vonalazas+")");
-    if (VONALAZAS_TO_CLASS.has(vonalazas)) {
+    if (isValidVonalazas(vonalazas)) {
         document.getElementById("print").className = VONALAZAS_TO_CLASS.get(vonalazas);
         document.getElementById("page1").className = VONALAZAS_DEFAULT_PAGE.get(vonalazas);
         document.getElementById("page2").className = VONALAZAS_DEFAULT_PAGE.get(vonalazas);
@@ -143,16 +143,24 @@ function changeVonalazas() {
     }
 }
 
-function setSelectedColor() {
-    var color = document.getElementById("settingColor").value;
-    if (COLOR_TO_CSS.has(color)) {
-        selectedColor = COLOR_TO_CSS.get(color);
-    }
+function isValidVonalazas(vonalazas) {
+    return VONALAZAS_TO_CLASS.has(vonalazas);
 }
 
 function changeColor() {
     setSelectedColor();
     refreshOutput();
+}
+
+function setSelectedColor() {
+    var color = document.getElementById("settingColor").value;
+    if (isValidColor(color)) {
+        selectedColor = COLOR_TO_CSS.get(color);
+    }
+}
+
+function isValidColor(color) {
+    return COLOR_TO_CSS.has(color);
 }
 
 function getUrlParameter(name) {
@@ -170,10 +178,17 @@ function processParameter() {
         document.getElementById("input").innerHTML = content;
     }
     var vonalazas = getUrlParameter("v");
-    if (vonalazas !== "" ) {
+    if (isValidVonalazas(vonalazas)) {
         console.log("v="+vonalazas);
         var select = document.getElementById("settingVonalazas");
         select.value = vonalazas;
+        select.dispatchEvent(new Event('change'));
+    }
+    var color = getUrlParameter("sz");
+    if (isValidColor(color)) {
+        console.log("sz="+color);
+        var select = document.getElementById("settingColor");
+        select.value = color;
         select.dispatchEvent(new Event('change'));
     }
 }
