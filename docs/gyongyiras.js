@@ -7,12 +7,17 @@ VONALAZAS_TO_CLASS.set("1","osztaly1")
                   .set("gyl2","gyl2");
 
 var VONALAZAS_DEFAULT_PAGE = new Map();
-VONALAZAS_DEFAULT_PAGE.set("1","pageA5")
-                      .set("2","pageA5")
-                      .set("3","pageA5")
-                      .set("4","pageA5")
-                      .set("gyl1","pageA4-landscape")
-                      .set("gyl2","pageA4-landscape");
+VONALAZAS_DEFAULT_PAGE.set("1","a5")
+                      .set("2","a5")
+                      .set("3","a5")
+                      .set("4","a5")
+                      .set("gyl1","a4l")
+                      .set("gyl2","a4l");
+
+var PAGE_TO_CLASS = new Map();
+PAGE_TO_CLASS.set("a5","pageA5")
+             .set("a4l","pageA4-landscape")
+             .set("a4p","pageA4");
 
 var WORD_CHARACTERS = "aáäbcdeéfghiíjklmnoóöőpqrstuúüűvwxyzß" +
                       "AÁÄBCDEÉFGHIÍJKLMNOÓÖŐPQRSTUÚÜŰVWXYZ";
@@ -137,8 +142,14 @@ function changeVonalazas() {
     console.log("changeVonalazas("+vonalazas+")");
     if (isValidVonalazas(vonalazas)) {
         document.getElementById("print").className = VONALAZAS_TO_CLASS.get(vonalazas);
-        document.getElementById("page1").className = VONALAZAS_DEFAULT_PAGE.get(vonalazas);
-        document.getElementById("page2").className = VONALAZAS_DEFAULT_PAGE.get(vonalazas);
+
+        var defaultPage = VONALAZAS_DEFAULT_PAGE.get(vonalazas);
+        document.getElementById("settingPage").value = defaultPage;
+
+        var pageClass = PAGE_TO_CLASS.get(defaultPage);
+        document.getElementById("page1").className = pageClass;
+        document.getElementById("page2").className = pageClass;
+
         refreshOutput();
     }
 }
@@ -154,6 +165,7 @@ function changeColor() {
 
 function setSelectedColor() {
     var color = document.getElementById("settingColor").value;
+    console.log("setSelectedColor("+color+")");
     if (isValidColor(color)) {
         selectedColor = COLOR_TO_CSS.get(color);
     }
@@ -161,6 +173,21 @@ function setSelectedColor() {
 
 function isValidColor(color) {
     return COLOR_TO_CSS.has(color);
+}
+
+function changePage() {
+    var page = document.getElementById("settingPage").value;
+    console.log("changePage("+page+")");
+    if (isValidPage(page)) {
+        var pageClass = PAGE_TO_CLASS.get(page);
+        document.getElementById("page1").className = pageClass;
+        document.getElementById("page2").className = pageClass;
+        refreshOutput();
+    }
+}
+
+function isValidPage(page) {
+    return PAGE_TO_CLASS.has(page);
 }
 
 function getUrlParameter(name) {
@@ -182,6 +209,13 @@ function processParameter() {
         console.log("v="+vonalazas);
         var select = document.getElementById("settingVonalazas");
         select.value = vonalazas;
+        select.dispatchEvent(new Event('change'));
+    }
+    var page = getUrlParameter("p");
+    if (isValidPage(page)) {
+        console.log("p="+page);
+        var select = document.getElementById("settingPage");
+        select.value = page;
         select.dispatchEvent(new Event('change'));
     }
     var color = getUrlParameter("sz");

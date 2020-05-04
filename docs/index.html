@@ -44,24 +44,36 @@
         </span>
       </a>
       <div id="options">
-        Beállítások:<br/>
-        Vonalazás:
-        <select id="settingVonalazas" onchange="changeVonalazas();">
-          <option value="1">Elsős (14-32)</option>
-          <option value="2">Másodikos (16-32)</option>
-          <option value="3">Harmadikos (12-32)</option>
-          <option value="4">Negyedikes (21-32)</option>
-          <option value="gyl1">GYL-1</option>
-          <option value="gyl2">GYL-2</option>
-        </select><br/>
-        <div class="tooltip">Színes betűk:
-          <span class="tooltiptext">Egy oldalon belül csak egy féle szín használható</span>
+        <div>Beállítások:</div>
+        <div>
+          Vonalazás:
+          <select id="settingVonalazas" onchange="changeVonalazas();">
+            <option value="1">Elsős (14-32)</option>
+            <option value="2">Másodikos (16-32)</option>
+            <option value="3">Harmadikos (12-32)</option>
+            <option value="4">Negyedikes (21-32)</option>
+            <option value="gyl1">GYL-1</option>
+            <option value="gyl2">GYL-2</option>
+          </select>
         </div>
-        <select id="settingColor" onchange="changeColor();">
-          <option value="red">Piros</option>
-          <option value="blue">Kék</option>
-          <option value="green">Zöld</option>
-        </select>
+        <div>
+          Lap elrendezése:
+          <select id="settingPage" onchange="changePage();">
+            <option value="a5">dupla álló A5</option>
+            <option value="a4l">fekvő A4</option>
+            <option value="a4p">álló A4</option>
+          </select>
+        </div>
+        <div>
+          <div class="tooltip">Színes betűk:
+            <span class="tooltiptext">Egy oldalon belül csak egy féle szín használható</span>
+          </div>
+          <select id="settingColor" onchange="changeColor();">
+            <option value="red">Piros</option>
+            <option value="blue">Kék</option>
+            <option value="green">Zöld</option>
+          </select>
+        </div>
       </div>
     </nav>
     <p><textarea id="input" cols="80" rows="10" oninput="update()">Készíts írás gyakor-
