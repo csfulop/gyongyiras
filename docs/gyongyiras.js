@@ -38,6 +38,7 @@ COLOR_TO_CSS.set("red","red")
             .set("green","#00e600")
             .set("blue","blue");
 setSelectedColor();
+// FIXME: when color is changed then update its css instead of regenerate the content
 
 function getCssVariables() {
     ROWS = getComputedStyle(document.getElementById("page1")).getPropertyValue("--number-of-rows");
@@ -133,8 +134,28 @@ function fillBackground() {
 function refreshOutput() {
     console.log("refreshOutput()");
     getCssVariables();
-    fillBackground();
+    fillBackground(); // FIXME: fill background only once with max content?
     update();
+}
+
+function setContent(content) {
+    if (content !== "") {
+        console.log("setContent("+content+")");
+        document.getElementById("input").innerHTML = content;
+    }
+}
+
+function changeSettingVonalazas() {
+    changeVonalazas();
+    refreshOutput();
+}
+
+function setVonalazas(vonalazas) {
+    if (isValidVonalazas(vonalazas)) {
+        console.log("setVonalazas("+vonalazas+")");
+        document.getElementById("settingVonalazas").value = vonalazas;
+        changeVonalazas();
+    }
 }
 
 function changeVonalazas() {
@@ -149,8 +170,6 @@ function changeVonalazas() {
         var pageClass = PAGE_TO_CLASS.get(defaultPage);
         document.getElementById("page1").className = pageClass;
         document.getElementById("page2").className = pageClass;
-
-        refreshOutput();
     }
 }
 
@@ -158,9 +177,18 @@ function isValidVonalazas(vonalazas) {
     return VONALAZAS_TO_CLASS.has(vonalazas);
 }
 
-function changeColor() {
+function changeSettingColor() {
     setSelectedColor();
-    refreshOutput();
+    refreshOutput(); // FIXME: won't be needed if color change is done by CSS
+}
+
+function setColor(color) {
+    if (isValidColor(color)) {
+        console.log("setColor("+color+")");
+        var select = document.getElementById("settingColor");
+        select.value = color;
+        setSelectedColor();
+    }
 }
 
 function setSelectedColor() {
@@ -175,6 +203,20 @@ function isValidColor(color) {
     return COLOR_TO_CSS.has(color);
 }
 
+function changeSettingPage() {
+    changePage();
+    refreshOutput();
+}
+
+function setPage(page) {
+    if (isValidPage(page)) {
+        console.log("setPage("+page+")");
+        var select = document.getElementById("settingPage");
+        select.value = page;
+        changePage();
+    }
+}
+
 function changePage() {
     var page = document.getElementById("settingPage").value;
     console.log("changePage("+page+")");
@@ -182,12 +224,39 @@ function changePage() {
         var pageClass = PAGE_TO_CLASS.get(page);
         document.getElementById("page1").className = pageClass;
         document.getElementById("page2").className = pageClass;
-        refreshOutput();
     }
 }
 
 function isValidPage(page) {
     return PAGE_TO_CLASS.has(page);
+}
+
+function changeSettingSima() {
+    changeSima();
+}
+
+function setSima(sima) {
+    if (typeof sima !== 'undefined') {
+        console.log("setSima("+sima+")");
+        var select = document.getElementById("settingSima");
+        select.checked = sima=="1";
+        changeSima();
+    }
+}
+
+function changeSima() {
+    function setDisplayForClass(cls, display) {
+        var items = document.getElementsByClassName(cls);
+        for(var i=0; i<items.length; i++) {
+            items[i].style.display = display;
+        }
+    }
+
+    var sima = document.getElementById("settingSima").checked;
+    console.log("changeSima("+sima+")");
+    var display =  sima ? "none" : null;
+    setDisplayForClass("backgroundOuter", display);
+    setDisplayForClass("sideMargins", display);
 }
 
 function getUrlParameter(name) {
@@ -197,35 +266,14 @@ function getUrlParameter(name) {
     return results === null ? '' : decodeURIComponent(results[1].replace(/\+/g, ' '));
 }
 
-function processParameter() {
-    console.log("processParameter()");
-    var content = getUrlParameter("c");
-    if (content !== "") {
-        console.log("c="+content);
-        document.getElementById("input").innerHTML = content;
-    }
-    var vonalazas = getUrlParameter("v");
-    if (isValidVonalazas(vonalazas)) {
-        console.log("v="+vonalazas);
-        var select = document.getElementById("settingVonalazas");
-        select.value = vonalazas;
-        select.dispatchEvent(new Event('change'));
-    }
-    var page = getUrlParameter("p");
-    if (isValidPage(page)) {
-        console.log("p="+page);
-        var select = document.getElementById("settingPage");
-        select.value = page;
-        select.dispatchEvent(new Event('change'));
-    }
-    var color = getUrlParameter("sz");
-    if (isValidColor(color)) {
-        console.log("sz="+color);
-        var select = document.getElementById("settingColor");
-        select.value = color;
-        select.dispatchEvent(new Event('change'));
-    }
+function processParameters() {
+    console.log("processParameters("+location.search+")");
+    setContent(getUrlParameter("c"));
+    setVonalazas(getUrlParameter("v"));
+    setPage(getUrlParameter("p"));
+    setColor(getUrlParameter("sz"));
+    setSima(getUrlParameter("s"));
 }
 
-processParameter();
+processParameters();
 refreshOutput();

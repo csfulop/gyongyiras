@@ -45,9 +45,10 @@
       </a>
       <div id="options">
         <div>Beállítások:</div>
-        <div>
-          Vonalazás:
-          <select id="settingVonalazas" onchange="changeVonalazas();">
+        <div class="tooltip">
+          <span class="tooltiptext-left">Sima lap esetén betűméret</span>
+          <label for="settingVonalazas">Vonalazás</label>:
+          <select id="settingVonalazas" onchange="changeSettingVonalazas();">
             <option value="1">Elsős (14-32)</option>
             <option value="2">Másodikos (16-32)</option>
             <option value="3">Harmadikos (12-32)</option>
@@ -57,22 +58,25 @@
           </select>
         </div>
         <div>
-          Lap elrendezése:
-          <select id="settingPage" onchange="changePage();">
+          <label for="settingPage">Lap elrendezése</label>:
+          <select id="settingPage" onchange="changeSettingPage();">
             <option value="a5">dupla álló A5</option>
             <option value="a4l">fekvő A4</option>
             <option value="a4p">álló A4</option>
           </select>
         </div>
-        <div>
-          <div class="tooltip">Színes betűk:
-            <span class="tooltiptext">Egy oldalon belül csak egy féle szín használható</span>
-          </div>
-          <select id="settingColor" onchange="changeColor();">
+        <div class="tooltip">
+          <span class="tooltiptext-left">Egy oldalon belül csak egy féle szín használható</span>
+          <label for="settingColor">Színes betűk</label>:
+          <select id="settingColor" onchange="changeSettingColor();">
             <option value="red">Piros</option>
             <option value="blue">Kék</option>
             <option value="green">Zöld</option>
           </select>
+        </div>
+        <div>
+          <label for="settingSima">Sima lap</label>:
+          <input id="settingSima" type="checkbox" onchange="changeSettingSima()"/>
         </div>
       </div>
     </nav>

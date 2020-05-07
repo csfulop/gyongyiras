@@ -90,7 +90,7 @@ body {
   --top-margin: 23mm;
   --right-margin: 13mm;
   --left-margin: 12mm;
-  --top-border: 1mm double var(--line-color);
+  --top-double-border: 1mm;
 }
 
 .osztaly3 .pageA5 {
@@ -117,7 +117,7 @@ body {
   --top-margin: 23mm;
   --right-margin: 13mm;
   --left-margin: 12mm;
-  --top-border: 1mm double var(--line-color);
+  --top-double-border: 1mm;
 }
 
 .osztaly4 .pageA5 {
@@ -290,13 +290,20 @@ body {
 
 .inner {
   height: calc(var(--page-height) - var(--top-margin));
-  padding-top: var(--top-accent-extra); /* accents on capital letters are above the box of the font */
-  border-top: var(--top-border);
 
   overflow: hidden;
 
   font-size: var(--font-size);
   white-space: pre;
+}
+
+.foreground.inner {
+  padding-top: calc(var(--top-accent-extra) + var(--top-double-border,0mm)); /* accents on capital letters are above the box of the font */
+}
+
+.background.inner {
+  padding-top: var(--top-accent-extra); /* accents on capital letters are above the box of the font */
+  border-top: var(--top-double-border,0mm) double var(--line-color);
 }
 
 .sideMargins {
@@ -372,20 +379,27 @@ body {
   transition: opacity 1s;
 }
 
-/* Show the tooltip text when you mouse over the tooltip container */
-.tooltip:hover .tooltiptext {
-  visibility: visible;
-  opacity: 0.95;
+.tooltip .tooltiptext-left {
+  visibility: hidden;
+  background-color: #444;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+
+  /* Position the tooltip text - see examples below! */
+  position: absolute;
+  z-index: 1;
+  width: 160px;
+  top: -5px;
+  left: -170px;
+
+  opacity: 0;
+  transition: opacity 1s;
 }
 
-/* Top arrow for the tooltip */
-.tooltip .tooltiptext::after {
-  content: " ";
-  position: absolute;
-  bottom: 100%;  /* At the top of the tooltip */
-  left: 50%;
-  margin-left: -5px;
-  border-width: 5px;
-  border-style: solid;
-  border-color: transparent transparent #444 transparent;
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext, .tooltip:hover .tooltiptext-left {
+  visibility: visible;
+  opacity: 0.95;
 }
