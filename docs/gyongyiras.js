@@ -1,44 +1,51 @@
-var VONALAZAS_TO_CLASS = new Map();
+let VONALAZAS_SZ="sz";
+let VONALAZAS_TO_CLASS = new Map();
 VONALAZAS_TO_CLASS.set("1","osztaly1")
                   .set("2","osztaly2")
                   .set("3","osztaly3")
                   .set("4","osztaly4")
+                  .set(VONALAZAS_SZ,"szotar")
                   .set("gyl1","gyl1")
                   .set("gyl2","gyl2");
 
-var VONALAZAS_DEFAULT_PAGE = new Map();
+let VONALAZAS_DEFAULT_PAGE = new Map();
 VONALAZAS_DEFAULT_PAGE.set("1","a5")
                       .set("2","a5")
                       .set("3","a5")
                       .set("4","a5")
+                      .set(VONALAZAS_SZ,"a5")
                       .set("gyl1","a4l")
                       .set("gyl2","a4l");
 
-var PAGE_TO_CLASS = new Map();
+let PAGE_TO_CLASS = new Map();
 PAGE_TO_CLASS.set("a5","pageA5")
              .set("a4l","pageA4-landscape")
              .set("a4p","pageA4");
 
-var WORD_CHARACTERS = "aáäbcdeéfghiíjklmnoóöőpqrstuúüűvwxyzß" +
+let WORD_CHARACTERS = "aáäbcdeéfghiíjklmnoóöőpqrstuúüűvwxyzß" +
                       "AÁÄBCDEÉFGHIÍJKLMNOÓÖŐPQRSTUÚÜŰVWXYZ";
-var NUMBERS = "0123456789";
-var WORD_BOUNDARY = NUMBERS + "!\"'+,-.:;<=>? \n−/()";
-var SUPPORTED_CHARACTERS = WORD_CHARACTERS + WORD_BOUNDARY;
-var SPEC_COLOR = "%";
-var SPECIAL_CHARACTERS = SPEC_COLOR;
+let NUMBERS = "0123456789";
+let WORD_BOUNDARY = NUMBERS + "!\"'+,-.:;<=>? \n−/()";
+let SUPPORTED_CHARACTERS = WORD_CHARACTERS + WORD_BOUNDARY;
+let SPEC_COLOR = "%";
+let SPECIAL_CHARACTERS = SPEC_COLOR;
 
-var COLUMNS;
-var ROWS;
-var BACKGROUND_LINE_CHAR;
-var BACKGROUND_BOTTOM_LINE_CHAR;
+let COLUMNS;
+let ROWS;
+let BACKGROUND_LINE_CHAR;
+let BACKGROUND_BOTTOM_LINE_CHAR;
 
-var selectedColor;
-var COLOR_TO_CSS = new Map();
+let selectedColor;
+let COLOR_TO_CSS = new Map();
 COLOR_TO_CSS.set("red","red")
             .set("green","#00e600")
             .set("blue","blue");
 setSelectedColor();
 // FIXME: when color is changed then update its css instead of regenerate the content
+
+let settingSima = getSettingSima();
+let settingDictionary = getSettingDictionary();
+let settingVonalazas = getSettingVonalazas();
 
 function getCssVariables() {
     ROWS = getComputedStyle(document.getElementById("page1")).getPropertyValue("--number-of-rows");
@@ -52,26 +59,63 @@ function getCssVariables() {
 }
 
 function update() {
-    var input = document.getElementById("input").value;
-    var output = "";
-    for (var i=0; i<input.length; i++) {
+    let input = document.getElementById("input").value;
+    let inputRows = input.split("\n");
+    let outputRows = [];
+    let leftRows = [];
+    let rightRows = [];
+    for (let row=0; row<inputRows.length; row++) {
+        let input = inputRows[row];
+        let match = input.match(/^(.*?)(?:\/\/(.*))?$/);
+        if (typeof match[2] !== 'undefined') {
+            outputRows.push("");
+            leftRows.push(convertLine(match[1]));
+            rightRows.push(convertLine(match[2]));
+        }
+        else {
+            outputRows.push(convertLine(match[0]));
+            leftRows.push("");
+            rightRows.push("");
+        }
+    }
+
+    // console.log("outputRows="+outputRows);
+    // console.log("leftRows="+leftRows);
+    // console.log("rightRows="+rightRows);
+
+    document.getElementById("output1").innerHTML = outputRows.slice(0,ROWS).join("\n");
+    document.getElementById("output2").innerHTML = outputRows.slice(ROWS,2*ROWS).join("\n");
+
+    document.getElementById("left1").innerHTML = leftRows.slice(0,ROWS).join("\n");
+    document.getElementById("left2").innerHTML = leftRows.slice(ROWS,2*ROWS).join("\n");
+
+    document.getElementById("right1").innerHTML = rightRows.slice(0,ROWS).join("\n");
+    document.getElementById("right2").innerHTML = rightRows.slice(ROWS,2*ROWS).join("\n");
+}
+
+function convertLine(input) {
+    let output = "";
+    if (typeof input == 'undefined') {
+        return output;
+    }
+    for (let i=0; i<input.length; i++) {
         if (!SUPPORTED_CHARACTERS.includes(input.charAt(i))) {
             continue;
         }
-        var prev = i>0 ? input.charAt(i-1) : null;
-        var color = false;
+        let prev = i>0 ? input.charAt(i-1) : null;
+        let color = false;
         if (prev === SPEC_COLOR) {
             color = true;
             prev = i>1 ? input.charAt(i-2) : null;
         }
-        var c = input.charAt(i);
-        var next = i<input.length-1 ? input.charAt(i+1) : null;
+        let c = input.charAt(i);
+        let next = i<input.length-1 ? input.charAt(i+1) : null;
         if (next === SPEC_COLOR) {
             next = i<input.length-2 ? input.charAt(i+2) : null;
             i++;
         }
-        var wordStart = prev === null || WORD_BOUNDARY.includes(prev);
-        var wordEnd = next === null || WORD_BOUNDARY.includes(next);
+        let wordStart = prev === null || WORD_BOUNDARY.includes(prev);
+        let wordEnd = next === null || WORD_BOUNDARY.includes(next);
         if (WORD_BOUNDARY.includes(c)) {
             if (color) {
                 wordStart = wordEnd = true;
@@ -80,7 +124,7 @@ function update() {
                 continue;
             }
         }
-        var kotes;
+        let kotes;
         if ("P".includes(prev)) {
             kotes = "t";
         } else if ("NTVW".includes(prev)) {
@@ -93,7 +137,7 @@ function update() {
         else if ("BDIOÓÖŐSs".includes(prev)) {
             kotes = "k";
         } else {
-            var fent = "boóöőrvwF".includes(prev);
+            let fent = "boóöőrvwF".includes(prev);
             kotes = fent ? "f" : "l";
         }
         // console.log("pcn="+prev+c+next+", fent="+fent+", kotes="+kotes);
@@ -101,7 +145,7 @@ function update() {
             c = ']';
             i++;
         }
-        var colorCss = color ? " style=\"color: "+selectedColor+"\"" : "";
+        let colorCss = color ? " style=\"color: "+selectedColor+"\"" : "";
         if (wordStart && wordEnd) {
             output += "<span class=\"egy\""+colorCss+">"+c+"</span>";
         } else if (wordStart && !wordEnd) {
@@ -114,14 +158,12 @@ function update() {
             output += c;
         }
     }
-    var outputRows = output.split("\n");
-    document.getElementById("output1").innerHTML = outputRows.slice(0,ROWS).join("\n");
-    document.getElementById("output2").innerHTML = outputRows.slice(ROWS,2*ROWS).join("\n");
+    return output;
 }
 
 function fillBackgroundById(id) {
-    var row = BACKGROUND_LINE_CHAR.repeat(COLUMNS).concat("\n");
-    var background = row.repeat(ROWS-1);
+    let row = BACKGROUND_LINE_CHAR.repeat(COLUMNS).concat("\n");
+    let background = row.repeat(ROWS-1);
     background += BACKGROUND_BOTTOM_LINE_CHAR.repeat(COLUMNS);
     document.getElementById(id).innerHTML = background;
 }
@@ -134,7 +176,7 @@ function fillBackground() {
 function refreshOutput() {
     console.log("refreshOutput()");
     getCssVariables();
-    fillBackground(); // FIXME: fill background only once with max content?
+    fillBackground();
     update();
 }
 
@@ -159,18 +201,23 @@ function setVonalazas(vonalazas) {
 }
 
 function changeVonalazas() {
-    var vonalazas = document.getElementById("settingVonalazas").value;
-    console.log("changeVonalazas("+vonalazas+")");
-    if (isValidVonalazas(vonalazas)) {
-        document.getElementById("print").className = VONALAZAS_TO_CLASS.get(vonalazas);
+    settingVonalazas = getSettingVonalazas();
+    console.log("changeVonalazas("+settingVonalazas+")");
+    if (isValidVonalazas(settingVonalazas)) {
+        document.getElementById("print").className = VONALAZAS_TO_CLASS.get(settingVonalazas);
 
-        var defaultPage = VONALAZAS_DEFAULT_PAGE.get(vonalazas);
+        let defaultPage = VONALAZAS_DEFAULT_PAGE.get(settingVonalazas);
         document.getElementById("settingPage").value = defaultPage;
 
-        var pageClass = PAGE_TO_CLASS.get(defaultPage);
+        let pageClass = PAGE_TO_CLASS.get(defaultPage);
         document.getElementById("page1").className = pageClass;
         document.getElementById("page2").className = pageClass;
     }
+    changeDictionary();
+}
+
+function getSettingVonalazas() {
+    return document.getElementById("settingVonalazas").value;
 }
 
 function isValidVonalazas(vonalazas) {
@@ -185,14 +232,14 @@ function changeSettingColor() {
 function setColor(color) {
     if (isValidColor(color)) {
         console.log("setColor("+color+")");
-        var select = document.getElementById("settingColor");
+        let select = document.getElementById("settingColor");
         select.value = color;
         setSelectedColor();
     }
 }
 
 function setSelectedColor() {
-    var color = document.getElementById("settingColor").value;
+    let color = document.getElementById("settingColor").value;
     console.log("setSelectedColor("+color+")");
     if (isValidColor(color)) {
         selectedColor = COLOR_TO_CSS.get(color);
@@ -211,17 +258,17 @@ function changeSettingPage() {
 function setPage(page) {
     if (isValidPage(page)) {
         console.log("setPage("+page+")");
-        var select = document.getElementById("settingPage");
+        let select = document.getElementById("settingPage");
         select.value = page;
         changePage();
     }
 }
 
 function changePage() {
-    var page = document.getElementById("settingPage").value;
+    let page = document.getElementById("settingPage").value;
     console.log("changePage("+page+")");
     if (isValidPage(page)) {
-        var pageClass = PAGE_TO_CLASS.get(page);
+        let pageClass = PAGE_TO_CLASS.get(page);
         document.getElementById("page1").className = pageClass;
         document.getElementById("page2").className = pageClass;
     }
@@ -233,36 +280,67 @@ function isValidPage(page) {
 
 function changeSettingSima() {
     changeSima();
+    changeDictionary();
 }
 
 function setSima(sima) {
     if (typeof sima !== 'undefined') {
         console.log("setSima("+sima+")");
-        var select = document.getElementById("settingSima");
-        select.checked = sima=="1";
+        let select = document.getElementById("settingSima");
+        select.checked = (sima == "1");
         changeSima();
     }
 }
 
 function changeSima() {
-    function setDisplayForClass(cls, display) {
-        var items = document.getElementsByClassName(cls);
-        for(var i=0; i<items.length; i++) {
-            items[i].style.display = display;
-        }
-    }
-
-    var sima = document.getElementById("settingSima").checked;
-    console.log("changeSima("+sima+")");
-    var display =  sima ? "none" : null;
-    setDisplayForClass("backgroundOuter", display);
+    settingSima = getSettingSima();
+    console.log("changeSima("+settingSima+")");
+    let display =  settingSima ? "none" : null;
+    setDisplayForClass("background", display);
     setDisplayForClass("sideMargins", display);
+}
+
+function getSettingSima() {
+    return document.getElementById("settingSima").checked;
+}
+
+function changeSettingDictionary() {
+    changeDictionary();
+    refreshOutput();
+}
+
+function setDictionary(dictionary) {
+    if (typeof dictionary !== 'undefined') {
+        console.log("setDictionary("+dictionary+")");
+        let select = document.getElementById("settingDictionary");
+        select.checked = (dictionary == "1");
+        changeDictionary();
+    }
+}
+
+function changeDictionary() {
+    settingDictionary = getSettingDictionary();
+    console.log("changeDictionary("+settingDictionary+")");
+    let display =  settingDictionary ? "block" : "none";
+    setDisplayForClass("dictionaryLine", settingVonalazas === VONALAZAS_SZ && !settingSima ? "" : display);
+}
+
+function getSettingDictionary() {
+    return document.getElementById("settingDictionary").checked;
+}
+
+function setDisplayForClass(cls, display) {
+    console.log("setDisplayForClass("+cls+","+display+")");
+    let items = document.getElementsByClassName(cls);
+    for(let i=0; i<items.length; i++) {
+        items[i].style.display = display;
+    }
 }
 
 function getUrlParameter(name) {
     name = name.replace(/[\[]/, '\\[').replace(/[\]]/, '\\]');
-    var regex = new RegExp('[\\?&]' + name + '=([^&#]*)');
-    var results = regex.exec(location.search);
+    let regex = new RegExp('[\\?&]' + name + '=([^&#]*)');
+    let results = regex.exec(location.search);
     return results === null ? '' : decodeURIComponent(results[1].replace(/\+/g, ' '));
 }
 
@@ -273,6 +351,7 @@ function processParameters() {
     setPage(getUrlParameter("p"));
     setColor(getUrlParameter("sz"));
     setSima(getUrlParameter("s"));
+    setDictionary(getUrlParameter("d"));
 }
 
 processParameters();

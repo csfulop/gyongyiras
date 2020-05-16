@@ -44,7 +44,7 @@
         </span>
       </a>
       <div id="options">
-        <div>Beállítások:</div>
+        <div><b>Beállítások:</b></div>
         <div class="tooltip">
           <span class="tooltiptext-left">Sima lap esetén betűméret</span>
           <label for="settingVonalazas">Vonalazás</label>:
@@ -53,6 +53,7 @@
             <option value="2">Másodikos (16-32)</option>
             <option value="3">Harmadikos (12-32)</option>
             <option value="4">Negyedikes (21-32)</option>
+            <option value="sz">Szótár (31-32)</option>
             <option value="gyl1">GYL-1</option>
             <option value="gyl2">GYL-2</option>
           </select>
@@ -78,6 +79,14 @@
           <label for="settingSima">Sima lap</label>:
           <input id="settingSima" type="checkbox" onchange="changeSettingSima()"/>
         </div>
+        <div>
+          <label>Szótár</label>:
+          <input id="settingDictionary" type="checkbox" onchange="changeSettingDictionary();"/>
+        </div>
+        <div>&nbsp;</div>
+        <div><b>Formázás:</b></div>
+        <div>% utáni karakter színes</div>
+        <div>// utáni szöveg a jobb hasábba kerül</div>
       </div>
     </nav>
     <p><textarea id="input" cols="80" rows="10" oninput="update()">Készíts írás gyakor-
@@ -97,6 +106,10 @@ videót!
 %S%zázalékjel %utáni
 %betű %s%zínes %lesz!
 
+jobb//hasábba
+dupla %/ //után
+lehet//írni!
+
 Lájkold és kövesd a
 facebook oldalt, ha
 szeretnél értesülni az
@@ -109,22 +122,20 @@ az ismerőseidnek!
   </div>
   <div id="print" class="osztaly1">
     <div id="page1" class="pageA5">
-      <div class="outer">
-        <div id="output1" class="foreground inner"></div>
-      </div>
-      <div class="backgroundOuter outer">
-        <div id="background1" class="background inner"></div>
-      </div>
+      <div id="output1" class="content"></div>
+      <div id="left1" class="contentLeft"></div>
+      <div id="right1" class="contentRight"></div>
+      <div id="background1" class="background"></div>
+      <div class="dictionaryLine"></div>
       <div class="sideMargins"></div>
     </div>
 
     <div id="page2" class="pageA5">
-      <div class="outer">
-        <div id="output2" class="foreground inner"></div>
-      </div>
-      <div class="backgroundOuter outer">
-        <div id="background2" class="background inner"></div>
-      </div>
+      <div id="output2" class="content"></div>
+      <div id="left2" class="contentLeft"></div>
+      <div id="right2" class="contentRight"></div>
+      <div id="background2" class="background"></div>
+      <div class="dictionaryLine"></div>
       <div class="sideMargins"></div>
     </div>
   </div>
