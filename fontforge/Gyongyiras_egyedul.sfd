@@ -12,9 +12,10 @@ Ascent: 667
 Descent: 333
 InvalidEm: 0
 sfntRevision: 0x00010000
-LayerCount: 2
+LayerCount: 3
 Layer: 0 0 "Back" 1
 Layer: 1 0 "Fore" 0
+Layer: 2 0 "Line" 1
 XUID: [1021 910 1647703420 1607917]
 StyleMap: 0x0000
 FSType: 8
@@ -22,7 +23,7 @@ OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1282334991
-ModificationTime: 1587893485
+ModificationTime: 1590258493
 PfmFamily: 17
 TTFWeight: 500
 TTFWidth: 5
@@ -64,7 +65,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 54 18 13
+WinInfo: 198 18 13
 BeginPrivate: 7
 BlueValues 25 [-17 -16 352 353 662 666]
 OtherBlues 11 [-328 -324]
@@ -75,18 +76,27 @@ StemSnapH 24 [10 20 32 41 64 161 224]
 StemSnapV 16 [32 33 34 59 79]
 EndPrivate
 Grid
+-1000 0 m 0
+ 2000 0 l 1024
+  Named: "alap vonal"
+-1000 666 m 0
+ 2000 666 l 1024
+  Named: "m+AOEA-sodik vonal"
+-1000 333 m 0
+ 2000 333 l 1024
+  Named: "els+AVEA vonal"
 -1000 1000 m 0
  2000 1000 l 1024
   Named: "top"
 EndSplineSet
 TeXData: 1 0 0 682622 341311 227540 369099 1048576 227540 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 1114112 116
+BeginChars: 1114112 125
 
 StartChar: uni001B
 Encoding: 27 27 0
 Width: 500
 Flags: W
-LayerCount: 2
+LayerCount: 3
 EndChar
 
 StartChar: uni001C
@@ -94,7 +104,7 @@ Encoding: 28 28 1
 Width: 651
 Flags: W
 HStem: -10 20<0 651>
-LayerCount: 2
+LayerCount: 3
 Fore
 SplineSet
 0 10 m 1
@@ -110,7 +120,7 @@ Encoding: 29 29 2
 Width: 651
 Flags: W
 HStem: -10 20<0 1107>
-LayerCount: 2
+LayerCount: 3
 Fore
 SplineSet
 0 10 m 1
@@ -126,7 +136,7 @@ Encoding: 30 30 3
 Width: 651
 Flags: W
 HStem: -10 20<0 651> 326 11<0 651> 656 11<0 651>
-LayerCount: 2
+LayerCount: 3
 Fore
 SplineSet
 0 337 m 1
@@ -152,7 +162,7 @@ Encoding: 31 31 4
 Width: 651
 Flags: MW
 HStem: -10 20<0 1107 0 1107> 326 10 656 10
-LayerCount: 2
+LayerCount: 3
 Fore
 SplineSet
 0 337 m 1
@@ -178,7 +188,7 @@ Encoding: 32 32 5
 Width: 651
 Flags: W
 HStem: -10 20<0 1107 0 1107> 326 10 656 10
-LayerCount: 2
+LayerCount: 3
 Fore
 SplineSet
 0 337 m 1
@@ -205,7 +215,7 @@ Width: 172
 Flags: MW
 HStem: 1 65<87 94>
 VStem: 60 59<28.5 40.5 28.5 41> 70 32<146 628>
-LayerCount: 2
+LayerCount: 3
 Fore
 SplineSet
 60 34 m 0xc0
@@ -232,7 +242,7 @@ VWidth: 0
 Flags: W
 HStem: 456 161<156 182 221 246>
 VStem: 149 33<456 617> 214 32<456 617>
-LayerCount: 2
+LayerCount: 3
 Fore
 SplineSet
 152 504 m 1
@@ -255,7 +265,7 @@ VWidth: 0
 Flags: W
 HStem: 500 163
 VStem: 538 32<501 661>
-LayerCount: 2
+LayerCount: 3
 Fore
 SplineSet
 150 502 m 1
@@ -270,7 +280,7 @@ StartChar: plus
 Encoding: 43 43 9
 Width: 666
 Flags: HMW
-LayerCount: 2
+LayerCount: 3
 Back
 Image2: image/png 359 -70.3705 708 27.7777 27.7777
 M,6r;%14!\!!!!.8Ou6I!!!!=!!!!<#R18/!,i/3/-#YN/kJGs<(IJc<j@O75S0JZ<jW12KjAFD
@@ -314,7 +324,7 @@ Width: 172
 Flags: MW
 HStem: -146 224<51.5 101>
 VStem: 38 79
-LayerCount: 2
+LayerCount: 3
 Fore
 SplineSet
 40 -122 m 0
@@ -334,7 +344,7 @@ Width: 450
 Flags: W
 HStem: 148.5 33<108.505 341.495>
 VStem: 108.5 233<148.5 181.5>
-LayerCount: 2
+LayerCount: 3
 Back
 Image2: image/png 288 -94 944 38.4615 38.4615
 M,6r;%14!\!!!!.8Ou6I!!!!>!!!!;#R18/!)&VZ[f?C.k=J'-<(II.p^[N5c9?t;BgO&6ce()O
@@ -365,7 +375,7 @@ Width: 172
 Flags: MW
 HStem: 1 65<87 94>
 VStem: 60 59<28.5 40.5 28.5 41>
-LayerCount: 2
+LayerCount: 3
 Fore
 SplineSet
 60 34 m 0
@@ -383,7 +393,7 @@ Encoding: 48 48 13
 Width: 666
 Flags: HW
 VStem: 166 332<162.216 325.673 411.477 505.926>
-LayerCount: 2
+LayerCount: 3
 Back
 Image2: image/png 877 -70.5294 818 27.6471 27.6471
 M,6r;%14!\!!!!.8Ou6I!!!!?!!!!C#R18/!(_o[F8u:C1eC)$<*0Io<m=8V5nnf?:msp!@M8>V
@@ -428,7 +438,7 @@ StartChar: one
 Encoding: 49 49 14
 Width: 666
 Flags: HW
-LayerCount: 2
+LayerCount: 3
 Back
 Image2: image/png 511 -177.118 787 27.6471 27.6471
 M,6r;%14!\!!!!.8Ou6I!!!!D!!!!C#R18/!7cd2qu?]t`^rQa<*0Io=$:?9:_Z'I$:RKIPsRpN
@@ -466,7 +476,7 @@ StartChar: two
 Encoding: 50 50 15
 Width: 666
 Flags: HW
-LayerCount: 2
+LayerCount: 3
 Back
 Image2: image/png 888 -69.8334 760 27.6666 27.6666
 M,6r;%14!\!!!!.8Ou6I!!!!>!!!!?#R18/!71rcT`>&p5=n7/<(IJ;Q:jbQ5no(R,`PAP;:&o"
@@ -522,7 +532,7 @@ StartChar: three
 Encoding: 51 51 16
 Width: 666
 Flags: HW
-LayerCount: 2
+LayerCount: 3
 Back
 Image2: image/png 797 -95.8334 732 27.6666 27.6666
 M,6r;%14!\!!!!.8Ou6I!!!!>!!!!?#R18/!71rcT`>&oj@Ma*<(IJ;<m=9P5nlOI9lXSfTd27B
@@ -577,7 +587,7 @@ StartChar: four
 Encoding: 52 52 17
 Width: 666
 Flags: HW
-LayerCount: 2
+LayerCount: 3
 Back
 Image2: image/png 652 -173.062 804 29.375 29.375
 M,6r;%14!\!!!!.8Ou6I!!!!B!!!!A#R18/!1^P2aoDDC;b9AC<*0Io<kkhH5ns=d=qTFY,k<cB
@@ -632,7 +642,7 @@ StartChar: five
 Encoding: 53 53 18
 Width: 666
 Flags: HW
-LayerCount: 2
+LayerCount: 3
 Back
 Image2: image/png 755 -96.3334 762 27.6666 27.6666
 M,6r;%14!\!!!!.8Ou6I!!!!A!!!!?#R18/!)3e?.0'>L\k,:U<(IJc=1rBQ;%u6DV"K?M60mH:
@@ -687,7 +697,7 @@ StartChar: six
 Encoding: 54 54 19
 Width: 666
 Flags: HW
-LayerCount: 2
+LayerCount: 3
 Back
 Image2: image/png 952 -70.8333 759 27.6667 27.6667
 M,6r;%14!\!!!!.8Ou6I!!!!>!!!!?#R18/!71rcT`>&pIn<$o<(IJ;<mN;_;%u5No8GG2_jKth
@@ -747,7 +757,7 @@ StartChar: seven
 Encoding: 55 55 20
 Width: 666
 Flags: HW
-LayerCount: 2
+LayerCount: 3
 Back
 Image2: image/png 862 -72 731 27.5862 27.5862
 M,6r;%14!\!!!!.8Ou6I!!!!>!!!!>#R18/!*5:r%fcS3,tUKj<(IJ+<kh;^5ns@;7Y?@*L__iW
@@ -806,7 +816,7 @@ StartChar: eight
 Encoding: 56 56 21
 Width: 666
 Flags: HW
-LayerCount: 2
+LayerCount: 3
 Back
 Image2: image/png 956 -101.103 733 27.5862 27.5862
 M,6r;%14!\!!!!.8Ou6I!!!!@!!!!>#R18/!)dF<1&q:VK1SHs<(IJ3<aR8N;%u5NB$?^KTaY[L
@@ -866,7 +876,7 @@ StartChar: nine
 Encoding: 57 57 22
 Width: 666
 Flags: HW
-LayerCount: 2
+LayerCount: 3
 Back
 Image2: image/png 914 -95.3704 711 27.7778 27.7778
 M,6r;%14!\!!!!.8Ou6I!!!!=!!!!<#R18/!,i/3/-#YP=\2"I<(IJ+<]ru`5nKXcGb1GA=D2-m
@@ -932,7 +942,7 @@ Width: 172
 Flags: MW
 HStem: 1 65<87 94> 241 65<87 94>
 VStem: 60 59<28.5 40.5 28.5 41 268.5 280.5>
-LayerCount: 2
+LayerCount: 3
 Fore
 SplineSet
 60 34 m 0
@@ -958,7 +968,7 @@ Width: 172
 Flags: MW
 HStem: 241 65<100 107>
 VStem: 73 59<268.5 280.5 268.5 281>
-LayerCount: 2
+LayerCount: 3
 Fore
 SplineSet
 40 -122 m 0
@@ -983,7 +993,7 @@ StartChar: less
 Encoding: 60 60 25
 Width: 666
 Flags: HW
-LayerCount: 2
+LayerCount: 3
 Back
 Image2: image/png 632 -100.143 709 27.8572 27.8572
 M,6r;%14!\!!!!.8Ou6I!!!!?!!!!=#R18/!-\,JW;lo"5=n7/<(IJ;QFW#Z0bf@jUEDju@4Biq
@@ -1025,7 +1035,7 @@ Width: 666
 Flags: HMW
 HStem: 456 161
 VStem: 149 33 214 32
-LayerCount: 2
+LayerCount: 3
 Back
 Image2: image/png 301 -66.6667 762 27.6666 27.6666
 M,6r;%14!\!!!!.8Ou6I!!!!=!!!!?#R18/!'eGOT)\ikoLVG:<(II.p^[N:!L$nbWmf%$1GR5o
@@ -1064,7 +1074,7 @@ StartChar: greater
 Encoding: 62 62 27
 Width: 666
 Flags: HW
-LayerCount: 2
+LayerCount: 3
 Back
 Image2: image/png 659 -100.069 758 28.6207 28.6207
 M,6r;%14!\!!!!.8Ou6I!!!!?!!!!>#R18/!552`$ig8/>"M+J<(IJ;Q92-N5nM)W?jMW%hf&%=
@@ -1106,7 +1116,7 @@ Width: 404
 Flags: MW
 HStem: 1 65<175 182> 620 32<161.5 227.5 151.5 235.5>
 VStem: 44 32<461.5 505.5 461.5 514.5> 148 59<28.5 40.5 28.5 41> 162 32<133.5 224.5 133.5 231> 312 32<405 516.5>
-LayerCount: 2
+LayerCount: 3
 Fore
 SplineSet
 44 466 m 0xec
@@ -1136,7 +1146,7 @@ Width: 1013
 Flags: MW
 HStem: -16 32<123 184 123 194.5 812 873> 284 32<263.5 359 268 345 396 600 268 382 651 736 651 651> 644 20G<494.5 511>
 VStem: -17 32 981 32
-LayerCount: 2
+LayerCount: 3
 Fore
 SplineSet
 498 664 m 0
@@ -1179,7 +1189,7 @@ Width: 600
 Flags: MW
 HStem: -16 32<115 174 405 475.5> 320 33<316 345 316 316> 630 34<385.5 441>
 VStem: -17 33 284 32<166 320 353 612 612 612> 564 32<447.5 546> 584 32<111 221.5 103 239>
-LayerCount: 2
+LayerCount: 3
 Fore
 SplineSet
 401 664 m 0xfa
@@ -1220,7 +1230,7 @@ Width: 557
 Flags: MW
 HStem: -17 33<274.5 331.5> 632 34<229.5 353.5>
 VStem: -16 32<298.5 412 298.5 422>
-LayerCount: 2
+LayerCount: 3
 Fore
 SplineSet
 -16 333 m 0
@@ -1249,7 +1259,7 @@ Width: 666
 Flags: MW
 HStem: -16 32<75 120.5 75 126 395 524> 124 34<74 119> 630 32<333.5 467.5>
 VStem: -16 32<53 85.5 53 95.5> 226 34<152 611 611 611> 634 32<268.5 384.5>
-LayerCount: 2
+LayerCount: 3
 Fore
 SplineSet
 350 662 m 0
@@ -1287,7 +1297,7 @@ Width: 334
 Flags: MW
 HStem: -16 32<133 220> 334 32<157 215 157 215> 630 32<131 176 124 178>
 VStem: -16 32<126 221> 10 32<464 536.5 459 548>
-LayerCount: 2
+LayerCount: 3
 Fore
 SplineSet
 178 630 m 2xe8
@@ -1322,7 +1332,7 @@ Width: 580
 Flags: MW
 HStem: -16 32<115 188 115 199> 247 33<284 284 284 316> 333 20G<126.5 133 467 473.5> 532 33<399.5 437 380 444> 630 34<132 193>
 VStem: -17 33 284 32<166 247 280 570>
-LayerCount: 2
+LayerCount: 3
 Fore
 SplineSet
 316 166 m 2
@@ -1368,7 +1378,7 @@ Width: 775
 Flags: MW
 HStem: -324 32<542 562 542 583> -16 32<277 362> 332 20G<595 605> 632 34<229.5 353.5>
 VStem: -16 32<298.5 412 298.5 422> 488 32<-248 -212.5 -248 -206.5> 584 32<-222 -89 -89 -89 9 162 162 162 213.5 336>
-LayerCount: 2
+LayerCount: 3
 Fore
 SplineSet
 -16 333 m 0
@@ -1412,7 +1422,7 @@ Width: 680
 Flags: MW
 HStem: -16 32<69.5 105.5 69.5 111 544.5 598.5> 630 32<504.5 538.5>
 VStem: 8 34<44.5 74.5 44.5 84> 134 32<86 183 183 183 252 599 599 599> 444 32<109 395 395 395 462 560> 566 34<565.5 600.5> 664 32<84 124.5>
-LayerCount: 2
+LayerCount: 3
 Fore
 SplineSet
 166 252 m 1
@@ -1462,7 +1472,7 @@ Width: 317
 Flags: MW
 HStem: -16 32<115 188 115 199> 642 20G<297.5 304>
 VStem: -17 33 284 32<166 599 599 599>
-LayerCount: 2
+LayerCount: 3
 Fore
 SplineSet
 287 656 m 2
@@ -1490,7 +1500,7 @@ Width: 325
 Flags: MW
 HStem: -324 32<83.5 111 83.5 126> 642 20G<147.5 154>
 VStem: 28 32<-242.5 -210.5 -242.5 -202.5> 134 32<-222 -80 -80 -80 15 599 599 599>
-LayerCount: 2
+LayerCount: 3
 Fore
 SplineSet
 166 -38 m 1
@@ -1526,7 +1536,7 @@ Width: 820
 Flags: MW
 HStem: -16 32<115 188 115 199 649.5 714.5> 319 34<316 371.5 316 372> 630 32<615 695>
 VStem: -17 33 284 32<166 319 353 599 599 599> 786 32
-LayerCount: 2
+LayerCount: 3
 Fore
 SplineSet
 287 656 m 2
@@ -1572,7 +1582,7 @@ Width: 580
 Flags: MW
 HStem: -16 32<75 121 75 127 392.5 469> 124 34<74 117.5> 630 32<352.5 423>
 VStem: -16 32<53 85.5 53 95.5> 226 34<152 500> 512 34<495.5 537> 564 33
-LayerCount: 2
+LayerCount: 3
 Fore
 SplineSet
 251 99 m 1
@@ -1610,7 +1620,7 @@ Width: 890
 Flags: MW
 HStem: -16 32<82 136 82 145 754 808> 642 20G<216 222.5 667.5 674>
 VStem: -16 32<84 124.5 84 124.5> 204 32<110 593> 654 32<110 593 593 593> 874 32<84 124.5>
-LayerCount: 2
+LayerCount: 3
 Fore
 SplineSet
 780 -16 m 0
@@ -1649,7 +1659,7 @@ Width: 890
 Flags: MW
 HStem: -16 32<81.5 136 81.5 145> 630 32<754 808.5>
 VStem: -16 32<84 124.5 84 124.5> 204 32<110 593> 654 32<53 536> 874 32<521.5 562>
-LayerCount: 2
+LayerCount: 3
 Fore
 SplineSet
 110 16 m 0
@@ -1684,7 +1694,7 @@ Width: 650
 Flags: MW
 HStem: -17 33<274.5 360 274.5 364.5> 632 34<229.5 402>
 VStem: -16 32<298.5 412 298.5 422> 617 33<298 413.5>
-LayerCount: 2
+LayerCount: 3
 Fore
 SplineSet
 318 666 m 0
@@ -1710,7 +1720,7 @@ Width: 600
 Flags: MW
 HStem: -16 32<115 188 115 199> 320 33<316 316> 630 34<385.5 447.5>
 VStem: -17 33 284 32<166 320 353 612 612 612> 584 32<456.5 533.5>
-LayerCount: 2
+LayerCount: 3
 Fore
 SplineSet
 316 166 m 2
@@ -1742,7 +1752,7 @@ Width: 848
 Flags: MW
 HStem: -16 32<270 320 317 320 670.5 730> 184 32<425.5 453> 632 34<229.5 401>
 VStem: -16 32<298.5 412 298.5 422> 617 32<332 336 298.5 336>
-LayerCount: 2
+LayerCount: 3
 Fore
 SplineSet
 617 336 m 2
@@ -1783,7 +1793,7 @@ Width: 903
 Flags: MW
 HStem: -16 32<115 188 115 199 702 775> 320 33<316 342 316 316> 630 34<385.5 443.5>
 VStem: -17 33 284 32<166 320 353 612 612 612> 570 32<121 220 121 237.5> 584 32<446.5 546> 870 33
-LayerCount: 2
+LayerCount: 3
 Fore
 SplineSet
 736 -16 m 0xfd
@@ -1824,7 +1834,7 @@ Width: 366
 Flags: MW
 HStem: -16 32<137.5 217.5 137.5 225.5> 328 34<134.5 216> 630 32<115 211>
 VStem: -16 32<443 520.5 443 530.5> 334 32<121.5 221.5>
-LayerCount: 2
+LayerCount: 3
 Fore
 SplineSet
 175 16 m 0
@@ -1855,7 +1865,7 @@ Width: 580
 Flags: MW
 HStem: -16 32<115 188 115 199> 532 33<399.5 437 380 444> 630 34<132 193>
 VStem: -17 33 284 32<166 569>
-LayerCount: 2
+LayerCount: 3
 Fore
 SplineSet
 316 166 m 2
@@ -1889,7 +1899,7 @@ Width: 904
 Flags: MW
 HStem: -16 32<318 423.5 698 773.5> 642 20G<147.5 154 595.5 604.5>
 VStem: 134 32<222 599 599 599> 584 32<230 646>
-LayerCount: 2
+LayerCount: 3
 Fore
 SplineSet
 137 656 m 2
@@ -1926,7 +1936,7 @@ Width: 800
 Flags: MW
 HStem: -16 32<318 433 318 442.5> 515 33<682.5 716 679.5 744> 642 20G<147.5 154 596 604 795.5 803>
 VStem: 134 32<222 599 599 599> 584 32<230 555> 784 33
-LayerCount: 2
+LayerCount: 3
 Fore
 SplineSet
 137 656 m 2
@@ -1962,7 +1972,7 @@ Width: 1182
 Flags: MW
 HStem: -16 32<303 406 724 828.5> 515 33<1064.5 1098 1061.5 1125.5> 642 20G<147.5 154 561.5 570.5 978 986 1177.5 1185>
 VStem: 134 32<222 599 599 599> 550 32<230 646> 966 32<230 555> 1166 33
-LayerCount: 2
+LayerCount: 3
 Fore
 SplineSet
 1080 515 m 0
@@ -2005,7 +2015,7 @@ Encoding: 88 88 52
 Width: 940
 Flags: MW
 HStem: -16 32<129 194 129 200 733 802> 642 20G<230.5 237.5>
-LayerCount: 2
+LayerCount: 3
 Fore
 SplineSet
 771 16 m 0
@@ -2042,7 +2052,7 @@ Width: 775
 Flags: MW
 HStem: -324 32<533.5 561 533.5 576> -16 32<318 420> 642 20G<147.5 154 595.5 604.5>
 VStem: 134 32<222 599 599 599> 478 32<-242.5 -210.5 -242.5 -202.5> 584 32<-222 -80 -80 -80 15 106 106 106 230 646>
-LayerCount: 2
+LayerCount: 3
 Fore
 SplineSet
 510 -230 m 0
@@ -2086,7 +2096,7 @@ Encoding: 90 90 54
 Width: 585
 Flags: MW
 HStem: -16 32<363.5 453 363.5 459> 82 33<155.5 201.5> 532 33<383.5 429.5> 630 34<132 221.5>
-LayerCount: 2
+LayerCount: 3
 Fore
 SplineSet
 414 -16 m 0
@@ -2125,7 +2135,7 @@ Width: 635
 Flags: MW
 HStem: -16 32<196.5 264.5 479.5 543.5> 356 34<-1.5 82 3 82 3 114 114 382 414 493> 646 20G<93.5 102.5 393.5 402.5>
 VStem: 82 32<180 356 390 650> 382 32<170 356 390 650>
-LayerCount: 2
+LayerCount: 3
 Fore
 SplineSet
 -14 373 m 0
@@ -2170,7 +2180,7 @@ Encoding: 95 95 56
 Width: 651
 Flags: W
 HStem: -333 11<0 651> -10 20<0 651> 326 11<0 651> 656 11<0 651>
-LayerCount: 2
+LayerCount: 3
 Fore
 SplineSet
 0 -322 m 1
@@ -2202,7 +2212,7 @@ Width: 499
 Flags: MW
 HStem: -16 32<106 185 372 415> 320 32<107 157 150 157>
 VStem: -16 32<129.5 209.5 129.5 218> 294 34<130 180 180 185 184 185 298 336>
-LayerCount: 2
+LayerCount: 3
 Fore
 SplineSet
 -16 170 m 0
@@ -2239,7 +2249,7 @@ Width: 642
 Flags: MW
 HStem: -16 32<210.5 292.5 210.5 303.5> 220 33<498 536.5> 332 20G<405 413> 632 32<162.5 198.5>
 VStem: 92 34<179 232 337 549> 232 32<532.5 577.5 524 581> 392 34<184 253 306.5 335 335 336> 610 33
-LayerCount: 2
+LayerCount: 3
 Fore
 SplineSet
 6 171 m 2
@@ -2284,7 +2294,7 @@ Width: 303
 Flags: MW
 HStem: -16 32<121 186 121 191.5> 320 32<121 181>
 VStem: -16 32<128 208 128 217>
-LayerCount: 2
+LayerCount: 3
 Fore
 SplineSet
 165 320 m 0
@@ -2311,7 +2321,7 @@ Width: 535
 Flags: MW
 HStem: -16 32<114 192.5 387 426> 320 32<113.5 178.5 103.5 186.5> 644 20G<305.5 314.5>
 VStem: -16 32<119 216.5 119 224.5> 294 32<180 207 293 648>
-LayerCount: 2
+LayerCount: 3
 Fore
 SplineSet
 -16 180 m 0
@@ -2348,7 +2358,7 @@ Width: 267
 Flags: MW
 HStem: -16 32<120 156> 79 41 319 33<97 156.5>
 VStem: 16 32<163.5 194 163.5 201.5> 198 33<262.5 279>
-LayerCount: 2
+LayerCount: 3
 Fore
 SplineSet
 -17 96 m 0
@@ -2380,7 +2390,7 @@ Width: 254
 Flags: MW
 HStem: -16 34<89 154.5> 634 32<158.5 199>
 VStem: 89 33<-63 -16 18 252 252 252> 232 32<538 572>
-LayerCount: 2
+LayerCount: 3
 Fore
 SplineSet
 -13 175 m 2
@@ -2423,7 +2433,7 @@ Width: 484
 Flags: MW
 HStem: -324 32<251 271 251 292> -16 32<116 179.5> 320 32<118.5 182 109 188>
 VStem: -17 33<129.5 170 170 173 129.5 219.5> 196 34<-248 -212.5 -248 -206.5> 292 34<-222 -193.5 -239 -89 141 143 143 167.5 289 318 318 329.5>
-LayerCount: 2
+LayerCount: 3
 Fore
 SplineSet
 292 134 m 0
@@ -2469,7 +2479,7 @@ Width: 554
 Flags: MW
 HStem: -16 32<435.5 472 435.5 477> 320 32<213 269.5> 634 32<141 178>
 VStem: 62 32<0 181 318 533> 216 34<544.5 592.5> 362 32<125 192>
-LayerCount: 2
+LayerCount: 3
 Fore
 SplineSet
 -13 164 m 2
@@ -2514,7 +2524,7 @@ Width: 294
 Flags: MW
 HStem: -16 32<171.5 219.5> 332 20G<120 127> 488 63<114 127 110.5 130.5>
 VStem: 91 59<512.5 527 512.5 528.5> 102 32<133 287 287 287>
-LayerCount: 2
+LayerCount: 3
 Fore
 SplineSet
 -13 189 m 0xe8
@@ -2548,7 +2558,7 @@ Width: 331
 Flags: MW
 HStem: -324 34<95.5 117.5 95.5 118> 333 20G<151.5 158> 498 64<142 155 138.5 158.5>
 VStem: 42 34<-254 -214.5 -254 -206> 119 59<522.5 537 522.5 538.5> 138 32<-232 -94 -94 -94 5 287 287 287>
-LayerCount: 2
+LayerCount: 3
 Fore
 SplineSet
 348 160 m 0xf4
@@ -2588,7 +2598,7 @@ Width: 468
 Flags: MW
 HStem: -16 32<349 386.5 349 390> 163 33<107 141 106 163> 320 32<196 231> 632 32<144 178>
 VStem: 72 34<0 163 338 553> 212 34<531 582.5> 288 32<240 273.5>
-LayerCount: 2
+LayerCount: 3
 Fore
 SplineSet
 -17 164 m 0
@@ -2638,7 +2648,7 @@ Width: 328
 Flags: MW
 HStem: -16 32<171 246 171 252.5> 634 32<139 183>
 VStem: 68 32<161 210 210 210 319 550> 224 32<529 595>
-LayerCount: 2
+LayerCount: 3
 Fore
 SplineSet
 -17 143 m 0
@@ -2677,7 +2687,7 @@ Flags: MW
 HStem: -16 32<742 790> 320 32<203 265 497.5 571>
 VStem: 70 34<0 162> 370 34<0 156> 670 34<131 155 104.5 198.5>
 CounterMasks: 1 38
-LayerCount: 2
+LayerCount: 3
 Fore
 SplineSet
 -14 186 m 2
@@ -2723,7 +2733,7 @@ Width: 563
 Flags: MW
 HStem: -16 32<441 489> 320 32<204 274>
 VStem: 70 34<0 161> 370 34<132 162 107 195>
-LayerCount: 2
+LayerCount: 3
 Fore
 SplineSet
 -14 186 m 2
@@ -2761,7 +2771,7 @@ Width: 485
 Flags: MW
 HStem: -16 32<99 203 99 220> 219 33<350.5 379 345 384> 320 32<107 174.5>
 VStem: -16 32<134 208.5 134 215.5> 286 33<161 185.5 130.5 205> 453 33
-LayerCount: 2
+LayerCount: 3
 Fore
 SplineSet
 -16 169 m 0
@@ -2794,7 +2804,7 @@ Width: 563
 Flags: MW
 HStem: -328 21G<82.5 91.5> -16 32<441 489> 320 32<204 274>
 VStem: 70 34<-311 161> 370 34<132 162 107 195>
-LayerCount: 2
+LayerCount: 3
 Fore
 SplineSet
 -14 186 m 2
@@ -2832,7 +2842,7 @@ Width: 538
 Flags: MW
 HStem: -16 32<115 184> 320 32<119 188.5 108.5 197>
 VStem: -16 32<126.5 208 126.5 216.5> 304 34<-314 -161.5 -76 57 57 57 156 196 196 234 289 336>
-LayerCount: 2
+LayerCount: 3
 Fore
 SplineSet
 304 57 m 1
@@ -2867,7 +2877,7 @@ Width: 540
 Flags: MW
 HStem: -16 21G<302.5 311.5> 219 33<398 435.5 392 440.5> 320 32<149.5 202 142.5 210>
 VStem: 290 34<0 215 215 244 308 336 336 341>
-LayerCount: 2
+LayerCount: 3
 Fore
 SplineSet
 15 239 m 0
@@ -2901,7 +2911,7 @@ Width: 267
 Flags: MW
 HStem: -16 32<113.5 170.5 113.5 180.5> 332 20G<120.5 125.5>
 VStem: 256 34<108.5 183>
-LayerCount: 2
+LayerCount: 3
 Fore
 SplineSet
 0 227 m 2
@@ -2930,7 +2940,7 @@ Width: 335
 Flags: MW
 HStem: -17 33<173.5 243.5> 356 34<-1.5 82 3 82 114 193 3 114> 646 20G<93.5 102.5>
 VStem: 82 32<132 356 390 650>
-LayerCount: 2
+LayerCount: 3
 Fore
 SplineSet
 -14 373 m 0
@@ -2964,7 +2974,7 @@ Width: 564
 Flags: MW
 HStem: -16 32<193.5 261 441.5 491> 332 20G<85 92 383.5 392.5>
 VStem: 72 32<177 274 274 274> 372 32<184 336>
-LayerCount: 2
+LayerCount: 3
 Fore
 SplineSet
 -14 186 m 2
@@ -3001,7 +3011,7 @@ Width: 622
 Flags: MW
 HStem: -16 32<194.5 271.5 194.5 282.5> 220 33<478 516> 332 20G<86 93 384 394>
 VStem: 72 34<177 273 273 273> 372 34<183 253 307 336 336 341> 590 33
-LayerCount: 2
+LayerCount: 3
 Fore
 SplineSet
 -14 186 m 2
@@ -3038,7 +3048,7 @@ Width: 925
 Flags: MW
 HStem: -16 32<194 269.5 497.5 574.5> 220 33<781 819.5> 332 20G<89.5 96 387.5 396.5 688 696>
 VStem: 76 32<177 275 275 275> 376 32<178 336> 676 32<183 253 306.5 335 335 336> 893 33
-LayerCount: 2
+LayerCount: 3
 Fore
 SplineSet
 -14 186 m 2
@@ -3083,7 +3093,7 @@ Encoding: 120 120 80
 Width: 564
 Flags: MW
 HStem: -16 32<97 142.5 73.5 147.5 421.5 467> 333 20G<155.5 162.5 401.5 408.5>
-LayerCount: 2
+LayerCount: 3
 Fore
 SplineSet
 -17 53 m 0
@@ -3116,7 +3126,7 @@ Width: 569
 Flags: MW
 HStem: -324 32<339.5 359 339.5 376.5> -16 32<198.5 264.5> 333 20G<91.5 98>
 VStem: 78 32<178 277 277 277> 282 34<-262 -216.5 -262 -207> 378 32<-224 -92 -92 -92 6 65 65 65 183 337>
-LayerCount: 2
+LayerCount: 3
 Fore
 SplineSet
 410 -47 m 1
@@ -3160,7 +3170,7 @@ Encoding: 122 122 82
 Width: 357
 Flags: MW
 HStem: -17 33<222 267 263 267> 37 33<83 90 90 112.5> 270 33<195 213 213 214> 320 32<62 110>
-LayerCount: 2
+LayerCount: 3
 Fore
 SplineSet
 -17 0 m 0
@@ -3197,7 +3207,7 @@ Encoding: 126 126 83
 Width: 651
 Flags: W
 HStem: -10 20<0 1107 0 1107> 326 10 656 10
-LayerCount: 2
+LayerCount: 3
 Fore
 SplineSet
 0 10 m 1
@@ -3208,20 +3218,13 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: breve
-Encoding: 728 728 84
-Width: 500
-Flags: W
-LayerCount: 2
-EndChar
-
 StartChar: dieresis
-Encoding: 168 168 85
+Encoding: 168 168 84
 Width: 1333
 Flags: MW
 HStem: 487 64<207 214>
 VStem: 180 59<514.5 524.5> 271 59<515.5 527.5 515.5 527.5>
-LayerCount: 2
+LayerCount: 3
 Fore
 SplineSet
 180 519 m 4
@@ -3241,20 +3244,13 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: ogonek
-Encoding: 731 731 86
-Width: 500
-Flags: W
-LayerCount: 2
-EndChar
-
 StartChar: acute
-Encoding: 180 180 87
+Encoding: 180 180 85
 Width: 1333
 Flags: MW
 HStem: 504 162<460 492 460 492>
 VStem: 460 32<504 666 504 666>
-LayerCount: 2
+LayerCount: 3
 Fore
 SplineSet
 460 504 m 1
@@ -3266,19 +3262,65 @@ EndSplineSet
 EndChar
 
 StartChar: caron
-Encoding: 711 711 88
-Width: 500
-Flags: W
-LayerCount: 2
+Encoding: 711 711 86
+Width: 324
+Flags: HW
+LayerCount: 3
+Back
+Image2: image/png 1210 -121.22 577.362 25.7292 25.7292
+M,6r;%14!\!!!!.8Ou6I!!!!2!!!!9#R18/!$#G`1&q:WJOr6q<&bII<*a/W<>>H#bak;qm)DbX
+L"^44("D@l`"XM$d"9#g2ML.CO&AgDW=OkYT<1<-WZYKD7GB:A8kgb/=KN\oC2#7:2(!$8ZSn;t
+m-OZ*43-g8V?=`kHfk6Rk;to.0Vp1^E0%C.@gp4.JFEA+Or.'0L+LN@[>#NVZ7HU;,C',n'Ga:i
+W)A:D#*3SJ9.<.]%1KW,_t-"i.=(ZfF.VOs\b7N]:[$JWGHW`Rf2Eae=TMlb.-]erG9-XVKVc"7
+/VkU$\)G,J;2dsE*j3D##V7XCVf;"tLY+XKMYj:=XqGnLT02ca<gFQloMbY6XG9fEKPbENimMj[
+pJ$X4PiB6SD0bQb9Chm[k9Zi"bYOR:k<i%dq-SW<K(nRhO>:H<B#ECr;&%R,N#HKBaQuep-6IJ+
+^A[.()1Qn']K^I4\o\Li+GD[8Yo3c\/^)$+FPrYtOJVn^V;S'gs("TfgM`Ff:7d\Mg*IH179nM*
+5DgQdSqW:HJZ?O$gm+=`WY-j,CnP`mD?Zfi7Y'8a1\=Mq)=f=E9t-e6&3am"PrX>-U`&E\!06M;
+6_g<hS:maTW!.]%W\Sth3WdR<f7:GSiFcRg&FCVH!gllld=r7u#\Reqi97G@pufd^JgeLml"N8c
+qb_0I%FIb&:5I=e.')-DM6iel@Ofg/p-h`Hr]t^$4=D;Dra+_KREW^**.I((4?gHNN@U1T7S:iB
+n]Y$?QX8*K7BESRN-3SAc#7ZDdqt<>k=Qm<_X(+(:&UIB<t6:605#`u[;I1&RT=PXFuGd@:g/d5
+S_-LB5!&?;hL4j06kPoK,U`j)$/Ht7]6<T&]qemV#WYts5\IVnUY1</>Gn@6dc(=Lbh.mnXbI@,
+l&pe+L5%QZN8I4p.S3W;`R4/Vh5$306&CEiQUW,o%<gNHX-7S2HdHl/gr,q;nl$CEQJg"d+X]:*
+QR7.QH@:ISO96nE\(dhd2*toOR>1E<jtu%C(s"Q*lc,J&?(P\o>Rr\19H#IaV%I\:iWW"N:,5.-
+Ku"*eOp%nk6!6JV,t=?*C*7:[*qs,gEP)M0ZMcB&3$VE$ic?,Z4-4DIC\*NRBb:oY,-jhUaKXB$
+`GhRY0,bb/$oR"TBD]rKpi!"RD._JpXu)U3VVDqE'!EE'2mjsD2o;GS9ano;imq@0EZES\K!DR8
+bg+MnhlA8tE4.lA,&@\*ZD8`OMbD[kil_Ssf>8_!Z9?:(f?=$;,VinZ2(ELu\ci`\'0(*tFYFpP
+dBFA4kNja,/+EIf(GItWKnsXjg7feKX+q9!A5s_UJ#efWhgZ1%;$4#9p'-i;C\W6b"eU6`(/OAS
+LV%`dMeD`J98'5Z]%b&9ETr?o?]asXKWhpJ"1n&bE0l$%mQ2CPng<K8(,.U'L$:aI0Kq[\k"pl0
+]1+Bq%(Yc;h2ZI'<nlBFF%b0IlIR6TJWF,%kKX6K(p4=rj*>LLlf^X8fjJ3?rrITao6Cq6AgRKX
+!!#SZ:.26O@"J@Y
+EndImage2
+Fore
+SplineSet
+56.5022878271 487.002287827 m 4
+ 56.5022878271 496.108885327 63.8956903271 503.502287827 73.0022878271 503.502287827 c 4
+ 77.5555865771 503.502287827 81.6805865771 501.653937202 84.6672618896 498.66726189 c 6
+ 149.923489395 433.411034384 l 5
+ 214.258164942 498.592218819 l 6
+ 217.250709358 501.62413882 221.407375777 503.504322301 225.999717237 503.504322301 c 4
+ 235.106318475 503.504322301 242.49972401 496.110916766 242.49972401 487.004315528 c 4
+ 242.49972401 482.49005575 240.682932954 478.396781757 237.744709938 475.410693888 c 6
+ 237.744709938 475.410693888 161.74618231 398.41069879 161.70750344 398.371638849 c 4
+ 158.483959963 395.126955002 154.242231465 393.502919237 149.999719688 393.502919237 c 4
+ 145.794110786 393.502919237 141.587732172 395.098824999 138.33273811 398.33273811 c 6
+ 61.3327381104 475.33273811 l 6
+ 58.3506384521 478.323989077 56.5022878271 482.448989077 56.5022878271 487.002287827 c 4
+EndSplineSet
+Layer: 2
+SplineSet
+73 487 m 29
+ 150 410 l 5
+ 226 487 l 1053
+EndSplineSet
 EndChar
 
 StartChar: hungarumlaut
-Encoding: 733 733 89
+Encoding: 733 733 87
 Width: 1333
 Flags: MW
 HStem: 505 161<159 192 159 192 224 256 159 224>
 VStem: 159 33<505 666 505 666> 224 32<505 666 505 666>
-LayerCount: 2
+LayerCount: 3
 Fore
 SplineSet
 159 505 m 1
@@ -3295,120 +3337,120 @@ EndSplineSet
 EndChar
 
 StartChar: Aacute
-Encoding: 193 193 90
+Encoding: 193 193 88
 Width: 1013
 Flags: HMW
 HStem: -16 32<123 184 123 194.5 812 873> 284 32<263.5 359 268 345 396 600 268 382 651 736 651 651> 644 20G<494.5 511>
 VStem: -17 32 477 32<838 1000 838 1000> 981 32
-LayerCount: 2
+LayerCount: 3
 Fore
-Refer: 87 180 N 1 0 0 1 21 331 2
+Refer: 85 180 N 1 0 0 1 21 331 2
 Refer: 29 65 N 1 0 0 1 0 0 3
 EndChar
 
 StartChar: Eacute
-Encoding: 201 201 91
+Encoding: 201 201 89
 Width: 334
 Flags: HMW
 HStem: -16 32<133 220> 334 32<157 215 157 215> 630 32<131 176 124 178>
 VStem: -16 32<126 221> 10 32<464 536.5 459 548>
-LayerCount: 2
+LayerCount: 3
 Fore
-Refer: 87 180 S 1 0 0 1 -299 333 2
+Refer: 85 180 S 1 0 0 1 -299 333 2
 Refer: 33 69 N 1 0 0 1 0 0 3
 EndChar
 
 StartChar: Iacute
-Encoding: 205 205 92
+Encoding: 205 205 90
 Width: 317
 Flags: HMW
 HStem: -16 32<115 188 115 199> 642 20G<297.5 304>
 VStem: -17 33 284 32<166 599 599 599>
-LayerCount: 2
+LayerCount: 3
 Fore
-Refer: 87 180 N 1 0 0 1 -176 333 2
+Refer: 85 180 N 1 0 0 1 -176 333 2
 Refer: 37 73 N 1 0 0 1 0 0 3
 EndChar
 
 StartChar: Oacute
-Encoding: 211 211 93
+Encoding: 211 211 91
 Width: 650
 Flags: HMW
 HStem: -17 33<274.5 360 274.5 364.5> 632 34<229.5 402>
 VStem: -16 32<298.5 412 298.5 422> 617 33<298 413.5>
-LayerCount: 2
+LayerCount: 3
 Fore
-Refer: 87 180 S 1 0 0 1 -158 332 2
+Refer: 85 180 S 1 0 0 1 -158 332 2
 Refer: 43 79 N 1 0 0 1 0 0 3
 EndChar
 
 StartChar: Ohungarumlaut
-Encoding: 336 336 94
+Encoding: 336 336 92
 Width: 650
 Flags: HMW
 HStem: -17 33<274.5 360 274.5 364.5> 632 34<229.5 402>
 VStem: -16 32<298.5 412 298.5 422> 617 33<298 413.5>
-LayerCount: 2
+LayerCount: 3
 Fore
-Refer: 89 733 N 1 0 0 1 112.5 332 2
+Refer: 87 733 N 1 0 0 1 112.5 332 2
 Refer: 43 79 N 1 0 0 1 0 0 3
 EndChar
 
 StartChar: Odieresis
-Encoding: 214 214 95
+Encoding: 214 214 93
 Width: 650
 Flags: HMW
 HStem: -17 33<274.5 360 274.5 364.5> 632 34<229.5 402>
 VStem: -16 32<298.5 412 298.5 422> 617 33<298 413.5>
-LayerCount: 2
+LayerCount: 3
 Fore
-Refer: 85 168 S 1 0 0 1 61 320 2
+Refer: 84 168 S 1 0 0 1 61 320 2
 Refer: 43 79 N 1 0 0 1 0 0 3
 EndChar
 
 StartChar: Uacute
-Encoding: 218 218 96
+Encoding: 218 218 94
 Width: 904
 Flags: HMW
 HStem: -16 32<256 361.5 636 711.5> 641 20G<85 92>
 VStem: 72 32<222 581 581 581> 522 32<230 646>
-LayerCount: 2
+LayerCount: 3
 Fore
-Refer: 87 180 S 1 0 0 1 -100 332 2
+Refer: 85 180 S 1 0 0 1 -100 332 2
 Refer: 49 85 N 1 0 0 1 0 0 3
 EndChar
 
 StartChar: Uhungarumlaut
-Encoding: 368 368 97
+Encoding: 368 368 95
 Width: 904
 Flags: HMW
 HStem: -16 32<256 361.5 636 711.5> 641 20G<85 92>
 VStem: 72 32<222 581 581 581> 522 32<230 646>
-LayerCount: 2
+LayerCount: 3
 Fore
-Refer: 89 733 S 1 0 0 1 167.5 329 2
+Refer: 87 733 S 1 0 0 1 167.5 329 2
 Refer: 49 85 N 1 0 0 1 0 0 3
 EndChar
 
 StartChar: Udieresis
-Encoding: 220 220 98
+Encoding: 220 220 96
 Width: 904
 Flags: HMW
 HStem: -16 32<256 361.5 636 711.5> 641 20G<85 92>
 VStem: 72 32<222 581 581 581> 522 32<230 646>
-LayerCount: 2
+LayerCount: 3
 Fore
-Refer: 85 168 S 1 0 0 1 124 317 2
+Refer: 84 168 S 1 0 0 1 124 317 2
 Refer: 49 85 N 1 0 0 1 0 0 3
 EndChar
 
 StartChar: aacute
-Encoding: 225 225 99
+Encoding: 225 225 97
 Width: 499
 Flags: MW
 HStem: -16 32<106 185 372 415> 320 32<107 157 150 157> 504 162<132 164 132 164>
 VStem: -16 32<129.5 209.5 129.5 218> 132 32<504 666 504 666> 294 34<130 180 180 185 184 185 298 336>
-LayerCount: 2
+LayerCount: 3
 Fore
 SplineSet
 132 504 m 1
@@ -3445,12 +3487,12 @@ EndSplineSet
 EndChar
 
 StartChar: eacute
-Encoding: 233 233 100
+Encoding: 233 233 98
 Width: 267
 Flags: MW
 HStem: -16 32<120 156> 79 41 319 33<97 156.5> 503 162<106 138 106 138>
 VStem: 16 32<163.5 194 163.5 201.5> 106 32<503 665 503 665> 198 33<262.5 279>
-LayerCount: 2
+LayerCount: 3
 Fore
 SplineSet
 106 503 m 1
@@ -3482,12 +3524,12 @@ EndSplineSet
 EndChar
 
 StartChar: iacute
-Encoding: 237 237 101
+Encoding: 237 237 99
 Width: 294
 Flags: MW
 HStem: -16 32<171.5 219.5> 332 20G<120 127> 646 20G<103 135 135 135>
 VStem: 102 32<133 287 287 287>
-LayerCount: 2
+LayerCount: 3
 Fore
 SplineSet
 -13 189 m 0
@@ -3516,12 +3558,12 @@ EndSplineSet
 EndChar
 
 StartChar: oacute
-Encoding: 243 243 102
+Encoding: 243 243 100
 Width: 485
 Flags: MW
 HStem: -16 32<99 203 99 220> 219 33<350.5 379 345 384> 320 32<107 174.5> 645 20G<125 157 157 157>
 VStem: -16 32<134 208.5 134 215.5> 125 32<503 665 503 665> 286 33<161 185.5 130.5 205> 453 33
-LayerCount: 2
+LayerCount: 3
 Fore
 SplineSet
 -16 169 m 0
@@ -3554,12 +3596,12 @@ EndSplineSet
 EndChar
 
 StartChar: ohungarumlaut
-Encoding: 337 337 103
+Encoding: 337 337 101
 Width: 485
 Flags: MW
 HStem: -16 32<99 203 99 220> 219 33<350.5 379 345 384> 320 32<107 174.5> 643 20G<92 125 125 125 157 189 189 189>
 VStem: -16 32<134 208.5 134 215.5> 92 33<502 663 502 663> 157 32<502 663 502 663> 286 33<161 185.5 130.5 205> 453 33
-LayerCount: 2
+LayerCount: 3
 Fore
 SplineSet
 -16 169 m 0
@@ -3597,12 +3639,12 @@ EndSplineSet
 EndChar
 
 StartChar: odieresis
-Encoding: 246 246 104
+Encoding: 246 246 102
 Width: 485
 Flags: MW
 HStem: -16 32<99 203 99 220> 219 33<350.5 379 345 384> 320 32<107 174.5> 473 64<93 100>
 VStem: -16 32<134 208.5 134 215.5> 66 59<500.5 510.5> 157 59<501.5 513.5 501.5 513.5> 286 33<161 185.5 130.5 205> 453 33
-LayerCount: 2
+LayerCount: 3
 Fore
 SplineSet
 -16 169 m 0
@@ -3644,12 +3686,12 @@ EndSplineSet
 EndChar
 
 StartChar: uacute
-Encoding: 250 250 105
+Encoding: 250 250 103
 Width: 564
 Flags: MW
 HStem: -16 32<193.5 261 441.5 491> 332 20G<85 92 383.5 392.5> 503 162<219 251 219 251>
 VStem: 72 32<177 274 274 274> 219 32<503 665 503 665> 372 32<184 336>
-LayerCount: 2
+LayerCount: 3
 Fore
 SplineSet
 219 503 m 1
@@ -3686,12 +3728,12 @@ EndSplineSet
 EndChar
 
 StartChar: uhungarumlaut
-Encoding: 369 369 106
+Encoding: 369 369 104
 Width: 564
 Flags: MW
 HStem: -16 32<193.5 261 441.5 491> 332 20G<85 92 383.5 392.5> 502 161<190 223 190 223 255 287 190 255>
 VStem: 72 32<177 274 274 274> 190 33<502 663 502 663> 255 32<502 663 502 663> 372 32<184 336>
-LayerCount: 2
+LayerCount: 3
 Fore
 SplineSet
 190 502 m 1
@@ -3733,12 +3775,12 @@ EndSplineSet
 EndChar
 
 StartChar: udieresis
-Encoding: 252 252 107
+Encoding: 252 252 105
 Width: 564
 Flags: MW
 HStem: -16 32<193.5 261 441.5 491> 332 20G<85 92 383.5 392.5> 467 64<189 196>
 VStem: 72 32<177 274 274 274> 162 59<494.5 504.5> 253 59<495.5 507.5 495.5 507.5> 372 32<184 336>
-LayerCount: 2
+LayerCount: 3
 Fore
 SplineSet
 162 499 m 0
@@ -3783,19 +3825,12 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: dotaccent
-Encoding: 729 729 108
-Width: 500
-Flags: W
-LayerCount: 2
-EndChar
-
 StartChar: minus
-Encoding: 8722 8722 109
+Encoding: 8722 8722 106
 Width: 666
 VWidth: 0
 Flags: HW
-LayerCount: 2
+LayerCount: 3
 Back
 Image2: image/png 288 -68.5771 701 28.8461 28.8461
 M,6r;%14!\!!!!.8Ou6I!!!!>!!!!;#R18/!)&VZ[f?C.k=J'-<(II.p^[N5c9?t;BgO&6ce()O
@@ -3821,21 +3856,21 @@ EndSplineSet
 EndChar
 
 StartChar: adieresis
-Encoding: 228 228 110
+Encoding: 228 228 107
 Width: 499
 Flags: H
-LayerCount: 2
+LayerCount: 3
 Fore
-Refer: 85 168 S 1 0 0 1 -96.5 -15 2
+Refer: 84 168 S 1 0 0 1 -96.5 -15 2
 Refer: 57 97 N 1 0 0 1 0 0 3
 EndChar
 
 StartChar: germandbls
-Encoding: 223 223 111
+Encoding: 223 223 108
 Width: 479
 VWidth: 0
 Flags: HW
-LayerCount: 2
+LayerCount: 3
 Back
 Image2: image/png 5850 -413.5 930 15 15
 M,6r;%14!\!!!!.8Ou6I!!!!r!!!"0#R18/!<+t5-ia5_Th.X<<-SH2>R>@KA[XeYfcUSmfKr,Z
@@ -3999,20 +4034,20 @@ EndSplineSet
 EndChar
 
 StartChar: Adieresis
-Encoding: 196 196 112
+Encoding: 196 196 109
 Width: 1013
 Flags: HW
-LayerCount: 2
+LayerCount: 3
 Fore
 Refer: 29 65 N 1 0 0 1 0 0 2
-Refer: 85 168 S 1 0 0 1 234 306 2
+Refer: 84 168 S 1 0 0 1 234 306 2
 EndChar
 
 StartChar: slash
-Encoding: 47 47 113
+Encoding: 47 47 110
 Width: 666
 Flags: HW
-LayerCount: 2
+LayerCount: 3
 Back
 Image2: image/png 359 -70.3705 708 27.7777 27.7777
 M,6r;%14!\!!!!.8Ou6I!!!!=!!!!<#R18/!,i/3/-#YN/kJGs<(IJc<j@O75S0JZ<jW12KjAFD
@@ -4041,10 +4076,10 @@ EndSplineSet
 EndChar
 
 StartChar: parenleft
-Encoding: 40 40 114
+Encoding: 40 40 111
 Width: 666
 Flags: HW
-LayerCount: 2
+LayerCount: 3
 Back
 Image2: image/png 359 -70.3705 708 27.7777 27.7777
 M,6r;%14!\!!!!.8Ou6I!!!!=!!!!<#R18/!,i/3/-#YN/kJGs<(IJc<j@O75S0JZ<jW12KjAFD
@@ -4077,10 +4112,10 @@ EndSplineSet
 EndChar
 
 StartChar: parenright
-Encoding: 41 41 115
+Encoding: 41 41 112
 Width: 666
 Flags: HW
-LayerCount: 2
+LayerCount: 3
 Back
 Image2: image/png 359 -70.3705 708 27.7777 27.7777
 M,6r;%14!\!!!!.8Ou6I!!!!=!!!!<#R18/!,i/3/-#YN/kJGs<(IJc<j@O75S0JZ<jW12KjAFD
@@ -4110,6 +4145,304 @@ SplineSet
  374.363763831 423.765375969 337.305757844 500.291941091 266.262129154 606.856305058 c 0
  264.497852259 609.50649803 263.480631277 612.648915004 263.480631277 616.027041842 c 0
 EndSplineSet
+EndChar
+
+StartChar: ccaron
+Encoding: 269 269 113
+Width: 303
+Flags: HW
+LayerCount: 3
+Back
+Image2: image/png 1210 -107.22 577.362 25.7292 25.7292
+M,6r;%14!\!!!!.8Ou6I!!!!2!!!!9#R18/!$#G`1&q:WJOr6q<&bII<*a/W<>>H#bak;qm)DbX
+L"^44("D@l`"XM$d"9#g2ML.CO&AgDW=OkYT<1<-WZYKD7GB:A8kgb/=KN\oC2#7:2(!$8ZSn;t
+m-OZ*43-g8V?=`kHfk6Rk;to.0Vp1^E0%C.@gp4.JFEA+Or.'0L+LN@[>#NVZ7HU;,C',n'Ga:i
+W)A:D#*3SJ9.<.]%1KW,_t-"i.=(ZfF.VOs\b7N]:[$JWGHW`Rf2Eae=TMlb.-]erG9-XVKVc"7
+/VkU$\)G,J;2dsE*j3D##V7XCVf;"tLY+XKMYj:=XqGnLT02ca<gFQloMbY6XG9fEKPbENimMj[
+pJ$X4PiB6SD0bQb9Chm[k9Zi"bYOR:k<i%dq-SW<K(nRhO>:H<B#ECr;&%R,N#HKBaQuep-6IJ+
+^A[.()1Qn']K^I4\o\Li+GD[8Yo3c\/^)$+FPrYtOJVn^V;S'gs("TfgM`Ff:7d\Mg*IH179nM*
+5DgQdSqW:HJZ?O$gm+=`WY-j,CnP`mD?Zfi7Y'8a1\=Mq)=f=E9t-e6&3am"PrX>-U`&E\!06M;
+6_g<hS:maTW!.]%W\Sth3WdR<f7:GSiFcRg&FCVH!gllld=r7u#\Reqi97G@pufd^JgeLml"N8c
+qb_0I%FIb&:5I=e.')-DM6iel@Ofg/p-h`Hr]t^$4=D;Dra+_KREW^**.I((4?gHNN@U1T7S:iB
+n]Y$?QX8*K7BESRN-3SAc#7ZDdqt<>k=Qm<_X(+(:&UIB<t6:605#`u[;I1&RT=PXFuGd@:g/d5
+S_-LB5!&?;hL4j06kPoK,U`j)$/Ht7]6<T&]qemV#WYts5\IVnUY1</>Gn@6dc(=Lbh.mnXbI@,
+l&pe+L5%QZN8I4p.S3W;`R4/Vh5$306&CEiQUW,o%<gNHX-7S2HdHl/gr,q;nl$CEQJg"d+X]:*
+QR7.QH@:ISO96nE\(dhd2*toOR>1E<jtu%C(s"Q*lc,J&?(P\o>Rr\19H#IaV%I\:iWW"N:,5.-
+Ku"*eOp%nk6!6JV,t=?*C*7:[*qs,gEP)M0ZMcB&3$VE$ic?,Z4-4DIC\*NRBb:oY,-jhUaKXB$
+`GhRY0,bb/$oR"TBD]rKpi!"RD._JpXu)U3VVDqE'!EE'2mjsD2o;GS9ano;imq@0EZES\K!DR8
+bg+MnhlA8tE4.lA,&@\*ZD8`OMbD[kil_Ssf>8_!Z9?:(f?=$;,VinZ2(ELu\ci`\'0(*tFYFpP
+dBFA4kNja,/+EIf(GItWKnsXjg7feKX+q9!A5s_UJ#efWhgZ1%;$4#9p'-i;C\W6b"eU6`(/OAS
+LV%`dMeD`J98'5Z]%b&9ETr?o?]asXKWhpJ"1n&bE0l$%mQ2CPng<K8(,.U'L$:aI0Kq[\k"pl0
+]1+Bq%(Yc;h2ZI'<nlBFF%b0IlIR6TJWF,%kKX6K(p4=rj*>LLlf^X8fjJ3?rrITao6Cq6AgRKX
+!!#SZ:.26O@"J@Y
+EndImage2
+Fore
+Refer: 59 99 N 1 0 0 1 0 0 2
+Refer: 86 711 S 1 0 0 1 14 5 2
+EndChar
+
+StartChar: Ccaron
+Encoding: 268 268 114
+Width: 557
+Flags: HW
+LayerCount: 3
+Back
+Image2: image/png 1424 23.68 878.43 29.3548 29.3548
+M,6r;%14!\!!!!.8Ou6I!!!!1!!!!@#R18/!:H[XZiC(0=%PeG<&bIa<GcE7AJi/<YOe?lF(SW;
+[i[u>5=H\\RHVEt,,LH"U_4;n-#!*!U0gJ`OH<!:r@fu2_[)rt77<apd9MMfVbUKp)N1+!Fn=t0
+F5HAH]BaafN*^bSqnCDRggAZUh=j4,VkR4TKp%?b`h/LiS\+U<r'DON30oq=]M'U1\"?Ip-:;-h
+`Ug'RSgVUb7+>+9`^<%ZC'VM4S<Z&,+-=V/)\V\q!frilYKA)<O33l3(F2Rn*=Oc'VNSsa/inoX
+O^^Kb*ZL7QO*i95Rj(inH=>.#Er>5F,iD1XXU8YgA#N$o,\[J;Yn1Os`3M+)&+JW$@@TQ3&`#Sj
+@#EV6nfF#'7a!(%nXkFbah^*t'FG,P"M*d41/'5%^p`VlYcPGMK*-m+TP5CDr$F9"T*(VeIr^oQ
+.="L>$l3(QW&JbL7IK>(_$#YN;iV9X2J-QuFU>&Z_fEOBG^!#&?\4Mtk3I-kS\_EZ6btJgqb9%^
+L7h[>>JYngX3J%+YY.M)eM)npGTk@kT#9Ka7o?B`@-'PP;"lPH\hK$9hg6/Dqk$-Mj<0@`?^sRu
+7)"?(69o(^f0aiNmDJMi1HX]fT8'0[H"=kF<8OSNEocGG4TEjqo#KXoROP$mTqc$@9P"!c05EL`
+PC83MOmAf<nXku@+SE]H!qFB<^ifM/?a=jmk*CWRNl6hmK/.[ta"I0qi,b;2cQ3UOgq-_$V#sPp
+g7aZLl'Hn&c&&(R@]8M/$:b<7^pTZ`Z29gBW3eSGg*?of#LOhQj<c/72MGe[[L=tp+1?%'C_Et/
+l4bjH<70=LLQ3Z5d5;M+%FQ$.iaJ=JCo]fK+9Q^T%G]K7KZeG6>:=O07SXPt?bZeeMC8d.Ec(dA
+2&F%46_m[RFbZ%9&eOZWdg0QMUc<AR,jp0?4ua5^cbcPW<Vh!4TMd3nWkbn\:on=\[D?5TNCFA[
+D)3*HgAKHD\QTB:7bIZ.j?7FI:JD.jgChLI+_63;e<DI,/*^Z:2oRuRlR9>GY/9u&QdOR:"X=Je
+!g]+H^qRmh9\M2Z,'*fZV17?%+.*DdY3tCrB[+HY>.P.:hR`iLg*@^HW/TPEZ#4<GZ;qMd#CP&3
+=opV:gY4H/ILP=q99L-O\kc8T"n\FnBRT&<4Y7S]hR"6Sh*%;G)]M4YB;aTf*QA0RZ];3IC`0\j
+>JHp!H'o$4hVMR^<s''3>Z'T23gbb]Y$.4BX.l#.bHWh8F.!?F=gr8hC3/uGQHaXi%;<g69M:Sk
+BB@8YI;70]i_j0O8rfrRYK"P>Qh7Kn7S/eSYm`LdEm=rJL7,DLY-Hq2fA\U:KM`4K7Rf?NR2Ci\
+RAf<e_,O8PcH/.F>?RoO/;Rl*MOYF)QXKa^,\i;E+hu!b2QG.W+:Ag\dDWA;)F5!Fjln>[)M[PQ
+N+ie2%\_gLk^RUdQ?JKATEoNKU:jgZR:m'JXMkU;/^)Q6.6*fgkm.1c>B&]H'jR<?JWtLf/9!'R
+pkY'5*ar+WB4e:);3`KJ-iV%NP9Z']&[g+J43`8Hk?cpoh[bd*a7gJkT[$lS`NcnfpUMEoqj/XB
+jB2tb_.1NB3=i(=8.u=*3'GlT[2ZTrRg20Dl+1UWOa4*43`?NDa/5[$Z)r')cpt[`N%"=d0EG)O
+7V&0O2;`9QhgTbNmi4HG,29S+.VWL,B4oWBEB!U+[1=384@m':=Ar.^/QEDta";:uO?3@kfkq\G
++!,tga@[;i.$n32FEaFud?ga;>Z1MROdF$qkp%i-z8OZBBY!QNJ
+EndImage2
+Fore
+Refer: 31 67 N 1 0 0 1 0 0 2
+Refer: 86 711 S 1 0 0 1 166 337 2
+EndChar
+
+StartChar: scaron
+Encoding: 353 353 115
+Width: 267
+Flags: HW
+LayerCount: 3
+Fore
+Refer: 75 115 N 1 0 0 1 0 0 2
+Refer: 86 711 S 1 0 0 1 -30 6 2
+EndChar
+
+StartChar: Scaron
+Encoding: 352 352 116
+Width: 366
+Flags: HW
+LayerCount: 3
+Fore
+Refer: 47 83 N 1 0 0 1 0 0 2
+Refer: 86 711 S 1 0 0 1 13 336 2
+EndChar
+
+StartChar: zcaron
+Encoding: 382 382 117
+Width: 357
+Flags: HW
+LayerCount: 3
+Fore
+Refer: 82 122 N 1 0 0 1 0 0 2
+Refer: 86 711 S 1 0 0 1 4 8 2
+EndChar
+
+StartChar: Zcaron
+Encoding: 381 381 118
+Width: 586
+Flags: HW
+LayerCount: 3
+Fore
+Refer: 54 90 N 1 0 0 1 0 0 2
+Refer: 86 711 N 1 0 0 1 171 336 2
+EndChar
+
+StartChar: uni02CA
+Encoding: 714 714 119
+Width: 1000
+Flags: HW
+LayerCount: 3
+Back
+Image2: image/png 1028 -66.96 579.7 25.8333 25.8333
+M,6r;%14!\!!!!.8Ou6I!!!!/!!!!9#R18/!6W@+<r`4&b=P)f<&bII<(gmF<>b_\]^P5^+9WB`
+88(^OfniO/_,^me"fjL5R[+6P!A4KkDKI1&&M,P>]<J]!Ub16GV,CT0=%g.\@!Y`b6F>GZRbYGp
+BBG^EoD>(W4SR.]SH&Qfh`"0;XL0b%+A!3U<>5VB/40u&#ZLf!28V&#fG9aTdHgIuR\l2i#b[DK
+=]aIi[=C=@s2CqT=LSB$LMbfBF4qaU)_3Ln!o&Nl&4?Qa`mD?:4rR;;bFPiJXq=)7JiJe,CgDdO
+ZP8[=r-OmN\96sE55jhhXKD6qRF=gXoPnENq;3k5?-4<-!*e4PET,[@E8\MfR%Bo38IK%!;^Z]f
+YdQN3;$"pT;5B<:,:kDu@<-B$Mf5/`W^+%Qf5jDF:b,_(q4:,mUt.mf@V+g#cgnq'$SlNeG"4pI
+9hF/59XQ8%'\$hb#p3hJe@J&:-)d2&J)^PVSpUmY<#A%I@PlVMNl+bm"3pJ&Z!'Ua[X;m2/UKZ:
+(1A2/#;NjCBHREe6A:(UBIk/,$EAUEY-:M.42kT0YSP(*CWj58jXSEY`pC#f=BntDnX#<1*9FE5
+IU$BZ9;/X"8h5NtjMOd=am4lRa_tt\11Xs3Im9*[BASm]5PupTeZ_)Cbq.2kkR7n2cCOu)hYuGC
+H,Lp#fVF;?=piD%b3#9W/A$UO$YB-!:t<,6r8.HH:7qJUf!b9_?n#nb.?4$2$goZR^*_V7mRU[4
+.i6$u*$ir#pMo98;+sZB,N42#c;K8LF^'P+cCB355qHSBRfJ8-I435BQDh!e*H\lCJVIXsh"%PF
+%3iN1@g1/K(C`q=&$tBZlSs.Y&4+T)F,9XmWmX0@h/;A&Gj8kYE31X_-&8M)roXLJk%6Va6Ah*V
+$X+$(jS[0+j;9FWc;tr_cgeBD$n2<!4n^'X2t%o#:)RsV=jud34Jec#+V/9T6F/>h_=99s#qOr\
+iTIJ[ES%,H;N.S'D86E.Ll<KWq2@o;PQe@[2!,1trr#bt=]t9jM4tE\%5=k7F^kI_\9WE9?_%.R
+Hu7OM'%n+]HrOKcH3QAQpWJO2WmN'UQ?6#h'sRPT2U9&.5$j^C"X>0_IMku3N=]fe'-URA\\*$3
+?@KJ*9-3LXEdMq-^ARi%N'B$I^Y\>#/n[DCDFHghc&HSskrm<'V&A_$o)Mhtn;EXIa&j_,M%d(%
+rlpXoRX1En2.VL4SQ8oQm]4Bg)1EKW>tt)/+H`$#1\JY_%VJmB(8/Q*]$C9[GU.(IQC2(Az8OZBB
+Y!QNJ
+EndImage2
+Fore
+SplineSet
+96.0008984607 389.501534205 m 4
+ 86.8930247455 389.501534205 79.4985861206 396.89597283 79.4985861206 406.003846545 c 4
+ 79.4985861206 409.511814879 80.5955252702 412.7656011 82.4648091478 415.440610787 c 6
+ 140.48144461 498.464416707 l 6
+ 143.465454684 502.73463802 148.417628541 505.529964806 154.017533923 505.529964806 c 4
+ 163.125407638 505.529964806 170.519846263 498.135526181 170.519846263 489.027652466 c 4
+ 170.519846263 485.519684132 169.422907114 482.265897911 167.535190852 479.559389213 c 6
+ 167.535190852 479.559389213 109.535190852 396.559389213 109.51855539 396.535583293 c 4
+ 106.5529777 392.296860991 101.600803842 389.501534205 96.0008984607 389.501534205 c 4
+EndSplineSet
+Layer: 2
+SplineSet
+96 406 m 29
+ 154 489 l 1053
+EndSplineSet
+EndChar
+
+StartChar: cacute
+Encoding: 263 263 120
+Width: 303
+Flags: HW
+LayerCount: 3
+Back
+Image2: image/png 1028 -30 583.42 25.8333 25.8333
+M,6r;%14!\!!!!.8Ou6I!!!!/!!!!9#R18/!6W@+<r`4&b=P)f<&bII<(gmF<>b_\]^P5^+9WB`
+88(^OfniO/_,^me"fjL5R[+6P!A4KkDKI1&&M,P>]<J]!Ub16GV,CT0=%g.\@!Y`b6F>GZRbYGp
+BBG^EoD>(W4SR.]SH&Qfh`"0;XL0b%+A!3U<>5VB/40u&#ZLf!28V&#fG9aTdHgIuR\l2i#b[DK
+=]aIi[=C=@s2CqT=LSB$LMbfBF4qaU)_3Ln!o&Nl&4?Qa`mD?:4rR;;bFPiJXq=)7JiJe,CgDdO
+ZP8[=r-OmN\96sE55jhhXKD6qRF=gXoPnENq;3k5?-4<-!*e4PET,[@E8\MfR%Bo38IK%!;^Z]f
+YdQN3;$"pT;5B<:,:kDu@<-B$Mf5/`W^+%Qf5jDF:b,_(q4:,mUt.mf@V+g#cgnq'$SlNeG"4pI
+9hF/59XQ8%'\$hb#p3hJe@J&:-)d2&J)^PVSpUmY<#A%I@PlVMNl+bm"3pJ&Z!'Ua[X;m2/UKZ:
+(1A2/#;NjCBHREe6A:(UBIk/,$EAUEY-:M.42kT0YSP(*CWj58jXSEY`pC#f=BntDnX#<1*9FE5
+IU$BZ9;/X"8h5NtjMOd=am4lRa_tt\11Xs3Im9*[BASm]5PupTeZ_)Cbq.2kkR7n2cCOu)hYuGC
+H,Lp#fVF;?=piD%b3#9W/A$UO$YB-!:t<,6r8.HH:7qJUf!b9_?n#nb.?4$2$goZR^*_V7mRU[4
+.i6$u*$ir#pMo98;+sZB,N42#c;K8LF^'P+cCB355qHSBRfJ8-I435BQDh!e*H\lCJVIXsh"%PF
+%3iN1@g1/K(C`q=&$tBZlSs.Y&4+T)F,9XmWmX0@h/;A&Gj8kYE31X_-&8M)roXLJk%6Va6Ah*V
+$X+$(jS[0+j;9FWc;tr_cgeBD$n2<!4n^'X2t%o#:)RsV=jud34Jec#+V/9T6F/>h_=99s#qOr\
+iTIJ[ES%,H;N.S'D86E.Ll<KWq2@o;PQe@[2!,1trr#bt=]t9jM4tE\%5=k7F^kI_\9WE9?_%.R
+Hu7OM'%n+]HrOKcH3QAQpWJO2WmN'UQ?6#h'sRPT2U9&.5$j^C"X>0_IMku3N=]fe'-URA\\*$3
+?@KJ*9-3LXEdMq-^ARi%N'B$I^Y\>#/n[DCDFHghc&HSskrm<'V&A_$o)Mhtn;EXIa&j_,M%d(%
+rlpXoRX1En2.VL4SQ8oQm]4Bg)1EKW>tt)/+H`$#1\JY_%VJmB(8/Q*]$C9[GU.(IQC2(Az8OZBB
+Y!QNJ
+EndImage2
+Fore
+Refer: 59 99 N 1 0 0 1 0 0 2
+Refer: 119 714 S 1 0 0 1 39 9 2
+EndChar
+
+StartChar: Cacute
+Encoding: 262 262 121
+Width: 557
+Flags: HW
+LayerCount: 3
+Fore
+Refer: 31 67 N 1 0 0 1 0 0 2
+Refer: 119 714 S 1 0 0 1 196 341 2
+EndChar
+
+StartChar: uni0335
+Encoding: 821 821 122
+Width: 0
+Flags: HW
+LayerCount: 3
+Back
+Image2: image/png 1367 -41.54 630.47 25.7692 25.7692
+M,6r;%14!\!!!!.8Ou6I!!!!2!!!!;#R18/!)]c*3<0$_*_Aac<&bI9<F(D\<>>GXcTUIJ\_aAC
+ULJ;p)0;;[#KJY9'5LR1U6i_&KHr+j#f@c?&g)cL.7>@(kUhU^$M0sXhEmqLUC!D-of>._>j"m%
+^&R9qSCP)E)tlI.n$DcBlheE(f$P*B!Lk!M%7lWfOsFcKL1qgne+4epD%jdCT`^b;XDs;uV0gI-
+GqqOUL+r+)(`IGJ/8-#P(a4G?9fI'AiBFhSG%!gJ)4Yj`E>3Aq!F;VR+H/b^=LjYSc@&cAG.$C!
+OXsJto&`%&ak3^WieER`$2;I`^P3@kT'3bb6hNEr&Va`ZQ'oaicS13Lo<upZ7JqH03f75!KP2L*
+Q`fZ&o7/YC0G=p?)Q\l`4qoGL$:QaE_D%Y,qAf>:\%j@=WZ.ZWQX<4T0eX(5A>9S:[$ou!=fTG-
+"6>IPU=O:fHg_5P(RDjJ7(c(+cACk5cls[/0?CAqLO%;U6B#4ma)BT/6GSQu.uQX3DP32hp2=&k
+'mUaFG<UT:T`KH>R-@0P8c1f%2:$L-:b&TbV?$q5Q)BinI_'P7cQ5'%Si&%?!P.,cF_qc=?-d@[
+')N<]Sp3hbI(.$i>R@Bsd*74f`-d"$jk$=kmn8:k/k68e%mh#3U5-"2"kqK5-rc5g)$e;7SV3.c
+;FDS2^:/m`%Gl$-B;m/eM+C"RVRO"Y:c2.)%+Bt"!P)HAM$1(?KJYBp<5XHM]i\HAj?>nl$pl_P
+S"uBIc)I+\W.;\1/-Jf[Q-(>As5[[KO'flaQ45hM``q*%pE6L/(?Xa0R(KgGTbB+LRcqh.BJ^Vm
+,BW"?e!)a6?5oq9:]H5urV\CTfFk_P?^6t<^Ftq&SX/<65F'!]kK'&FU=iJf!qI-5*"qB&_u40m
+K23PM/#1Rh<b/It8<kRF%jF#SlFa4SnZ'g_>k.$$80`!pdZ.LF$BP^O0a$_#KeIH>__]q+e47%Q
+>m2Q!H0OQOYdnZeAoH;jW)b;<2C"WiZg0`Uo0j22nC5r=6Ss^$h(+Vq"<@]KL-@FDQfI3K_gO4s
+-.JCnIb1"$Bbc.i*aQg]3i5BI*bs4OCu7DZSa7j=PJDrb;(B#pf56;nj%s3KH'2f$6p),5%'Yu+
+.MaM!=l_Vc/2(1K:IC5n?o(WC6r+1fL>G?b)f&*Ict^"'Lhb?t,E_Lb82c7F)j>O3R4Tl5J4S*V
+j@2kL#lFhU7ruaS$#Eg5To_pJRHM(/-_.t_"^q69MOdm,=<eMTgF2WaKUJAbn4_WJHQ/)O8)Q3p
+/8o-gYZ^A/1(]-"7$Z5<gU?)/m>"XiAna(5d6u/&?5dL>Q?kEHJ_iT?C,HXDBN</E"=c,X4%C>`
+jP\rC9M[RNYZRZO#]A.HOelIXAnpH/:7h@h>6d((ADqFRlSbU>IInl#q=ZnI!%"M&=Pd2rdj$sE
+_keI6"r_;6O/CsdS;rN"It>q[\q$C&-1W;)(DHhW"n/$GLJhJDTk0H9$:4rPSfbtj`#(+6rY^Ve
+50Dsj*.I!d'Y9/]o%JPo?djpinQRDC*oPQ4&+IGoLG?GO-PMf&3'TK[\X@.o>c?WZ\MKVF)T0Xf
+>rZij(_5rjLJu5h0Yr9fqhB'2@N<!=%Umt!,of')_F/3Jk2&77c"<N7_Am$=b'+Oj.>*oc)_7+`
+XT03"n5Z=IT<0>6748;>'EZTLIT_tV!rN:m*r*BQ^\]DZ!!!!j78?7R6=>BF
+EndImage2
+Fore
+SplineSet
+152.001221619 441.502888403 m 2
+ 142.896408336 441.502888403 135.504452135 448.895187915 135.504452135 458.000001198 c 0
+ 135.504452135 467.068164748 142.837015977 474.437230797 151.891353791 474.496409475 c 2
+ 305.00287002 475.497138339 l 2
+ 314.107683303 475.497138339 321.499639593 468.104825285 321.499639593 459.000012002 c 0
+ 321.499639593 449.931848453 314.167075751 442.562782404 305.108646209 442.503590525 c 2
+ 152.001221619 441.502888403 l 2
+EndSplineSet
+Layer: 2
+SplineSet
+152 458 m 29
+ 305 459 l 1053
+EndSplineSet
+EndChar
+
+StartChar: dcroat
+Encoding: 273 273 123
+Width: 535
+Flags: HW
+LayerCount: 3
+Fore
+Refer: 60 100 N 1 0 0 1 0 0 2
+Refer: 122 821 N 1 0 0 1 80 0 2
+EndChar
+
+StartChar: Dcroat
+Encoding: 272 272 124
+Width: 666
+Flags: HW
+LayerCount: 3
+Back
+Image2: image/png 1799 50.5 793.44 30 30
+M,6r;%14!\!!!!.8Ou6I!!!!6!!!!>#R18/!(B:'qZ$U#c:LDi<(IHe<aBM]eJUOAZSVL=c,Pe(
+fT&NWYu7PF+\@6LL4kYq%0AjH+As_`$E?X6<>glpV+O0A<N0!qfEWHInGj1MC0r0MZj!8>KFmK:
+e,gd?`_"lla2X-`B6S!#kP+"aj%r5=m*+8RT)8JVn(_]sBd/:?+O:&B[U;?C+tu_)?X@H8,"khD
+Y)Ah18Wpoq/DB!c&R$)[>4[jiU];NVR\e*s*(2?.ZRdWBSWZpqd(,>%0J1'q'JM3,eZMkls,Un+
+V!p2QK#%SpMi3VEVmT/^l$Jj1N*$QUF#m\Ae@+^$,PfJ^HZA"JiD"(@N5.hN,l.SO;MAD"d#0Z$
+3ZY`\"scu@ED0Jt+V*5F!h+[X[u5"3Z3JUdd99[*4>$5C^s^X<c@7s/GG_9XB'MP'?+L*7&(SB4
+_ULitDW8IfHSP>[+(NW646V!D/8)-Q'!en='kj%(X@n;9b=t+tMb3PZ)TBuBqf1`?s7",(&)t4u
+Db&66iKS24Ob&pgH+\I_"I<7"GkS[T@Us#J=L_`0XKW<n=(tIY,`ot[?V\?2Q<Xe1=ij)*h>`.U
+k/@sFI,U?d+sCk2TD`$U_GsC?m5cZqR/2lNpatKM&-RB<KqP-8Bik((Xp:Qnr;Gfh960[0Ve!2*
+J;?-j;8c?FdZ6K<8L*I4G]"snYCGkoHktj2?c;9;7Ij!nN)f%#/)*EobK;S_RCdAZ3f(6-OX_[<
+Ba2V78@&_i;BJNR&u6?][.0Vm5E?W\p^3=RQVjg7Oj_f[iZ!UUQWt4Oh;X)9MVp2a[9AQ"#0EGZ
+MF/9a^>C-2aQ"g<KmZ(+mp4Rho2_B,HV3Ns)Of`ll-Qq.j,h&l[+KEJc1pM_$`I$hAd4/mL?kpR
+'H*oNK,+,hVY$5I.rh8rGAYCbGKqBVO):A2_Ti_FFM5[c(06kF"pQtnmaKAGYdF[kH>HLm3!^0M
+6*b,=.PA>lTIHYg4PYuOLbV-/`24[3Z]rGg"L`LT\tQli:M/anHhTH92Sap>jOt/$6FB]=@#Yh*
+k#W?Cl!4s&7Q<LmMWN0f1NbG=O(N%P%7;["[+Q;tMe:uH`QR`gbK8An7M8tHfZ51)L)T8c)RNT1
+#.r,KPd/=%XBogQj/,,Ta/5i&-oB[*`Yhg1Z_q0J\T@eji5T34r>7=!IrXuklE5^,*'/Usn$s*C
+WgKc+VN'rP8/ON:J.)JH\8r2;5C4/U2iRmP4I4O=Q\`<>oFfRNR[nB>_iIScMr-k8\"\C8%*;Li
+]&u^-/%9$Q;)X%dP;!dJjQ_X#FRg;`H\%P".AQet%7-Dm99U?E\&j4I9Ebu+$6@/6`@Rr1=aW+E
+U;>9YA3)#WQ;ebAgON4PIfn5D'kIQd@7Vhi;Q4#tL"C-L@f-uEh&a'A^U!r3p+0_8<,_T1M\k*j
+3@^@'o3L_8\Jm'$5kUFRV-bi<kqTYh!c2sp)PU(#''c<MOMk4T#W8rMh*O1`:YC1!oYSRMh"T`(
+GeUAWiuj?2UEX%C8Z><eUg.&$I$[8VfqKCA@;lQZA(8S<kd#M>VY4>7Y$c);`ZgZNUkTO^#P=IP
+fS21p:8>R!0YZ"+hA?dXH#3pcY7'bCAlKp&3B&mTFcAFaBGQ3M%B)L.l;TQJ2>OuIV6^'NDbA7=
+X*So8OlTJ,k+-E?IYfbn`OO33;9:/.h(9^r\kpJBfqYoiIiG+DWFcs6]m(S/*BaJ-*Q%EH?>R_7
+O1Bn?gg5B.=,Zm][E:qcrq,2CGl3C?@EXt!igjr/8s01Z,VZdf.(-61qUdjCPM[ta29MRK6^Z"k
+e:m-jW&GW2?eojUWHUSfs#E^54f"FQFUEJ<[=o9DrX3'-m;(@[FVs0!_qal^*'V"GV1s\cMl;N4
+EQMK^@N"CL0icE8b_<*Bl'5=ihZMcRf='R7'XC32gF@JI;cEJ[nlshqpjBouhV/Q>_T)*9b<Nms
+pE.6N"8f<<cS3j/'coLCr9Ju.R/HcD3-OX#*..$#C<To+6.J*Xg1hbNNupmDCg_4$!,oMq$84O9
+/,\lAO-3PZl[PJbU=2*p\!%XL*Q$sD@8'J396hMq++F5Om(VjfSm3+,822<eG+WbsEE.)achBti
+#Qp&09&.#;B[c3jkc8]XTuD-#mPHBFb#VpKq>g^"F)9o"&qr1$_1Jeb7j15KUO0U_cujL;G=8HX
++'3#lPN5CZ=!pU+FIo6_l6VKNg=@b#[`*4=k'!.Rb9l/5O"UKJ(?Y;A^afus!!!!j78?7R6=>BF
+EndImage2
+Fore
+Refer: 32 68 N 1 0 0 1 0 0 2
+Refer: 122 821 N 1 0 0 1 0 -97 2
 EndChar
 EndChars
 EndSplineFont

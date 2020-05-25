@@ -22,8 +22,8 @@ PAGE_TO_CLASS.set("a5","pageA5")
              .set("a4l","pageA4-landscape")
              .set("a4p","pageA4");
 
-let WORD_CHARACTERS = "aáäbcdeéfghiíjklmnoóöőpqrstuúüűvwxyzß" +
-                      "AÁÄBCDEÉFGHIÍJKLMNOÓÖŐPQRSTUÚÜŰVWXYZ";
+let WORD_CHARACTERS = "aáäbcčćdđeéfghiíjklmnoóöőpqrsštuúüűvwxyzžß" +
+                      "AÁÄBCČĆDĐEÉFGHIÍJKLMNOÓÖŐPQRSŠTUÚÜŰVWXYZŽ";
 let NUMBERS = "0123456789";
 let WORD_BOUNDARY = NUMBERS + "!\"'+,-.:;<=>? \n−/()";
 let SUPPORTED_CHARACTERS = WORD_CHARACTERS + WORD_BOUNDARY;
@@ -128,13 +128,13 @@ function convertLine(input) {
         if ("P".includes(prev)) {
             kotes = "t";
         } else if ("NTVW".includes(prev)) {
-            if ("ábéfhiíjklóöőtúüűßä".includes(c)) {
+            if ("ábéfhiíjklóöőtúüűßäčćšž".includes(c)) {
                 kotes = "t";
             } else {
                 kotes = "k";
             }
         }
-        else if ("BDIOÓÖŐSs".includes(prev)) {
+        else if ("BDIOÓÖŐSsŠš".includes(prev)) {
             kotes = "k";
         } else {
             let fent = "boóöőrvwF".includes(prev);
