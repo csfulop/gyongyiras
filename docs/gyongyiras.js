@@ -22,8 +22,9 @@ PAGE_TO_CLASS.set("a5","pageA5")
              .set("a4l","pageA4-landscape")
              .set("a4p","pageA4");
 
-let WORD_CHARACTERS = "aáäbcčćdđeéfghiíjklmnoóöőpqrsštuúüűvwxyzžß" +
-                      "AÁÄBCČĆDĐEÉFGHIÍJKLMNOÓÖŐPQRSŠTUÚÜŰVWXYZŽ";
+let SMALL_LETTERS = "aáäbcčćdđeéfghiíjklmnoóöőpqrsštuúüűvwxyzžß";
+let CAPITAL_LETTERS = "AÁÄBCČĆDĐEÉFGHIÍJKLMNOÓÖŐPQRSŠTUÚÜŰVWXYZŽ";
+let WORD_CHARACTERS = SMALL_LETTERS + CAPITAL_LETTERS;
 let NUMBERS = "0123456789";
 let WORD_BOUNDARY = NUMBERS + "!\"'+,-.:;<=>? \n−/()";
 let SUPPORTED_CHARACTERS = WORD_CHARACTERS + WORD_BOUNDARY;
@@ -125,7 +126,15 @@ function convertLine(input) {
             }
         }
         let kotes;
-        if ("P".includes(prev)) {
+        if (CAPITAL_LETTERS.includes(c)) {
+            if (SMALL_LETTERS.includes(next)) {
+                wordStart = true;
+                wordEnd = false;
+            } else {
+                wordStart = true;
+                wordEnd = true;
+            }
+        } else if ("P".includes(prev)) {
             kotes = "t";
         } else if ("NTVW".includes(prev)) {
             if ("ábéfhiíjklóöőtúüűßäčćšž".includes(c)) {
@@ -133,8 +142,7 @@ function convertLine(input) {
             } else {
                 kotes = "k";
             }
-        }
-        else if ("BDIOÓÖŐSsŠš".includes(prev)) {
+        } else if ("BDIOÓÖŐSsŠš".includes(prev)) {
             kotes = "k";
         } else {
             let fent = "boóöőrvwF".includes(prev);

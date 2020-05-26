@@ -23,7 +23,7 @@ OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1282334991
-ModificationTime: 1590258493
+ModificationTime: 1590517982
 PfmFamily: 17
 TTFWeight: 500
 TTFWidth: 5
@@ -1142,7 +1142,7 @@ EndChar
 
 StartChar: A
 Encoding: 65 65 29
-Width: 1013
+Width: 1033
 Flags: MW
 HStem: -16 32<123 184 123 194.5 812 873> 284 32<263.5 359 268 345 396 600 268 382 651 736 651 651> 644 20G<494.5 511>
 VStem: -17 32 981 32
@@ -1185,7 +1185,7 @@ EndChar
 
 StartChar: B
 Encoding: 66 66 30
-Width: 600
+Width: 636
 Flags: MW
 HStem: -16 32<115 174 405 475.5> 320 33<316 345 316 316> 630 34<385.5 441>
 VStem: -17 33 284 32<166 320 353 612 612 612> 564 32<447.5 546> 584 32<111 221.5 103 239>
@@ -1226,7 +1226,7 @@ EndChar
 
 StartChar: C
 Encoding: 67 67 31
-Width: 557
+Width: 577
 Flags: MW
 HStem: -17 33<274.5 331.5> 632 34<229.5 353.5>
 VStem: -16 32<298.5 412 298.5 422>
@@ -1255,7 +1255,7 @@ EndChar
 
 StartChar: D
 Encoding: 68 68 32
-Width: 666
+Width: 686
 Flags: MW
 HStem: -16 32<75 120.5 75 126 395 524> 124 34<74 119> 630 32<333.5 467.5>
 VStem: -16 32<53 85.5 53 95.5> 226 34<152 611 611 611> 634 32<268.5 384.5>
@@ -1293,7 +1293,7 @@ EndChar
 
 StartChar: E
 Encoding: 69 69 33
-Width: 334
+Width: 370
 Flags: MW
 HStem: -16 32<133 220> 334 32<157 215 157 215> 630 32<131 176 124 178>
 VStem: -16 32<126 221> 10 32<464 536.5 459 548>
@@ -1328,7 +1328,7 @@ EndChar
 
 StartChar: F
 Encoding: 70 70 34
-Width: 580
+Width: 617
 Flags: MW
 HStem: -16 32<115 188 115 199> 247 33<284 284 284 316> 333 20G<126.5 133 467 473.5> 532 33<399.5 437 380 444> 630 34<132 193>
 VStem: -17 33 284 32<166 247 280 570>
@@ -1374,7 +1374,7 @@ EndChar
 
 StartChar: G
 Encoding: 71 71 35
-Width: 775
+Width: 812
 Flags: MW
 HStem: -324 32<542 562 542 583> -16 32<277 362> 332 20G<595 605> 632 34<229.5 353.5>
 VStem: -16 32<298.5 412 298.5 422> 488 32<-248 -212.5 -248 -206.5> 584 32<-222 -89 -89 -89 9 162 162 162 213.5 336>
@@ -1418,7 +1418,7 @@ EndChar
 
 StartChar: H
 Encoding: 72 72 36
-Width: 680
+Width: 716
 Flags: MW
 HStem: -16 32<69.5 105.5 69.5 111 544.5 598.5> 630 32<504.5 538.5>
 VStem: 8 34<44.5 74.5 44.5 84> 134 32<86 183 183 183 252 599 599 599> 444 32<109 395 395 395 462 560> 566 34<565.5 600.5> 664 32<84 124.5>
@@ -1468,7 +1468,7 @@ EndChar
 
 StartChar: I
 Encoding: 73 73 37
-Width: 317
+Width: 336
 Flags: MW
 HStem: -16 32<115 188 115 199> 642 20G<297.5 304>
 VStem: -17 33 284 32<166 599 599 599>
@@ -1496,7 +1496,7 @@ EndChar
 
 StartChar: J
 Encoding: 74 74 38
-Width: 325
+Width: 362
 Flags: MW
 HStem: -324 32<83.5 111 83.5 126> 642 20G<147.5 154>
 VStem: 28 32<-242.5 -210.5 -242.5 -202.5> 134 32<-222 -80 -80 -80 15 599 599 599>
@@ -1532,7 +1532,7 @@ EndChar
 
 StartChar: K
 Encoding: 75 75 39
-Width: 820
+Width: 857
 Flags: MW
 HStem: -16 32<115 188 115 199 649.5 714.5> 319 34<316 371.5 316 372> 630 32<615 695>
 VStem: -17 33 284 32<166 319 353 599 599 599> 786 32
@@ -1578,7 +1578,7 @@ EndChar
 
 StartChar: L
 Encoding: 76 76 40
-Width: 580
+Width: 617
 Flags: MW
 HStem: -16 32<75 121 75 127 392.5 469> 124 34<74 117.5> 630 32<352.5 423>
 VStem: -16 32<53 85.5 53 95.5> 226 34<152 500> 512 34<495.5 537> 564 33
@@ -1616,7 +1616,7 @@ EndChar
 
 StartChar: M
 Encoding: 77 77 41
-Width: 890
+Width: 926
 Flags: MW
 HStem: -16 32<82 136 82 145 754 808> 642 20G<216 222.5 667.5 674>
 VStem: -16 32<84 124.5 84 124.5> 204 32<110 593> 654 32<110 593 593 593> 874 32<84 124.5>
@@ -1655,7 +1655,7 @@ EndChar
 
 StartChar: N
 Encoding: 78 78 42
-Width: 890
+Width: 926
 Flags: MW
 HStem: -16 32<81.5 136 81.5 145> 630 32<754 808.5>
 VStem: -16 32<84 124.5 84 124.5> 204 32<110 593> 654 32<53 536> 874 32<521.5 562>
@@ -1690,7 +1690,7 @@ EndChar
 
 StartChar: O
 Encoding: 79 79 43
-Width: 650
+Width: 670
 Flags: MW
 HStem: -17 33<274.5 360 274.5 364.5> 632 34<229.5 402>
 VStem: -16 32<298.5 412 298.5 422> 617 33<298 413.5>
@@ -1716,7 +1716,7 @@ EndChar
 
 StartChar: P
 Encoding: 80 80 44
-Width: 600
+Width: 636
 Flags: MW
 HStem: -16 32<115 188 115 199> 320 33<316 316> 630 34<385.5 447.5>
 VStem: -17 33 284 32<166 320 353 612 612 612> 584 32<456.5 533.5>
@@ -1748,7 +1748,7 @@ EndChar
 
 StartChar: Q
 Encoding: 81 81 45
-Width: 848
+Width: 885
 Flags: MW
 HStem: -16 32<270 320 317 320 670.5 730> 184 32<425.5 453> 632 34<229.5 401>
 VStem: -16 32<298.5 412 298.5 422> 617 32<332 336 298.5 336>
@@ -1789,7 +1789,7 @@ EndChar
 
 StartChar: R
 Encoding: 82 82 46
-Width: 903
+Width: 923
 Flags: MW
 HStem: -16 32<115 188 115 199 702 775> 320 33<316 342 316 316> 630 34<385.5 443.5>
 VStem: -17 33 284 32<166 320 353 612 612 612> 570 32<121 220 121 237.5> 584 32<446.5 546> 870 33
@@ -1830,7 +1830,7 @@ EndChar
 
 StartChar: S
 Encoding: 83 83 47
-Width: 366
+Width: 386
 Flags: MW
 HStem: -16 32<137.5 217.5 137.5 225.5> 328 34<134.5 216> 630 32<115 211>
 VStem: -16 32<443 520.5 443 530.5> 334 32<121.5 221.5>
@@ -1861,7 +1861,7 @@ EndChar
 
 StartChar: T
 Encoding: 84 84 48
-Width: 580
+Width: 617
 Flags: MW
 HStem: -16 32<115 188 115 199> 532 33<399.5 437 380 444> 630 34<132 193>
 VStem: -17 33 284 32<166 569>
@@ -1895,7 +1895,7 @@ EndChar
 
 StartChar: U
 Encoding: 85 85 49
-Width: 904
+Width: 941
 Flags: MW
 HStem: -16 32<318 423.5 698 773.5> 642 20G<147.5 154 595.5 604.5>
 VStem: 134 32<222 599 599 599> 584 32<230 646>
@@ -1932,7 +1932,7 @@ EndChar
 
 StartChar: V
 Encoding: 86 86 50
-Width: 800
+Width: 837
 Flags: MW
 HStem: -16 32<318 433 318 442.5> 515 33<682.5 716 679.5 744> 642 20G<147.5 154 596 604 795.5 803>
 VStem: 134 32<222 599 599 599> 584 32<230 555> 784 33
@@ -1951,7 +1951,7 @@ SplineSet
  621 579 661 548 698 548 c 0
  734 548 775 577 784 648 c 0
  785 658 792 662 799 662 c 0
- 807 662 817 656 817 646 c 0
+ 807 662 817 656 817 646 c 4
  817 622 790 515 698 515 c 0
  667 515 637 529 616 555 c 1
  616 230 l 2
@@ -1968,7 +1968,7 @@ EndChar
 
 StartChar: W
 Encoding: 87 87 51
-Width: 1182
+Width: 1219
 Flags: MW
 HStem: -16 32<303 406 724 828.5> 515 33<1064.5 1098 1061.5 1125.5> 642 20G<147.5 154 561.5 570.5 978 986 1177.5 1185>
 VStem: 134 32<222 599 599 599> 550 32<230 646> 966 32<230 555> 1166 33
@@ -2012,7 +2012,7 @@ EndChar
 
 StartChar: X
 Encoding: 88 88 52
-Width: 940
+Width: 977
 Flags: MW
 HStem: -16 32<129 194 129 200 733 802> 642 20G<230.5 237.5>
 LayerCount: 3
@@ -2048,7 +2048,7 @@ EndChar
 
 StartChar: Y
 Encoding: 89 89 53
-Width: 775
+Width: 812
 Flags: MW
 HStem: -324 32<533.5 561 533.5 576> -16 32<318 420> 642 20G<147.5 154 595.5 604.5>
 VStem: 134 32<222 599 599 599> 478 32<-242.5 -210.5 -242.5 -202.5> 584 32<-222 -80 -80 -80 15 106 106 106 230 646>
@@ -2093,7 +2093,7 @@ EndChar
 
 StartChar: Z
 Encoding: 90 90 54
-Width: 585
+Width: 622
 Flags: MW
 HStem: -16 32<363.5 453 363.5 459> 82 33<155.5 201.5> 532 33<383.5 429.5> 630 34<132 221.5>
 LayerCount: 3
@@ -3338,7 +3338,7 @@ EndChar
 
 StartChar: Aacute
 Encoding: 193 193 88
-Width: 1013
+Width: 1033
 Flags: HMW
 HStem: -16 32<123 184 123 194.5 812 873> 284 32<263.5 359 268 345 396 600 268 382 651 736 651 651> 644 20G<494.5 511>
 VStem: -17 32 477 32<838 1000 838 1000> 981 32
@@ -3350,7 +3350,7 @@ EndChar
 
 StartChar: Eacute
 Encoding: 201 201 89
-Width: 334
+Width: 370
 Flags: HMW
 HStem: -16 32<133 220> 334 32<157 215 157 215> 630 32<131 176 124 178>
 VStem: -16 32<126 221> 10 32<464 536.5 459 548>
@@ -3362,7 +3362,7 @@ EndChar
 
 StartChar: Iacute
 Encoding: 205 205 90
-Width: 317
+Width: 336
 Flags: HMW
 HStem: -16 32<115 188 115 199> 642 20G<297.5 304>
 VStem: -17 33 284 32<166 599 599 599>
@@ -3374,7 +3374,7 @@ EndChar
 
 StartChar: Oacute
 Encoding: 211 211 91
-Width: 650
+Width: 670
 Flags: HMW
 HStem: -17 33<274.5 360 274.5 364.5> 632 34<229.5 402>
 VStem: -16 32<298.5 412 298.5 422> 617 33<298 413.5>
@@ -3386,7 +3386,7 @@ EndChar
 
 StartChar: Ohungarumlaut
 Encoding: 336 336 92
-Width: 650
+Width: 670
 Flags: HMW
 HStem: -17 33<274.5 360 274.5 364.5> 632 34<229.5 402>
 VStem: -16 32<298.5 412 298.5 422> 617 33<298 413.5>
@@ -3398,7 +3398,7 @@ EndChar
 
 StartChar: Odieresis
 Encoding: 214 214 93
-Width: 650
+Width: 670
 Flags: HMW
 HStem: -17 33<274.5 360 274.5 364.5> 632 34<229.5 402>
 VStem: -16 32<298.5 412 298.5 422> 617 33<298 413.5>
@@ -3410,7 +3410,7 @@ EndChar
 
 StartChar: Uacute
 Encoding: 218 218 94
-Width: 904
+Width: 941
 Flags: HMW
 HStem: -16 32<256 361.5 636 711.5> 641 20G<85 92>
 VStem: 72 32<222 581 581 581> 522 32<230 646>
@@ -3422,7 +3422,7 @@ EndChar
 
 StartChar: Uhungarumlaut
 Encoding: 368 368 95
-Width: 904
+Width: 941
 Flags: HMW
 HStem: -16 32<256 361.5 636 711.5> 641 20G<85 92>
 VStem: 72 32<222 581 581 581> 522 32<230 646>
@@ -3434,7 +3434,7 @@ EndChar
 
 StartChar: Udieresis
 Encoding: 220 220 96
-Width: 904
+Width: 941
 Flags: HMW
 HStem: -16 32<256 361.5 636 711.5> 641 20G<85 92>
 VStem: 72 32<222 581 581 581> 522 32<230 646>
@@ -4035,7 +4035,7 @@ EndChar
 
 StartChar: Adieresis
 Encoding: 196 196 109
-Width: 1013
+Width: 1033
 Flags: HW
 LayerCount: 3
 Fore
@@ -4183,7 +4183,7 @@ EndChar
 
 StartChar: Ccaron
 Encoding: 268 268 114
-Width: 557
+Width: 577
 Flags: HW
 LayerCount: 3
 Back
@@ -4230,7 +4230,7 @@ EndChar
 
 StartChar: Scaron
 Encoding: 352 352 116
-Width: 366
+Width: 386
 Flags: HW
 LayerCount: 3
 Fore
@@ -4250,7 +4250,7 @@ EndChar
 
 StartChar: Zcaron
 Encoding: 381 381 118
-Width: 586
+Width: 622
 Flags: HW
 LayerCount: 3
 Fore
@@ -4336,7 +4336,7 @@ EndChar
 
 StartChar: Cacute
 Encoding: 262 262 121
-Width: 557
+Width: 577
 Flags: HW
 LayerCount: 3
 Fore
@@ -4404,7 +4404,7 @@ EndChar
 
 StartChar: Dcroat
 Encoding: 272 272 124
-Width: 666
+Width: 686
 Flags: HW
 LayerCount: 3
 Back
