@@ -19,6 +19,7 @@ body {
 
   font-family: Gyongyiras_egyedul;
   font-size: var(--font-size);
+  /* line-height: var(--font-size); */
   --top-accent-extra: calc(var(--font-size) / 3);
 }
 
@@ -416,6 +417,14 @@ body {
 .l {font-family: Gyongyiras_lent;}
 .t {font-family: Gyongyiras_tavol;}
 .tv {font-family: Gyongyiras_tavol_vege;}
+
+.ny {
+  position: relative;
+  top: calc(-1*var(--font-size)*0.1);
+  font-family: Times New Roman, serif; 
+  font-size: calc(var(--font-size)*0.5);
+  line-height: var(--font-size);
+}
 
 /* -------------------- Tooltips -------------------- */
 /* Based on: https://www.w3schools.com/howto/howto_css_tooltip.asp */

@@ -29,7 +29,8 @@ let NUMBERS = "0123456789";
 let WORD_BOUNDARY = NUMBERS + "!\"'+,-.:;<=>? \n−/()";
 let SUPPORTED_CHARACTERS = WORD_CHARACTERS + WORD_BOUNDARY;
 let SPEC_COLOR = "%";
-let SPECIAL_CHARACTERS = SPEC_COLOR;
+let SPEC_PRINTED = "#";
+let SPECIAL_CHARACTERS = SPEC_COLOR + SPEC_PRINTED;
 
 let COLUMNS;
 let ROWS;
@@ -65,6 +66,7 @@ function update() {
     let outputRows = [];
     let leftRows = [];
     let rightRows = [];
+    let backgroundRows = [];
     for (let row=0; row<inputRows.length; row++) {
         let input = inputRows[row];
         let match = input.match(/^(.*?)(?:\/\/(.*))?$/);
@@ -78,6 +80,7 @@ function update() {
             leftRows.push("");
             rightRows.push("");
         }
+        backgroundRows.push(needsBackground(match[0]));
     }
 
     // console.log("outputRows="+outputRows);
@@ -92,9 +95,16 @@ function update() {
 
     document.getElementById("right1").innerHTML = rightRows.slice(0,ROWS).join("\n");
     document.getElementById("right2").innerHTML = rightRows.slice(ROWS,2*ROWS).join("\n");
+
+    document.getElementById("background1").innerHTML = createBackground(backgroundRows.slice(0,ROWS)).join("\n");
+    document.getElementById("background2").innerHTML = createBackground(backgroundRows.slice(ROWS,2*ROWS)).join("\n");
 }
 
 function convertLine(input) {
+    let printedMatch = input.match(new RegExp("^"+SPEC_PRINTED+"(.*)"));
+    if (printedMatch) {
+        return '<span class="ny">'+printedMatch[1]+'</span>';
+    }
     let output = "";
     if (typeof input == 'undefined') {
         return output;
@@ -169,22 +179,44 @@ function convertLine(input) {
     return output;
 }
 
-function fillBackgroundById(id) {
-    let row = BACKGROUND_LINE_CHAR.repeat(COLUMNS).concat("\n");
-    let background = row.repeat(ROWS-1);
-    background += BACKGROUND_BOTTOM_LINE_CHAR.repeat(COLUMNS);
-    document.getElementById(id).innerHTML = background;
+function needsBackground(input) {
+    let printedMatch = input.match(new RegExp("^"+SPEC_PRINTED));
+    if (printedMatch) {
+        return false;
+    } else {
+        return true; 
+    }
 }
 
-function fillBackground() {
-    fillBackgroundById("background1");
-    fillBackgroundById("background2");
+function createBackground(rows) {
+    function isPrintedRow(i) {
+        return i < rows.length && !rows[i];
+    }
+    function isLastRow(i) {
+        return i == ROWS-1;
+    }
+    function isNextRowPrinted(i) {
+        return i+1 < rows.length && !rows[i+1];
+    }
+
+    let result = [];
+    let rowContent = BACKGROUND_LINE_CHAR.repeat(COLUMNS);
+    let lastRowContent = BACKGROUND_BOTTOM_LINE_CHAR.repeat(COLUMNS);
+    for (let i=0; i<ROWS; i++) {
+        let content = rowContent;
+        if (isPrintedRow(i)) {
+            content = '';
+        } else if (isLastRow(i) || isNextRowPrinted) {
+            content = lastRowContent
+        }
+        result.push(content);
+    }
+    return result;
 }
 
 function refreshOutput() {
     console.log("refreshOutput()");
     getCssVariables();
-    fillBackground();
     update();
 }
 
