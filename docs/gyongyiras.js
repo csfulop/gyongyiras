@@ -206,7 +206,7 @@ function createBackground(rows) {
         let content = rowContent;
         if (isPrintedRow(i)) {
             content = '';
-        } else if (isLastRow(i) || isNextRowPrinted) {
+        } else if (isLastRow(i) || isNextRowPrinted(i)) {
             content = lastRowContent
         }
         result.push(content);
