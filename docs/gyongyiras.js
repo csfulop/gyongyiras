@@ -338,6 +338,7 @@ function changeSima() {
     let display =  settingSima ? "none" : null;
     setDisplayForClass("background", display);
     setDisplayForClass("sideMargins", display);
+    setDisplayForClass("topLine", display);
 }
 
 function getSettingSima() {

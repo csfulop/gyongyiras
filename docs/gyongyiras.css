@@ -19,7 +19,7 @@ body {
 
   font-family: Gyongyiras_egyedul;
   font-size: var(--font-size);
-  /* line-height: var(--font-size); */
+  line-height: var(--font-size);
   --top-accent-extra: calc(var(--font-size) / 3);
 }
 
@@ -125,7 +125,7 @@ body {
   --top-margin: 23mm;
   --right-margin: 13mm;
   --left-margin: 12mm;
-  --top-border-width: 1mm;
+  --top-border-width: 4px;
   --top-border-style: double;
 }
 
@@ -153,7 +153,7 @@ body {
   --top-margin: 23mm;
   --right-margin: 13mm;
   --left-margin: 12mm;
-  --top-border-width: 1mm;
+  --top-border-width: 4px;
   --top-border-style: double;
 }
 
@@ -339,19 +339,28 @@ body {
 
 .background {
   position: absolute;
-  top: calc(var(--top-margin) - var(--top-accent-extra) - var(--top-border-width,0px));
+  top: calc(var(--top-margin) - var(--top-accent-extra));
   left: 0px;
   width: 100%;
   height: calc(var(--page-height) - var(--top-margin));
 
   padding-top: var(--top-accent-extra);
 
-  border-top: var(--top-border-width,0px) var(--top-border-style,none) var(--line-color);
-
   font-family: Gyongyiras_egyedul_v;
   color: var(--line-color);
   white-space: pre;
   overflow: hidden;
+}
+
+.topLine {
+  position: absolute;
+  top: calc(var(--top-margin) - var(--top-accent-extra) - var(--top-border-width,0px));
+  left: 0px;
+  width: 100%;
+
+  padding-top: var(--top-accent-extra);
+
+  border-top: var(--top-border-width,0px) var(--top-border-style,none) var(--line-color);
 }
 
 .sideMargins {
