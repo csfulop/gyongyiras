@@ -1,160 +1,24 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-151427013-1"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'UA-151427013-1');
-  </script>
-
-  <meta charset="UTF-8">
-  <title>Gyöngyírás</title>
-  <link rel="stylesheet" type="text/css" href="gyongyiras.css" />
-  <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <title>Gyöngyírás</title>
 </head>
 <body>
-  <div id="screen">
-    <h1>Gyöngyírás</h1>
-    <nav>
-      <a href="https://www.youtube.com/embed/BRzI8FeZXQE" target="_blank" class="tooltip">
-        Bemutató videó
-        <span class="tooltiptext">A video végén látható a nyomtatás / PDF fájlba mentés is!</span>
-      </a>&nbsp;|&nbsp;
-      <div class="dropdown">
-        <a href="#" class="dropbtn">Nyomtatási, megosztási súgó</a>
-        <div class="dropdown-content">
-          <a href="https://www.facebook.com/gyongyiras/photos/a.109000420733147/115359766763879/?type=3&theater" target="_blank" class="tooltip">
-            Google Chrome böngészőben
-            <span class="tooltiptext-right">
-              Nyomtatáshoz / PDF fájlba mentéshez használd a böngésző Nyomtatás... paranccsát vagy a Control+P billentyűkombinációt!
-              A beállítás részleteit megtalálod a következő képen vagy a bemutató videóban.
-            </span>
-          </a>
-          <a href="https://www.facebook.com/gyongyiras/posts/158841719082350" target="_blank" class="tooltip">
-            Firefox böngészőben
-            <span class="tooltiptext-right">
-              Nyomtatáshoz / PDF fájlba mentéshez használd a böngésző Nyomtatás... paranccsát vagy a Control+P billentyűkombinációt!
-              A beállítás részleteit megtalálod a következő képeken.
-            </span>
-          </a>
-        </div>
-      </div>&nbsp;|&nbsp;
-      <a href="negyzetracs.html" class="tooltip">
-        <span class="tooltiptext">
-          Nyomtatott betűkkel, matek feladatok készítéséhez
-        </span>
-        Négyzetrácsos Word dokumentum
-      </a>&nbsp;|&nbsp;
-      <a href="https://www.facebook.com/pg/gyongyiras/posts/" target="_blank" class="tooltip">
-        Facebook oldal
-        <span class="tooltiptext">
-          Lájkold és kövesd a facebook oldalt, ha szeretnél értesülni az újdonságokról!
-          Oszd meg és ajánld az ismerőseidnek!
-        </span>
-      </a>
-      <div id="options">
-        <div><b>Beállítások:</b></div>
-        <div class="tooltip">
-          <span class="tooltiptext-left">Sima lap esetén betűméret</span>
-          <label for="settingVonalazas">Vonalazás</label>:
-          <select id="settingVonalazas" onchange="changeSettingVonalazas();">
-            <option value="1">Elsős (14-32)</option>
-            <option value="2">Másodikos (16-32)</option>
-            <option value="3">Harmadikos (12-32)</option>
-            <option value="4">Negyedikes (21-32)</option>
-            <option value="sz">Szótár (31-32)</option>
-            <option value="gyl1">GYL-1</option>
-            <option value="gyl2">GYL-2</option>
-          </select>
-        </div>
-        <div>
-          <label for="settingPage">Lap elrendezése</label>:
-          <select id="settingPage" onchange="changeSettingPage();">
-            <option value="a5">dupla álló A5</option>
-            <option value="a4l">fekvő A4</option>
-            <option value="a4p">álló A4</option>
-          </select>
-        </div>
-        <div class="tooltip">
-          <span class="tooltiptext-left">Egy oldalon belül csak egy féle szín használható</span>
-          <label for="settingColor">Színes betűk</label>:
-          <select id="settingColor" onchange="changeSettingColor();">
-            <option value="red">Piros</option>
-            <option value="blue">Kék</option>
-            <option value="green">Zöld</option>
-          </select>
-        </div>
-        <div>
-          <label for="settingSima">Sima lap</label>:
-          <input id="settingSima" type="checkbox" onchange="changeSettingSima()"/>
-        </div>
-        <div>
-          <label>Szótár</label>:
-          <input id="settingDictionary" type="checkbox" onchange="changeSettingDictionary();"/>
-        </div>
-        <div>&nbsp;</div>
-        <div><b>Formázás:</b></div>
-        <div>% utáni karakter színes</div>
-        <div>// utáni szöveg a jobb hasábba kerül</div>
-        <div># sor elején: nyomtatott betűs sor</div>
-      </div>
-    </nav>
-    <p><textarea id="input" cols="80" rows="10" oninput="update()">Vakáció!!!
-
-Készíts írás gyakor-
-lót gyermekednek,
-tanítványodnak!
-
-A begépelt szöveget
-átalakítja folyóírás-
-sá, választható
-vonalrendszerben.
-Csak begépeled és ki-
-nyomtatod.
-Lásd a bemutató
-videót!
-%S%zázalékjel %utáni
-%betű %s%zínes %lesz!
-
-jobb//hasábba
-dupla %/ //után
-lehet//írni!
-
-Lájkold és kövesd a
-facebook oldalt, ha
-szeretnél értesülni az
-újdonságokról!
-
-Oszd meg és ajánld
-az ismerőseidnek!
-</textarea>
-    </p>
-  </div>
-  <div id="print" class="osztaly1">
-    <div id="page1" class="pageA5">
-      <div id="output1" class="content"></div>
-      <div id="left1" class="contentLeft"></div>
-      <div id="right1" class="contentRight"></div>
-      <div id="background1" class="background"></div>
-      <div class="topLine"></div>
-      <div class="dictionaryLine"></div>
-      <div class="sideMargins"></div>
-    </div>
-
-    <div id="page2" class="pageA5">
-      <div id="output2" class="content"></div>
-      <div id="left2" class="contentLeft"></div>
-      <div id="right2" class="contentRight"></div>
-      <div id="background2" class="background"></div>
-      <div class="topLine"></div>
-      <div class="dictionaryLine"></div>
-      <div class="sideMargins"></div>
-    </div>
-  </div>
-  <script type="text/javascript" src="gyongyiras.js"></script>
+    <h1>Elköltöztünk!!!</h1>
+    <p>A Gyöngyírás ezentúl a következő címen érhető el: <a href="https://gyöngyírás.hu">gyöngyírás.hu</a></p>
+    <p>Autamatikus átírányítás <span id="countdown">10</span> másodperc múlva...</p>
+    <script type="text/javascript">
+        var seconds = 10;
+        function countdown() {
+            seconds = seconds - 1;
+            if (seconds < 0) {
+                window.location = "https://gyöngyírás.hu";
+            } else {
+                document.getElementById("countdown").innerHTML = seconds;
+                window.setTimeout("countdown()", 1000);
+            }
+        }
+        countdown();
+    </script>
 </body>
 </html>
