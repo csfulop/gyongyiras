@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Gyöngyírás</title>
+</head>
+<body>
+    <h1>Elköltöztünk!!!</h1>
+    <p>A Gyöngyírás ezentúl a következő címen érhető el: <a href="https://gyöngyírás.hu">gyöngyírás.hu</a></p>
+    <p>Autamatikus átírányítás <span id="countdown">10</span> másodperc múlva...</p>
+    <script type="text/javascript">
+        var seconds = 10;
+        function countdown() {
+            seconds = seconds - 1;
+            if (seconds < 0) {
+                window.location = "https://gyöngyírás.hu";
+            } else {
+                document.getElementById("countdown").innerHTML = seconds;
+                window.setTimeout("countdown()", 1000);
+            }
+        }
+        countdown();
+    </script>
+</body>
+</html>
