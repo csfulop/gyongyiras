@@ -23,7 +23,7 @@ OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1282334991
-ModificationTime: 1595680158
+ModificationTime: 1597662894
 PfmFamily: 17
 TTFWeight: 500
 TTFWidth: 5
@@ -65,7 +65,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 8917 37 13
+WinInfo: 0 37 13
 BeginPrivate: 7
 BlueValues 25 [-17 -16 352 353 662 666]
 OtherBlues 11 [-328 -324]
@@ -161,23 +161,23 @@ StartChar: uni001F
 Encoding: 31 31 4
 Width: 651
 Flags: MW
-HStem: -10 20<0 1107 0 1107> 326 10 656 10
+HStem: -10 20<0 651> 326 11<0 651> 656 11<0 651>
 LayerCount: 3
 Fore
 SplineSet
 0 337 m 1
- 1107 337 l 1
- 1107 326 l 1
+ 651 337 l 1
+ 651 326 l 1
  0 326 l 1
  0 337 l 1
 0 10 m 1
- 1107 10 l 1
- 1107 -10 l 1
+ 651 10 l 1
+ 651 -10 l 1
  0 -10 l 1
  0 10 l 1
 0 667 m 1
- 1107 667 l 1
- 1107 656 l 1
+ 651 667 l 1
+ 651 656 l 1
  0 656 l 1
  0 667 l 1
 EndSplineSet
@@ -187,23 +187,23 @@ StartChar: space
 Encoding: 32 32 5
 Width: 651
 Flags: W
-HStem: -10 20<0 1107 0 1107> 326 10 656 10
+HStem: -10 20<0 651> 326 11<0 651> 656 11<0 651>
 LayerCount: 3
 Fore
 SplineSet
 0 337 m 1
- 1107 337 l 1
- 1107 326 l 1
+ 651 337 l 1
+ 651 326 l 1
  0 326 l 1
  0 337 l 1
 0 10 m 1
- 1107 10 l 1
- 1107 -10 l 1
+ 651 10 l 1
+ 651 -10 l 1
  0 -10 l 1
  0 10 l 1
 0 667 m 1
- 1107 667 l 1
- 1107 656 l 1
+ 651 667 l 1
+ 651 656 l 1
  0 656 l 1
  0 667 l 1
 EndSplineSet
@@ -7358,7 +7358,7 @@ EndChar
 StartChar: u1F333
 Encoding: 127795 127795 126
 Width: 730
-Flags: HWO
+Flags: HW
 LayerCount: 3
 Back
 Image2: image/png 55406 -15 729.5 2.70936 2.70936

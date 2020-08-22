@@ -5,59 +5,83 @@
 i=1
 while ( i < $argc )
 
-        Open( $argv[i] )
+    Open( $argv[i] )
 
-        # Copy lines to the clipboard
-        Select(27)
-        Copy()
-        Select(32)
-        Clear()
-        Paste()
+    # Copy lines to the clipboard
+    Select(27)
+    Copy()
+    Select(32)
+    Clear()
+    Paste()
 
-        # Generate OTF font
-        Generate( $argv[i]:r + ".otf" )
+    # Generate OTF font
+    Generate( $argv[i]:r + ".otf" )
 
-        #
-        # Generate font with lines
-        #
-        Select(30)
-        Copy()
-        Select(32)
-        Clear()
-        Paste()
+    #
+    # Generate font with lines
+    #
+    Select(30)
+    Copy()
+    Select(32)
+    Clear()
+    Paste()
+
+    glyphs = [33,34,39,43,44,45,46,48,49,50,51,52,53,54,55,56,57,58,\
+              59,60,61,62,63,65,66,67,68,69,70,71,72,73,74,75,76,77,\
+              78,79,80,81,82,83,84,85,86,87,88,89,90,93,97,98,99,\
+              100,101,102,103,104,105,106,107,108,109,110,111,112,\
+              113,114,115,116,117,118,119,120,121,122,193,201,205,\
+              211,214,218,220,223,225,233,237,243,246,250,252,336,\
+              337,368,369,8722,8962]
+
+    # Paste lines into used characters
+    #Select(33,34, 43,46, 48,63, 65,90, 97,122, 336,337, 368,369)
+    #SelectMoreSingletons(39,93,193,201,205,211,214,218,220,225,233,237,243,246,250,252,8722,8962)
+
+    j=0
+    while (j<SizeOf(glyphs))
+        glyph = glyphs[j]
+        Select(glyph)
+        wTarget = GlyphInfo("Width")
 
         Select(31)
+        wSource = GlyphInfo("Width")
+        Copy()
+        Select(26)
+        Clear()
+        Paste()
+        Transform(100.0*wTarget/wSource,0,0,100,0,0)
         Copy()
 
-        if ( $argv[i]:r != "Gyongyiras_vonal" )
+        Select(glyph)
+        UnlinkReference()
+        CorrectDirection()
+        PasteInto()
 
-                # Paste lines into used characters
-                Select(33,34, 43,46, 48,63, 65,90, 97,122, 336,337, 368,369)
-                SelectMoreSingletons(39,93,193,201,205,211,214,218,220,225,233,237,243,246,250,252,8722,8962)
-                UnlinkReference()
-                PasteInto()
+        # make necessary formatting to all characters
+        RemoveOverlap()
+        RoundToInt()
+        Simplify()
+        Simplify(-1,10)            # Cleanup
+        CanonicalStart()
+        CanonicalContours()
+        AddExtrema()
+        RoundToInt()
+        CorrectDirection()
 
+        j=j+1
+    endloop
 
-                # make necessary formatting to all characters
-                RemoveOverlap()
-                RoundToInt()
-                Simplify()
-                Simplify(-1,10)            # Cleanup
-                CanonicalStart()
-                CanonicalContours()
-                AddExtrema()
-                RoundToInt()
-                CorrectDirection()
+    Select(26)
+    Clear()
 
-                SetFontNames($argv[i]:r + "_v", $argv[i]:r + "_v", $argv[i]:r + "_v")
+    SetFontNames($argv[i]:r + "_v", $argv[i]:r + "_v", $argv[i]:r + "_v")
 
-                # Save into xxx_v.sfd
-                Save( "v_" + $argv[i]:r + ".sfd")
+    # Save into xxx_v.sfd
+    Save( "v_" + $argv[i]:r + ".sfd")
 
-                # Generate OTF font
-                Generate( $argv[i]:r + "_v.otf" )
+    # Generate OTF font
+    Generate( $argv[i]:r + "_v.otf" )
 
-        endif
-
-        i = i+1
+    i = i+1
 endloop
