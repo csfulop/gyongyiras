@@ -23,7 +23,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1282334991
-ModificationTime: 1597663179
+ModificationTime: 1612695281
 PfmFamily: 17
 TTFWeight: 500
 TTFWidth: 5
@@ -11049,21 +11049,25 @@ EndChar
 StartChar: space
 Encoding: 32 32 36
 Width: 651
-Flags: W
-HStem: -10 20<0 1107 0 1107> 326 10 656 10
+Flags: HW
 LayerCount: 4
 Fore
 SplineSet
+0 -322 m 1
+ 651 -322 l 1
+ 651 -333 l 1
+ 0 -333 l 1
+ 0 -322 l 1
 0 337 m 1
  651 337 l 1
  651 326 l 1
  0 326 l 1
  0 337 l 1
-0 10 m 1
- 651 10 l 1
- 651 -10 l 1
- 0 -10 l 1
- 0 10 l 1
+0 15 m 1
+ 651 15 l 1
+ 651 -15 l 5
+ 0 -15 l 5
+ 0 15 l 1
 0 667 m 1
  651 667 l 1
  651 656 l 1
@@ -11126,20 +11130,24 @@ StartChar: uni001E
 Encoding: 30 30 41
 Width: 651
 Flags: HW
-HStem: -10 20<0 1107 0 1107> 326 10 656 10
 LayerCount: 4
 Fore
 SplineSet
+0 -322 m 1
+ 651 -322 l 1
+ 651 -333 l 1
+ 0 -333 l 1
+ 0 -322 l 1
 0 337 m 1
  651 337 l 1
  651 326 l 1
  0 326 l 1
  0 337 l 1
-0 10 m 1
- 651 10 l 1
- 651 -10 l 1
- 0 -10 l 1
- 0 10 l 1
+0 15 m 1
+ 651 15 l 1
+ 651 -15 l 5
+ 0 -15 l 5
+ 0 15 l 1
 0 667 m 1
  651 667 l 1
  651 656 l 1
@@ -11151,21 +11159,25 @@ EndChar
 StartChar: uni001F
 Encoding: 31 31 42
 Width: 651
-Flags: W
-HStem: -10 20<0 1107 0 1107> 326 10 656 10
+Flags: HW
 LayerCount: 4
 Fore
 SplineSet
+0 -322 m 1
+ 651 -322 l 1
+ 651 -333 l 1
+ 0 -333 l 1
+ 0 -322 l 1
 0 337 m 1
  651 337 l 1
  651 326 l 1
  0 326 l 1
  0 337 l 1
-0 10 m 1
- 651 10 l 1
- 651 -10 l 1
- 0 -10 l 1
- 0 10 l 1
+0 15 m 1
+ 651 15 l 1
+ 651 -15 l 5
+ 0 -15 l 5
+ 0 15 l 1
 0 667 m 1
  651 667 l 1
  651 656 l 1
@@ -18627,14 +18639,13 @@ EndChar
 StartChar: underscore
 Encoding: 95 95 48
 Width: 651
-Flags: W
-HStem: -10 20<0 1107 0 1107> 326 10 656 10
+Flags: HW
 LayerCount: 4
 Fore
 SplineSet
 0 -322 m 1
- 651 -322 l 5
- 651 -333 l 5
+ 651 -322 l 1
+ 651 -333 l 1
  0 -333 l 1
  0 -322 l 1
 0 337 m 1
@@ -18642,11 +18653,11 @@ SplineSet
  651 326 l 1
  0 326 l 1
  0 337 l 1
-0 10 m 1
- 651 10 l 1
- 651 -10 l 1
- 0 -10 l 1
- 0 10 l 1
+0 15 m 1
+ 651 15 l 1
+ 651 -15 l 5
+ 0 -15 l 5
+ 0 15 l 1
 0 667 m 1
  651 667 l 1
  651 656 l 1

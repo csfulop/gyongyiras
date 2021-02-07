@@ -23,7 +23,7 @@ OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1282334991
-ModificationTime: 1597662894
+ModificationTime: 1612711328
 PfmFamily: 17
 TTFWeight: 500
 TTFWidth: 5
@@ -90,7 +90,7 @@ Grid
   Named: "top"
 EndSplineSet
 TeXData: 1 0 0 682622 341311 227540 369099 1048576 227540 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 1114112 127
+BeginChars: 1114112 128
 
 StartChar: uni001B
 Encoding: 27 27 0
@@ -102,40 +102,37 @@ EndChar
 StartChar: uni001C
 Encoding: 28 28 1
 Width: 651
-Flags: W
-HStem: -10 20<0 651>
+Flags: HW
 LayerCount: 3
 Fore
 SplineSet
-0 10 m 1
- 651 10 l 1
- 651 -10 l 1
- 0 -10 l 1
- 0 10 l 1
+0 15 m 5
+ 651 15 l 1
+ 651 -15 l 1
+ 0 -15 l 5
+ 0 15 l 5
 EndSplineSet
 EndChar
 
 StartChar: uni001D
 Encoding: 29 29 2
 Width: 651
-Flags: W
-HStem: -10 20<0 1107>
+Flags: HW
 LayerCount: 3
 Fore
 SplineSet
-0 10 m 1
- 1107 10 l 1
- 1107 -10 l 1
- 0 -10 l 1
- 0 10 l 1
+0 15 m 1
+ 1107 15 l 1
+ 1107 -15 l 5
+ 0 -15 l 5
+ 0 15 l 1
 EndSplineSet
 EndChar
 
 StartChar: uni001E
 Encoding: 30 30 3
 Width: 651
-Flags: W
-HStem: -10 20<0 651> 326 11<0 651> 656 11<0 651>
+Flags: HW
 LayerCount: 3
 Fore
 SplineSet
@@ -144,11 +141,11 @@ SplineSet
  651 326 l 1
  0 326 l 1
  0 337 l 1
-0 10 m 1
- 651 10 l 1
- 651 -10 l 1
- 0 -10 l 1
- 0 10 l 1
+0 15 m 1
+ 651 15 l 1
+ 651 -15 l 5
+ 0 -15 l 5
+ 0 15 l 1
 0 667 m 1
  651 667 l 1
  651 656 l 1
@@ -160,8 +157,7 @@ EndChar
 StartChar: uni001F
 Encoding: 31 31 4
 Width: 651
-Flags: MW
-HStem: -10 20<0 651> 326 11<0 651> 656 11<0 651>
+Flags: HMW
 LayerCount: 3
 Fore
 SplineSet
@@ -170,11 +166,11 @@ SplineSet
  651 326 l 1
  0 326 l 1
  0 337 l 1
-0 10 m 1
- 651 10 l 1
- 651 -10 l 1
- 0 -10 l 1
- 0 10 l 1
+0 15 m 1
+ 651 15 l 1
+ 651 -15 l 5
+ 0 -15 l 5
+ 0 15 l 1
 0 667 m 1
  651 667 l 1
  651 656 l 1
@@ -186,8 +182,7 @@ EndChar
 StartChar: space
 Encoding: 32 32 5
 Width: 651
-Flags: W
-HStem: -10 20<0 651> 326 11<0 651> 656 11<0 651>
+Flags: HW
 LayerCount: 3
 Fore
 SplineSet
@@ -196,11 +191,11 @@ SplineSet
  651 326 l 1
  0 326 l 1
  0 337 l 1
-0 10 m 1
- 651 10 l 1
- 651 -10 l 1
- 0 -10 l 1
- 0 10 l 1
+0 15 m 1
+ 651 15 l 1
+ 651 -15 l 5
+ 0 -15 l 5
+ 0 15 l 1
 0 667 m 1
  651 667 l 1
  651 656 l 1
@@ -212,7 +207,7 @@ EndChar
 StartChar: exclam
 Encoding: 33 33 6
 Width: 172
-Flags: MW
+Flags: HMW
 HStem: 1 65<87 94>
 VStem: 60 59<28.5 40.5 28.5 41> 70 32<146 628>
 LayerCount: 3
@@ -239,7 +234,7 @@ StartChar: quotedbl
 Encoding: 34 34 7
 Width: 397
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: 456 161<156 182 221 246>
 VStem: 149 33<456 617> 214 32<456 617>
 LayerCount: 3
@@ -2178,14 +2173,13 @@ EndChar
 StartChar: underscore
 Encoding: 95 95 56
 Width: 651
-Flags: W
-HStem: -333 11<0 651> -10 20<0 651> 326 11<0 651> 656 11<0 651>
+Flags: HW
 LayerCount: 3
 Fore
 SplineSet
 0 -322 m 1
- 651 -322 l 5
- 651 -333 l 5
+ 651 -322 l 1
+ 651 -333 l 1
  0 -333 l 1
  0 -322 l 1
 0 337 m 1
@@ -2193,11 +2187,11 @@ SplineSet
  651 326 l 1
  0 326 l 1
  0 337 l 1
-0 10 m 1
- 651 10 l 1
- 651 -10 l 1
- 0 -10 l 1
- 0 10 l 1
+0 15 m 1
+ 651 15 l 1
+ 651 -15 l 5
+ 0 -15 l 5
+ 0 15 l 1
 0 667 m 1
  651 667 l 1
  651 656 l 1
@@ -3205,16 +3199,15 @@ EndChar
 StartChar: asciitilde
 Encoding: 126 126 83
 Width: 651
-Flags: W
-HStem: -10 20<0 1107 0 1107> 326 10 656 10
+Flags: HW
 LayerCount: 3
 Fore
 SplineSet
-0 10 m 1
- 651 10 l 1
- 651 -10 l 1
- 0 -10 l 1
- 0 10 l 1
+0 15 m 5
+ 651 15 l 1
+ 651 -15 l 1
+ 0 -15 l 5
+ 0 15 l 5
 EndSplineSet
 EndChar
 
@@ -8557,6 +8550,31 @@ SplineSet
  586.136746115 -165.964486101 594.477509413 -185.80036036 604 -204 c 5
  589.194352707 -198.691045408 585.052734375 -186 573 -144 c 5
  519.800843494 -76.5493723593 406.728751052 -4.41960293235 394 -34 c 5
+EndSplineSet
+EndChar
+
+StartChar: ampersand
+Encoding: 38 38 127
+Width: 651
+Flags: HW
+LayerCount: 3
+Fore
+SplineSet
+0 337 m 1
+ 651 337 l 1
+ 651 326 l 1
+ 0 326 l 1
+ 0 337 l 1
+0 15 m 1
+ 651 15 l 1
+ 651 -15 l 5
+ 0 -15 l 5
+ 0 15 l 1
+0 667 m 1
+ 651 667 l 1
+ 651 656 l 1
+ 0 656 l 1
+ 0 667 l 1
 EndSplineSet
 EndChar
 EndChars
