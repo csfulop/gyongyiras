@@ -24,7 +24,7 @@ OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1282334991
-ModificationTime: 1612695129
+ModificationTime: 1754246609
 PfmFamily: 17
 TTFWeight: 500
 TTFWidth: 5
@@ -66,7 +66,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 0 37 13
+WinInfo: 0 19 14
 BeginPrivate: 7
 BlueValues 25 [-17 -16 352 353 662 666]
 OtherBlues 11 [-328 -324]
@@ -91,7 +91,7 @@ Grid
   Named: "top"
 EndSplineSet
 TeXData: 1 0 0 682622 341311 227540 369099 1048576 227540 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 1114112 61
+BeginChars: 1114112 63
 
 StartChar: space
 Encoding: 32 32 0
@@ -8053,6 +8053,64 @@ SplineSet
  416 156 409 149 400 149 c 6
  100 149 l 6
  91 149 84 156 84 165 c 4
+EndSplineSet
+EndChar
+
+StartChar: iacute
+Encoding: 237 237 61
+Width: 294
+VWidth: 0
+Flags: HW
+VStem: 199 33<48 296 488 648>
+LayerCount: 4
+Fore
+SplineSet
+-13 189 m 0
+ -13 190 96 335 105 346 c 1
+ 112 350 118 352 122 352 c 0
+ 132 352 134 342 134 336 c 2
+ 134 133 l 2
+ 134 82 147 16 196 16 c 0
+ 265 16 275 70 294 70 c 0
+ 297 70 300 69 304 66 c 0
+ 308 62 311 58 311 53 c 0
+ 311 50 309 46 307 43 c 0
+ 271 -2 243 -16 196 -16 c 0
+ 120 -16 102 67 102 133 c 2
+ 102 287 l 1
+ 13 169 l 2
+ 9 164 5 162 1 162 c 0
+ -8 162 -17 170 -17 179 c 0
+ -17 182 -15 186 -13 189 c 0
+EndSplineSet
+EndChar
+
+StartChar: Iacute
+Encoding: 205 205 62
+Width: 330
+VWidth: 0
+Flags: HW
+VStem: 199 33<48 296 488 648>
+LayerCount: 4
+Fore
+SplineSet
+-13 64 m 0
+ 41 129 138 235 138 336 c 0
+ 138 346 144 352 154 352 c 0
+ 164 352 170 346 170 336 c 2
+ 170 133 l 2
+ 170 82 183 16 232 16 c 0
+ 301 16 311 70 330 70 c 0
+ 333 70 336 69 340 66 c 0
+ 344 62 347 58 347 53 c 0
+ 347 50 345 46 343 43 c 0
+ 307 -2 279 -16 232 -16 c 0
+ 156 -16 138 68 138 133 c 2
+ 138 215 l 1
+ 102 143 44 80 13 42 c 0
+ 10 38 5 36 1 36 c 0
+ -8 36 -17 45 -17 54 c 0
+ -17 57 -16 61 -13 64 c 0
 EndSplineSet
 EndChar
 EndChars
